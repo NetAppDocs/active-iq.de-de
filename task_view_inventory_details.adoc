@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: task_view_inventory_details.html 
+keywords: inventory, platforms, systems, clusters, sites 
+summary: Stellt Informationen zum Gesamtbestand bereit, zu dem Sie gehören. 
+---
+= Anzeigen von Bestandsdetails
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Das Widget *Inventory* bietet Ihnen ein Rollup der gesamten Systeme, die Sie besitzen. Dies umfasst sowohl Digital Advisor-fähige als auch nicht-aktivierte Produkte.
+
+Sie können auch den Bericht der ausgewählten Watchlist generieren und den Bericht an maximal 5 Empfänger senden.
+
+video::ttbpbT5uTBI[youtube,width=848,height=480]
+.Schritte
+. Klicken Sie im Widget *Inventory* auf *Systems*, um die Systeminformationen aller Plattformen anzuzeigen, oder klicken Sie auf den Plattformtyp und klicken Sie dann auf *Systems*, um die für diese Plattform spezifischen Systeme anzuzeigen.
+. Klicken Sie auf den Node oder Cluster, um detaillierte Informationen über das System anzuzeigen.
+. Laden Sie den Bericht *Inventory* herunter, um die Systemdetails im XLS-Format anzuzeigen.
+. Laden Sie den Bericht *Ansible Inventory* herunter, um die Systemdetails im Format .yml und .ini auf Region- oder Standortebene anzuzeigen.
++
+Die Ansible-Bestandsdateien können mit benutzerdefinierten Ansible-Playbook-Dateien verwendet werden, um eine Änderung der Infrastrukturkonfiguration vorzunehmen.
+
+

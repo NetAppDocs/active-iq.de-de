@@ -1,0 +1,24 @@
+---
+sidebar: sidebar 
+permalink: concept_overview_planning.html 
+keywords: overview, planning, increate capacity, renew, software, hardware, expiry, expired 
+summary: Liefert Informationen zur Ermittlung von Systemkapazität, Software und Hardware, die auslaufen. 
+---
+= Verstehen der Planung
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Mit dem Widget *Planning* können Kunden Kapazitätsanforderungen ermitteln, die eine Kapazität von mehr als 90 % oder eine Kapazität von knapp 90 % haben, und die Software und Hardware identifizieren, die in den nächsten 6 Monaten abgelaufen sind oder deren Ablauf nahe steht. Sie können eine Anfrage senden, die Kapazität Ihres Storage-Systems zu erhöhen und die Hardware und Software zu erneuern.
+
+video::ZJwz3WSD2u0[youtube,width=848,height=480]

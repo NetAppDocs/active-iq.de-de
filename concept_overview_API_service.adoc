@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: concept_overview_API_service.html 
+keywords: API services, access token, refresh token, API Catalog 
+summary: Bietet einen Überblick über die API-Servicefunktion. 
+---
+= API Services verstehen
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Digital Advisor API Services nutzt Automatisierung, um die Effizienz Ihrer Workflows zu steigern. Innerhalb der API-Dienste befindet sich der *API-Katalog*, der über 100 verschiedene API-Endpunkte beschreibt, die in mehr als 20 verschiedene Dienstbereiche gruppiert sind. Diese APIs stehen Ihnen als NetApp Kunde zur Verfügung und umfassen unterschiedliche Interessengebiete, z. B. Systeminformationen, Storage-Effizienz, Performance, Zustand und Upgrades.
+
+APIs sind Schnittstellen, mit denen Sie einfachen Code schreiben können, der sich programmatisch an Digital Advisor wenden und Daten in die Computing-Umgebung zurückholen kann. Sie können Code so schreiben, dass er täglich Kontakt mit Digital Advisor aufnimmt und die neuesten Daten in den Bereichen liefert, die für Sie von Interesse sind. Sie können diese Daten dann zum Befüllen Ihres Ticketsystems oder zur Erstellung Ihrer eigenen Dashboards, Webseiten oder Berichte verwenden. Der Digital Advisor API Catalog hat sowohl Codebeispiele als auch eine Möglichkeit, die APIs im Browser auszuprobieren.
+
+Die Automatisierung mit APIs bietet eine hervorragende Möglichkeit, die Effizienz und Genauigkeit täglicher oder wöchentlicher Aufgaben zu erhöhen. So werden Ressourcen frei, die komplexere Aktivitäten oder die Automatisierung neuer Workflows ermöglichen. Wenn Sie beispielsweise Systemgesundheitsrisiken haben, die behoben werden müssen, können Sie zumindest den Ausweg dieser Elemente von Digital Advisor und den Push-in Ihr Ticketsystem automatisieren.
+
+
+
+== API-Katalog
+
+Mit dem Umschalten oben auf der Seite kann der Benutzer zwischen den beiden Modi wechseln, um den Katalog anzuzeigen. Die Codeansicht konzentriert sich auf die erforderlichen Eingabeparameter, den Inhalt und das Format der Rückgabedaten sowie Codebeispiele, um den Benutzer mit der Platzierung von Code zu beginnen. Die Experimentieransicht bietet dem Benutzer die Möglichkeit, die API im Browser mit einem generierten Token, das von der Hauptseite der API Services erhalten wurde, „auszuprobieren“.
+
+In beiden Ansichten kann der Benutzer mithilfe des Navigationsfensters links durch die verfügbaren Elemente navigieren. Die Artikel sind alphabetisch sortiert. Innerhalb eines bestimmten Dienstes können Sie die Überschrift erweitern, um die einzelnen API-Endpunkte anzuzeigen. Wenn Sie auf die Service-Überschrift oder einen API-Endpunkt klicken, gelangen Sie zu diesem Abschnitt des Katalogs im mittleren Fensterbereich.
+
+
+
+== Verwenden der APIs
+
+Sobald Sie autorisiert sind und Token generieren können, können Sie die Token nutzen, um programmatische Abfragen zu erstellen und Daten abzurufen. Sie können auch eine API aus dem API-Katalog testen, um aus erster Hand zu sehen, wie die Abfrage funktioniert und welche Daten zurückgegeben werden. Auf diese Weise können Sie sicherstellen, dass Sie verstehen, wie eine API funktioniert, bevor Sie das Code-Framework in Ihrem System erstellen.
+
+video::GQskCeCrtQA[youtube,width=848,height=480]

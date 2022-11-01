@@ -1,0 +1,26 @@
+---
+sidebar: sidebar 
+permalink: concept_overview_dashboard.html 
+keywords: overview, provision, dashboard, widget, watchlist 
+summary: Enthält Informationen zum Dashboard, zu Watchlisten und zu den Widgets. 
+---
+= Watchlist verstehen
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Mit Watchlisten können Sie schnell und einfach auf vorgewählte Systeme in Digital Advisor zugreifen. Wenn Sie einen bestimmten Kunden oder eine Reihe von Systemen häufig sehen, empfehlen wir Ihnen, Watchlisten zu erstellen. Sie können bis zu 50 Watchlisten erstellen und jede Watchlist kann bis zu 15,000 Systeme nach Kategorie oder 500 Systeme nach Seriennummern enthalten.
+
+Wenn Sie zum ersten Mal auf Digital Advisor zugreifen, können Sie entweder eine Watchlist erstellen oder nach Kundennamen, Standortnamen, Gruppennamen, StorageGRID, Hostnamen suchen. Cluster, Seriennummer oder System-ID.
+
+Sie sollten auch die Farben kennen, die auf die Karten angewendet werden, die den Schweregrad und die Art der Risiken angeben.

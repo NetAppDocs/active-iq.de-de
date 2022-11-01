@@ -1,0 +1,114 @@
+---
+sidebar: sidebar 
+permalink: concept_key_terms.html 
+keywords: overview, inventory, wellness, widgets, actions 
+summary: Enthält Informationen zu den Schlüsselbegriffen, die in Digital Advisor verwendet werden. 
+---
+= Schlüsselkonzepte
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Beim Einsatz von Digital Advisor ist es wichtig, dass Sie einige der grundlegenden Begriffe kennen, die Sie im Digital Advisor erwarten können.
+
+* *Watchlist:* bietet Ihnen die Flexibilität, auf bereits ausgewählte Systeme zuzugreifen. Sie können Watchlisten verwenden, um Systeme von einem oder mehreren Kunden hinzuzufügen.
++
+** *Wellness Dashboard:* gibt einen Gesamtstatus der Systeme in der Watchlist an.
+** *Widgets:* zeigt kleine Anwendungen auf dem Dashboard an, die Ihnen eine schnelle Zusammenfassung des Status der Systeme bieten.
+** *Risiken:* zeigt eine Liste der Systeme mit ihren jeweiligen Problemen an. Er weist unterschiedliche Schweregrade auf:
++
+*** Hohe Risiken
+*** Mittlere Risiken
+*** Keine Risiken
+
+
+** * Einzigartige Risiken:* zeigt die Risikonamen und die Anzahl der Systeme für eine bestimmte Risikokategorie an.
+** *Aktionen:* zeigt die Anzahl der eindeutigen Aktionen an, die Sie zur Behebung der Probleme ergreifen können.
+** *Farbcodierter Risikostatus*: Zeigt Risikostufen und Farbcodes an, die aufgrund ihrer Schweregrade in 3 Stufen klassifiziert sind. Die Verwendung von Farben ermöglicht eine schnellere Beurteilung der Risikostufen.
+
+
+
+
+|===
+| *Farbe* | *Severity* 
+
+
+| image:red_color.png["Rot"] | Hoch 
+
+
+| image:orange_color.png["Orange"] | Mittel 
+
+
+| image:green_color.png["Grün"] | Keine Risiken 
+|===
+* *Wellness-Widget:* zeigt Informationen über die Leistung, Effizienz, Kapazität, Konfigurationseinstellungen, Sicherheitsschwachstellen, Und anderen. Es bestimmt proaktiv, dass die Systeme entweder die Kapazität überschritten oder die Kapazität fast 90 % überschreiten. Darüber hinaus erhalten Sie Informationen zu Software und Hardware, die entweder abgelaufen sind oder in den nächsten 6 Monaten ablaufen.
++
+** *Performance & Effizienz:* zeigt Informationen zur Leistung und Effizienz des Speichersystems an.
+** *Verfügbarkeit & Schutz:* zeigt Informationen zur Verfügbarkeit und zum Schutz des Speichersystems an.
+** *Kapazität:* besteht aus Risiken mit einem Kapazitätsattribut für die Werte der Wirkungsfläche.
+** *Konfiguration:* besteht aus Risiken mit einem Konfigurationsattribut für die Werte des Wirkungsbereichs, sortiert mit der höchsten Auswirkung auf die Oberseite.
+** *Sicherheitsschwachstellen:* besteht aus Risiken mit einem Sicherheitsattribut für Impact Area Werte.
+** *Wellness-Geschichte:* zeigt Informationen über Systemrisiken, die in den letzten drei Monaten auftreten, an, damit Sie lernen können, wie sie Überstunden ergehen.
+** *Ransomware Defence:* bietet Informationen zu Risiken und Korrekturmaßnahmen im Zusammenhang mit Ransomware-Erkennung, -Prävention und -Wiederherstellung.
+** *Risiken erkennen (Ack):* ermöglicht es Ihnen, die betroffenen Risiken und Systeme anzuerkennen. Sie können diese Risiken erkennen und sich mit den Maßnahmen vertraut machen, die Sie zur Minderung dieser Risiken durchführen können.
+** *Unquittieren von Risiken (unkacked):* ermöglicht es Ihnen, die Risiken und Systeme, die anerkannt wurden, nicht zu erkennen.
+** *Beheben Sie es:* behebt die Risiken für das System mit Active IQ United Manager (um) 9.7 oder höher. Klicken Sie auf diese Schaltfläche, um zu starten und die Schritte zur Risikominderung auszuführen.
+
+
+* *Inventory Widget:* zeigt ein Rollup von Gesamtsystemen an, die Sie besitzen. Dies umfasst sowohl Digital Advisor-fähige als auch nicht-aktivierte Produkte.
++
+** *Bericht generieren:* generiert den Bericht der ausgewählten Watchlist und sendet den Bericht an maximal 5 Empfänger.
+
+
+* *Planungs-Widget:* zeigt Informationen über den Kapazitätszulauf, Software und Hardware an, die erneuert werden müssen.
++
+** *Kapazitätszuwächse:* bezeichnet Systeme, die 90 % Kapazität und NETZSTANDORTE überschritten haben oder deren Kapazität knapp 70 % betragen. Sie können eine Anfrage zur Erhöhung der Kapazität Ihres Storage-Systems stellen.
+** *Renewals:* liefert Informationen über die Software und Hardware, die in den nächsten 6 Monaten abgelaufen ist oder bald ablaufen.
+
+
+* *Widget „Upgrades“:* bietet die Anzahl an Upgrades für ONTAP und E-Series Systeme:
++
+** Bei ONTAP Systemen können Sie Informationen zur Anzahl der Systeme anzeigen, für die ein Upgrade erforderlich ist, und anschließend einen Upgrade-Plan anfordern.
+** Bei E-Series Systemen werden nur Informationen zu Systemen angezeigt, für die ein Upgrade erforderlich ist.
+
+
+
+
+* *Storage-Effizienz:* ermittelt das Storage-Effizienzverhältnis und die Einsparungen Ihres Storage-Systems mit und ohne Snapshot Kopien für AFF Systeme, Systeme anderer Anbieter oder beides.
+* *Leistungsgraph:* ermöglicht die Analyse der Leistung Ihrer Speichergeräte durch die Anzeige des grafischen Formats der Leistungsdaten. Sie können detaillierte Performance-Diagramme des ONTAP Clusters für den ausgewählten Node anzeigen.
+* *Wertvolles Insights-Widget:* bietet Informationen zur Anzahl von Support-Cases, ausstehenden Software-Upgrades, Einsparungen durch Storage-Effizienz, Minderung von Risiken und anderen. Außerdem werden die Risikobenachrichtigungen aus dem Attribut Wellness proaktiv aufgelistet.
+* *AutoSupport:* ermöglicht es Ihnen, AutoSupport-Instanzen auf hohem Niveau oder im Detail anzuzeigen. Die Details umfassen Systemdetails, mögliche Gründe für das Problem und Vorschläge für Maßnahmen.
++
+Um auf die AutoSupport-Funktion zuzugreifen, melden Sie sich bei Digital Advisor an, und suchen Sie nach einem Cluster oder Hostnamen. Die Option AutoSupport ist im linken Bereich verfügbar.
+
+* *Quick Links:* enthält die Liste der Anwendungen, die mit Digital Advisor gestartet werden können.
++
+** *ClusterViewer:* ermöglicht Ihnen detaillierte physische und logische Konfigurationsdaten zu sehen. Die Details finden sich in mehreren überblicken Tabellen, in denen eine Zusammenfassung der Cluster- und Node-Konfiguration, Informationen zu lokalen Tiers und Volumes, Netzwerkschnittstelle und Port-Informationen, ein Stack-Diagramm mit Informationen zu Festplatten und Shelfs sowie einige visuelle Kabel aufgeführt sind. Sie können auch die Grafik zur Kabelvisualisierung im SVG-Format herunterladen.
++
+Die ClusterViewer-Funktion wird auf E-Series Systemen nicht unterstützt.
+
+
+
+
+
+* *API Services:* ermöglicht es Ihnen, Daten von Interesse zu ziehen und sie direkt in den Workflow Ihres Unternehmens zu integrieren.
+* *AutoSupport-Upload:* ermöglicht die Analyse der Fehler oder Probleme bei ONTAP und E-Series Systemen. Die Defekte oder Probleme werden manuell durch das Personal des Support-Standorts geprüft und behoben.
+* *System-Firmware:* ermöglicht es Ihnen, Informationen über die System-Firmware anzuzeigen, die zusammen mit jeder Haupt- und Patch-Version von ONTAP geliefert wird.
++
+** *Suche:* ermöglicht die Suche nach Systemen auf Basis verschiedener Kategorien, wie Kundenname, Seriennummer, Cluster, Standortname, Gruppenname, Hostnamen und andere.
+
+
+* *Kunde:* ermöglicht es Ihnen, die installierte Basis eines Kunden anzuzeigen und zu verwalten. Customer Dashboard ist das zentrale Portal in Digital Advisor.
+* *Cluster:* liefert Informationen über ONTAP Cluster. Darüber hinaus werden Einblicke in Systemzustand, Kapazität, Storage-Effizienz und Performance konsolidiert.
+* *Seriennummer:* gibt Auskunft über die dem Kunden zugewiesene Seriennummer.
+

@@ -1,0 +1,46 @@
+---
+sidebar: sidebar 
+permalink: concept_understand_activeiq_features.html 
+keywords: digital advisor, features, upgrade, support offering 
+summary: Enthält Informationen zum Dashboard, zu Watchlisten, zu Funktionen und zu den Widgets. 
+---
+= Lernen Sie die Funktionen von Digital Advisor kennen
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Mit Digital Advisor können Sie den Gesamtstatus Ihres Storage-Systems, allgemeine Informationen zum Systemzustand, Inventar, Planung, Upgrades und wertvolle Einblicke auf Uhrlistenebene anzeigen.
+
+Wenn Sie zum ersten Mal auf Digital Advisor zugreifen, können Sie entweder eine Watchlist erstellen oder nach Kundennamen, Standortnamen, Gruppennamen, StorageGRID, Hostnamen suchen. Cluster, Seriennummer oder System-ID.
+
+Sie sollten auch die Farben kennen, die auf die Karten angewendet werden, die den Schweregrad und die Art der Risiken angeben.
+
+Im Folgenden sind einige Funktionen von Digital Advisor aufgeführt:
+
+* Zeigen Sie mehrere Watchlisten an, aussagekräftige und nützliche Informationen auf einen Blick
+* Sie erhalten Informationen über alle Risiken für Ihr Storage-System und die Maßnahmen zur Risikominderung
+* Verringerung von Risiken mit Active IQ Unified Manager
+* Führen Sie ein Upgrade Ihres Storage-Systems durch
+* Anzeige des Storage-Effizienz-Verhältnisses, des genutzten logischen Speicherplatzes, des physischen Speicherplatzes sowie der insgesamt für Storage-Systeme mit ONTAP 9.1 und höher gespeicherten Daten
+* Analysieren Sie die Performance Ihrer Speichergeräte, indem Sie sich das grafische Format der Performance-Daten anzeigen lassen
+* Informationen über Hardware und Software, die innerhalb der nächsten 6 Monate abgelaufen sind oder deren Ablauf nahe steht
+* Aktualisieren Sie Ihre ONTAP-Firmware mit Ansible
+* Erfahren Sie mehr über Systeme, die mit ihrer Kapazität von mehr als 90 % oder annähernd 90 % ausgelastet sind
+* Anzeige detaillierter physischer und logischer Konfigurationsinformationen, einschließlich einer Zusammenfassung der Cluster- und Node-Konfiguration, Informationen zur lokalen Tier- und Volume-Konfiguration, Netzwerkschnittstelle und Portinformationen, ein Stack-Diagramm mit Informationen zu Festplatten und Shelfs sowie einigen Kabelvisualisierungen
+* Stack-übergreifende Informationen und Einblicke für Fehlerbehebung, Upgrade-Bewertungen, Lösungsvalidierung und Migration
+* Prüfen der Kompatibilität von Hosts und Bereitstellen von Upgrade-Empfehlungen für Host-Betriebssysteme, Treiber und Firmware
+* Sie erreichen genau das, was Sie wünschen, auf intelligentere und schnellere Weise
+
+
+
+NOTE: Sie können das Supportangebot über das Widget *Configuration* auf dem System-Dashboard aktualisieren, um Einblicke in Ihre Installationsbasis zu erhalten und personalisierte Unterstützung zu erhalten.

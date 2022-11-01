@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: concept_overview_wellness.html 
+keywords: overview, wellness, risk types, risk definition, mitigate risks, performance, configuration, renewal, risk, remediation 
+summary: Stellt Informationen zum Wellness-Bereich und zu den Risikoarten bereit, um Ihr Storage-System zu verbessern. 
+---
+= Wellness verstehen
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Wellness-Widget bietet detaillierte Informationen zu Ihrem Speichersystem. Es bietet Informationen über die verschiedenen Attribute Ihres Storage-Systems, z. B. Performance und Effizienz, Kapazität, Konfigurationseinstellungen, Sicherheitsprobleme, Verlängerungen, Und anderen.
+
+image:wellness_workflow.png["Wellness-Workflow"]
+
+Das Wellness-Widget enthält auch Informationen zu den Risiken und den Maßnahmen, die ergriffen werden sollten, um das Risiko für die einzelnen Wellness-Attribute zu verringern. Die folgenden Risikoarten und die damit verbundenen Folgen für jedes Risiko sind:
+
+[cols="25,75"]
+|===
+| Risikotyp | Konsequenz 
+
+
+| Kritisch | Datenverlust, Datenbeschädigung, Cluster-Ausfall, persönliches Sicherheitsproblem oder potenzielle Compliance-Probleme. 
+
+
+| Hoch | Kurzfristiger Verlust eines Datenzugriffs oder andauernder Verlust von Node-Redundanz 
+
+
+| Mittel | Performance-Verschlechterung oder kurzfristiger Verlust von Node-Redundanz 
+
+
+| Niedrig | Szenarien mit geringen Auswirkungen 
+
+
+| Best Practices In Sich | Abweichungen von dokumentierten Best Practices 
+|===
+Im folgenden Video erfahren Sie mehr über die Bedeutung der Wellness-Attribute:
+
+video::-lTF3oWZB1M[youtube,width=848,height=480]

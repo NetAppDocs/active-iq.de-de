@@ -1,0 +1,38 @@
+---
+sidebar: sidebar 
+permalink: task_generate_tokens_API_services.html 
+keywords: generate token, access token, refresh token, API services 
+summary: Enthält Informationen zur Erstellung von Token für den Zugriff auf APIs. 
+---
+= Token zur Verwendung von APIs generieren
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Es ist einfach, sich für API Services zu registrieren und Token zu generieren.
+
+.Schritte
+. Klicken Sie im Menü *Quick Links* auf *API Services*.
+. Klicken Sie Auf *Registrieren*.
+. Füllen Sie das Genehmigungsformular aus und klicken Sie auf *Absenden*.
++
+Die Aktivierung erfolgt automatisch und sollte sofort erfolgen. Nachdem Sie die Berechtigung zur Verwendung der Digital Advisor-APIs erhalten haben, können Sie Token generieren, die Sie bei programmatischen API-Aufrufen verwenden können. Sie können diese Token auch verwenden, um „ausprobieren“ aus dem API-Katalog auszuführen. Bei programmatischer Erhaltene Tokens werden immer zwei Sätze verwendet: Ein Access Token und ein Refresh Token. Das Access Token muss übergeben werden, um alle APIs erfolgreich verwenden zu können (mit Ausnahme eines - das Refresh Token wird verwendet, um programmgesteuert einen neuen Satz von Tokens zu erhalten).
+
+. Klicken Sie auf der Seite Main API Services auf *Token generieren*, um das Zugriffstoken anzuzeigen und herunterzuladen und das Token zu aktualisieren, um APIs aufzurufen.
++
+Das Portal bietet Ihnen mehrere Möglichkeiten, ein oder beide Token im Set zu speichern. Sie können sie in die Zwischenablage kopieren, als Textdatei herunterladen oder als Klartext anzeigen.
+
+
+
+
+NOTE: Sie sollten das Zugriffstoken herunterladen und speichern und das Token zur späteren Verwendung aktualisieren. Access Tokens verfallen eine Stunde nach der Erstellung und aktualisieren Token sollten alle 7 Tage neu generiert und in der Anwendung installiert werden. Nach 90 Tagen müssen Sie sich manuell anmelden, um ein neues Token für den Zugriff zu erhalten und zu aktualisieren.

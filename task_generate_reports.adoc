@@ -1,0 +1,62 @@
+---
+sidebar: sidebar 
+permalink: task_generate_reports.html 
+keywords: reports, generate reports 
+summary: Stellt Informationen zur Erstellung von Berichten bereit. 
+---
+= Berichte generieren
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Sie können Berichte sofort erstellen oder einen Bericht auf wöchentlicher oder monatlicher Basis erstellen. Die Berichte können in unterschiedlichen Formaten generiert werden. Basierend auf dem ausgewählten Bericht werden die verfügbaren Formate angezeigt.
+
+*Über diese Aufgabe*
+
+* Die Berichte können nicht im Digital Advisor bearbeitet werden. Sie sollten den vorhandenen Bericht löschen und einen neuen Bericht erstellen.
+
+
+.Schritte
+. Klicken Sie im linken Fensterbereich auf *Berichte*.
+. Klicken Sie auf *Bericht erstellen*, um einen neuen Bericht zu erstellen.
++
+Sie können einen Bericht sofort erstellen oder den Bericht auf wöchentlicher oder monatlicher Basis erstellen.
+
+
+
+[cols="50,50"]
+|===
+| Um einen Bericht sofort zu erstellen | So planen Sie die Erstellung des Berichts auf wöchentlicher oder monatlicher Basis 
+
+
+ a| 
+. Wählen Sie den Berichtstyp aus, und geben Sie die angeforderten Werte für den Bericht an.
+. Wählen Sie das Format des Berichts aus.
+. Klicken Sie Auf *Absenden*.
+
+
+
+NOTE: Der Bericht wird 3 Tage lang im Digital Advisor gespeichert.
+ a| 
+. Klicken Sie auf die Registerkarte *Bericht planen*.
+. Wählen Sie den Berichtstyp aus, und geben Sie die angeforderten Werte für den Bericht an.
+. Wählen Sie das Format des Berichts aus.
+. Wählen Sie die Häufigkeit des Berichts aus.
+. Wählen Sie das Startdatum und das Enddatum für den Bericht aus.
+. Klicken Sie Auf *Absenden*.
+
+
+
+NOTE: Die vorhandenen geplanten Berichte werden bei der Erstellung der neuen Berichte ersetzt.
+
+|===

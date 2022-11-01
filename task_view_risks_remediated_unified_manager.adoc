@@ -1,0 +1,51 @@
+---
+sidebar: sidebar 
+permalink: task_view_risks_remediated_unified_manager.html 
+keywords: risks, actions, remediation, corrective action, unified manager 
+summary: Bietet Informationen zur Anzeige der Risiken, die mit Unified Manager automatisch beseitigt werden können 
+---
+= Anzeigen von Risiken, die mithilfe von Unified Manager oder Ansible Playbook automatisch gemindert werden können
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Sie können Ihr Storage-System analysieren, indem Sie sich die Aktionen und Risiken anzeigen lassen und diese mit einem Active IQ Unified Manager oder Ansible Playbook minimieren.
+
+video::XusFvXM7h-E[youtube,width=848,height=480]
+.Schritte
+. Klicken Sie auf *Alle Aktionen anzeigen* auf dem Dashboard.
+. Klicken Sie auf *Aktionen* um die mit den Aktionen verbundenen Risiken anzuzeigen, klicken Sie auf *Risiken*, um alle Risiken anzuzeigen, oder klicken Sie auf *Betroffene Systeme*, um die Systeme anzuzeigen, die Aufmerksamkeit erfordern.
++
+Wenn das Risiko mithilfe von Active IQ Unified Manager gemindert werden kann, wird der image:spanner.png["Schlüssel"] Symbol wird hervorgehoben und wenn das Risiko mithilfe des Ansible Playbook minimiert werden kann, das image:update_ansible.png["Ansible Aktualisieren"] Symbol ist markiert.
+
+
+
+[cols="50,50"]
+|===
+| Zur Minimierung des Risikos mit Unified Manager | Zur Minderung des Risikos mit dem Ansible Playbook 
+
+
+ a| 
+. Klicken Sie auf das image:spanner.png["Schlüssel"] Symbol.
+. Klicken Sie auf *Beheben Sie es*, um Active IQ Unified Manager zu starten.
+. Klicken Sie auf *Installieren*, um Active IQ Unified Manager 9.7 oder höher zu installieren, um die Option *Beheben Sie es* zu verwenden.
+. Klicken Sie auf *Upgrade*, um ein Upgrade auf Active IQ Unified Manager 9.7 oder höher durchzuführen, um die Option *Fix IT* zu verwenden.
+
+ a| 
+. Klicken Sie auf das image:update_ansible.png["Ansible Aktualisieren"] Symbol.
+. Klicken Sie auf *Download*, um das Ansible-Automatisierungspaket der AFF und FAS-Firmware herunterzuladen.
+
+
+|===
+
+NOTE: Für die Verwendung der *Fix it*-Option und der Ansible-Playbook-Funktionen ist ein SupportEdge Advisor- oder SupportEdge Expert-Vertrag erforderlich.

@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: task_manage_watchlists.html 
+keywords: dashboard, watchlist, add watchlist 
+summary: Stellt Informationen zur Verwaltung von Watchlisten bereit. 
+---
+= Verwalten einer Watchlist
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Sie können das Dashboard für verschiedene Watchlisten anzeigen, die Details einer vorhandenen Watchlist bearbeiten und eine Watchlist löschen.
+
+.Schritte
+. Klicken Sie im linken Fensterbereich auf *Watchlisten*.
++
+Der Bildschirm *Watchlist verwalten* wird angezeigt.
+
+. Klicken Sie auf den Namen der Watchlist, um die Dashboard-Details der Watchlist anzuzeigen.
+. Klicken Sie auf *Bearbeiten*, um die Details der Watchlist zu aktualisieren.
+. Klicken Sie auf *Löschen*, um die Watchlist zu löschen.
+

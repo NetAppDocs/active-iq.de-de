@@ -1,0 +1,51 @@
+---
+sidebar: sidebar 
+permalink: reference_limitations_activeiq.html 
+keywords: limitation, issues, not supported, drawbacks 
+summary: Enthält Informationen zu den Einschränkungen in der Version. 
+---
+= Bekannte Einschränkungen
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Bekannte Einschränkungen identifizieren Plattformen, Geräte oder Funktionen, die von dieser Version des Produkts nicht unterstützt werden oder nicht korrekt mit dem Produkt zusammenarbeiten. Lesen Sie diese Einschränkungen sorgfältig durch.
+
+Es gibt folgende Einschränkungen:
+
+* Für Data ONTAP Storage-Systeme mit 7-Mode (Data ONTAP Storage-Systeme mit 7-Mode nähern sich dem Ende ihrer Support-Lebensdauer)
++
+** Performance-Diagramme
+** Storage-Effizienz
+
+
+* Upgrade Advisor unterstützt keine Upgrade-Pläne für Clustered ONTAP vor 9.0.
+
+
+
+
+== Das Bearbeiten einer Watchlist kann 60 Minuten dauern, um sie in Digital Advisor wiederzugeben
+
+Durch das Bearbeiten einer Watchlist werden die Informationen in Digital Advisor nicht sofort aktualisiert. Es kann bis zu 60 Minuten dauern, bis die Änderungen in Digital Advisor reflektiert werden.
+
+
+
+== Während der Berichtsplanung wird ein leerer Bericht angezeigt
+
+Geplante Berichte sind nur in Verbindung mit einem SupportEdge Advisor oder einem SupportEdge Expert Supportvertrag verfügbar. Wenn die Systeme nicht unter SupportEdge Advisor oder einem SupportEdge Expert-Supportvertrag stehen, erhalten Sie bei der Planung von Berichten möglicherweise einen leeren Bericht.
+
+
+
+== Anerkannte und nicht anerkannte Risiken können 60 Minuten dauern, um im Digital Advisor reflektiert zu werden
+
+Der Status der Risiken, die anerkannt und nicht anerkannt werden, spiegelt sich im Digital Advisor nicht sofort wider. Es kann bis zu 60 Minuten dauern, bis die Änderungen im Digital Advisor und im Wellness-Bericht reflektiert werden.

@@ -1,0 +1,29 @@
+---
+sidebar: sidebar 
+permalink: task_renew_software_and_hardware.html 
+keywords: renew, hardware, software 
+summary: Enthält Informationen zur Erneuerung der Software und Hardware Ihres Speichersystems. 
+---
+= Verlängern Sie die Software und die Hardware Ihres Storage-Systems
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Sie können proaktiv die Software und Hardware erkennen, die bereits abgelaufen sind oder in den nächsten 6 Monaten bald ablaufen, und einen Antrag auf Erneuerung der Hardware und Software stellen.
+
+.Schritte
+. Klicken Sie im Widget *Planung* auf *Renewals*.
+. Wählen Sie die Systeme aus, die Sie erneuern möchten, und klicken Sie auf *verlängern*.
+. Geben Sie optional zusätzliche Anmerkungen ein.
+. Klicken Sie Auf *Senden*.
+

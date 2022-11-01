@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: task_view_and_acknowledge_risks.html 
+keywords: wellness, performance, efficiency, availability, capacity, security vulnerabilities, protection, protect, acknowledge, unacknowledge, disregard 
+summary: Bietet Informationen zur Anzeige und Analyse des Wohlbefindens Ihres Speichersystems und zur Anerkennung der Risiken. 
+---
+= Anzeigen und Bestätigen des Risikos
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Sie können die Wellness-Attribute Ihres Storage-Systems analysieren, indem Sie sich die damit verbundenen Maßnahmen und Risiken anzeigen lassen. Sie sollten Korrekturmaßnahmen anzeigen und das Risiko manuell minimieren.
+
+.Schritte
+. Klicken Sie auf das Widget Wellness-Attribut im Dashboard oder klicken Sie auf *Alle Aktionen anzeigen*, um die Liste aller Aktionen und Risiken anzuzeigen.
+. Sehen Sie sich die mit dem Wellness-Attribut verbundenen *Aktionen* und *Risiken* an.
+. Klicken Sie auf *Aktionen* um die mit den Aktionen verbundenen Risiken anzuzeigen, klicken Sie auf *Risiken*, um alle Risiken anzuzeigen, oder klicken Sie auf *Betroffene Systeme*, um die Systeme anzuzeigen, die Aufmerksamkeit erfordern.
+. Klicken Sie auf das Risiko, um die Risikoübersicht anzuzeigen.
+. Klicken Sie auf *Ack*, um das Risiko zu bestätigen.
++
+Die detaillierten Informationen zur Risikoübersicht werden zusammen mit Korrekturmaßnahmen bereitgestellt, die manuell durchgeführt werden sollten, um das Risiko zu minimieren.
+
+. Wenn Sie das Risiko zu diesem Zeitpunkt nicht mindern möchten oder nicht in der Lage sind, geben Sie die Werte für die Felder ein und klicken Sie auf *Bestätigen*.
++
+Das Risiko wird zu anerkannten Risiken hinzugefügt.
+
+
+
+
+NOTE: Wenn Sie kein Risiko mehr anerkennen möchten, können Sie das Risiko ignorieren, indem Sie auf *UN-Ack* klicken und die gleichen Schritte befolgen.

@@ -1,0 +1,71 @@
+---
+sidebar: sidebar 
+permalink: concept_report_types.html 
+keywords: reports, report types, reporting, performance reports 
+summary: Enthält Informationen zu den verschiedenen Berichtstypen, die dem Benutzer zur Verfügung stehen. 
+---
+= Berichtstypen
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Digital Advisor bietet eine Vielzahl von Berichtsoptionen, mit denen Sie den Systemzustand und den Betrieb überwachen und verwalten können.
+
+Die folgenden Berichtstypen sind in Digital Advisor verfügbar:
+
+[cols="30,70"]
+|===
+| Berichtsname | Beschreibung 
+
+
+| Wellness | Enthält Informationen zu ausstehenden und anerkannten Risiken, Risikodetails, Korrekturmaßnahmen und betroffenen Systemen. 
+
+
+| Wellness – Zusammengefasst | Bietet eine Zusammenfassung der offenen Risiken und der Anzahl der betroffenen Systeme. 
+
+
+| 7-Mode Upgrade Advisor Pläne | Erstellt einen Bericht über den Upgrade Advisor-Plan für 7-Mode Systeme. Dieser Bericht enthält Informationen zum HA-Partner. 
+
+
+| Ansible-Bestandsaufnahme | Bietet eine Ansible-Bestandsdatei, in der alle Details zum Systembestand nach Region oder Standort aufgelistet sind. Diese Datei kann zur Automatisierung verwendet werden. 
+
+
+| FabricPool | Stellt Informationen über inaktive, kalte, aktive, heiße, Tier-basierte, Und nicht überwachten Daten speichern. Dieser Bericht enthält außerdem ein Ansible-Playbook zur Aktivierung der inaktiven Datenberichterstellung für deaktivierte Aggregate. 
+
+
+| Inventar | Enthält Informationen über die Installationsbasis für eine ausgewählte Watchlist, einen Kunden, einen Standort und eine ausgewählte Gruppe. Dieser Bericht kann entweder direkt von der Seite Bestandsdetails heruntergeladen oder von der Seite Berichte generiert werden. 
+
+
+| Ende des Supports | Enthält Informationen zu Controllern, Shelfs und Festplatten, für die EOS (End-of-Support) erreicht ist. 
+
+
+| Empfohlene Konfiguration | Enthält Informationen zu den verschiedenen empfohlenen Konfigurationslücken für Remote-Management-Konfiguration, Ersatzteile und Laufwerke, HA-Paar und SVM-Zustand. 
+
+
+| Technische Case-Details | Zeigt einen jährlichen Bericht zu allen technischen Support-Fällen und ihrem Status an. 
+
+
+| Upgrade-Empfehlungen (Software & FW) | Bericht über die Währung der Software und der Firmware mit mehreren Registerkarten und empfohlene Versionen für jeden Controller oder jedes Seriell in den Suchkriterien. 
+
+
+| ClusterViewer-Bericht | Bietet Informationen über einzelne oder mehrere Cluster auf Kunden- und Watchlist-Ebene. Sie können diesen Bericht nur für Watchlist mit bis zu 100 Knoten generieren. 
+
+
+| Kapazität Und Effizienz Zu Steigern | Bietet Informationen zur Kapazität und Effizienz auf Cluster-, Kunden-, Standort-, Gruppen-, Watchlist- und Node-Ebene. 
+
+
+| Volume Performance Report | Bietet Informationen zur Performance-Details der Volumes auf Cluster-Ebene. 
+
+
+| Performance-Bericht | Hier erhalten Sie Informationen zu der Performance eines Clusters, Nodes, der lokalen Tier (Aggregat) und eines Volumes auf Watchlist-Ebene. Sie können diesen Bericht nur für Watchlist mit bis zu 100 Knoten generieren. 
+|===

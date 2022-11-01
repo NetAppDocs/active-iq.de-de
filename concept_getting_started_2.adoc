@@ -1,0 +1,53 @@
+---
+sidebar: sidebar 
+permalink: concept_getting_started_2.html 
+keywords: overview, get started, wellness, performance, configuration, renewal, risk, remediation, planning, inventory 
+summary: Hilft Ihnen, die Workflows zu verstehen und den Einstieg in Digital Advisor zu ermöglichen. 
+---
+= Schnellstart für Digital Advisor
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Digital Advisor wurde verbessert und neu gestaltet, um Ihnen bei der effektivereren Ausführung von Aufgaben zu helfen. Die Benutzeroberfläche wurde entwickelt, um Sie bei der Durchführung Ihrer gewünschten Ziele zu unterstützen.
+
+In der folgenden Abbildung finden Sie Informationen zu den Workflows von Digital Advisor.
+
+image:activeiq2_workflow.png["Workflow für Digital Advisor"]
+
+Sie können sich das folgende Video für den Einstieg in den Digital Advisor ansehen:
+
+video::rEPtldosjWM[youtube,width=848,height=480]
+Alle Digital Advisor Widgets werden nicht auf allen Plattformen unterstützt. Digital Advisor identifiziert die Plattform Ihres Speichersystems und zeigt nur die Aufgaben an, die auf Ihrem Speichersystem ausgeführt werden können.
+
+Lesen Sie die folgenden Informationen, um sich über die Widgets zu informieren, die auf Ihrem Speichersystem unterstützt werden.
+
+[cols="4*"]
+|===
+| * Widget* | * Kunde* | * Cluster* | *Knoten* 
+
+
+| Wellness | Unterstützung auf allen Plattformen | Unterstützung auf allen Plattformen | Unterstützung auf allen Plattformen 
+
+
+| Verlängerungen | Unterstützung auf allen Plattformen | Unterstützung auf allen Plattformen | Unterstützung auf allen Plattformen 
+
+
+| Kapazitätszuwächse | Unterstützung nur auf ONTAP Plattformen (Data ONTAP 7-Mode und Clustered Data ONTAP) | Unterstützung nur auf ONTAP Plattformen (Data ONTAP 7-Mode und Clustered Data ONTAP) | Unterstützung nur auf ONTAP Plattformen (Data ONTAP 7-Mode und Clustered Data ONTAP) 
+
+
+| Inventar | Unterstützung auf allen Plattformen | Nur auf Clustered Data ONTAP unterstützt | Nur auf Clustered Data ONTAP unterstützt 
+
+
+| Upgrades | Nur auf Clustered Data ONTAP unterstützt | Nur auf Clustered Data ONTAP unterstützt | Nur auf Clustered Data ONTAP unterstützt 
+|===

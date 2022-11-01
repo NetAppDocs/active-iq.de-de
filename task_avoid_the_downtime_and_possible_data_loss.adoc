@@ -1,0 +1,36 @@
+---
+sidebar: sidebar 
+permalink: task_avoid_the_downtime_and_possible_data_loss.html 
+keywords: downtime, data loss, avoid downtime, avoid data loss 
+summary: Bietet Informationen zur Vermeidung von Ausfallzeiten und möglichen Datenverlusten. 
+---
+= Vermeiden Sie Ausfallzeiten und mögliche Datenverluste
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Wenn Sie sich beim Digital Advisor anmelden und das rote Abzeichen im Widget *Verfügbarkeit und Schutz* bemerken, können Sie Maßnahmen ergreifen, um kritische Risiken zu beheben. Ohne die Firmware-Korrektur können diese Laufwerke nach einer gewissen Anzahl von Stunden funktionsunfähig werden. Um dies zu vermeiden, würden sowohl die Ausfallzeiten als auch mögliche Datenverluste verhindert.
+
+.Schritte
+. Melden Sie sich beim Digital Advisor an.
+. Klicken Sie im Widget *Verfügbarkeit & Schutz* auf *Aktionen*.image:Availability and protection_image 1 downtime and data loss.png["Verfügbarkeit  Schutz-Widget"]
++
+Befolgen Sie die empfohlene Aktion zum Aktualisieren der Festplatten-Firmware, um die Sicherheitsrisiken zu minimieren.
+
+. Klicken Sie auf den Link *Risk Name*, um die Risikoübersicht anzuzeigen.image:Risk summary_image 2 downtime and data loss.png["Risikozusammenfassung"]
+. Klicken Sie auf die Registerkarte * Unique risks* und dann auf den Link in der Spalte *Corrective Action*.image:Corrective action_image 3 downtime and data loss.png["Korrekturmaßnahme"]
++
+Digital Advisor generiert benutzerdefinierte Ansible-Skripts oder Playbooks zur Aktualisierung der erforderlichen Festplatten-Firmware, einschließlich der Festplatten-Firmware-Dateien.
+
+. Klicken Sie auf das Symbol *Ansible „A“*, um die Skripte zu generieren und herunterzuladen.image:Update AFF and FAS Firmware_image 4 downtime and data loss.png["AFF und FAS Firmware"]
+

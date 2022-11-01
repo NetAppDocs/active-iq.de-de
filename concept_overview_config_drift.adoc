@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: concept_overview_config_drift.html 
+keywords: config drift, configuration deviation, add template, compare template 
+summary: Bietet einen Überblick über die Konfigurationsdrift-Funktion 
+---
+= Verstehen der Konfigurationsabweichung
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Die Funktion Config Drift identifiziert Konfigurationsabweichungen, indem eine Systemvorlage mit einer „goldenen“ oder einer Systemvorlage verglichen wird. Sie können wöchentliche oder monatliche Drift-Berichte planen oder diese nach Bedarf generieren. Sie können einige Abweichungen minimieren, indem Sie die Ansible Playbooks verwenden, die im Konfigurationsdrift-Bericht aufgeführt sind.
+
+Diese Funktion steht nur für Systeme mit Advisor und Expert Support-Verträgen zur Verfügung.
+
+In der folgenden Abbildung wird der Workflow erläutert, um Konfigurationsabweichungen zu identifizieren und den Bericht zu erstellen.
+
+image:config_drift.png["Konfigurations-Drift-Workflow"]
+
+Sie können das folgende Video dazu ansehen, ein Ansible Playbook zu erstellen und auszuführen, um die Konfigurationsabweichungen zu beheben:
+
+video::MbkwcZ7xk3Y[youtube,width=848,height=480]

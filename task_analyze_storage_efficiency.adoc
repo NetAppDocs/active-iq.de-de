@@ -1,0 +1,54 @@
+---
+sidebar: sidebar 
+permalink: task_analyze_storage_efficiency.html 
+keywords: renew, hardware, software 
+summary: Enthält Informationen zur Erneuerung der Software und Hardware Ihres Speichersystems. 
+---
+= Analyse der Einsparungen bei Kapazität und Storage-Effizienz
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Sie können sich die Kapazitätsdetails und die Einsparungen durch Storage-Effizienz in Ihrem System anzeigen lassen und entsprechende Maßnahmen ergreifen. Die Informationen zur Kapazität und Storage-Effizienz können entweder auf Cluster-Ebene oder auf Node-Ebene angezeigt werden.
+
+
+NOTE: Diese Funktion wird auf Systemen der E-Series nicht unterstützt.
+
+Das Kapazitäts-Dashboard zeigt Kapazitätsdetails und die Kapazitätsprognose für das System an. Kapazitätsprognose verwendet historische Kapazitätsinformationen zur Ermittlung der Auslastung jedes Systems. Auf der Grundlage der historischen Daten (falls verfügbar für ein Jahr) der genutzten und zugewiesenen Kapazität, berücksichtigt der Algorithmus die aktuelle Auslastung jedes Systems und erstellt eine Prognose für die Nutzung des Systems in den nächsten 1 bis 6 Monaten.
+
+Das Storage-Effizienz-Dashboard zeigt das Storage-Effizienz-Verhältnis, den genutzten logischen Speicherplatz, den belegten physischen Speicherplatz und die insgesamt für Storage-Systeme mit ONTAP 9.1 und höher gespeicherten Daten an. Das Effizienzverhältnis und die Einsparungen sind dabei mit und ohne Snapshot Kopien für AFF Systeme, Systeme anderer Anbieter als All Flash FAS oder beides möglich. Die Storage-Gesamteinsparungen pro Effizienzfunktionen wie Volume-Deduplizierung, Volume-Komprimierung, Data-Compaction, FlexClone Volumes und Snapshot Kopien zeigen sich. Sie können sich auch die Top 5 Storage-Systeme mit dem besten Effizienzverhältnis anzeigen lassen.
+
+video::8Ge3_0qlyxA[youtube,width=848,height=480]
+.Schritte
+. Klicken Sie im linken Fensterbereich auf *Kapazität und Effizienz*.
++
+Standardmäßig ist die Registerkarte *Capacity* ausgewählt.
+
+. Anzeigen der Kapazitätsinformationen auf Cluster- und Node-Ebene
++
+.. Sehen Sie sich die Kapazitätsprognose auf Node-Ebene an.
++
+Bei ONTAP-Systemen sind Informationen über ROHKAPAZITÄT in ClusterViewer verfügbar.
+
+.. Klicken Sie auf *Kapazität hinzufügen*, um eine Benachrichtigung an NetApp oder Ihren Partner zu senden, um Kapazität hinzuzufügen.
+
+
+. Anzeige der Storage-Effizienz und der Einsparungen Ihres Storage-Systems
++
+.. Wenn das Storage-Effizienz-Verhältnis Ihres Storage-Systems über dem durchschnittlichen Storage-Effizienzverhältnis liegt, klicken Sie auf *Teilen Sie Ihre Erfolgsgeschichte*, um uns die folgenden Best Practices zu erläutern.
+.. Wenn das Storage-Effizienz-Verhältnis Ihres Storage-Systems unter dem durchschnittlichen Storage-Effizienz-Verhältnis liegt, klicken Sie auf *Kontakt* um uns die Konfigurationen Ihres Storage-Systems mitzuteilen.
+
+
+
+
+Weitere Informationen über Kapazität und Storage-Effizienz finden Sie unter link:reference_aiq_faq.html["Häufig gestellte Fragen zu Digital Advisor"].

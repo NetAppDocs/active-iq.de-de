@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: task_view_keystone_capacity_utilization.html 
+keywords: keystone, capacity utilization, service tiers, Keystone subscription, keystone subscription, shares, disks 
+summary: Bietet Informationen zur Kapazitätsauslastung mit dem flexiblen NetApp Keystone Abonnement. 
+---
+= Anzeige der Kapazitätsauslastung mit NetApp Keystone-Abonnement
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Wenn Sie den Keystone Subscription Service abonniert haben, können Sie das Keystone Abonnement-Widget auf dem Digital Advisor Dashboard anzeigen.
+
+Das Keystone Abonnement-Widget bietet Ihnen einen Überblick über die Kapazitätsnutzung für Ihr Konto. Es besteht aus Kapazitätsnutzungsdiagramme mit Bezug auf die physische Kapazität, wobei der Snapshot auf die letzten fünf Minuten aufgerundet wird. Die Auslastung über und über der zugesagt Kapazität (die Burst-Kapazität) wird rot markiert.
+
+Sie können sich das Dashboard *Keystone - Capacity Utiliage* ansehen, das die Daten im Widget analysiert und grafisch den Nutzungstrend der Kapazität und Nutzung für den gesamten abonnierten Speicher darstellt link:https://docs.netapp.com/us-en/keystone/nkfsosm_performance.html["Service-Tiers"], Wie Premium, extrem, und Standard, mit Ihrem NetApp Keystone-Abonnement-Konto verbunden.
+
+Sie können die anzeigen link:https://docs.netapp.com/us-en/keystone/nkfsosm_keystone_service_capacity_definitions.html["Kapazität des Keystone Abonnement-Services"] Die Nutzung der einzelnen abonnierten Services für Ihren Block-, File-Services- oder Objekt-Storage im Dashboard.
+
+
+NOTE: Als Digital Advisor-Benutzer können Sie zwischen ONTAP Collector und AutoSupport wählen, um Daten zur Kapazitätsnutzung zu erhalten.
+
+.Schritte
+. Klicken Sie auf *Details anzeigen*, um den Auslastungstrend im detaillierten Dashboard *Keystone - Kapazitätsauslastung* anzuzeigen.
+. Wählen Sie entweder „Aktueller Abrechnungszeitraum“, „30 Tage“, „7 Tage“ oder „1 Tag“ aus, um den aktuellen durchschnittlichen Nutzungstrend anzuzeigen.
++
+Für den aktuellen Abrechnungszeitraum können Sie einen Bericht herunterladen, der Informationen zu den Burst-Details enthält.
+
+. Wenn Sie sich für den ONTAP Collector entschieden haben, Daten zur Kapazitätsnutzung abzurufen, können Sie durch die Registerkarten auf dem Dashboard klicken, um weitere Details zu Ihren Dateifreigaben und -Festplatten anzuzeigen.
+. Klicken Sie auf *Shares* oder *Festplatten*, um die Dateifreigaben oder Festplatten zu identifizieren, die sich der Kapazität nähern, und treffen Sie fundierte Entscheidungen, um Storage-Kapazität zu sparen.
+

@@ -1,0 +1,37 @@
+---
+sidebar: sidebar 
+permalink: task_subscribe_to_wellness_review_email.html 
+keywords: wellness, wellness review subscription, unsubscribe, supportedge expert, supportedge advisor 
+summary:  
+---
+= Abonnieren Sie die E-Mail zur Wellnessüberprüfung
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Sie können die E-Mail zum Wellness-Programm abonnieren, um eine monatliche E-Mail zu erhalten, die den Wellness-Status aufweist, Systeme, die sich bald erneuern, Systeme, für die ein Upgrade für die NetApp Produkte in Ihrer installierten Basis erforderlich ist. Sie erhalten eine E-Mail zur Überprüfung des Wellness-Wohlbefindens, damit Sie sich eine monatliche Zusammenfassung ansehen und Maßnahmen für Ihre Systeme ergreifen können. Darüber hinaus stehen Ihnen Optionen zum Anzeigen, Bearbeiten, Weitergeben und Löschen Ihrer Abonnements zur Verfügung. Wenn Sie sich entscheiden, die E-Mail nicht zu erhalten, können Sie sich jederzeit vom Erhalt von E-Mails abmelden.
+
+Wenn das Abonnement aktiviert ist, sollten Sie beim Hinzufügen eines Abonnements ein Startdatum auswählen. Die monatliche E-Mail-Zusammenfassung bietet einen Überblick über ausstehende Maßnahmen in den Bereichen Wellness, Erneuerung, Upgrade und Health Check. Sie können die E-Mail-Adresse bestätigen und die E-Mail an die angegebene E-Mail-Adresse senden. Sie haben auch die Möglichkeit, Abonnements zu löschen.
+
+
+NOTE: Diese Funktion ist nur über die Serviceangebote von NetApp SupportEdge Advisor und SupportEdge Expert verfügbar.
+
+.Schritte
+. Klicken Sie im linken Fensterbereich auf *Wellness-Übersicht*.
+. Klicken Sie Auf *Abonnement Hinzufügen*.
+. Geben Sie die erforderlichen Informationen in den Feldern *Name des Abonnements*, *Kategorie wählen*, *Kunden suchen* und *E-Mail* im Dialogfeld *Neues Abonnement hinzufügen* an.
+. Klicken Sie Auf *Abonnieren*.
++
+Nach erfolgreichem Abonnement erhalten Sie eine *Abonnement wurde hinzugefügt* Nachricht.
+
+

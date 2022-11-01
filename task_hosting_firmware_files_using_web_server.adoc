@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: task_hosting_firmware_files_using_web_server.html 
+keywords: firmware, web server, hosting 
+summary: Stellt Informationen zum Hosten der Firmware-Dateien über einen Webserver bereit. 
+---
+= Hosten Sie Firmware-Dateien mithilfe des Webservers
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Nach dem Download des Automatisierungspakets sollten die Firmware-Dateien auf einem Webserver gehostet werden.
+
+Der Webserver kann auf mehrere Arten eingerichtet werden. Anweisungen zum Einrichten eines einfachen Webservers mithilfe von Python finden Sie unter link:https://docs.python.org/3/library/http.server.html["Webserver mit Python"].
+
+.Schritt
+. Speichern Sie die Basis-URL des Webservers. Wenn die URLs für die Festplatten-Firmware, Shelf-Firmware und Service Processor-Firmware *\http://<web-server>/path/all_shelf_fw.zip*, *\http://<web-server>/path/all.zip* und *\http://<web-server>/path/<SP/BMC>_<version_number>_fw.zip* lauten, speichern Sie *\http://<web-server>/path/* als Basis-URL.
+
+
+Der Dateiname wird automatisch vom Ansible Playbook erkannt.

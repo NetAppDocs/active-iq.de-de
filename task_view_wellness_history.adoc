@@ -1,0 +1,36 @@
+---
+sidebar: sidebar 
+permalink: task_view_wellness_history.html 
+keywords: wellness history, risks, wellness, view all actions, risk history, 
+summary: Bietet Informationen zu Systemrisiken und zur Anzeige der Wellness-Geschichte. 
+---
+= Anzeigen der Wellness-Geschichte
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Sie können sich die in den letzten drei Monaten auftretenden Systemrisiken ansehen, so dass Sie lernen, wie sie Überstunden machen.
+
+Diese Risiken werden unter vier Arten von Risiken klassifiziert – *ungelöst*, *neu*, *gelöst* und *anerkannt*. Sie werden durch verschiedene Farben dargestellt. Die Zusammenfassung dieser Risiken wird durch einen *Risikoverlauf*-Diagramm dargestellt.
+
+.Schritte
+. Klicken Sie im Dashboard im Fenster *Wellness* auf *Alle Aktionen anzeigen*.
+. Klicken Sie Auf *Wellness-Geschichte*.
+. Klicken Sie im Diagramm * Risikoverlauf* auf die Kategorie, für die Sie den Risikoverlauf anzeigen möchten.
++
+Wenn Sie den Mauszeiger über die farbigen Balken bewegen, werden Informationen zur Anzahl der Risiken in jeder Kategorie angezeigt. Wenn Sie auf die jeweilige Risikokategorie klicken, werden die Informationen in der Tabelle *Risikoinformationen* angezeigt.
+
++
+Sie können die Risikoübersicht auch in einem Excel-Arbeitsblatt herunterladen.
+
+

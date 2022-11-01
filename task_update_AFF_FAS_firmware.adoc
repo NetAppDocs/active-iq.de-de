@@ -1,0 +1,53 @@
+---
+sidebar: sidebar 
+permalink: task_update_AFF_FAS_firmware.html 
+keywords: update, AFF, FAS firmware, firmware 
+summary: Enthält Informationen zum Aktualisieren der AFF- und FAS-Firmware. 
+---
+= Laden Sie das Ansible-Automatisierungspaket für AFF und FAS Firmware herunter
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Sie sollten die AFF- und FAS-Firmware mit Ansible aktualisieren, um die erkannten Risiken zu minimieren und Ihr Storage-System auf dem neuesten Stand zu halten.
+
+
+
+== Bevor Sie beginnen
+
+Vor dem Aktualisieren der AFF- und FAS-Firmware mit Ansible sollten Sie:
+
+* link:https://netapp.io/2018/10/08/getting-started-with-netapp-and-ansible-install-ansible/["Installation und Einrichtung von Ansible auf Ihrem Storage-System"]
+* link:https://netapp.io/2019/09/17/coming-together-nicely/["Installation von Ansible 2.9 mit Sammlungen auf Ihrem Storage-System"]
+* Führen Sie ein Upgrade Ihres Storage-Systems auf ONTAP 9.1 oder höher durch
+* Konfigurieren Sie Ihr Konto mit einer Administratorrolle
+
+
+.Schritte
+. Klicken Sie auf ein beliebiges Wellness-Widget auf dem Dashboard oder klicken Sie auf *Alle Aktionen anzeigen*, um eine Liste aller Aktionen und Risiken anzuzeigen.
+. Klicken Sie auf *Firmware Upgrade*, um alle Risiken der Firmware-Aktualisierung anzuzeigen.
+. Klicken Sie auf *Update AFF und FAS Firmware*, um alle verfügbaren Aktualisierungspakete anzuzeigen, oder klicken Sie auf image:update_ansible.png["Ansible Aktualisieren"] Neben jedem Risiko, das Paket zu aktualisieren, das für dieses Risiko spezifisch ist.
+. Klicken Sie auf *Download*, um die ZIP-Dateien herunterzuladen und Ihr Speichersystem zu aktualisieren.
++
+Die ZIP-Datei enthält Folgendes:
+
++
+** Ansible Playbook – Eine YAML-Datei mit dem Ansible-Skript, mit der die Firmware-Updates für Festplatten, Shelfs und Service-Prozessor durchgeführt werden können.
+** Inventory – Eine YAML-Datei mit den Details der Systeme, die für Firmware-Updates gelten.
+** Firmware-Pakete für Festplatten, Shelfs und Service-Prozessoren/BMC sind jeweils mit *all.zip*, *all_Shelf_fw.zip* und *<SP/BMC>_<Version_number>_fw.zip* benannt.
+
+
+
+
+
+NOTE: Das manuelle Hinzufügen von Clustern und Controllern zur Bestandsdatei wird nicht unterstützt.

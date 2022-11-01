@@ -1,0 +1,57 @@
+---
+sidebar: sidebar 
+permalink: task_compare_config_drift_template.html 
+keywords: config deviation, drift, configuration, compare template 
+summary: Bietet Informationen zum Vergleich einer Konfigurations-Drift-Vorlage. 
+---
+= Vergleichen Sie eine Konfigurations-Drift-Vorlage
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Sie können die System- und Cluster-Konfigurationen vergleichen und Konfigurationsänderungen nahezu in Echtzeit erkennen.
+
+.Schritte
+. Klicken Sie im linken Fensterbereich auf *Drift konfigurieren*.
+. Wählen Sie eine der vorhandenen Vorlagen aus, oder klicken Sie auf *Vorlage hinzufügen*, um eine neue Vorlage hinzuzufügen.
+. Generieren eines Konfigurations-Drift-Berichts
++
+Sie können einen Bericht sofort erstellen oder den Bericht auf wöchentlicher oder monatlicher Basis erstellen.
+
+
+
+[cols="50,50"]
+|===
+| Um einen Bericht sofort zu erstellen | So planen Sie die Erstellung des Berichts auf wöchentlicher oder monatlicher Basis 
+
+
+ a| 
+. Wählen Sie eine Kategorie aus, und geben Sie die erforderlichen Werte für den Bericht an.
+. Wählen Sie *nur Drifts* Option, um nur die Änderungen der Konfigurationsabweichung herunterzuladen.
+. Klicken Sie Auf *Absenden*.
+. link:task_generate_reports.html["Laden Sie den Konfigurations-Drift-Bericht herunter, und zeigen Sie ihn an"].
+. Führen Sie ein Ansible Playbook (Bestandteil des Konfigurationsdrift-Berichts) aus, um die Drifts zu minimieren.
+
+ a| 
+. Klicken Sie auf die Registerkarte *Bericht planen*.
+. Wählen Sie eine Kategorie aus, und geben Sie die erforderlichen Werte für den Bericht an.
+. Wählen Sie *nur Drifts* Option, um nur die Änderungen der Konfigurationsabweichung herunterzuladen.
+. Wählen Sie die Häufigkeit des Berichts aus.
+. Wählen Sie das Startdatum und das Enddatum für den Bericht aus.
+. Klicken Sie Auf *Absenden*.
+. link:task_generate_reports.html["Laden Sie den Konfigurations-Drift-Bericht herunter, und zeigen Sie ihn an"].
+. Führen Sie ein Ansible Playbook (Bestandteil des Konfigurationsdrift-Berichts) aus, um die Drifts zu minimieren.
+
+
+|===
+Eine E-Mail mit den Details der Konfigurationsabweichung zwischen den ausgewählten Systemen wird gesendet.

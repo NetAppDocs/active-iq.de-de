@@ -1,0 +1,26 @@
+---
+sidebar: sidebar 
+permalink: concept_overview_storage_efficiency.html 
+keywords: overview, storage efficiency, deduplication, compression 
+summary: Stellt Informationen zur Nachverfolgung der Effizienz Ihres Storage-Systems bereit. 
+---
+= Und verstehen Sie die Storage-Effizienz
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Das Storage-Effizienz-Dashboard zeigt das Storage-Effizienz-Verhältnis, den genutzten logischen Speicherplatz, den belegten physischen Speicherplatz und die insgesamt für Storage-Systeme mit ONTAP 9.1 und höher gespeicherten Daten an. Das Effizienzverhältnis und die Einsparungen sind dabei mit und ohne Snapshot Kopien für AFF Systeme, Systeme anderer Anbieter als All Flash FAS oder beides möglich. Sie können die Informationen zur Storage-Effizienz entweder auf Cluster-Ebene oder auf Node-Ebene anzeigen.
+
+Die Storage-Gesamteinsparungen pro Effizienzfunktionen wie Volume-Deduplizierung, Volume-Komprimierung, Data-Compaction, FlexClone Volumes und Snapshot Kopien zeigen sich. Sie können sich auch die Top 5 Storage-Systeme mit dem besten Effizienzverhältnis anzeigen lassen.
+
+video::8Ge3_0qlyxA[youtube,width=848,height=480]

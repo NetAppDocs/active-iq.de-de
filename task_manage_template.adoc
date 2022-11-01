@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: task_manage_template.html 
+keywords: templates, share template, clone template, edit template, delete template 
+summary: Stellt Informationen zur Verwaltung von Vorlagen bereit. 
+---
+= Managen Sie eine Vorlage
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Sie können eine Vorlage klonen, eine Vorlage freigeben, die Details einer vorhandenen Vorlage bearbeiten und eine Vorlage löschen.
+
+Durch die gemeinsame Nutzung einer Vorlage sparen Sie Zeit und Aufwand bei der Erstellung und Anpassung einer Vorlage, die bereits von einem Benutzer erstellt wurde. Gemeinsam genutzte Vorlagen können von gemeinsam genutzten Benutzern geändert werden, sodass mehrere Benutzer Änderungen an einer einzigen goldenen Vorlage vornehmen können.
+
+*Über diese Aufgabe*
+
+* Der Zugriff auf freigegebene Vorlagen kann jederzeit widerrufen werden.
+* Freigegebene Benutzer können diese Vorlage jederzeit aus ihrem Konto löschen.
+
+
+.Schritte
+. Klicken Sie im linken Fensterbereich auf *Drift konfigurieren*.
+. Klicken Sie Auf image:clone_icon.png["Klon"] Um eine Kopie der Vorlage zu erstellen.
+. Klicken Sie Auf image:share_icon.png["Share"] Und geben Sie die Benutzernamen ein, mit denen Sie die Vorlage teilen möchten.
++
+
+NOTE: Wenn Sie die E-Mail-Adresse des Benutzers anstelle des Benutzernamens eingeben, wird die Vorlage nicht freigegeben.
+
+. Klicken Sie Auf image:edit_icon.png["Bearbeiten"] Um die Details der Vorlage zu aktualisieren.
+. Klicken Sie Auf image:delete_icon.png["Löschen"] Zum Löschen der Vorlage.
+

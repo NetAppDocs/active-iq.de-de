@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: task_login_activeiq.html 
+keywords: login, log in 
+summary: Stellt Informationen zur Anmeldung bei Digital Advisor bereit. 
+---
+= Melden Sie sich bei Digital Advisor an
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Zur Anmeldung bei Digital Advisor müssen Sie über eine gültige NetApp Support-Website-Zertifizierung verfügen. Wenn Sie kein Konto haben und gerade begonnen haben, klicken Sie auf link:https://mysupport.netapp.com/info/web/ECMP1150550.html/["Hier"].
+
+.Schritte
+. Klicken Sie Auf link:https://activeiq.netapp.com/?source=onlinedocs["Hier"] Für den Zugriff auf Digital Advisor:
++
+Digital Advisor zeigt Systeme mit einem gültigen Supportvertrag an. Wenn Verträge verfallen, wird eine Kulanzzeit von 90 Tagen angegeben, in der die Systeme weiterhin sichtbar sind. Anschließend sind Systeme innerhalb von Digital Advisor nicht durchsuchbar oder sichtbar.
+
+. Geben Sie Ihren Benutzernamen und Ihr Kennwort ein und klicken Sie auf *Anmelden*.
+

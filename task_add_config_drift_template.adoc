@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: task_add_config_drift_template.html 
+keywords: config deviation, drift, configuration, add template 
+summary: Enthält Informationen zum Hinzufügen einer Konfigurations-Drift-Vorlage. 
+---
+= Fügen Sie eine Konfigurations-Drift-Vorlage hinzu
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Sie sollten eine Vorlage hinzufügen, um System- und Cluster-Konfigurationen zu vergleichen und Konfigurationsfehler nahezu in Echtzeit zu erkennen. Die Konfigurationsdrift-Vorlagen werden unter Verwendung von Systemen hinzugefügt, auf denen AutoSupport-Daten ausgeführt werden.
+
+.Schritte
+. Klicken Sie im linken Fensterbereich auf *Drift konfigurieren*.
+. Klicken Sie Auf *Vorlage Hinzufügen*.
+. Geben Sie die angeforderten Werte an.
+. Optional: Klicken Sie auf *Bearbeiten*, um die Vorlage zu bearbeiten.
+. Klicken Sie Auf *Vorlage Hinzufügen*.
+

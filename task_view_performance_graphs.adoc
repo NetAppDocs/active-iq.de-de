@@ -1,0 +1,78 @@
+---
+sidebar: sidebar 
+permalink: task_view_performance_graphs.html 
+keywords: performance, performance graph, graphs, digital advisor, performance charts, day, week, 1 month, 2 months, calendar, chart data, performance on node level, graph, node level 
+summary: Stellt Informationen zur Performance bereit. 
+---
+= Performance-Diagramme analysieren
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Performance-Diagramme ermöglichen die Analyse der Performance Ihrer Speichergeräte. Sie können detaillierte Performance-Diagramme für ein ONTAP Cluster oder mehrere Nodes eines ONTAP Clusters und E-Series Controller anzeigen. Diese Diagramme bieten Verlaufsdaten zur Performance, die zum Verständnis der Performance-Trends und Musteranalysen verwendet werden können. Sie können ein Datum im Kalender auswählen, um Leistungsdiagramme für einen Tag, eine Woche, einen Monat, zwei Monate und zwölf Monate anzuzeigen. Sie können mehrere Nodes auswählen, um ein bestimmtes Diagramm gleichzeitig anzuzeigen.
+
+Sie haben die Möglichkeit, Voreinstellungen festzulegen, beispielsweise können Sie entweder ein Diagramm für drei Knoten oder zwei Diagramme für drei Knoten anzeigen.
+
+Beim ersten Anzeigen der Grafik ist eine 1-wöchige Registerkarte vorausgewählt. Sie enthält die Daten für eine Woche in einem grafischen Format, um das Verständnis großer Datenmengen und dessen Beziehung zwischen verschiedenen Datenreihen zu vereinfachen. Wenn Sie beispielsweise den Datumsbereich zurücksetzen möchten, können Sie auf die Registerkarte 1 Monat klicken und im Kalender Daten auswählen.
+
+Sie haben auch die Möglichkeit, das Performance-Diagramm zu vergrößern; die einzelnen Datenpunkte werden angezeigt.
+
+video::fWrHYX17xT8[youtube,width=848,height=480]
+.Schritte
+. Klicken Sie im Dashboard auf *Leistung*.
++
+Bei ONTAP-Systemen können Sie auf die Registerkarte *Knoten* klicken, um die Leistung eines einzelnen Knotens eines ONTAP-Clusters anzuzeigen. Klicken Sie auf die Registerkarte *Lokale Ebene*, um die Performance der lokalen Ebene anzuzeigen, oder klicken Sie auf die Registerkarte *Lautstärke*, um die Leistung des Volumes anzuzeigen. Standardmäßig wird die Cluster-Performance angezeigt.
+
++
+Für E-Series Systeme können Sie die Diagramme nur auf Controller-Ebene anzeigen.
+
+
+
+. Wählen Sie entweder einen Tag, eine Woche, einen Monat, 2 Monate oder 12 Monate aus. Im Kalender zur Anzeige von Performancedaten im grafischen Format.
++
+Wählen Sie beispielsweise die Registerkarte 2 Monate aus, um Daten für 2 Monate anzuzeigen. So können Sie je nach Ihren Performance-Anforderungen bestimmte Daten für eine Dauer anzeigen.
+
+. Die folgenden Performance-Diagramme mit den erforderlichen Metriken sind für ONTAP Cluster und Nodes verfügbar:
+
+
+[cols="25,25,25,25"]
+|===
+| Für Cluster | Für Node | Für Local Tier | Für Volume 
+
+
+| IOPS | CPU-Auslastung – Spitzen-Performance (Reserve) | Durchschnittlicher Durchsatz | IOPS 
+
+
+| Netzwerkdurchsatz | Latenz | Durchschnittliche Auslastung | Latenz 
+
+
+|  | IOPS |  |  
+
+
+|  | Protokoll-IOPS |  |  
+
+
+|  | Netzwerkdurchsatz |  |  
+|===
+
+NOTE: Node-Latenz-Performance-Diagramme und Volume-Performance-Diagramme werden nur auf Systemen unterstützt, auf denen ONTAP 9.2 und höher ausgeführt werden.
+
+. Die folgenden Performance-Diagramme mit den erforderlichen Metriken sind für E-Series Controller verfügbar:
++
+** CPU-Auslastung
+** Latenz
+** IOPS
+** Durchsatz
+
+
+

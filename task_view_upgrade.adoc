@@ -1,0 +1,34 @@
+---
+sidebar: sidebar 
+permalink: task_view_upgrade.html 
+keywords: upgrade, ONTAP version, upgrade advisor, upgrade plan, risk advisor, pending upgrades 
+summary: Enthält Informationen zum Anzeigen und Aktualisieren der ONTAP-Version Ihres Speichersystems. 
+---
+= Aktualisieren Sie die ONTAP-Version, indem Sie einen Upgrade-Plan erstellen
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Sie können die ausstehenden Upgrades Ihres Storage-Systems anzeigen und ein Upgrade auf eine neuere Version von ONTAP durchführen, indem Sie einen Upgrade-Plan erstellen. Sie sollten auch die Liste der Risiken auf der Registerkarte *Risk Advisor* anzeigen, was aufgrund des Upgrades entschärfst wäre.
+
+.Schritte
+. Zeigen Sie auf dem Dashboard im Widget *Upgrades* ausstehende Upgrades an.image:upgrade_advisor_widget.png["Upgrade Advisor"]
+. Klicken Sie auf die Anzahl der *Aktionen*, um die ausstehenden Upgrades anzuzeigen.
+. Wählen Sie die gewünschte Upgrade-Option.image:upgrade_options.png["Upgrade-Optionen"]
+. Klicken Sie auf die Anzahl der im Widget angezeigten Systeme, um die Registerkarte *Upgrade Advisor* anzuzeigen.
++
+Sie können auch die Versionshinweise überprüfen, um detaillierte Informationen über die Version anzuzeigen.image:generate_upgrade_plan.png["Erstellung eines Upgrade-Plans"]
+
+. Sehen Sie sich die Risikoliste auf der Registerkarte *Risk Advisor* an, zusammen mit dem Schweregrad, der durch das Upgrade minimiert würde.
+. Klicken Sie auf *Upgrade Plan erstellen*, um zu *Upgrade Advisor* zu navigieren.
+

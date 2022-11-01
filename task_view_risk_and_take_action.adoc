@@ -1,0 +1,34 @@
+---
+sidebar: sidebar 
+permalink: task_view_risk_and_take_action.html 
+keywords: wellness, performance, efficiency, availability, capacity, security vulnerabilities, protection, protect, mitigate, rectify 
+summary: Stellt Informationen zur Verfügung, mit denen Sie den Wellness-Bereich Ihres Storage-Systems anzeigen und analysieren und Risiken minimieren können. 
+---
+= Risiken anzeigen und manuell Korrekturmaßnahmen ergreifen
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Sie können die Wellness-Attribute Ihres Storage-Systems analysieren, indem Sie sich die damit verbundenen Maßnahmen und Risiken anzeigen lassen. Sie sollten die entsprechenden Korrekturmaßnahmen anzeigen und das Risiko manuell minimieren.
+
+.Schritte
+. Klicken Sie im Dashboard auf das Widget *Wellness* oder klicken Sie auf *Alle Aktionen anzeigen*, um die Liste aller Aktionen und Risiken anzuzeigen.
+. Sehen Sie sich die mit dem Wellness-Attribut verbundenen *Aktionen* und *Risiken* an.
+. Klicken Sie auf *Aktionen* um die mit den Aktionen verbundenen Risiken anzuzeigen, klicken Sie auf *Risiken*, um alle Risiken anzuzeigen, oder klicken Sie auf *Betroffene Systeme*, um die Systeme anzuzeigen, die Aufmerksamkeit erfordern.
+. Klicken Sie auf den Namen des Risikos, um Informationen zum Risiko anzuzeigen.
+. Klicken Sie auf die entsprechenden Korrekturmaßnahmen, und folgen Sie den Informationen, um das Risiko zu beheben.
+
+
+Die Schritte zur Minderung der Risiken sind für alle Wellness-Attribute gleich. Sie können das folgende Video anzeigen, um sicherheitsbezogene Probleme zu überwachen und zu beheben:
+
+video::ssXI-FAKMis[youtube,width=848,height=480]

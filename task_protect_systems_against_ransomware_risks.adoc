@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task_protect_systems_against_ransomware_risks.html 
+keywords: ransomware, risks, ransomware risks 
+summary:  
+---
+= Schutz der Systeme vor Ransomware-Risiken
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Wenn Sie sich beim Digital Advisor anmelden, können Sie die *Aktionen* auf dem Widget *Ransomware Defense* anzeigen, die die Risikozahl anzeigt.
+
+Sie können die Risiken von Snapshot-Erstellung, -Aufbewahrung und -ONTAP einsehen und dann Maßnahmen ergreifen, um sie zu beheben.
+
+.Schritte
+. Melden Sie sich bei Digital Advisor an.
+. Klicken Sie auf *Aktionen* auf dem Widget *Ransomware Defense*.
+. Überprüfen Sie die Auswirkungen auf die angezeigten Risiken und befolgen Sie die empfohlenen Maßnahmen.
+. Klicken Sie auf die Registerkarte eindeutige Risiken und klicken Sie auf den Link in der Spalte *Korrekturmaßnahmen*.
+. Klicken Sie auf die Registerkarte *Betroffene Systeme*, um Systeme mit Risiken anzuzeigen.
+. Befolgen Sie Maßnahmen zur Problembehebung, die zum Schutz der Systeme empfohlen werden.
+

@@ -1,0 +1,54 @@
+---
+sidebar: sidebar 
+permalink: task_generate_drift_timeline_report.html 
+keywords: reports, generate reports, drift timeline, drift timeline report, AutoSupport data 
+summary: Enthält Informationen zum Generieren von Zeitachse-Drift-Berichten. 
+---
+= Generieren eines Zeitachsenberichts
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Sie können die AutoSupport-Daten der letzten 90 Tage vergleichen und einen Bericht erstellen, der Informationen zu den Ereignissen und den aufgetretenen Konfigurationsabweichungen enthält.
+
+.Schritte
+. Klicken Sie im linken Fensterbereich auf *Drift konfigurieren*.
+. Wählen Sie den Berichtstyp *Drift Timeline* aus.
+. Generieren eines Zeitachsenberichts
++
+Sie können einen Bericht sofort erstellen oder den Bericht auf wöchentlicher oder monatlicher Basis erstellen.
+
+
+
+[cols="50,50"]
+|===
+| Um einen Bericht sofort zu erstellen | So planen Sie die Erstellung des Berichts auf wöchentlicher oder monatlicher Basis 
+
+
+ a| 
+. Wählen Sie eine Kategorie aus, und geben Sie die erforderlichen Werte für den Bericht an.
+. Wählen Sie *nur Drifts* Option, um nur die Änderungen der Konfigurationsabweichung herunterzuladen.
+. Klicken Sie Auf *Absenden*.
+. link:task_generate_reports.html["Laden Sie den Bericht zur Drift-Zeitleiste herunter und sehen Sie ihn an"].
+
+ a| 
+. Klicken Sie auf die Registerkarte *Bericht planen*.
+. Wählen Sie eine Kategorie aus, und geben Sie die erforderlichen Werte für den Bericht an.
+. Wählen Sie *nur Drifts* Option, um nur die Änderungen der Konfigurationsabweichung herunterzuladen.
+. Wählen Sie die Häufigkeit des Berichts aus.
+. Wählen Sie das Startdatum und das Enddatum für den Bericht aus.
+. Klicken Sie Auf *Absenden*.
+. link:task_generate_reports.html["Laden Sie den Bericht zur Drift-Zeitleiste herunter und sehen Sie ihn an"].
+
+
+|===

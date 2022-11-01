@@ -1,0 +1,113 @@
+---
+sidebar: sidebar 
+permalink: task_validate_firmware_installation.html 
+keywords: validate, firmware, firmware installation 
+summary: Enthält Informationen zur Validierung der Firmware-Installation. 
+---
+= Validieren der Firmware-Installation
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Melden Sie sich nach der Ausführung des Playbook als Cluster-Administrator beim Cluster an.
+
+
+
+== Validieren der Installation der Festplatten-Firmware
+
+.Schritte
+. Vergewissern Sie sich, dass die Laufwerk-Firmware installiert ist:
++
+[listing]
+----
+::*> storage disk show -fields firmware-revision,model
+disk     firmware-revision model
+--------------- ----------------- ----------------
+1.11.0   NA01              X423_HCOBE900A10
+1.11.1   NA01              X423_HCOBE900A10
+1.11.2   NA01              X423_HCOBE900A10
+1.11.3   NA01              X423_HCOBE900A10
+1.11.4   NA01              X423_HCOBE900A10
+----
++
+Weitere Informationen zum Befehl finden Sie unter {Link-with-unters}[Storage Disk show].
+
+. Vergewissern Sie sich, dass die neue NVMe Flash Cache Firmware installiert ist:
++
+[listing]
+----
+::*> system controller flash-cache show
+----
++
+Weitere Informationen zum Befehl finden Sie unter {Link-with-unters}[System Controller Flash-Cache show].
+
+
+
+
+
+== Installation der Shelf-Firmware validieren
+
+.Schritte
+. Vergewissern Sie sich, dass die neue Shelf-Firmware aktualisiert wird:
++
+[listing]
+----
+::*> system node run -node * -command sysconfig -v
+----
++
+Vergewissern Sie sich in der Ausgabe, dass die Firmware jedes Shelfs auf die gewünschte Ebene aktualisiert wird. Beispiel:
+
++
+[listing]
+----
+Shelf 1: IOM6 Firmware rev. IOM6 A: 0191 IOM3 B: 0191
+----
++
+Weitere Informationen zum Befehl finden Sie unter {Link-with-unters}[System Node Run].
+
+. Überprüfen Sie, ob die neue ACP-Firmware aktualisiert wird:
++
+[listing]
+----
+::*> storage shelf acp module show -instance
+----
++
+Weitere Informationen zum Befehl finden Sie in {Link-with-unters}[Storage Shelf acp Module show].
+
+. Vergewissern Sie sich, dass der gewünschte ACP-Modus konfiguriert ist:
++
+[listing]
+----
+::*> storage shelf acp show
+----
++
+Weitere Informationen zum Befehl finden Sie unter {Link-with-unters}[Storage Shelf acp show].
+
+. Ändern des ACP-Modus (Kanal):
++
+[listing]
+----
+::*> storage shelf acp configure -channel [in-band | out-of-band]
+----
++
+Weitere Informationen zum Befehl finden Sie unter {Link-with-unters}[Storage Shelf acp configure].
+
+
+
+
+
+== Validieren der SP/BMC-Firmware-Installation
+
+Das Ansible Playbook für Updates der Service-Prozessor/BMC-Firmware wird mit der Option aktiviert, um zu überprüfen, ob die Installation der neuesten SP/BMC-Firmware auf dem Controller installiert ist. Nach Abschluss der Überprüfung (die Updates können maximal zwei Stunden in Anspruch nehmen) wendet das Ansible Playbook interne Firmware-Updates für Switches an, indem eine Verbindung zur SP/BMC-Konsole hergestellt wird.
+
+Fehler- und Erfolgsinformationen bei der Installation der SP-/BMC-Firmware und der internen Switch-Firmware werden am Ende der Ausführung des Ansible Playbook benachrichtigt. Befolgen Sie die im Ansible Playbook genannten Schritte, falls die Installation der SP/BMC-Firmware/interner Switch-Firmware fehlschlägt.

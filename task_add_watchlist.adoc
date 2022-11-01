@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: task_add_watchlist.html 
+keywords: dashboard, watchlist, add watchlist 
+summary: Enthält Informationen zum Hinzufügen einer Watchlist zum Dashboard. 
+---
+= Erstellen Sie eine Watchlist
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Sie können eine Watchlist erstellen, um schnell und einfach auf eine Reihe von Systemen zuzugreifen. Sie können die Systemgruppe basierend auf der Kategorie oder dem Standort kombinieren.
+
+.Schritte
+. Klicken Sie im linken Fensterbereich auf *Watchlisten*
++
+Der Bildschirm *Watchlist verwalten* wird angezeigt.
+
+. Klicken Sie Auf *Watchlist Erstellen*.
+. Geben Sie einen Namen für die Watchlist ein.
+. Geben Sie die Details der Systeme an, die Sie der Watchlist hinzufügen möchten.
++
+Sie können maximal 15,000 Systeme unter einer Kategorie und 500 Systeme unter einer Seriennummer hinzufügen.
+
+. Klicken Sie Auf *Watchlist Erstellen*.
++
+Das Dashboard der Watchlist wird angezeigt.
+
+

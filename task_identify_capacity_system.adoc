@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: task_identify_capacity_system.html 
+keywords: capacity, space, increase, 
+summary: Stellt Informationen zur Erhöhung der Kapazität des Systems bereit. 
+---
+= Systeme, die an ihre Kapazitätsgrenzen stoßen
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Identifizieren Sie proaktiv Systeme, die an Kapazitätsgrenzen stoßen, und senden Sie eine Anfrage über den Live Chat –, um die Kapazität Ihres Storage-Systems zu erhöhen.
+
+Sie können Systeme anzeigen, die in 90 1, 3 und 6 Monaten eine Kapazität von mehr als 90 % haben oder deren Kapazität überschreiten. Sprechen Sie mit einem Vertriebsmitarbeiter, um Anfragen zu Kapazitätshinzufügen einfach zu stellen und Echtzeitunterstützung zu erhalten.
+
+.Schritte
+. Klicken Sie im Widget *Planung* auf *Kapazitätserweiterung*, um die Systeme anzuzeigen, die eine Kapazität von über 90 % oder eine Kapazität von knapp 90 % erreicht haben.
++
+Sie können die Anzahl an Systemen anzeigen 90, die in den nächsten 1, 3 und 6 Monaten eine Kapazität von mindestens 90 % überschritten haben oder deren Kapazität überschreiten.
+
+. Wählen Sie eine Karte aus, um die Systeme anzuzeigen.
+. Wählen Sie die Systeme aus, für die Sie die Kapazität erhöhen möchten, und klicken Sie auf *Vertrieb kontaktieren*.
+. Verifizieren Sie Ihre Kontaktinformationen.
+. Kopieren Sie bis zu fünf Hostnamen in das Chat, um Anfragen zu Kapazitätshinzufügen zu erhöhen.
+

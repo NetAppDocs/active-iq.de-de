@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: task_renew_support_contracts_for_your_systems.html 
+keywords: renew, renewals, support contracts, support & entitlements, active support contracts, 
+summary: Erfahren Sie, wie Sie Support-Verträge für Ihre Systeme verlängern können. 
+---
+= Verlängern Sie Ihre Support-Verträge
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Sie können die Punktzahl und Zusammenfassung aller aktiven Support-Verträge im Dashboard anzeigen. Sie können Maßnahmen auf Basis der wichtigsten Empfehlungen ergreifen, die in der Reihenfolge ihrer Priorität bereitgestellt werden.
+
+.Schritte
+. Klicken Sie im Dashboard für die Integritätsprüfung auf das Widget *Support & Berechtigungen*.
+. Wenn einer Ihrer Supportverträge abgelaufen ist oder sich dem Ablauf nähert, klicken Sie auf das Widget *Active Support Contracts*.
+. Aktivieren Sie die Kontrollkästchen, und klicken Sie auf *verlängern*, um den Erneuerungsprozess für die ausgewählten Systeme zu initiieren.
+
