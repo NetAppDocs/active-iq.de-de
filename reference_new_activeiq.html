@@ -1,0 +1,2789 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head class="at-element-marker">
+  <title>Was ist neu in Digital Advisor | NetApp Documentation</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta http-equiv="language" content="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Was ist neu in Digital Advisor | NetApp Documentation" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://docs.netapp.com/de-de/active-iq/reference_new_activeiq.html" />
+	<meta property="og:description" content="Enthält Informationen zu den neuen Funktionen in der Version." />
+  <meta property="og:image" content="https://docs.netapp.com/de-de/active-iq/images/logo-tophat-social.png" />
+  <meta property="og:image:alt" content="NetApp Logo" />
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="encoding" content="utf-8">
+  <meta http-equiv="nss-type" content="Product Documentation"/>
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="Enthält Informationen zu den neuen Funktionen in der Version.">
+  <meta name="keywords" content=" what"s new, features, new"><!-- Icons -->
+  <link rel="icon" href="/de-de/active-iq/images/favicon.ico" type="image/x-icon">
+
+  <!-- RSS Feed --><link rel="alternate" type="application/rss+xml" title="NetApp Documentation" href="/de-de/active-iq/feed.xml"><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+
+  <!-- Elastic Search -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
+
+  <!-- Combined CSS -->
+  <link rel="stylesheet" type="text/css" href="/de-de/active-iq/css/netappdocs.css">
+
+  
+  <link rel="stylesheet" href="/de-de/active-iq/css/landing-page.css" type="text/css">
+  <link rel="stylesheet" href="/de-de/active-iq/css/tabbed-blocks.css" type="text/css">
+  <!-- Canonical url -->
+  <link rel='stylesheet' href='/de-de/active-iq/css/na-feature.css' type='text/css'><!-- Top level site integrations --><script>
+    function addAdobeLaunch(adobeId) {
+      var head = document.getElementsByTagName('head')[0];
+      var adobe = document.createElement("script");
+      adobe.type = "text/plain";
+      adobe.className = "optanon-category-C0002";
+      adobe.src = "//assets.adobedtm.com/60287eadf1ee/c284da483c83/"+adobeId+".min.js";
+      head.appendChild(adobe);
+    }
+
+    function addGoogleAnalytics(gtagId) {
+      var google = document.createElement("script");
+      google.type = "text/plain";
+      google.className = "optanon-category-C0002";
+      google.src = "https://www.googletagmanager.com/gtag/js?id="+gtagId;
+      var head = document.getElementsByTagName('head')[0];
+      head.appendChild(google);
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', gtagId);
+    }
+
+    function addConsent(consentId) {
+      var head = document.getElementsByTagName('head')[0];
+      var onetrustConsent = document.createElement("script");
+      onetrustConsent.type = "text/javascript";
+      onetrustConsent.src = "https://cdn.cookielaw.org/consent/"+consentId+"/OtAutoBlock.js";
+      head.appendChild(onetrustConsent);
+
+      var onetrustScript = document.createElement("script");
+      onetrustScript.type = "text/javascript";
+      onetrustScript.src = "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js";
+      onetrustScript.charset = "UTF-8";
+      onetrustScript.dataset.documentLanguage = "true";
+      onetrustScript.dataset.domainScript = consentId;
+      head.appendChild(onetrustScript);
+    }addConsent("72570c5c-fe30-465f-b0e0-b77f7fb4ae34");
+    addAdobeLaunch("launch-e9ff3acac59f");
+    addGoogleAnalytics("UA-81697994-3");function OptanonWrapper() { }
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+  <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/de-de/active-iq/js/na-search.js'></script><script src='/de-de/active-iq/js/na-pagenav.js'></script><script src='/de-de/active-iq/js/na-utility.js'></script>
+  <script src='/de-de/active-iq/js/clouddocs.js'></script>
+  <script src='/de-de/active-iq/js/jquery.navgoco.min.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src='/de-de/active-iq/js/toc.js'></script>
+  <script src='/de-de/active-iq/js/customscripts.js'></script><script>
+      $(document).ready(function() {
+          
+          var collapseOnInit = true;
+          
+
+          var navSettings = {
+              "caretHtml": '',
+              "accordion": collapseOnInit,
+              "openClass": 'active', // open
+              "save": false, // leave false or nav highlighting doesn't work right
+              "cookie": {
+                  "name": 'navgoco',
+                  "expires": false,
+                  "path": '/'
+              },
+              "slide": {
+                  "duration": 400,
+                  "easing": 'swing'
+              }
+          };
+
+          // Initialize navgoco with default options
+          $("#mysidebar").navgoco(navSettings);
+          
+
+          $("#collapseAll").click(function(e) {
+              e.preventDefault();
+              $("#mysidebar").navgoco('toggle', false);
+          });
+
+          $("#expandAll").click(function(e) {
+              e.preventDefault();
+              $("#mysidebar").navgoco('toggle', true);
+          });
+
+          $(".sidebar-nav-container").on("scroll", function() {
+            $.cookie("sidebarScroll", $(".sidebar-nav-container").scrollTop(), {
+              path    : "/de-de/active-iq"  
+            });
+          });
+          $(function() {
+            if ($.cookie("sidebarScroll")) {
+              $(".sidebar-nav-container").scrollTop($.cookie("sidebarScroll"));
+            }
+          });
+
+      });
+
+  </script>
+  <script>
+      $(document).ready(function() {
+          $("#tg-sb-link").click(function() {
+              $("#tg-sb-sidebar").toggle();
+              $("#tg-sb-content").toggleClass('col-md-9');
+              $("#tg-sb-content").toggleClass('col-md-12');
+              $("#tg-sb-icon").toggleClass('fa-toggle-on');
+              $("#tg-sb-icon").toggleClass('fa-toggle-off');
+          });
+      });
+  </script>
+  <script src='/de-de/active-iq/js/custom-dropdown.js'></script>
+  <script src='/de-de/active-iq/js/FileSaver.min.js'></script>
+  <script src='/de-de/active-iq/js/jszip-utils.min.js'></script>
+  <script src='/de-de/active-iq/js/jszip.min.js'></script>
+  <script src='/de-de/active-iq/js/pdf-ux.js'></script>
+</head>
+
+
+  <body class role="document" data-flavor="">
+    <div id="page" class="n-off-canvas-menu">
+      <div class="n-off-canvas-menu__menu"><!--TODO: Add offcanvas code --></div>
+      <div class="n-off-canvas-menu__content-wrap">
+        <header class="site-header" id="banner">
+  
+  <!-- Start Page Toolbar -->
+  
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/active-iq/issues/new?body=Page%3A%20[Was ist neu in Digital Advisor](https://docs.netapp.com/de-de/active-iq/reference_new_activeiq.html)&template=public-issue-template.md" class="page-nav-contribute-link" role="button"><img src="/de-de/active-iq/images/discuss-sm.svg" alt="" class="github-icon" />Dokumentationsänderungen beantragen</a><a target="_blank" href="https://github.com/NetAppDocs/active-iq/blob/main/reference_new_activeiq.adoc" class="page-nav-contribute-link" role="button"><img src="/de-de/active-iq/images/edit-sm.svg" alt="" class="github-icon" />In GitHub bearbeiten</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/de-de/active-iq/images/article-sm.svg" alt="" class="github-icon" />Leitfaden für Beitragende</a></div>
+    <div class="page-nav-container">
+      <nav class="page-nav-fixed">
+        <div class="page-nav-title">AUF DIESER SEITE</div>
+        <div class="page-nav-links">
+          <ul class="page-nav-inner" id="page-menu"></ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  
+  
+  <!-- Start top_hat -->
+  <div class="n-top-hat">
+    <div class="n-container">
+      <div class="n-top-hat__cross-property-nav">
+        <ul class="n-top-hat__list">
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/products-a-z/" class="n-top-hat__link">Produkt und Lösungen</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/support-and-training/netapp-university/" class="n-top-hat__link">Support und Schulung</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://cloud.netapp.com" class="n-top-hat__link">Cloud Central</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://community.netapp.com/" class="n-top-hat__link">Community</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://blog.netapp.com/" class="n-top-hat__link">Blog</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://customers.netapp.com/en/" class="n-top-hat__link">Kundenberichte</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/us/contact-us/index.aspx" target="_self" class="n-top-hat__link" data-ntap-ui="contact-us">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+      <div class="n-top-hat__utils">
+        <ul class="n-top-hat__list">
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/us/contact-us/index.aspx" target="_self" class="n-top-hat__link" data-ntap-ui="contact-us">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End top_hat -->
+
+  <!-- Start property bar -->
+  <style>
+    .n-property-navigation-bar__menus--desktop-experience .n-menu--mega__default-content__heading span {
+    color: #34B0FF;
+    }
+  </style>
+  <div class="n-property-bar " data-ntap-ui="sticky-nav">
+    <div class="n-property-bar__inner-wrap">
+      <div class="n-property-bar__menu-toggle">
+        <a href="#" class="n-property-bar__menu-toggle-link">
+          <span class="n-property-bar__menu-toggle-text">Menu</span>
+          <svg class="n-icon-bars n-property-bar__menu-toggle-icon" aria-labelledby="title">
+            <title>bars</title>
+            <use xlink:href="/de-de/active-iq/common/svg/sprite.svg#bars"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="n-property-bar__property-mark ">
+        <a href="https://www.netapp.com" class="n-property-bar__property-link">
+          <div class="n-property-bar__logo">
+            <svg class="n-icon-netapp-mark n-icon-netapp-mark n-property-bar__netapp-mark-icon" aria-labelledby="title">
+              <title>netapp-mark</title>
+              <use xlink:href="/de-de/active-iq/common/svg/sprite.svg#netapp-mark"></use>
+            </svg>
+            <svg class="n-icon-netapp-logo n-property-bar__logo-svg" aria-labelledby="title">
+              <title>netapp-logo</title>
+              <use xlink:href="/de-de/active-iq/common/svg/sprite.svg#netapp-logo"></use>
+            </svg>
+          </div>
+        </a>
+      </div>
+
+      
+      
+      
+      <div class="search-property-bar">
+        <div id="search-demo-container" class="searchbox n-property-bar__search">
+          <div id="react-search" 
+          data-search-html="/de-de/active-iq/search.html"
+          data-type="widget" 
+          data-placeholder="Dokumentation durchsuchen"
+          data-no-results-found="Keine Ergebnisse für {query} gefunden"
+          data-did-you-mean="Nach {suggestion} suchen."
+          data-no-results-found-did-you-mean="Keine Ergebnisse für {query} gefunden. Meinten Sie {suggestion}?"
+          data-results-found="{hitCount} Ergebnisse gefunden"
+          data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
+          data-error-reset="Reset Search"
+          data-sk-es-pf-indexes=""
+          data-flavor=""></div>
+          <button class="n-property-bar__search-toggle-button" type="button">
+            <svg class="n-icon-search n-property-bar__search-toggle-button-icon" aria-labelledby="title">
+              <title>search</title>
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/de-de/active-iq/common/svg/sprite.svg#search"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="n-property-bar__toolbar">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">Deutsch</span>
+          <svg class="n-globe__icon" aria-labelledby="title">
+            <title>globe</title>
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/de-de/active-iq/common/svg/sprite.svg#globe"></use>
+          </svg>
+        </button>
+      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/de-de/active-iq/reference_new_activeiq.html" target="_self"><span translate="no" class="notranslate">Deutsch</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/active-iq/reference_new_activeiq.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/active-iq/reference_new_activeiq.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/active-iq/reference_new_activeiq.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/active-iq/reference_new_activeiq.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ko-kr/active-iq/reference_new_activeiq.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/fr-fr/active-iq/reference_new_activeiq.html" target="_self"><span translate="no" class="notranslate">Français</span></a>
+        </li></ul>
+    </div><!-- End Language Selector -->
+
+    <div class="n-property-bar__cta"></div>
+  </div>
+  <script>
+    $(function(){
+        var currentLocalization = $('html').attr('lang');
+
+        var localizationsDictionary = {
+            "en-CA" : "https://www.netapp.com/search/index.aspx?for_cr=canada&",
+            "en-IN" : "https://www.netapp.com/search/index.aspx?for_cr=india&",
+            "nl-NL" : "https://www.netapp.com/search/index.aspx?for_cr=netherlands&",
+            "ru-RU" : "https://www.netapp.com/search/index.aspx?for_cr=russia&",
+            "sv-SE" : "https://www.netapp.com/search/index.aspx?for_cr=sweden&",
+            "it-IT" : "https://www.netapp.com/search/index.aspx?for_cr=italy&",
+            "he-IL" : "https://www.netapp.com/search/index.aspx?for_cr=israel&",
+            "ko-KR" : "https://www.netapp.com/search/index.aspx?for_cr=korea&",
+            "zh-TW" : "https://www.netapp.com/search/index.aspx?for_cr=taiwan&",
+            "en-GB" : "https://www.netapp.com/search/index.aspx?for_cr=unitedkingdom&",
+            "en-SG" : "https://www.netapp.com/search/index.aspx?for_cr=asean&",
+            "en-AU" : "https://www.netapp.com/search/index.aspx?for_cr=australia&",
+            "pt-BR" : "https://www.netapp.com/search/index.aspx?for_cr=brasil&",
+            "de-CH" : "https://www.netapp.com/search/index.aspx?for_cr=switzerland&",
+            "es-MX" : "https://www.netapp.com/search/index.aspx?for_cr=mexico&"
+        };
+
+        if($('html').hasClass('ntap-whitelisted') && localizationsDictionary.hasOwnProperty(currentLocalization)) {
+            $('.n-property-bar__property-link').attr('href', '/');
+        }
+    });
+  </script>
+  <!-- End property bar -->
+</header>
+
+
+        <main id="n-main-content" class="n-main-content">
+          <!-- Start Documentation Content -->
+<div class="ie-main">
+  <!-- Sidebar Column -->
+  
+  <div class="col-md-3" id="sidebar-height">
+      <button id="btn-sidebar-collapse" onclick="hideSidebar()"><img src="/de-de/active-iq/images/collapse.png" alt="Navigationsbereich reduzieren"></button>
+      <div class="n-pdf-header">
+  <a id="toggleButtonPdf" class="n-pdf-button" type="button">
+    <img src="/de-de/active-iq/images/pdf.png" alt="" width="16" height="16"/>verfügbare PDFs<span>
+    </span>
+  </a>
+</div>
+<div class="n-pdf-body-container">
+  <ul id="toggleContainerPdf" class="n-pdf-body" style="display:none;"><li class="pdf-ux-container">
+        
+        
+        
+        <a target="_blank" href="/de-de/active-iq/pdfs/fullsite-sidebar/Digital_Advisor_Dokumentation.pdf" >
+          <img src="/de-de/active-iq/images/pdf.png" alt="" width="16" height="16"/>PDF dieser Dokumentationsseite</a>
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/de-de/active-iq/pdfs/sidebar/Versionshinweise.pdf" 
+            
+          >
+            <img src="/de-de/active-iq/images/pdf.png" alt="" width="16" height="16"/>
+            Versionshinweise
+          </a>
+          
+    <ul class="subfolders" id="pdf-remove" style="display:none;"><li class="active"></li></ul>
+  
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/de-de/active-iq/pdfs/sidebar/Los_geht_s.pdf" 
+            
+          >
+            <img src="/de-de/active-iq/images/pdf.png" alt="" width="16" height="16"/>
+            Los geht's
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/de-de/active-iq/pdfs/sidebar/Beobachtungsliste_bereitstellen.pdf" 
+            
+          >
+            <img src="/de-de/active-iq/images/pdf.png" alt="" width="16" height="16"/>
+            Beobachtungsliste bereitstellen
+          </a>
+          
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/de-de/active-iq/pdfs/sidebar/Analyse_der_Wellness_Attribute.pdf" 
+            
+          >
+            <img src="/de-de/active-iq/images/pdf.png" alt="" width="16" height="16"/>
+            Analyse der Wellness-Attribute
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/de-de/active-iq/pdfs/sidebar/Zeigen_Sie_Systemdetails_an.pdf" 
+            
+          >
+            <img src="/de-de/active-iq/images/pdf.png" alt="" width="16" height="16"/>
+            Zeigen Sie Systemdetails an
+          </a>
+          
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/de-de/active-iq/pdfs/sidebar/Proaktive_Ermittlung_der_Systemanforderungen.pdf" 
+            
+          >
+            <img src="/de-de/active-iq/images/pdf.png" alt="" width="16" height="16"/>
+            Proaktive Ermittlung der Systemanforderungen
+          </a>
+          
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/de-de/active-iq/pdfs/sidebar/Identifizierung_von_Konfigurationsabweichungen.pdf" 
+            
+          >
+            <img src="/de-de/active-iq/images/pdf.png" alt="" width="16" height="16"/>
+            Identifizierung von Konfigurationsabweichungen
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/de-de/active-iq/pdfs/sidebar/Steigern_Sie_die_Effizienz_und_Performance_Ihres_Storage_Systems.pdf" 
+            
+          >
+            <img src="/de-de/active-iq/images/pdf.png" alt="" width="16" height="16"/>
+            Steigern Sie die Effizienz und Performance Ihres Storage-Systems
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/de-de/active-iq/pdfs/sidebar/Analyse_des_Zustands_Ihres_Storage_Systems.pdf" 
+            
+          >
+            <img src="/de-de/active-iq/images/pdf.png" alt="" width="16" height="16"/>
+            Analyse des Zustands Ihres Storage-Systems
+          </a>
+          
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/de-de/active-iq/pdfs/sidebar/Aktualisieren_Sie_diese__um_Ihre_installierte_Basis_zu_optimieren.pdf" 
+            
+          >
+            <img src="/de-de/active-iq/images/pdf.png" alt="" width="16" height="16"/>
+            Aktualisieren Sie diese, um Ihre installierte Basis zu optimieren
+          </a>
+          
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/de-de/active-iq/pdfs/sidebar/Aktualisieren_Sie_Ihre_AFF__und_FAS_Firmware_mit_dem_Ansible_Playbook.pdf" 
+            
+          >
+            <img src="/de-de/active-iq/images/pdf.png" alt="" width="16" height="16"/>
+            Aktualisieren Sie Ihre AFF- und FAS-Firmware mit dem Ansible Playbook
+          </a>
+          
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/de-de/active-iq/pdfs/sidebar/Installieren_und_Ausführen_des_Ansible_Automatisierungspakets_für_AFF_und_FAS_Firmware__Einsteiger_.pdf" 
+            
+          >
+            <img src="/de-de/active-iq/images/pdf.png" alt="" width="16" height="16"/>
+            Installieren und Ausführen des Ansible-Automatisierungspakets für AFF und FAS Firmware (Einsteiger)
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/de-de/active-iq/pdfs/sidebar/Integration_von_Daten_mithilfe_von_APIs.pdf" 
+            
+          >
+            <img src="/de-de/active-iq/images/pdf.png" alt="" width="16" height="16"/>
+            Integration von Daten mithilfe von APIs
+          </a>
+          
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" 
+            
+              href="/de-de/active-iq/pdfs/sidebar/Erstellen_benutzerdefinierter_Berichte.pdf" 
+            
+          >
+            <img src="/de-de/active-iq/images/pdf.png" alt="" width="16" height="16"/>
+            Erstellen benutzerdefinierter Berichte
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+
+
+</li></ul>
+  <div class="zip-pdf-link-container" style="display: none;">   
+    <a href="#" id="zipPdf">
+      <img src="/de-de/active-iq/images/pdf-zip.png" alt="" width="16" height="16"/>
+      <pre>Sammlung separater PDF-Dokumente<span class="zip-size"></span></pre>
+    </a><div id="zip-link-popup" class="hide">
+    <div class="inner-modal">
+        <div class="downloading-progress">
+            <div class="spinner"></div>
+            <h1>Creating your file...</h1>
+            <div>This may take a few minutes. Thanks for your patience.</div>
+            <button class="cancel-download-btn" type="button">Cancel</button>
+        </div>
+        <div class="download-complete hide">
+            <div class="done-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
+            </div>
+            <div>Your file is ready</div>
+            <button class="cancel-download-btn" type="button">OK</button>
+        </div>
+    </div>
+</div>
+<script>
+    $(".cancel-download-btn").click(function(){
+        $("#zip-link-popup").addClass("hide");
+        $("#zip-link-popup .downloading-progress").removeClass("hide");
+        $("#zip-link-popup .download-complete").addClass("hide");
+    });
+</script></div>
+</div>
+<script>
+  $("#toggleContainerPdf li.active:last-child").parents('ul.subfolders').toggle('display');
+  $("#toggleButtonPdf").click(function () {
+    $("#toggleContainerPdf").toggle('display');
+    $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+  });
+</script><div class="prod-nav" id="product-nav">
+  <a target="_self" class="prod-fam-nav" href="https://docs.netapp.com/de-de/cloud-manager-family/"><img src="/de-de/active-iq/images/left_arrow.png" alt=""><pre>Alle BlueXP-Dokumentationen</pre></a>
+</div><div class="sidebar-nav-container" id="mysidebardiv">
+  <ul id="mysidebar" class="nav"><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Digital Advisor Dokumentation"
+      data-li-level="1#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/index.html">
+        Digital Advisor Dokumentation
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Integration von Digital Advisor in BlueXP"
+      data-li-level="1#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/digital-advisor-integration-with-bluexp.html">
+        Integration von Digital Advisor in BlueXP
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Versionshinweise"
+      data-li-level="1" 
+      class="subfolders "
+    ><a href="#">
+        <div class="na-navbar-padding"> Versionshinweise</div>
+      </a>
+      <ul style="display: none;">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Was ist neu"
+      data-li-level="2#" 
+      class="  active "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/reference_new_activeiq.html">
+        Was ist neu
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Bekannte Einschränkungen"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/reference_limitations_activeiq.html">
+        Bekannte Einschränkungen
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Los geht's"
+      data-li-level="1" 
+      class="subfolders "
+    ><a href="#">
+        <div class="na-navbar-padding"> Los geht's</div>
+      </a>
+      <ul style="display: none;">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Schnellstart"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/concept_getting_started_2.html">
+        Schnellstart
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Lernen Sie die Funktionen von Digital Advisor kennen"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/concept_understand_activeiq_features.html">
+        Lernen Sie die Funktionen von Digital Advisor kennen
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Schlüsselkonzepte"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/concept_key_terms.html">
+        Schlüsselkonzepte
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="AutoSupport verstehen"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/concept_autosupport.html">
+        AutoSupport verstehen
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Melden Sie sich bei Digital Advisor an"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_login_activeiq.html">
+        Melden Sie sich bei Digital Advisor an
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Verwalten Sie Ihre Cluster in BlueXP"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/concept_manage_your_cluster_in_cloud_manager.html">
+        Verwalten Sie Ihre Cluster in BlueXP
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Beobachtungsliste bereitstellen"
+      data-li-level="1" 
+      class="subfolders "
+    ><a href="#">
+        <div class="na-navbar-padding"> Beobachtungsliste bereitstellen</div>
+      </a>
+      <ul style="display: none;">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Überblick"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/concept_overview_dashboard.html">
+        Überblick
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Erstellen Sie eine Watchlist"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_add_watchlist.html">
+        Erstellen Sie eine Watchlist
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Verwalten einer Watchlist"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_manage_watchlists.html">
+        Verwalten einer Watchlist
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Analyse der Wellness-Attribute"
+      data-li-level="1" 
+      class="subfolders "
+    ><a href="#">
+        <div class="na-navbar-padding"> Analyse der Wellness-Attribute</div>
+      </a>
+      <ul style="display: none;">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Überblick"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/concept_overview_wellness.html">
+        Überblick
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Risiken anzeigen und manuell Korrekturmaßnahmen ergreifen"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_view_risk_and_take_action.html">
+        Risiken anzeigen und manuell Korrekturmaßnahmen ergreifen
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Sicherheitsschwachstelle Erkennen"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_increase_protection_against_hackers_and_Ransomware_attacks.html">
+        Sicherheitsschwachstelle Erkennen
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Schutz der Systeme vor Ransomware-Risiken"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_protect_systems_against_ransomware_risks.html">
+        Schutz der Systeme vor Ransomware-Risiken
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Anzeigen und Bestätigen des Risikos"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_view_and_acknowledge_risks.html">
+        Anzeigen und Bestätigen des Risikos
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Anzeigen der Wellness-Geschichte"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_view_wellness_history.html">
+        Anzeigen der Wellness-Geschichte
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Risiken, die mithilfe des Active IQ Unified Manager oder Ansible Playbook automatisch gemindert werden können, anzeigen"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_view_risks_remediated_unified_manager.html">
+        Risiken, die mithilfe des Active IQ Unified Manager oder Ansible Playbook automatisch gemindert werden können, anzeigen
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Vermeiden Sie Ausfallzeiten und mögliche Datenverluste"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_avoid_the_downtime_and_possible_data_loss.html">
+        Vermeiden Sie Ausfallzeiten und mögliche Datenverluste
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Abonnieren Sie die E-Mail zur Wellnessüberprüfung"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_subscribe_to_wellness_review_email.html">
+        Abonnieren Sie die E-Mail zur Wellnessüberprüfung
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Verlängern Sie die Software und Hardware"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_renew_software_and_hardware.html">
+        Verlängern Sie die Software und Hardware
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Analyse des Wohlbefindens von Clustern und Knoten"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_analyze_wellness_clusters_and_nodes.html">
+        Analyse des Wohlbefindens von Clustern und Knoten
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Zeigen Sie Systemdetails an"
+      data-li-level="1" 
+      class="subfolders "
+    ><a href="#">
+        <div class="na-navbar-padding"> Zeigen Sie Systemdetails an</div>
+      </a>
+      <ul style="display: none;">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Anzeigen von Bestandsdetails"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_view_inventory_details.html">
+        Anzeigen von Bestandsdetails
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Integration in Cloud Insights zur Anzeige von Details der Virtual Machines"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task-integrating-with-cloud-insights-to-view-vm-details.html">
+        Integration in Cloud Insights zur Anzeige von Details der Virtual Machines
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Wertvolle Einblicke anzeigen"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_view_valuable_insight_widget.html">
+        Wertvolle Einblicke anzeigen
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Zeigen Sie die Keystone-Abonnementkapazitätsauslastung an"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_view_keystone_capacity_utilization.html">
+        Zeigen Sie die Keystone-Abonnementkapazitätsauslastung an
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Proaktive Ermittlung der Systemanforderungen"
+      data-li-level="1" 
+      class="subfolders "
+    ><a href="#">
+        <div class="na-navbar-padding"> Proaktive Ermittlung der Systemanforderungen</div>
+      </a>
+      <ul style="display: none;">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Überblick"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/concept_overview_planning.html">
+        Überblick
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Systeme, die an ihre Kapazitätsgrenzen stoßen"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_identify_capacity_system.html">
+        Systeme, die an ihre Kapazitätsgrenzen stoßen
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Vermeiden Sie eine Volume-Füllung, um einen Ausfall zu verhindern"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_avoid_a_volume_filling_up_to_prevent_an_outage.html">
+        Vermeiden Sie eine Volume-Füllung, um einen Ausfall zu verhindern
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Verlängern Sie die Software und Hardware"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_renew_software_and_hardware.html">
+        Verlängern Sie die Software und Hardware
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Fundiertere Entscheidungen auf der Basis von Cloud-Empfehlungen"
+      data-li-level="1#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task-informed-decisions-based-on-cloud-recommendations.html">
+        Fundiertere Entscheidungen auf der Basis von Cloud-Empfehlungen
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Identifizierung von Konfigurationsabweichungen"
+      data-li-level="1" 
+      class="subfolders "
+    ><a href="#">
+        <div class="na-navbar-padding"> Identifizierung von Konfigurationsabweichungen</div>
+      </a>
+      <ul style="display: none;">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Überblick"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/concept_overview_config_drift.html">
+        Überblick
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Fügen Sie eine Konfigurations-Drift-Vorlage hinzu"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_add_config_drift_template.html">
+        Fügen Sie eine Konfigurations-Drift-Vorlage hinzu
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Vergleichen Sie eine Konfigurations-Drift-Vorlage"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_compare_config_drift_template.html">
+        Vergleichen Sie eine Konfigurations-Drift-Vorlage
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Bericht Drift Timeline generieren"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_generate_drift_timeline_report.html">
+        Bericht Drift Timeline generieren
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Managen Sie eine Vorlage"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_manage_template.html">
+        Managen Sie eine Vorlage
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Steigern Sie die Effizienz und Performance Ihres Storage-Systems"
+      data-li-level="1" 
+      class="subfolders "
+    ><a href="#">
+        <div class="na-navbar-padding"> Steigern Sie die Effizienz und Performance Ihres Storage-Systems</div>
+      </a>
+      <ul style="display: none;">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Analyse von Kapazitäts- und Effizienzeinsparungen"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_analyze_storage_efficiency.html">
+        Analyse von Kapazitäts- und Effizienzeinsparungen
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Analyse der Storage-Performance"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_view_performance_graphs.html">
+        Analyse der Storage-Performance
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Analyse des Zustands Ihres Storage-Systems"
+      data-li-level="1" 
+      class="subfolders "
+    ><a href="#">
+        <div class="na-navbar-padding"> Analyse des Zustands Ihres Storage-Systems</div>
+      </a>
+      <ul style="display: none;">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Überblick"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/concept_understand_health_check_dashboard.html">
+        Überblick
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Erste Schritte mit dem Health Check Dashboard"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/concept_get_started_with_health_check_dashboard.html">
+        Erste Schritte mit dem Health Check Dashboard
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Verlängern Sie Ihre Support-Verträge"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_renew_support_contracts_for_your_systems.html">
+        Verlängern Sie Ihre Support-Verträge
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Aktualisieren Sie diese, um Ihre installierte Basis zu optimieren"
+      data-li-level="1" 
+      class="subfolders "
+    ><a href="#">
+        <div class="na-navbar-padding"> Aktualisieren Sie diese, um Ihre installierte Basis zu optimieren</div>
+      </a>
+      <ul style="display: none;">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Aktualisieren Sie die ONTAP-Version Ihres Storage-Systems"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_view_upgrade.html">
+        Aktualisieren Sie die ONTAP-Version Ihres Storage-Systems
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Upgrade des Support-Angebots"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_upgrade_support_offering.html">
+        Upgrade des Support-Angebots
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Aktualisieren Sie Ihre AFF- und FAS-Firmware mit dem Ansible Playbook"
+      data-li-level="2" 
+      class="subfolders "
+    ><a href="#">
+        <div class="na-navbar-padding"> Aktualisieren Sie Ihre AFF- und FAS-Firmware mit dem Ansible Playbook</div>
+      </a>
+      <ul style="display: none;">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Laden Sie das Ansible-Automatisierungspaket für AFF und FAS Firmware herunter"
+      data-li-level="3#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_update_AFF_FAS_firmware.html">
+        Laden Sie das Ansible-Automatisierungspaket für AFF und FAS Firmware herunter
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Installieren und Ausführen des Ansible-Automatisierungspakets von AFF und FAS Firmware (erfahrene Benutzer)"
+      data-li-level="3#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_install_execute_firmware_update_exp_user.html">
+        Installieren und Ausführen des Ansible-Automatisierungspakets von AFF und FAS Firmware (erfahrene Benutzer)
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Installieren und Ausführen des Ansible-Automatisierungspakets für AFF und FAS Firmware (Einsteiger)"
+      data-li-level="3" 
+      class="subfolders "
+    ><a href="#">
+        <div class="na-navbar-padding"> Installieren und Ausführen des Ansible-Automatisierungspakets für AFF und FAS Firmware (Einsteiger)</div>
+      </a>
+      <ul style="display: none;">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Host-Firmware-Dateien über den Webserver"
+      data-li-level="4#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_hosting_firmware_files_using_web_server.html">
+        Host-Firmware-Dateien über den Webserver
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Mit Bestandsdatei arbeiten"
+      data-li-level="4#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/concept_working_with_inventory_file.html">
+        Mit Bestandsdatei arbeiten
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Ansible-Playbook mit NetApp Docker Image ausführen"
+      data-li-level="4#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_execute_ansible_playbook_using_docker.html">
+        Ansible-Playbook mit NetApp Docker Image ausführen
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Ausführen des Ansible-Playbook ohne Docker"
+      data-li-level="4#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_execute_ansible_playbook_without_docker.html">
+        Ausführen des Ansible-Playbook ohne Docker
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Validieren der Firmware-Installation"
+      data-li-level="4#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_validate_firmware_installation.html">
+        Validieren der Firmware-Installation
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Fehlerbehebung, Feedback und Support"
+      data-li-level="4#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/reference_ansible_troubleshoot_feedback_support.html">
+        Fehlerbehebung, Feedback und Support
+      </a></li></ul></li></ul></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Integration von Daten mithilfe von APIs"
+      data-li-level="1" 
+      class="subfolders "
+    ><a href="#">
+        <div class="na-navbar-padding"> Integration von Daten mithilfe von APIs</div>
+      </a>
+      <ul style="display: none;">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Überblick"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/concept_overview_API_service.html">
+        Überblick
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Token für den Zugriff auf APIs generieren"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_generate_tokens_API_services.html">
+        Token für den Zugriff auf APIs generieren
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Verwenden Sie den API-Katalog zur Ausführung von APIs"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_view_API_catalog.html">
+        Verwenden Sie den API-Katalog zur Ausführung von APIs
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Erstellen benutzerdefinierter Berichte"
+      data-li-level="1" 
+      class="subfolders "
+    ><a href="#">
+        <div class="na-navbar-padding"> Erstellen benutzerdefinierter Berichte</div>
+      </a>
+      <ul style="display: none;">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Berichtstypen"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/concept_report_types.html">
+        Berichtstypen
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Berichte generieren"
+      data-li-level="2#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/task_generate_reports.html">
+        Berichte generieren
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Häufig gestellte Fragen"
+      data-li-level="1#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/reference_aiq_faq.html">
+        Häufig gestellte Fragen
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Weitere Informationen"
+      data-li-level="1#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/concept_get_more_information.html">
+        Weitere Informationen
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Rechtliche Hinweise"
+      data-li-level="1#" 
+      class=" "
+    ><a class="na-navbar-padding" href="/de-de/active-iq/legal-notices.html">
+        Rechtliche Hinweise
+      </a></li></ul>
+</div>
+<script>
+  window.onscroll = () => {
+    const value = -40 - (document.body.scrollHeight - (window.innerHeight + document.scrollingElement.scrollTop));
+    
+    document.getElementById("sidebar-height").style.bottom = Math.max(0,value) + "px";
+};
+</script>
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+<script>$("#mysidebar li.active").parents('ul').css("display","block");</script>
+
+
+  </div>
+  
+
+  <div class="ie-content-pane n-doc__component-detail-content n-doc__component-detail-content--show-code">
+    <!-- Begin of page container --><article class="page-content" id="main">
+      <div class="ie-utility">
+  <button id="btn-sidebar-expand" onclick="showSidebar()"><img src="/de-de/active-iq/images/expand.png" alt="Navigationsbereich erweitern"></button>
+  <div class="ie-menu">
+    <div class="n-breadcrumb">
+      <ul class="n-breadcrumb__list">
+        <li class="n-breadcrumb__list-item">
+          <a href="https://docs.netapp.com">docs.netapp.com</a>
+        </li>
+        
+        <li class="n-breadcrumb__list-item">
+          <a href="https://docs.netapp.com/us-en/cloud/">Cloud-Dokumentation</a>
+        </li>
+        
+
+        
+        <li class="n-breadcrumb__list-item">
+          <a href="https://docs.netapp.com/de-de/cloud-manager-family/">BlueXP</a>
+        </li>
+        
+
+        <li class="n-breadcrumb__list-item">
+          <a href="/de-de/active-iq/">Digital&nbsp;Advisor</a>
+        </li>
+
+      </ul>
+    </div>
+    <div style="clear: both"></div><!-- Main needs to have height -->
+  </div>
+</div>
+
+      <div class="ie-nmt-disclaimer">
+  <span>
+    <div class="ie-nmt-disclaimer-container">
+      <div class="ie-nmt-disclaimer-icon">
+        <svg class="luci-icon" aria-hidden="true">
+          <use xlink:href="/de-de/active-iq/common/svg/sprite.svg#circle-info">
+        </svg>
+      </div>
+      <div class="ie-nmt-disclaimer-content">
+        <span> Die deutsche Sprachversion wurde als Serviceleistung für Sie durch maschinelle Übersetzung erstellt. Bei eventuellen Unstimmigkeiten hat die englische Sprachversion Vorrang. </span>
+      </div>
+      <div style="clear:both;"></div>
+    </div>
+  </span>
+</div><div class="n-doc__component-detail-heading-wrap">
+  <h1 class="n-doc__component-detail-heading">Was ist neu in Digital Advisor</h1>
+</div>
+
+
+<p class="page-details">
+  
+    
+    <time datetime="2022-11-17 06:04:51 +0000">11/17/2022</time>
+    
+  
+
+<span>Beitragende
+</span>
+
+
+</p>
+
+<div id="toc" class="toc">
+<div id="toctitle">Inhaltsverzeichnis</div>
+<ul class="sectlevel1">
+<li><a href="#01-november-2022">01. November 2022</a></li>
+<li><a href="#25-august-2022">25. August 2022</a></li>
+<li><a href="#14-juli-2022">14 Juli 2022</a></li>
+<li><a href="#22-juni-2022">22. Juni 2022</a></li>
+<li><a href="#01-juni-2022">01. Juni 2022</a></li>
+<li><a href="#12-mai-2022">12 Mai 2022</a></li>
+<li><a href="#07-april-2022">07. April 2022</a></li>
+<li><a href="#31-märz-2022">31 März 2022</a></li>
+<li><a href="#24-märz-2022">24 März 2022</a></li>
+<li><a href="#12-januar-2022">12 Januar 2022</a></li>
+<li><a href="#bis-15-dezember-2021">Bis 15. Dezember 2021</a></li>
+<li><a href="#18-november-2021">18. November 2021</a></li>
+<li><a href="#11-november-2021">11. November 2021</a></li>
+<li><a href="#oktober-14-2021">Oktober 14 2021</a></li>
+<li><a href="#30-september-2021">30. September 2021</a></li>
+<li><a href="#16-september-2021">16. September 2021</a></li>
+<li><a href="#06-september-2021">06. September 2021</a></li>
+<li><a href="#26-august-2021">26. August 2021</a></li>
+<li><a href="#16-august-2021">16. August 2021</a></li>
+<li><a href="#12-juli-2021">12 Juli 2021</a></li>
+<li><a href="#25-juni-2021">25. Juni 2021</a></li>
+<li><a href="#17-juni-2021">17. Juni 2021</a></li>
+<li><a href="#09-juni-2021">09. Juni 2021</a></li>
+<li><a href="#20-mai-2021">20 Mai 2021</a></li>
+<li><a href="#29-april-2021">29. April 2021</a></li>
+<li><a href="#07-april-2021">07. April 2021</a></li>
+<li><a href="#24-februar-2021">24 Februar 2021</a></li>
+<li><a href="#10-februar-2021">10 Februar 2021</a></li>
+<li><a href="#bis-21-dezember-2020">Bis 21. Dezember 2020</a></li>
+<li><a href="#12-november-2020">12. November 2020</a></li>
+<li><a href="#oktober-15-2020">Oktober 15 2020</a></li>
+<li><a href="#30-september-2020">30. September 2020</a></li>
+<li><a href="#18-august-2020">18. August 2020</a></li>
+<li><a href="#17-juli-2020">17 Juli 2020</a></li>
+<li><a href="#19-juni-2020">19. Juni 2020</a></li>
+<li><a href="#19-mai-2020">19 Mai 2020</a></li>
+<li><a href="#02-april-2020">02. April 2020</a></li>
+<li><a href="#19-märz-2020">19 März 2020</a></li>
+<li><a href="#29-februar-2020">29 Februar 2020</a></li>
+</ul>
+</div>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>Die folgenden Funktionen und Verbesserungen wurden in Digital Advisor eingeführt:</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="01-november-2022">01. November 2022</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="digital-advisor-integration-mit-bluexp">Digital Advisor Integration mit BlueXP</h3>
+<div class="paragraph">
+<p>Active IQ Digital Advisor wird im digitalen Berater umgewandelt und ist nun in BlueXP integriert, der einheitlichen Managementkonsole von NetApp für hybride Multi-Cloud-Umgebungen. <a href="digital-advisor-integration-with-bluexp.html">"Weitere Informationen ."</a>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="25-august-2022">25. August 2022</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="inventar">Inventar</h3>
+<div class="paragraph">
+<p>VMware Ressourcen-Informationen zu vCenters, ESXi Hosts und Virtual Machines sind jetzt in den Inventardetails enthalten, um einen vollständigen Stack-Bestand und Interoperabilitätsprüfungen bereitzustellen. <a href="task-integrating-with-cloud-insights-to-view-vm-details.html">"Erfahren Sie, wie"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="multi-hop-upgrade">Multi-Hop-Upgrade</h3>
+<div class="paragraph">
+<p>Bei einigen automatisierten unterbrechungsfreien Upgrades (ANDU) auf nicht benachbarte Versionen können Sie das Software-Image für eine Zwischenversion sowie die Zielversion installieren. Bei der automatischen Aktualisierung wird das Zwischenbild im Hintergrund verwendet, um die Aktualisierung auf die Zielversion abzuschließen. Wenn beispielsweise auf dem Cluster 9.3 ausgeführt wird und Sie ein Upgrade auf 9.7 durchführen möchten, würden Sie die ONTAP Installationspakete für 9.5 und 9.7 laden und ANDU dann mit 9.7 initiieren. ONTAP führt dann automatisch ein Upgrade des Clusters zuerst auf 9.5 und dann auf 9.7 durch. Während des Prozesses sollten mehrere Takeover-/Giveback-Vorgänge und damit verbundene Neustarts erwartet werden.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="14-juli-2022">14 Juli 2022</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="dashboard-für-zustandsprüfung">Dashboard Für Zustandsprüfung</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Sie können sich nun die Details zu technischen Cases ansehen, die für Cloud Volumes ONTAP Systeme erstellt wurden, im Health Check Dashboard anzeigen lassen.</p>
+</li>
+<li>
+<p>Es wurden neue Registerkarten für die Plattform hinzugefügt, die Ihnen eine einfache Navigation zwischen den KPIs verschiedener Plattformen ermöglichen.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="e-series-systeme">E-Series Systeme</h3>
+<div class="paragraph">
+<p>Sie können die Version des Betriebssystems SANtricity in der empfohlenen Version und den KPIs für die Integritätsprüfung anzeigen.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="wellness">Wellness</h3>
+<div class="paragraph">
+<p>Einführung von Farbcodierung zur schnellen und einfachen Identifizierung von Systemen, für die keine Software- oder Firmware-Versionsupgrades erforderlich sind.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="upgrade-workflow">Upgrade-Workflow</h3>
+<div class="paragraph">
+<p>Jetzt können Sie sich Upgrade-Empfehlungen für E-Series Systeme anzeigen lassen.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="22-juni-2022">22. Juni 2022</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="storagegrid">StorageGRID</h3>
+<div class="paragraph">
+<p>Information Lifecycle Management (ILM) für StorageGRID wurde im GRID Viewer enthalten.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="cloud-empfehlungen">Cloud-Empfehlungen</h3>
+<div class="paragraph">
+<p>Gibt Empfehlungen für Workloads und zugehörige Volumes, die mithilfe von SnapMirror Datenreplizierung in NetApp Cloud Volumes ONTAP, NetApp Cloud Volumes Service und NetApp Cloud Backup (ehemals AltaVault) verschoben werden können. <a href="task-informed-decisions-based-on-cloud-recommendations.html">"Erfahren Sie, wie"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="berichte-an">Berichte An</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Sie können jetzt Berichte mit den für einen bereits erstellten Bericht definierten Kriterien erstellen.</p>
+</li>
+<li>
+<p>Sie können jetzt 3 Versuche wiederholen, fehlgeschlagene Berichte zu erstellen.</p>
+</li>
+<li>
+<p>Die Aufbewahrungsdauer der erstellten Berichte hat sich von 3 Tagen auf 90 Tage erhöht.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="01-juni-2022">01. Juni 2022</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="inventar-2">Inventar</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Sie können jetzt die Informationen für Vertriebsmitarbeiter für Systeme in Inventory anzeigen.</p>
+</li>
+<li>
+<p>Astra Control Center-Systeme sind jetzt im Inventar erhältlich.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="12-mai-2022">12 Mai 2022</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="storagegrid-2">StorageGRID</h3>
+<div class="paragraph">
+<p>Weitere Kapazitätsmetriken werden in den Kapazitäts- und Kapazitätsberichten von StorageGRID enthalten.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="clusterviewer">ClusterViewer</h3>
+<div class="paragraph">
+<p>Zusammenfassung zu SnapMirror (Datenschutz) für Cluster ist jetzt im ClusterViewer enthalten.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="workflow-upgrade">Workflow-Upgrade</h3>
+<div class="paragraph">
+<p>Mit dem Upgrade-Workflow können Sie jetzt Upgrade-Empfehlungen und eine Zusammenfassung der neuen Funktionen anzeigen, die in Ihrer E-Series Zielversion verfügbar sind.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="wellness-2">Wellness</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Die Ansible Playbooks wurden erweitert, um das Risiko einer Softwarekonfiguration zu minimieren.</p>
+</li>
+<li>
+<p>Die Filter wurden in den Wellness-Aktionen und -Risiken konsolidiert.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="07-april-2022">07. April 2022</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="wellness-3">Wellness</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Die Bewertung der wichtigsten Empfehlungen für die aktuelle Betriebssystemversion und die 6-monatigen KPIs für Support-Verträge und das Ende des Supports wurde verringert, um der Dringlichkeit der Problemlösung gerecht zu werden.</p>
+</li>
+<li>
+<p>Die wichtigsten Empfehlungen für Remote-Management und HA-Paar (Empfohlene Konfiguration) wurden aktualisiert und umfassen nun URLs auf die NetApp Support-Website für den Self-Service durch Kunden.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="31-märz-2022">31 März 2022</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="storagegrid-3">StorageGRID</h3>
+<div class="paragraph">
+<p>Informationen zu Mandanten und Buckets können im GRID Viewer angezeigt werden.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="24-märz-2022">24 März 2022</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="dashboard-für-zustandsprüfung-2">Dashboard Für Zustandsprüfung</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Verbesserungen und Fehlerbehebungen zur Health Assessment Executive Summary PPT.</p>
+</li>
+<li>
+<p>Fähigkeit, einen mindestens empfohlenen Upgrade-Plan für die Version zu erstellen.</p>
+</li>
+<li>
+<p>Verbesserung der Kacheln zur Integritätsprüfung zur Ermittlung der Anzahl der Knoten, die für jeden KPI Aufmerksamkeit erfordern.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="storagegrid-4">StorageGRID</h3>
+<div class="paragraph">
+<p>Sie können Details zur Rasterkonfiguration im RASTER Viewer anzeigen.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="bluexp">BlueXP</h3>
+<div class="paragraph">
+<p>BlueXP-Benutzer können nun, sofern zutreffend, Links zu Digital Advisor in neuen Registerkarten öffnen, ähnlich wie bei den vorhandenen Funktionen in Digital Advisor.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="12-januar-2022">12 Januar 2022</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="konfigurationsdrift">Konfigurationsdrift</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Sie können eine Vorlage klonen, um eine Kopie der Originalvorlage zu erstellen.</p>
+</li>
+<li>
+<p>Sie können goldene Vorlagen mit anderen berechtigten Benutzern mit schreibgeschütztem oder vollem Zugriff auf diese Vorlagen freigeben.<a href="task_manage_template.html">"Erfahren Sie, wie"</a>.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="bis-15-dezember-2021">Bis 15. Dezember 2021</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="berichte-an-2">Berichte An</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Cluster Viewer Report</strong>: Dieser Bericht liefert Informationen über einen einzelnen Cluster oder mehrere Cluster auf Kunden- und Watchlist-Ebene. Sie können den ClusterViewer-Bericht verwenden, um alle Informationen in einer einzelnen Datei herunterzuladen. Sie können diesen Bericht nur für Watchlist mit bis zu 100 Knoten generieren.</p>
+</li>
+<li>
+<p><strong>Leistungsbericht</strong>: Dieser Bericht enthält Informationen über die Performance eines Clusters, Knotens, einer lokalen Ebene (Aggregat) und eines Volumens in einer einzelnen ZIP-Datei. Jede ZIP-Datei enthält Performance-Daten für einzelne Cluster. Dadurch kann der Benutzer die Daten jedes Clusters analysieren. Sie können diesen Bericht nur für Watchlist mit bis zu 100 Knoten generieren.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="integration-in-e-series-systeme">Integration in E-Series Systeme</h3>
+<div class="paragraph">
+<p>In Digital Advisor können Sie die Kapazitätsdetails und das Performance-Diagramm eines ausgewählten E-Series Systems anzeigen.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="18-november-2021">18. November 2021</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="storage-effizienz">Storage-Effizienz</h3>
+<div class="paragraph">
+<p>Sie können die Details zur Storage-Effizienz für von NetApp Cloud Insights verwaltete und überwachte Nodes anzeigen.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="11-november-2021">11. November 2021</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="dashboard-für-zustandsprüfung-3">Dashboard Für Zustandsprüfung</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Symbole in den Kacheln „Health Check“ wurden hinzugefügt, die nur für Systeme mit SupportEdge Advisor und SupportEdge Expert Support-Angeboten gelten. Die Verbesserungen wurden in den Abschnitten Empfohlene Software-Währung und Firmware-Währung, empfohlene Konfiguration und Best Practices vorgenommen.</p>
+</li>
+<li>
+<p>Auf dem Bildschirm Digital Advisor–Reports wurde ein Banner mit vertraulichen Daten für interne und externe Benutzer (Kunden und Partner) hinzugefügt.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="wellness-und-upgrade-widgets">Wellness und Upgrade Widgets</h3>
+<div class="paragraph">
+<p>Erweiterung des Dashboards mit Upgrade-Empfehlungen zur E-Series und Datum, an dem die Spalte „Wellness-Aktionsverlauf“ hinzugefügt wurde</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="clusterviewer-2">ClusterViewer</h3>
+<div class="paragraph">
+<p>Das ClusterViewer-Modul zur Stapelvisualisierung wurde um die Funktion Vergrößern/Verkleinern und Speichern von Bildern erweitert.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="storage-effizienz-2">Storage-Effizienz</h3>
+<div class="paragraph">
+<p>Sie können die Details zur Storage-Effizienz für Systeme anzeigen, die von NetApp Cloud Insights gepflegt und überwacht werden.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="oktober-14-2021">Oktober 14 2021</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="ansible-bestandsaufnahme">Ansible-Bestandsaufnahme</h3>
+<div class="paragraph">
+<p>Sie können jetzt Ansible-Inventardateien in .yml- und .ini-Dateiformaten auf Region- und Site-Ebene generieren. <a href="task_view_inventory_details.html">"Erfahren Sie, wie"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="berichterstellung-für-inaktive-daten-idr">Berichterstellung für inaktive Daten (IDR)</h3>
+<div class="paragraph">
+<p>Im Bildschirm FabricPool Advisor können Sie inaktive Datenberichterstellung (Inactive Data Reporting, IDR) aktivieren, um Aggregate zu überwachen und ein Ansible Playbook zu erstellen. <a href="task_monitor_and_tier_inactive_data_with_FabricPool_Advisor.html">"Weitere Informationen ."</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="zeitleistenbericht-drift">Zeitleistenbericht Drift</h3>
+<div class="paragraph">
+<p>Sie können die AutoSupport-Daten der letzten 90 Tage vergleichen und einen Drift Timeline-Bericht erstellen. <a href="task_generate_drift_timeline_report.html">"Erfahren Sie, wie"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="kompatible-systeme-umschalten">Kompatible Systeme Umschalten</h3>
+<div class="paragraph">
+<p>Das Dashboard für die Integritätsprüfung wurde um eine Umschaltung für die Registerkarten „Betriebssystem“ und „Letzte Betriebssysteme“ erweitert, sodass Sie die für die Anforderungen der empfohlenen und neuesten Version erforderlichen Systeme anzeigen können.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="zusammenfassung-der-wichtigsten-empfehlungen">Zusammenfassung Der Wichtigsten Empfehlungen</h3>
+<div class="paragraph">
+<p>Im Dashboard „Health Check“ können Sie eine Zusammenfassung der 5 wichtigsten Empfehlungen anzeigen.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="tabs-für-netapp-cloud-volumes-ontap-und-e-series-plattformen">Tabs für NetApp Cloud Volumes ONTAP und E-Series Plattformen</h3>
+<div class="paragraph">
+<p>Das Dashboard für die Integritätsprüfung wurde um die Registerkarten Cloud Volumes ONTAP ** und E-Series erweitert, sodass Sie die KPIs und Details zu den Integritätsprüfung für diese Plattformen anzeigen können.</p>
+</div>
+<div class="paragraph">
+<p>Zusätzlich zu den anderen Plattformen, die nun aktiviert sind, wurde auch eine Registerkarte für „ONTAP“ hinzugefügt.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="kapazität">Kapazität</h3>
+<div class="paragraph">
+<p>Sie können sich die Kapazitätsdetails zu den NetApp Cloud Volumes ONTAP-Systemen in Digital Advisor anzeigen lassen.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="berichte-an-3">Berichte An</h3>
+<div class="paragraph">
+<p>Die Berichtszeitachse wurde auf 12 Monate verlängert. Sie erhalten außerdem eine Benachrichtigung, wenn der Terminplanbericht bald abläuft.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="30-september-2021">30. September 2021</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="vom-kunden-qualifizierte-version">Vom Kunden Qualifizierte Version</h3>
+<div class="paragraph">
+<p>In einer vom Kunden qualifizierten Version kann ein Support Account Manager (SAM) einen Teil der Installationsbasis seines Kunden verwalten, der folgende Applikationen hostet:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Eine frühere und manchmal nicht unterstützte Version von ONTAP</p>
+</li>
+<li>
+<p>Oder die installierte Basis eines Kunden wurde getestet und für die Verwendung einer bestimmten Betriebssystemversion zertifiziert.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="workflow-für-technische-cases">Workflow Für Technische Cases</h3>
+<div class="paragraph">
+<p>Sowohl im Dashboard als auch im Drill-down-Bildschirm wurden grafische Verbesserungen am Datendiagramm und Liniendiagramm vorgenommen. Sie haben auch die Möglichkeit, diese Daten in einem Balkendiagramm anzuzeigen. Im Liniendiagramm können Sie Diagramme in beiden Benutzerschnittstellen anzeigen, auswählen und deaktivieren.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="performance-grafiken">Performance-Grafiken</h3>
+<div class="paragraph">
+<p>Sie können jetzt zusätzlich zum CSV-Format die Leistungsdiagramme im PNG- und JPG-Format herunterladen.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="eos-controller-end-of-support-werden-über-einen-zeitraum-von-12-monaten-hinaus-angeboten">EOS-Controller (End of Support) werden über einen Zeitraum von 12 Monaten hinaus angeboten</h3>
+<div class="paragraph">
+<p>Das Health Check Dashboard wurde um eine Registerkarte erweitert, auf der Controller mit einer EOS von mehr als 12 Monaten angezeigt werden.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="16-september-2021">16. September 2021</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="wellness-4">Wellness</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Das Ransomware Defense-Widget ist jetzt Teil des Wellness-Workflow statt eines eigenständigen Widgets.</p>
+</li>
+<li>
+<p>In der Wellness Review E-Mail finden Sie Informationen über die Ransomware Defense statt Renewals.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="kapazität-2">Kapazität</h3>
+<div class="paragraph">
+<p>Sie können sich die Kapazitätsdetails zu den NetApp ONTAP® Select Systemen in Digital Advisor anzeigen lassen.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="clusterviewer-3">ClusterViewer</h3>
+<div class="paragraph">
+<p>Auf der Registerkarte Visualisierung von ClusterViewer können Sie Verkabelungsfehler und andere Fehler anzeigen.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="06-september-2021">06. September 2021</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="storagegrid-5">StorageGRID</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>View AutoSupport: Zeigt die AutoSupport-Protokolle für die StorageGRID und die zugrunde liegenden Nodes an.</p>
+</li>
+<li>
+<p>Details zu StorageGRID Appliance: Anzeigen von Details zu StorageGRID Appliances wie Node-Typ, Appliance-Modell, Laufwerkgröße, Festplattentyp, RAID-Modus, Und so weiter im ABSCHNITT GRID Viewer - GRID Inventory.</p>
+</li>
+<li>
+<p>Renewals: Zeigen Sie die Liste der Gitter und zugrunde liegenden Knoten an, deren Erneuerung fällig ist.</p>
+</li>
+<li>
+<p>E-Series SANtricity Risiken: Anzeigen von SANtricity Risiken für die zugrunde liegenden Nodes im ABSCHNITT „GRID Dashboard – Zustand“ der E-Series</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="kapazitätsprognose">Kapazitätsprognose</h3>
+<div class="paragraph">
+<p>Das Widget „Capacity Forecast“ wurde mit einem verbesserten Algorithmus aktualisiert, der Systemneukonfigurationen besser berücksichtigt. <a href="reference_aiq_faq.html#capacity">"Weitere Informationen ."</a>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="26-august-2021">26. August 2021</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="digital-advisor-mobile-application">Digital Advisor Mobile Application</h3>
+<div class="paragraph">
+<p>Sie können nun die biometrische Authentifizierung auf der mobilen Digital Advisor-Anwendung aktivieren. Die verfügbaren Optionen für die Authentifizierung variieren je nach den von Ihrem Mobiltelefon unterstützten Funktionen.</p>
+</div>
+<div class="paragraph">
+<p>Weitere Informationen erhalten Sie in der Applikation:<a href="https://play.google.com/store/apps/details?id=com.netapp.aiqda&amp;hl=en_IN&amp;gl=US">"Digital Advisor Mobile Application (Android)"</a><br>
+<a href="https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322">"Digital Advisor Mobile Application (iOS)"</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="wellness-5">Wellness</h3>
+<div class="paragraph">
+<p>Wellness-Widget wurde mit Ransomware Defence Attribut verbessert. Sehen Sie sich jetzt Risiken und Korrekturmaßnahmen an, die mit der Erkennung, Vermeidung und Recovery von Ransomware verbunden sind.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="16-august-2021">16. August 2021</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="wellness-review">Wellness Review</h3>
+<div class="paragraph">
+<p>Sie können jetzt den On-Demand-Bericht generieren. Außerdem können Sie den zuletzt geplanten Bericht über den Bildschirm Wellness-Übersicht-Abonnement herunterladen.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="inventar-3">Inventar</h3>
+<div class="paragraph">
+<p>Auf der Registerkarte „Rasterinventar“ können Sie nun die Knotendetails basierend auf Standortebene in einem erweiterbaren und ausklappbaren Format anzeigen.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="kennzeichnung-von-clustern-mit-gemischtem-modell">Kennzeichnung Von Clustern Mit Gemischtem Modell</h3>
+<div class="paragraph">
+<p>Bei Clustern mit gemischten Hardware-Modellen ist die auf das Cluster angewendete Betriebssystemversion diejenige, die alle Nodes verwenden können. Infolgedessen kann die Betriebssystemversion einiger Nodes aktuellerer Hardware-Modelle nicht so weit sein, wo sie sein sollten. Um diese Cluster mit gemischtem Modell sichtbarer zu machen, haben wir ein Symbol für „gemischtes Modell“ eingesetzt.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="empfohlene-konfigurationstorage-virtual-machine-svm-systemzustand-zusammenfassung-auf-volume-ebene">Empfohlene Konfiguration/Storage Virtual Machine (SVM) – Systemzustand: Zusammenfassung auf Volume-Ebene</h3>
+<div class="paragraph">
+<p>Wenn Sie in der SVM-Tabelle auf das blaue Feld ‘Volume Summary’ klicken, werden in einem „Pop-out“ detaillierte Informationen zu den Volumes angezeigt, die gehostet oder an die spezifische Seriennummer oder den physischen Knoten angeschlossen sind.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="12-juli-2021">12 Juli 2021</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="system-firmware">System-Firmware</h3>
+<div class="paragraph">
+<p>Sie können jetzt Informationen über die System-Firmware anzeigen, die zusammen mit den Haupt- und Patch-Versionen von ONTAP geliefert wird. Sie können diese Funktion über das Menü „Quick Links“ aufrufen.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="dashboard-für-zustandsprüfung-4">Dashboard Für Zustandsprüfung</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Das Health Check Dashboard wurde um ein blaues Banner erweitert, das Benutzern mitteilt, dass die Systeme, die nicht von SupportEdge Advisor und SupportEdge Expert unterstützt werden, bei der Berechnung des Integritätsbewertungen nicht berücksichtigt werden.</p>
+</li>
+<li>
+<p>Das Widget „Recommended Configuration“ wurde erweitert. Es bietet eine eingehende Analyse der fehlgeschlagenen Prüfungen für Ihre Storage VM (SVM). Außerdem können Sie die empfohlenen Korrekturmaßnahmen für jedes Risiko ergreifen.</p>
+</li>
+<li>
+<p>Die empfohlene ONTAP-Zielversion ist jetzt für alle Nodes in einem Cluster identisch, das mit unterschiedlichen Hardware-Modellen konfiguriert ist. Die Zielversion wird auf allen Nodes unterstützt.</p>
+</li>
+<li>
+<p>Sie können das EOS-Zeitachse für Controller, Festplatten und Shelfs jetzt durch den Kauf von PVR verlängern. „PVR-Daten und Erweiterungsdetails“ können nach dem Kauf im Widget „End-of-Support“ angezeigt werden. Die PVR-Details sind auch Bestandteil des EOSL-Berichts.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="inventar-4">Inventar</h3>
+<div class="paragraph">
+<p>Auf der detaillierten Bestandsseite können Sie die Enddaten der Support-Verträge für Ihre Hardware, Software und Non-Returnable Disks anzeigen.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="upgrade-des-support-angebots">Upgrade Des Support-Angebots</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Die Benutzeroberfläche wurde erweitert, um das spezifische Support-Angebot anzuzeigen, das Sie in Digital Advisor abonniert haben.</p>
+</li>
+<li>
+<p>Sie können jetzt über das System-Dashboard eine Anfrage für ein Upgrade Ihres Support-Angebots stellen, um weitere Funktionen nutzen zu können. <a href="task_upgrade_support_offering.html">"Erfahren Sie, wie"</a>.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="25-juni-2021">25. Juni 2021</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="flex-abonnement-widget">Flex-Abonnement-Widget</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Wenn Sie sich für ONTAP Collector entschieden haben, Daten zur Kapazitätsnutzung zu erhalten, können Sie die Details Ihrer Dateifreigaben und Laufwerke auf den Registerkarten Freigaben und Festplatten anzeigen. Sie können Speicherplatz einsparen, indem Sie die sich der Kapazitätsgrenze nähert.</p>
+</li>
+<li>
+<p>Die auf dem Keystone angezeigte Kapazitätsauslastung – Dashboard für die Kapazitätsnutzung – wird zur Abrechnung verwendet – basiert nun auf der logischen Kapazität.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="17-juni-2021">17. Juni 2021</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="berichte-an-4">Berichte An</h3>
+<div class="paragraph">
+<p>Sie können jetzt unabhängig von Tag, Woche oder Monat Performance-Berichte für Aggregate Volumes in einer Storage-VM generieren.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="e-mail-zur-wellness-überprüfung">E-Mail zur Wellness-Überprüfung</h3>
+<div class="paragraph">
+<p>Die E-Mail zur Wellnessüberprüfung enthält Informationen über den Support und die Berechtigungen der Health Check- und Upgrade-Aktionen.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="workflow-upgrade-2">Workflow-Upgrade</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Die Benutzeroberfläche wurde erweitert, um Ihnen eine Tabellenansicht der Informationen zu bieten.</p>
+</li>
+<li>
+<p>Sie können jetzt Informationen über das Ende der Unterstützung für die ONTAP-Version im Bildschirm „Upgrade Details“ anzeigen.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="konfigurationsdrift-2">Konfigurationsdrift</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Config Drift unterstützt jetzt mehr als 200 AutoSupport-Abschnitte zum Erstellen von goldenen Vorlagen und zum Generieren von Drift-Berichten über Kunden, Standorte, Gruppen, Watchlist, Cluster Und Host.</p>
+</li>
+<li>
+<p>Durch config Drift können Sie Abweichungen mit Ansible-Playbooks abmildern, die in den Konfigurationsdrift-Berichten enthalten sind.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="dashboard-für-zustandsprüfung-5">Dashboard Für Zustandsprüfung</h3>
+<div class="paragraph">
+<p>Diese Funktion wurde erweitert, um Ihre Storage-VM (SVM) mit einem vordefinierten Risikokatalog zu vergleichen, um Lücken zu ermitteln und die entsprechenden Korrekturmaßnahmen zu empfehlen.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="09-juni-2021">09. Juni 2021</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="dashboard-für-zustandsprüfung-6">Dashboard Für Zustandsprüfung</h3>
+<div class="paragraph">
+<p>Sie können jetzt die Anzahl der Systeme anzeigen, auf denen die Integritätsbewertung berechnet wird. Diese Erweiterung gilt für alle Attribute im Health Check Dashboard.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="20-mai-2021">20 Mai 2021</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="drift-chat-für-anträge-zum-hinzufügen-von-kapazitäten">Drift-Chat für Anträge zum Hinzufügen von Kapazitäten</h3>
+<div class="paragraph">
+<p>Wenn Sie Hilfe in Echtzeit zu zusätzlichen Kapazitätsanforderungen erhalten möchten, können Sie direkt über Ihr Dashboard mit einem Vertriebsmitarbeiter chatten. <a href="task_identify_capacity_system.html">"Erfahren Sie, wie"</a>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="29-april-2021">29. April 2021</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>So schützen Sie Ihre Systeme vor Hackern und Ransomware-Angriffen. <a href="task_increase_protection_against_hackers_and_Ransomware_attacks.html">"Erfahren Sie, wie"</a>.</p>
+</li>
+<li>
+<p>Sie können Ausfallzeiten und mögliche Datenverluste vermeiden. <a href="task_avoid_the_downtime_and_possible_data_loss.html">"Erfahren Sie, wie"</a>.</p>
+</li>
+<li>
+<p>Erfahren Sie, wie Sie eine Volume-Füllung vermeiden, um einen Ausfall zu verhindern. <a href="task_avoid_a_volume_filling_up_to_prevent_an_outage.html">"Erfahren Sie, wie"</a>.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="07-april-2021">07. April 2021</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="watchlist">Watchlist</h3>
+<div class="paragraph">
+<p>Wenn Sie zum ersten Mal auf Digital Advisor zugreifen, sollten Sie jetzt statt eines Dashboards eine Watchlist erstellen. Sie können das Dashboard auch für verschiedene Watchlisten anzeigen, die Details einer vorhandenen Watchlist bearbeiten und eine Watchlist löschen.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="24-februar-2021">24 Februar 2021</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="konfigurationsdrift-3">Konfigurationsdrift</h3>
+<div class="paragraph">
+<p>Diese Version bietet folgende Funktionen:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Fähigkeit zum Bearbeiten von Attributen bei der Vorlagenerstellung.</p>
+</li>
+<li>
+<p>Gruppierung von AutoSupport-Abschnitten.</p>
+</li>
+<li>
+<p>Erstellen oder Planen eines Konfigurations-Drift-Berichts über Kunden, Standorte, Gruppen, Watchlist, Cluster Und Hostnamen. <a href="task_compare_config_drift_template.html">"Erfahren Sie, wie"</a>.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="berichte-an-5">Berichte An</h3>
+<div class="paragraph">
+<p>Sie können Kapazitäts- und Effizienzberichte generieren oder planen, um detaillierte Informationen zu den Kapazitäts- und Storage-Effizienzeinsparungen Ihres Systems anzuzeigen.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="10-februar-2021">10 Februar 2021</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="storagegrid-6">StorageGRID</h3>
+<div class="paragraph">
+<p>Das StorageGRID-Dashboard wird über das NextGen-API-Framework aktiviert.</p>
+</div>
+<div class="paragraph">
+<p>Sie können das StorageGRID Dashboard zur Anzeige von Informationen auf der Ebene „Watchlist“, „Kunde“, „Gruppe“ und „Standort“ verwenden.</p>
+</div>
+<div class="paragraph">
+<p>Diese Version bietet folgende Funktionen:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Inventory Widget:</strong> Anzeige des Inventars von StorageGRID-Systemen, die auf der ausgewählten Ebene verfügbar sind.</p>
+</li>
+<li>
+<p><strong>Wellness-Widget:</strong> Sehen Sie alle Risiken und Aktionen an, einschließlich der mit StorageGRID verbundenen, wenn sie auf der Grundlage der bestehenden ARS-Regeln für die verfügbaren Systeme anwendbar sind.</p>
+</li>
+<li>
+<p><strong>Planungs-Widget:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Kapazitätszugabe:</strong> für alle NETZSTANDORTE, die die Schwelle von 70% der bestehenden Kapazität überschreiten, werden Sie benachrichtigt. Sie haben die Möglichkeit, Kapazität für die StorageGRIDs am Standort für die nächsten 1, 3 und 6 Monate hinzuzufügen, wenn der Kapazitätsschwellenwert wahrscheinlich 70 % überschreitet.</p>
+</li>
+<li>
+<p><strong>Erneuerungen:</strong> für alle StorageGRID-Systeme, für die der Lizenzvertrag abgelaufen ist oder sich in den nächsten 6 Monaten dem Ablauf nähert, werden Sie benachrichtigt. Sie können ein oder mehrere Systeme auswählen, um eine Anfrage an das NetApp Support-Team zu dessen Verlängerung zu stellen.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>GRID Dashboard:</strong> das GRID Dashboard bietet Wellness-, Planungs- und Konfigurationsdetails für das ausgewählte RASTER.</p>
+</li>
+<li>
+<p><strong>Konfigurations-Widget:</strong> enthält grundlegende Details der ausgewählten StorageGRID im Widget, wie Z.B. GRID-Name, Hostname, Seriennummer, Modell, Betriebssystemversion, Kundenname, Versandort und Kontaktdetails.</p>
+</li>
+<li>
+<p><strong>RASTER Viewer:</strong> aus dem Widget <strong>Configuration</strong> können Sie die GRID-Konfiguration detailliert anzeigen, indem Sie auf den Link <strong>GRID Viewer</strong> klicken. Über das Widget <strong>Konfiguration</strong> können Sie die Websitedetails und Kapazitätsdetails für die ausgewählte StorageGRID herunterladen, indem Sie auf die Schaltfläche <strong>Download</strong> im Bildschirm <strong>Raster-Viewer</strong> klicken.</p>
+</li>
+<li>
+<p><strong>Standortdetails:</strong> auf dieser Registerkarte finden Sie die Grid Summary und Storage Nodes, die für jeden Standort verfügbar sind.</p>
+</li>
+<li>
+<p><strong>GRID Summary:</strong> enthält grundlegende Informationen, wie Lizenztyp, Lizenzkapazität, Anzahl der installierten Nodes, Support Term (Datum der Beendigung des Lizenzvertrags), Primary Admin Node und Primary Site of the Primary Admin Node. Auf dieser Registerkarte finden Sie auch den Standortnamen und die Anzahl der Speicherknoten, die unter der entsprechenden Website markiert sind. In diesem Release können Sie die Liste der Node-Namen anzeigen, wenn Sie auf den Hyperlink klicken, der zur Anzeige von Speicher-Nodes für den entsprechenden Standort verfügbar ist.</p>
+</li>
+<li>
+<p><strong>Registerkarte „Kapazitätsdetails“:</strong> enthält die für DAS RASTER konfigurierten Angaben zur Rasterebene und Standortkapazität. Details zur Kapazität, z. B. installierte Storage-Kapazität, verfügbare Storage-Kapazität, insgesamt genutzte Storage-Kapazität und die für Daten und Metadaten genutzte Kapazität Diese Details können sowohl auf der Grid- als auch auf der Site-Ebene angezeigt werden.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="fabricpool-advisor">FabricPool Advisor</h3>
+<div class="paragraph">
+<p>Die Schaltfläche „Tiering Data“ wurde dem FabricPool Dashboard hinzugefügt. Sie können Daten unter Verwendung von NetApp BlueXP auf kostengünstige Objekt-Storage Tiers verschieben.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="cloud-fähige-workloads">Cloud-fähige Workloads</h3>
+<div class="paragraph">
+<p>Es werden die verschiedenen Workload-Typen angezeigt, die in Ihrem Storage-System verfügbar sind, und die Workloads, die Cloud-fähig sind, identifiziert.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="bis-21-dezember-2020">Bis 21. Dezember 2020</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="dashboard-für-zustandsprüfung-7">Dashboard Für Zustandsprüfung</h3>
+<div class="paragraph">
+<p>Die folgenden Widgets wurden dem Dashboard hinzugefügt:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Empfohlene Software: Dieses Widget enthält eine konsolidierte Liste aller Software- und Firmware-Upgrades und Währungsempfehlungen.</p>
+</li>
+<li>
+<p>Verlust des Signals: Dieses Widget bietet Scores und Informationen über die Systeme, die aufgehört haben, senden AutoSupport-Daten aus irgendeinem Grund. Sie bietet Informationen, wenn innerhalb eines Zeitraums von 7 Tagen keine AutoSupport-Daten von einem Hostnamen empfangen wurden.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="12-november-2020">12. November 2020</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="integration-von-daten-mithilfe-von-apis">Integration von Daten mithilfe von APIs</h3>
+<div class="paragraph">
+<p>Sie können Digital Advisor APIs verwenden, um Daten von Interesse zu ziehen und sie direkt in den Workflow Ihres Unternehmens zu integrieren. <a href="concept_overview_API_service.html">"Weitere Informationen ."</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="wellness-aktualisiert-widget">Wellness - aktualisiert Widget</h3>
+<div class="paragraph">
+<p>Mit den Registerkarten „Enhanced Risk Advisor“ und „Upgrade Advisor“ können Sie alle Systemrisiken anzeigen und ein Upgrade planen, um alle Risiken zu minimieren.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="dashboard-für-zustandsprüfung-8">Dashboard Für Zustandsprüfung</h3>
+<div class="paragraph">
+<p>Das Widget „Recommended Configuration“ wurde dem Dashboard hinzugefügt. Es bietet eine Zusammenfassung der Anzahl von Systemen, die auf Risiken für Remote-Management, Spares und ausgefallene Laufwerke sowie HA-Paar-Risiken überwacht werden.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="fabricpool-advisor-2">FabricPool Advisor</h3>
+<div class="paragraph">
+<p>Sie können den Storage-Platzbedarf und die damit verbundenen Kosten reduzieren, indem Sie die Cluster überwachen, die in vier Kategorien eingeteilt wurden: Daten mit inaktivem lokalen Tier (Aggregat), inaktiven Volume-Daten, Tiered Data und solche, die nicht für IDR aktiviert sind.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="lokalisierung-in-vereinfachtem-chinesisch-und-japanisch">Lokalisierung in vereinfachtem Chinesisch und Japanisch</h3>
+<div class="paragraph">
+<p>Digital Advisor ist jetzt in drei Sprachen verfügbar: Chinesisch, Englisch und Japanisch.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="berichte-an-6">Berichte An</h3>
+<div class="paragraph">
+<p>Sie können ClusterViewer-Berichte generieren oder planen, um detaillierte Informationen zur physischen und logischen Konfiguration Ihrer Systeme anzuzeigen. <a href="task_generate_reports.html">"Erfahren Sie, wie"</a>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="oktober-15-2020">Oktober 15 2020</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="dashboard-für-zustandsprüfung-9">Dashboard Für Zustandsprüfung</h3>
+<div class="paragraph">
+<p>Das Digital Advisor Health Check Dashboard ermöglicht eine zeitpunktgenaue Überprüfung Ihrer gesamten Umgebung. Auf der Grundlage der Systemcheck-Werte können Sie Ihre Storage-Systeme an die empfohlenen NetApp Best Practices anpassen, um die langfristige Planung zu ermöglichen und den Zustand Ihrer installierten Basis zu verbessern. <a href="concept_understand_health_check_assessment_dashboard.html">"Weitere Informationen ."</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="konfigurationsdrift-4">Konfigurationsdrift</h3>
+<div class="paragraph">
+<p>Diese Funktion ermöglicht den Vergleich der System- und Cluster-Konfigurationen und die Erkennung von Konfigurationsabweichungen nahezu in Echtzeit. <a href="task_add_config_drift_template.html">"Erfahren Sie, wie Sie eine Konfigurations-Drift-Vorlage hinzufügen"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="autosupport">AutoSupport</h3>
+<div class="paragraph">
+<p>Sie können Ihre AutoSupport-Daten anzeigen und die Details überprüfen.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="wellness-review-abonnement">Wellness-Review-Abonnement</h3>
+<div class="paragraph">
+<p>Sie können monatlich E-Mail-Benachrichtigungen erhalten, die den Zustand der Systeme zusammenfassen, die sich in Kürze einem Verlängerungszeitraum nähern und ein Upgrade für die NetApp Produkte in Ihrer installierten Basis erfordern. <a href="task_subscribe_to_wellness_review_email.html">"Melden Sie sich jetzt an"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="berichte-an-7">Berichte An</h3>
+<div class="paragraph">
+<p>Mithilfe der Berichtfunktion können Sie Berichte sofort erstellen oder einen Bericht auf wöchentlicher oder monatlicher Basis erstellen. <a href="task_generate_reports.html">"Erfahren Sie, wie"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="manueller-autosupport-upload">Manueller AutoSupport-Upload</h3>
+<div class="paragraph">
+<p>Der manuelle AutoSupport-Upload wurde verbessert, um die Benutzerfreundlichkeit zu verbessern. Für Anmerkungen zum Upload-Status wurde eine zusätzliche Spalte bereitgestellt.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="flex-abonnement-widget-2">Flex-Abonnement-Widget</h3>
+<div class="paragraph">
+<p>Sie können die zugesagt, belegt und Burst-Storage-Kapazität Ihres NetApp Keystone Flex-Abonnementservice überwachen.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="30-september-2020">30. September 2020</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="aff-und-fas-firmware-mit-ansible-playbook">AFF und FAS Firmware mit Ansible Playbook</h3>
+<div class="paragraph">
+<p>Die Dokumentation wurde erweitert und enthält Informationen zum Herunterladen, Installieren und Ausführen des ansible-Automatisierungspakets für die AFF und FAS Firmware.</p>
+</div>
+<div class="paragraph">
+<p><a href="task_update_AFF_FAS_firmware.html">"Informieren Sie sich, wie Sie die AFF- und FAS-Firmware mithilfe des Ansible Playbook aktualisieren"</a>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="18-august-2020">18. August 2020</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="leistung">Leistung</h3>
+<div class="paragraph">
+<p>Die Performance-Diagramme wurden verbessert, damit Sie die Performance des Volumes beurteilen können. Sie können im selben Bildschirm zwischen der Registerkarte Node, der Cluster-Registerkarte, der Registerkarte für lokale Ebene und der Registerkarte Volume wechseln. <a href="task_view_performance_graphs.html">"Erfahren Sie, wie"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="aff-und-fas-firmware-mit-ansible-playbook-2">AFF und FAS Firmware mit Ansible Playbook</h3>
+<div class="paragraph">
+<p>Der Bildschirm für die AFF- und FAS-Firmware wurde verbessert, um die Benutzerfreundlichkeit zu erhöhen.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="17-juli-2020">17 Juli 2020</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="leistung-2">Leistung</h3>
+<div class="paragraph">
+<p>Die Leistungsdiagramme wurden verbessert, damit Sie die Leistung der lokalen Tier beurteilen können. Sie können in demselben Bildschirm zwischen der Registerkarte Node, der Registerkarte Cluster und der Registerkarte lokalen Ebene navigieren und die Option wechseln.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="wellness-6">Wellness</h3>
+<div class="paragraph">
+<p>Die Wellness-Attribute wurden verbessert, um alle betroffenen Systeme anzuzeigen, ohne sich auf die Maßnahmen und Risiken zu informieren.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="19-juni-2020">19. Juni 2020</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="bericht-für-bestand-erstellen">Bericht für Bestand erstellen</h3>
+<div class="paragraph">
+<p>Sie können jetzt einen Bericht der ausgewählten Watchlist erstellen und den Bericht an maximal 5 Empfänger senden. <a href="task_view_inventory_details.html">"Erfahren Sie, wie"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="leistung-3">Leistung</h3>
+<div class="paragraph">
+<p>Die Performance-Diagramme wurden verbessert, damit Sie die Cluster-Performance des Storage-Systems bewerten können. Sie können auf demselben Bildschirm zwischen der Registerkarte Node und der Registerkarte Cluster navigieren und die Option wechseln.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="storage-effizienz-3">Storage-Effizienz</h3>
+<div class="paragraph">
+<p>Das Storage-Effizienz-Widget wurde verbessert, um das Storage-Effizienzverhältnis und die Einsparungen auf Cluster-Ebene anzuzeigen. Sie können auf demselben Bildschirm zwischen der Registerkarte Node und der Registerkarte Cluster navigieren und die Option wechseln.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="aktualisieren-sie-die-standard-homepage">Aktualisieren Sie die Standard-Homepage</h3>
+<div class="paragraph">
+<p>Sie können jetzt Ihr Feedback abgeben und uns mitteilen, warum Sie den Standardbildschirm für die Startseite von Digital Advisor aktualisieren.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="aktualisieren-sie-das-widget-inventar">Aktualisieren Sie das Widget „Inventar“</h3>
+<div class="paragraph">
+<p>Das Inventory Widget wurde verbessert, um die Benutzerfreundlichkeit zu verbessern, indem benutzerfreundliche Datumsformate, zusätzliche Spalten für die Unterstützung von Plattformen und die Unterstützung von Endversionen bereitgestellt werden.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="19-mai-2020">19 Mai 2020</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="legen-sie-die-standard-startseite-fest">Legen Sie die Standard-Startseite fest</h3>
+<div class="paragraph">
+<p>Sie können jetzt den Standard-Startseitenbildschirm für Digital Advisor festlegen. Sie können es entweder auf Digital Advisor oder Classic einstellen.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="storage-effizienz-4">Storage-Effizienz</h3>
+<div class="paragraph">
+<p>Das Storage-Effizienzverhältnis und die Einsparungen Ihres Storage-Systems werden mit und ohne Snapshot Kopien für AFF Systeme, Systeme anderer Anbieter als All Flash FAS oder beides angezeigt. Sie können die Informationen zur Storage-Effizienz auf Node-Ebene anzeigen. <a href="task_analyze_storage_efficiency.html">"Erfahren Sie, wie"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="leistung-4">Leistung</h3>
+<div class="paragraph">
+<p>Performance-Diagramme ermöglichen es Ihnen, die Performance Ihrer Speichergeräte in verschiedenen wichtigen Bereichen zu beurteilen.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="upgrades-der-aff-und-fas-firmware-mithilfe-des-ansible-playbook">Upgrades der AFF und FAS Firmware mithilfe des Ansible Playbook</h3>
+<div class="paragraph">
+<p>Aktualisieren Sie die AFF und FAS Firmware mit Ansible auf Ihrem Storage-System, um die erkannten Risiken zu minimieren und Ihr Storage-System auf dem neuesten Stand zu halten.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="deaktivieren-der-wellness-score-funktion">Deaktivieren der Wellness-Score-Funktion</h3>
+<div class="paragraph">
+<p>Die Wellness-Score-Funktion wird vorübergehend deaktiviert, um den Bewertungsalgorithmus zu verbessern und die allgemeine Erfahrung zu vereinfachen.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="02-april-2020">02. April 2020</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="video-zur-onboarding-übersicht">Video zur Onboarding-Übersicht</h3>
+<div class="paragraph">
+<p>Das Onboarding-Video hilft Benutzern, sich schnell mit den Optionen und Funktionen von Digital Advisor vertraut zu machen.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="wellness-score">Wellness-Score</h3>
+<div class="paragraph">
+<p>Mit diesem Wellness-Ergebnis können Kunden anhand der Anzahl hoher Risiken und abgelaufener Verträge eine konsolidierte Punktzahl ihrer installierten Basis erzielen. Das Ergebnis kann gut, durchschnittlich oder schlecht sein.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="risikozusammenfassung">Risikozusammenfassung</h3>
+<div class="paragraph">
+<p>Die Risikoübersicht bietet detaillierte Informationen über das Risiko, die Auswirkungen des Risikos und die Korrekturmaßnahmen.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="unterstützung-bei-der-anerkennung-und-nichtbedenkung-von-risiken">Unterstützung bei der Anerkennung und Nichtbedenkung von Risiken</h3>
+<div class="paragraph">
+<p>Bietet die Möglichkeit, ein Risiko zu bestätigen, wenn Sie das Risiko verringern möchten oder nicht mindern können.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="19-märz-2020">19 März 2020</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="workflow-upgrade-3">Workflow-Upgrade</h3>
+<div class="paragraph">
+<p>Mit dem Upgrade-Workflow können Upgrade-Empfehlungen und eine Zusammenfassung der neuen Funktionen in Ihrer ONTAP Zielversion angezeigt werden. <a href="task_view_upgrade.html">"Erfahren Sie, wie"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="wertvolle-einblicke">Wertvolle Einblicke</h3>
+<div class="paragraph">
+<p>Sie können sich die Zusammenfassung der Vorteile anzeigen lassen, die Sie bei Digital Advisor und Ihrem Supportvertrag erhalten haben. Für ausgewählte Systeme konsolidiert der Value Report die Vorteile der letzten ein Jahr. <a href="task_view_valuable_insight_widget.html">"Jetzt mehr erfahren"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="details-anzeigen">Details anzeigen</h3>
+<div class="paragraph">
+<p>Bietet detailliertere Informationen, die eine leistungsstarke Möglichkeit bieten, sich näher mit den Daten zu informieren und bei Bedarf sofortige Einblicke in das Make-up aggregierter Informationen zu erhalten.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="kapazitätszuwächse">Kapazitätszuwächse</h3>
+<div class="paragraph">
+<p>Sie können proaktiv Systeme identifizieren, deren Kapazität überschritten wurde oder deren Kapazität knapp 90 % erreicht wurde, und eine Anfrage zur Erhöhung der Kapazität senden.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="29-februar-2020">29 Februar 2020</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="verbesserte-benutzeroberflächen">Verbesserte Benutzeroberflächen</h3>
+<div class="paragraph">
+<p>Die neuesten Digital Advisor Dashboards bieten ein personalisiertes Erlebnis. Es ermöglicht eine reibungslose und nahtlose Navigation, mit seiner Intuitivität, in verschiedenen Dashboards, Widgets und Bildschirme. Es bietet ein All-in-One-Erlebnis. Sie kommuniziert Vergleiche, Beziehungen und Trends. Das Tool bietet Einblicke, mit deren Hilfe Sie wichtige Beziehungen und aussagekräftige Unterschiede erkennen und validieren können, basierend auf den Daten, die in unterschiedlichen Dashboards dargestellt werden.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="individuell-anpassbare-konsolen">Individuell anpassbare Konsolen</h3>
+<div class="paragraph">
+<p>Unterstützt Sie bei der Überwachung Ihrer Systeme auf einen Blick, indem Sie auf einer oder mehreren Seiten oder Bildschirmen wichtige Erkenntnisse und Analysen zu Ihren Daten liefern. Außerdem können Sie bis zu 10 Dashboards erstellen und effektive Geschäftsentscheidungen treffen.</p>
+</div>
+<div class="paragraph">
+<p><a href="concept_overview_dashboard.html">"Weitere Informationen ."</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="verringerung-von-risiken-mit-active-iq-unified-manager">Verringerung von Risiken mit Active IQ Unified Manager</h3>
+<div class="paragraph">
+<p>Mithilfe von Active IQ Unified Manager können Sie die Risiken anzeigen und beheben. <a href="task_view_risks_remediated_unified_manager.html">"Erfahren Sie, wie"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="wellness-7">Wellness</h3>
+<div class="paragraph">
+<p>Liefert detaillierte Informationen über den Status Ihres Speichersystems, die in die folgenden 6 Widgets unterteilt sind:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Performance Und Effizienz Zu Erlangen</p>
+</li>
+<li>
+<p>Verfügbarkeit Und Sicherung</p>
+</li>
+<li>
+<p>Kapazität</p>
+</li>
+<li>
+<p>Konfiguration</p>
+</li>
+<li>
+<p>Sicherheit</p>
+</li>
+<li>
+<p>Verlängerungen</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Siehe <a href="concept_overview_wellness.html">"Analyse der Wellness-Attribute"</a> Entnehmen.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="intelligentere-und-schnellere-suchfunktion">Intelligentere und schnellere Suchfunktion</h3>
+<div class="paragraph">
+<p>Ermöglicht die Suche von Parametern, wie Seriennummer, System-ID, Host-Name, Standortname, Gruppenname, Und Cluster-Name über die Ansicht eines einzelnen Systems. Sie können auch nach Systemgruppen suchen. Außerdem können Sie nach Kundennamen, Standortnamen oder Gruppennamen nach Systemgruppen suchen.</p>
+</div>
+</div>
+</div>
+</div>
+
+    </article>
+    <!-- Page Container -->
+  </div>
+
+  <div style="clear: both"></div><!-- Main needs to have height --></div>
+
+        </main>
+
+        <footer class="n-footer">
+  <div class="n-footer__bottom">
+    <div class="n-container">
+      <div class="n-footer__bottom-left">
+        <div class="n-footer__copyright">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/us/legal/copyright.aspx">© 2022 NetApp, Inc.</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/terms-of-use/">Allgemeine Geschäftsbedingungen</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/privacy-policy/">Richtlinie zu Datenschutz</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/cookie-policy/">Richtlinie zu Cookies</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a class="ot-sdk-show-settings">Cookie-Einstellungen</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="n-footer__bottom-right">
+        <div class="n-footer__copyright">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+              <a target="_self" href="javascript:netapp_mailto()">Feedback zu dieser Seite senden</a>
+            </li>
+          </ul>
+        </div>
+        <div class="n-footer__social-links">
+          <ul class="n-footer__social-link-list">
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-blog" href="https://blog.netapp.com"
+                target="_blank" title="blog" alt="blog">
+                <span class="n-footer__social-link-text">blog</span>
+                <svg class="n-icon-blog n-footer__social-link-icon" aria-labelledby="title">
+                  <title>blog@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/de-de/active-iq/common/svg/sprite.svg#blog"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-community" href="https://community.netapp.com/"
+                target="_blank" title="community" alt="community">
+                <span class="n-footer__social-link-text">community</span>
+                <svg class="n-icon-community n-footer__social-link-icon" aria-labelledby="title">
+                  <title>community@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/de-de/active-iq/common/svg/sprite.svg#comments"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-twitter" href="https://twitter.com/netapp"
+                target="_blank" title="twitter" alt="twitter">
+                <span class="n-footer__social-link-text">twitter</span>
+                <svg class="n-icon-twitter n-footer__social-link-icon" aria-labelledby="title">
+                  <title>twitter@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/de-de/active-iq/common/svg/sprite.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-facebook" href="https://www.facebook.com/NetApp"
+                target="_blank" title="facebook" alt="facebook">
+                <span class="n-footer__social-link-text">facebook</span>
+                <svg class="n-icon-facebook n-footer__social-link-icon" aria-labelledby="title">
+                  <title>facebook@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/de-de/active-iq/common/svg/sprite.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-linkedin"
+                href="https://www.linkedin.com/company/netapp" target="_blank" title="linkedin" alt="linkedin">
+                <span class="n-footer__social-link-text">linkedin</span>
+                <svg class="n-icon-linkedin n-footer__social-link-icon" aria-labelledby="title">
+                  <title>linkedin@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/de-de/active-iq/common/svg/sprite.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-youtube"
+                href="https://www.youtube.com/user/NetAppTV" target="_blank" title="youtube" alt="youtube">
+                <span class="n-footer__social-link-text">youtube</span>
+                <svg class="n-icon-youtube n-footer__social-link-icon" aria-labelledby="title">
+                  <title>youtube@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/de-de/active-iq/common/svg/sprite.svg#youtube"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-slideshare"
+                href="https://www.slideshare.net/NetApp" target="_blank" title="slideshare" alt="slideshare">
+                <span class="n-footer__social-link-text">slideshare</span>
+                <svg class="n-icon-slideshare n-footer__social-link-icon" aria-labelledby="title">
+                  <title>slideshare@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/de-de/active-iq/common/svg/sprite.svg#slideshare"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+      </div><!-- Elasticsearch JS -->
+      <script type="text/javascript" src='/de-de/active-iq/js/bundle.js'></script>
+
+      <!-- Syntax Highlighting -->
+      <script type="text/javascript" src='/de-de/active-iq/js/prism.js'></script>
+      <script type="text/javascript" src='/de-de/active-iq/js/prism-curl.js'></script>
+    </div>
+    <script>
+      document.body.offsetWidth=1903;
+      cookieLaw = {}
+      cookieLaw.euCountry = "US";
+      cookieLaw.invoke = function(){return false;}
+    </script>
+    <script src='/de-de/active-iq/js/www-ntap.js'></script>
+    <script src='/de-de/active-iq/js/tabbed-blocks.js'></script>
+    <script src='/de-de/active-iq/js/sidebar.js'></script>
+  </body></html>
