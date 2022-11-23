@@ -1201,7 +1201,6 @@
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Los geht's</block>
   <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">Schnellstart</block>
   <block id="e179ba0b158b2a7f9047aea26b6a2227" category="sidebar">AutoSupport verstehen</block>
-  <block id="87ff2175a631a03e0b15d2041aab4f9f" category="sidebar">Verwalten Sie Ihre Cluster in BlueXP</block>
   <block id="f9e8725fc2db4a86d0c8d9ae95581d74" category="sidebar">Beobachtungsliste bereitstellen</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">Überblick</block>
   <block id="a847a249ea34e3557fd4b0faa9b1a58c" category="sidebar">Risiken, die mithilfe des Active IQ Unified Manager oder Ansible Playbook automatisch gemindert werden können, anzeigen</block>
@@ -1243,4 +1242,5 @@
   <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">Videos Von Digital Advisor</block>
   <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">NetApp Community – Digital Advisor</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Alle BlueXP-Dokumentationen</block>
+  <block id="8081688f219c172dde2cb99dbacc51d8" category="doc">Fundierte Entscheidungen auf der Basis von Cloud-Empfehlungen</block>
 </blocks>

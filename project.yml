@@ -32,8 +32,6 @@ sidebar:
       url: "/concept_autosupport.html"
     - title: Melden Sie sich bei Digital Advisor an
       url: "/task_login_activeiq.html"
-    - title: Verwalten Sie Ihre Cluster in BlueXP
-      url: "/concept_manage_your_cluster_in_cloud_manager.html"
   - title: Beobachtungsliste bereitstellen
     entries:
     - title: Überblick
@@ -87,7 +85,7 @@ sidebar:
       url: "/task_avoid_a_volume_filling_up_to_prevent_an_outage.html"
     - title: Verlängern Sie die Software und Hardware
       url: "/task_renew_software_and_hardware.html"
-  - title: Fundiertere Entscheidungen auf der Basis von Cloud-Empfehlungen
+  - title: Fundierte Entscheidungen auf der Basis von Cloud-Empfehlungen
     url: "/task-informed-decisions-based-on-cloud-recommendations.html"
   - title: Identifizierung von Konfigurationsabweichungen
     entries:
