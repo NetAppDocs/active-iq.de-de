@@ -317,4 +317,4 @@ Bei StorageGRID werden die Kapazitäten in Basis 10 angezeigt und die Kapazität
 * Systeme sind inaktiv
 
 
-Wenn Sie Systeme aus anderen Gründen nicht anzeigen können, link:https://mysupport.netapp.com/site/help["Erstellen eines nicht-technischen Case"]. Weitere Informationen zu einem nicht-technischen Support-Case erhalten Sie auf  case,Hier.
+Wenn Sie Systeme aus anderen Gründen nicht anzeigen können, link:https://mysupport.netapp.com/site/help["Erstellen eines nicht-technischen Case"]. Weitere Informationen zu einem nicht-technischen Support-Case erhalten Sie auf <<Nicht-technische Support-Cases,Hier.>>

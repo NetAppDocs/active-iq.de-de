@@ -19,6 +19,7 @@ summary: Enthält Informationen zum Ausführen des Ansible-Playbooks über das D
 
 
 .Schritte
+[role="lead"]
 . Installieren link:https://docs.python.org/3/using/windows.html["Python"] Und link:https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html["Ansible"].
 . Installieren Sie die erforderlichen Python-Pakete mit *pip*:
 +
