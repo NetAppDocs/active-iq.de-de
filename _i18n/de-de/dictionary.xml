@@ -632,7 +632,6 @@
   <block id="ee67d4518095f8899eb8244097de7a35" category="paragraph">Die Aktivierung erfolgt automatisch und sollte sofort erfolgen. Nachdem Sie die Berechtigung zur Verwendung der Digital Advisor-APIs erhalten haben, können Sie Token generieren, die Sie bei programmatischen API-Aufrufen verwenden können. Sie können diese Token auch verwenden, um „ausprobieren“ aus dem API-Katalog auszuführen. Bei programmatischer Erhaltene Tokens werden immer zwei Sätze verwendet: Ein Access Token und ein Refresh Token. Das Access Token muss übergeben werden, um alle APIs erfolgreich verwenden zu können (mit Ausnahme eines - das Refresh Token wird verwendet, um programmgesteuert einen neuen Satz von Tokens zu erhalten).</block>
   <block id="e26d70ef5011218a0e0d472d10f783bb" category="list-text">Klicken Sie auf der Seite Main API Services auf *Token generieren*, um das Zugriffstoken anzuzeigen und herunterzuladen und das Token zu aktualisieren, um APIs aufzurufen.</block>
   <block id="99a9cfa523a42e23621796dfca6edb0a" category="paragraph">Das Portal bietet Ihnen mehrere Möglichkeiten, ein oder beide Token im Set zu speichern. Sie können sie in die Zwischenablage kopieren, als Textdatei herunterladen oder als Klartext anzeigen.</block>
-  <block id="ce35b219dc5f96e6b0eb25a2bb2623b6" category="admonition">Sie sollten das Zugriffstoken herunterladen und speichern und das Token zur späteren Verwendung aktualisieren. Access Tokens verfallen eine Stunde nach der Erstellung und aktualisieren Token sollten alle 7 Tage neu generiert und in der Anwendung installiert werden. Nach 90 Tagen müssen Sie sich manuell anmelden, um ein neues Token für den Zugriff zu erhalten und zu aktualisieren.</block>
   <block id="30a3a5781ffac6a88cce2ccd6925d533" category="doc">Schutz der Systeme vor Ransomware-Risiken</block>
   <block id="ea91f255c0d20a5fbac87ebc9647b943" category="paragraph">Wenn Sie sich beim Digital Advisor anmelden, können Sie die *Aktionen* auf dem Widget *Ransomware Defense* anzeigen, die die Risikozahl anzeigt.</block>
   <block id="a65c2a1d83d8e29315151edd9cb20614" category="paragraph">Sie können die Risiken von Snapshot-Erstellung, -Aufbewahrung und -ONTAP einsehen und dann Maßnahmen ergreifen, um sie zu beheben.</block>
@@ -1078,7 +1077,6 @@
   <block id="a90d025280adc02fe67b217063675d0d" category="paragraph">Sie sollten eine Vorlage hinzufügen, um System- und Cluster-Konfigurationen zu vergleichen und Konfigurationsfehler nahezu in Echtzeit zu erkennen. Die Konfigurationsdrift-Vorlagen werden unter Verwendung von Systemen hinzugefügt, auf denen AutoSupport-Daten ausgeführt werden.</block>
   <block id="88b68e34df9db916b4fe94948231ccbb" category="list-text">Klicken Sie Auf *Vorlage Hinzufügen*.</block>
   <block id="db3c8b301a3ce6ee5fa41ab7a54740f3" category="list-text">Geben Sie die angeforderten Werte an.</block>
-  <block id="d2f9c6e3559cfd668d1e78b444103c0a" category="list-text">Optional: Klicken Sie auf *Bearbeiten*, um die Vorlage zu bearbeiten.</block>
   <block id="b073ca01338f5dd8d8a707598c797762" category="summary">Stellt Informationen zur Nachverfolgung der Effizienz Ihres Storage-Systems bereit.</block>
   <block id="c116684e616e0ce2787b26417c569f60" category="doc">Und verstehen Sie die Storage-Effizienz</block>
   <block id="054285913eee18981aea3554542786c2" category="paragraph">Das Storage-Effizienz-Dashboard zeigt das Storage-Effizienz-Verhältnis, den genutzten logischen Speicherplatz, den belegten physischen Speicherplatz und die insgesamt für Storage-Systeme mit ONTAP 9.1 und höher gespeicherten Daten an. Das Effizienzverhältnis und die Einsparungen sind dabei mit und ohne Snapshot Kopien für AFF Systeme, Systeme anderer Anbieter als All Flash FAS oder beides möglich. Sie können die Informationen zur Storage-Effizienz entweder auf Cluster-Ebene oder auf Node-Ebene anzeigen.</block>
@@ -1243,4 +1241,31 @@
   <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">NetApp Community – Digital Advisor</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Alle BlueXP-Dokumentationen</block>
   <block id="8081688f219c172dde2cb99dbacc51d8" category="doc">Fundierte Entscheidungen auf der Basis von Cloud-Empfehlungen</block>
+  <block id="e404f7c0800eac65e5e44442bb4fd0cc" category="admonition">Sie sollten das Zugriffstoken herunterladen und speichern und das Token zur späteren Verwendung aktualisieren. Access Tokens verfallen eine Stunde nach der Erstellung und aktualisieren Token sollten neu generiert werden, manuell, alle 7 Tage und in der Anwendung installiert. Dazu müssen Sie sich nicht bei der Anwendung anmelden. Nach 90 Tagen müssen Sie sich jedoch bei der Anwendung anmelden, um ein neues Token für den Zugriff zu erhalten und zu aktualisieren.</block>
+  <block id="73924ddc2c905c2855a59dc4ad4e29a7" category="paragraph">Die Attribute in einer Konfigurations-Drift-Vorlage sind bearbeitbar, und die folgenden Gruppen der Vorlage unterstützen reguläre Ausdrücke für einige Abschnitte:</block>
+  <block id="03937134cedab9078be39a77ee3a48a0" category="cell">Gruppieren</block>
+  <block id="d2c24d59e0baff4d0155fbdf62590867" category="cell">Abschnitt</block>
+  <block id="f2bbdf9f72c085adc4d0404e370f0f4c" category="cell">Attribut</block>
+  <block id="47b593c5940e25582a1dca06739b46cc" category="cell">* AGGREGAT*</block>
+  <block id="f2cfee1656082de62bc61d6f6d957ee8" category="cell">AGGR-INFO.XML</block>
+  <block id="b068931cc450442b63f5b3d276ea4297" category="cell">Name</block>
+  <block id="3beefed1659b0c09798f370bfefeb567" category="cell">* CLUSTER*</block>
+  <block id="a8b8f7083d259c319bbdcf79e8c313b0" category="cell">CLUSTER-INFO.XML</block>
+  <block id="508767cc5bdfeffacaf1319fa70b7e0c" category="cell">Cluster-Name</block>
+  <block id="630cd03f677631daf198ae03114b0479" category="cell">*LUN*</block>
+  <block id="72c32ad6105c949470e7cdcebb8e7fa8" category="cell">LUN.XML</block>
+  <block id="e0d26a956299752ba1653e4bf057b332" category="cell">*VSERVER*</block>
+  <block id="affe66842f15d0d82eebb388d829d8c4" category="cell">VSERVER-INFO.XML</block>
+  <block id="5999e4ab912c7c1d8aa6fd2225491ef2" category="cell">vserver</block>
+  <block id="dd2630f76030cb00e6fa7980733e4c78" category="cell">*NETZWERK*</block>
+  <block id="3520aa027a7702ae4b2c5c34dd772347" category="cell">NETZWERKSCHNITTSTELLE.XML</block>
+  <block id="91dd16eb6eb42839df38f62bfc3cda48" category="cell">vif</block>
+  <block id="1f837483a812efd2e08b2a3e12d8b02c" category="cell">*DNS*</block>
+  <block id="28dd299428285a11cb6458603bf1c56d" category="cell">DNS.XML</block>
+  <block id="e4e46deb7f9cc58c7abfb32e5570b6f3" category="cell">Domänen</block>
+  <block id="218a984781458a9d1b3c02030403fee9" category="cell">*LAUTSTÄRKE*</block>
+  <block id="583d69a4a79378ddaf1cd955ffc0c3eb" category="cell">VOLUME.XML</block>
+  <block id="0acf8be1231e24946c3d10b649fb576f" category="cell">vol.</block>
+  <block id="21f34cc44dc8079bb3c3e391a241dae2" category="paragraph">Mithilfe eines regelmäßigen Ausdrucks kann ein Anwender einen Konfigurations-Drift-Bericht erstellen, der Abweichungen aufgrund von Benennungen von Volumes, Aggregaten, Clustern usw. enthält. Wird zum Beispiel für das Attribut *Name* für den Abschnitt *AGGR-INFO.XML* in der Gruppe *AGGREGATE* ein regulärer Ausdruck *aggr-Name** angegeben, so werden die Werte des Attributs ohne Präfix *aggr-Name* bei der Erzeugung des config Drift Reports als Drift markiert.</block>
+  <block id="2eb59240b774cdd59bd034ded7487a51" category="list-text">Optional: Sie können die Vorlage anpassen, indem Sie die Gruppen bearbeiten oder die nicht erforderlichen Gruppen für eine Vorlage löschen.</block>
 </blocks>

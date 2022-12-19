@@ -21,10 +21,41 @@ summary: Enthält Informationen zum Hinzufügen einer Konfigurations-Drift-Vorla
 [role="lead"]
 Sie sollten eine Vorlage hinzufügen, um System- und Cluster-Konfigurationen zu vergleichen und Konfigurationsfehler nahezu in Echtzeit zu erkennen. Die Konfigurationsdrift-Vorlagen werden unter Verwendung von Systemen hinzugefügt, auf denen AutoSupport-Daten ausgeführt werden.
 
+*Über diese Aufgabe*
+
+Die Attribute in einer Konfigurations-Drift-Vorlage sind bearbeitbar, und die folgenden Gruppen der Vorlage unterstützen reguläre Ausdrücke für einige Abschnitte:
+
+[cols="3*"]
+|===
+| Gruppieren | Abschnitt | Attribut 
+
+
+| * AGGREGAT* | AGGR-INFO.XML | Name 
+
+
+| * CLUSTER* | CLUSTER-INFO.XML | Cluster-Name 
+
+
+| *LUN* | LUN.XML | Name 
+
+
+| *VSERVER* | VSERVER-INFO.XML | vserver 
+
+
+| *NETZWERK* | NETZWERKSCHNITTSTELLE.XML | vif 
+
+
+| *DNS* | DNS.XML | Domänen 
+
+
+| *LAUTSTÄRKE* | VOLUME.XML | vol. 
+|===
+Mithilfe eines regelmäßigen Ausdrucks kann ein Anwender einen Konfigurations-Drift-Bericht erstellen, der Abweichungen aufgrund von Benennungen von Volumes, Aggregaten, Clustern usw. enthält. Wird zum Beispiel für das Attribut *Name* für den Abschnitt *AGGR-INFO.XML* in der Gruppe *AGGREGATE* ein regulärer Ausdruck *aggr-Name** angegeben, so werden die Werte des Attributs ohne Präfix *aggr-Name* bei der Erzeugung des config Drift Reports als Drift markiert.
+
 .Schritte
 . Klicken Sie im linken Fensterbereich auf *Drift konfigurieren*.
 . Klicken Sie Auf *Vorlage Hinzufügen*.
 . Geben Sie die angeforderten Werte an.
-. Optional: Klicken Sie auf *Bearbeiten*, um die Vorlage zu bearbeiten.
+. Optional: Sie können die Vorlage anpassen, indem Sie die Gruppen bearbeiten oder die nicht erforderlichen Gruppen für eine Vorlage löschen.
 . Klicken Sie Auf *Vorlage Hinzufügen*.
 
