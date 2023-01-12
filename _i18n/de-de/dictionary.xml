@@ -377,7 +377,6 @@
   <block id="7eaee357275d531796b5348076c7abaa" category="cell">Stellt Informationen über inaktive, kalte, aktive, heiße, Tier-basierte, Und nicht überwachten Daten speichern. Dieser Bericht enthält außerdem ein Ansible-Playbook zur Aktivierung der inaktiven Datenberichterstellung für deaktivierte Aggregate.</block>
   <block id="4d604dd8f008145471dc845683399189" category="cell">Inventar</block>
   <block id="2a414d2cb2f384ea04369dd0623dab64" category="cell">Enthält Informationen über die Installationsbasis für eine ausgewählte Watchlist, einen Kunden, einen Standort und eine ausgewählte Gruppe. Dieser Bericht kann entweder direkt von der Seite Bestandsdetails heruntergeladen oder von der Seite Berichte generiert werden.</block>
-  <block id="7a1964d60060b532bf912499ef0e5419" category="cell">Ende des Supports</block>
   <block id="945bdabc5825ce732fb5d22e7dd80610" category="cell">Enthält Informationen zu Controllern, Shelfs und Festplatten, für die EOS (End-of-Support) erreicht ist.</block>
   <block id="8a12eef10db15850c4fa22387e8a4ff9" category="cell">Empfohlene Konfiguration</block>
   <block id="c829d71ff8f116d3f11dc69d03aa4c34" category="cell">Enthält Informationen zu den verschiedenen empfohlenen Konfigurationslücken für Remote-Management-Konfiguration, Ersatzteile und Laufwerke, HA-Paar und SVM-Zustand.</block>
@@ -1268,4 +1267,10 @@
   <block id="0acf8be1231e24946c3d10b649fb576f" category="cell">vol.</block>
   <block id="21f34cc44dc8079bb3c3e391a241dae2" category="paragraph">Mithilfe eines regelmäßigen Ausdrucks kann ein Anwender einen Konfigurations-Drift-Bericht erstellen, der Abweichungen aufgrund von Benennungen von Volumes, Aggregaten, Clustern usw. enthält. Wird zum Beispiel für das Attribut *Name* für den Abschnitt *AGGR-INFO.XML* in der Gruppe *AGGREGATE* ein regulärer Ausdruck *aggr-Name** angegeben, so werden die Werte des Attributs ohne Präfix *aggr-Name* bei der Erzeugung des config Drift Reports als Drift markiert.</block>
   <block id="2eb59240b774cdd59bd034ded7487a51" category="list-text">Optional: Sie können die Vorlage anpassen, indem Sie die Gruppen bearbeiten oder die nicht erforderlichen Gruppen für eine Vorlage löschen.</block>
+  <block id="65ad691748c94924b6f326c7c9439c6f" category="section-title">12 Januar 2023</block>
+  <block id="af8ffc565aa8e5b74351ac5b3619d11e" category="section-title">Performance-Berichte</block>
+  <block id="da1d47d31f2c9af4c95e87ea269228d6" category="paragraph">Sie können die durchschnittlichen Lese-, Schreib- und sonstigen Vorgänge in Performance-Berichten auf Volume-Ebene anzeigen.</block>
+  <block id="02e55cfbe6e55152bef274ca4a6a3d14" category="cell">Support-Verträge / Hardware EOS</block>
+  <block id="e5f2463f379aba48a0f9ca6c913203cc" category="cell">I/O-Dichte</block>
+  <block id="7f5c8fc8352c3e254ac3f5c7cf32c466" category="cell">Der Bericht zur I/O-Dichte bietet Einblicke in Spitzen-Input-Output für Kunden in Bezug auf Daten- und Metadaten-Verbrauch und -Dichte.</block>
 </blocks>

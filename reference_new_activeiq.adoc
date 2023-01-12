@@ -23,6 +23,16 @@ Die folgenden Funktionen und Verbesserungen wurden in Digital Advisor eingeführ
 
 
 
+== 12 Januar 2023
+
+
+
+=== Performance-Berichte
+
+Sie können die durchschnittlichen Lese-, Schreib- und sonstigen Vorgänge in Performance-Berichten auf Volume-Ebene anzeigen.
+
+
+
 == 01. November 2022
 
 

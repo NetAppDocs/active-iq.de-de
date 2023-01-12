@@ -46,7 +46,7 @@ Die folgenden Berichtstypen sind in Digital Advisor verfügbar:
 | Inventar | Enthält Informationen über die Installationsbasis für eine ausgewählte Watchlist, einen Kunden, einen Standort und eine ausgewählte Gruppe. Dieser Bericht kann entweder direkt von der Seite Bestandsdetails heruntergeladen oder von der Seite Berichte generiert werden. 
 
 
-| Ende des Supports | Enthält Informationen zu Controllern, Shelfs und Festplatten, für die EOS (End-of-Support) erreicht ist. 
+| Support-Verträge / Hardware EOS | Enthält Informationen zu Controllern, Shelfs und Festplatten, für die EOS (End-of-Support) erreicht ist. 
 
 
 | Empfohlene Konfiguration | Enthält Informationen zu den verschiedenen empfohlenen Konfigurationslücken für Remote-Management-Konfiguration, Ersatzteile und Laufwerke, HA-Paar und SVM-Zustand. 
@@ -68,4 +68,7 @@ Die folgenden Berichtstypen sind in Digital Advisor verfügbar:
 
 
 | Performance-Bericht | Hier erhalten Sie Informationen zu der Performance eines Clusters, Nodes, der lokalen Tier (Aggregat) und eines Volumes auf Watchlist-Ebene. Sie können diesen Bericht nur für Watchlist mit bis zu 100 Knoten generieren. 
+
+
+| I/O-Dichte | Der Bericht zur I/O-Dichte bietet Einblicke in Spitzen-Input-Output für Kunden in Bezug auf Daten- und Metadaten-Verbrauch und -Dichte. 
 |===
