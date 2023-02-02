@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: task_view_keystone_capacity_utilization.html 
+permalink: view_keystone_capacity_utilization.html 
 keywords: keystone, capacity utilization, service tiers, Keystone subscription, keystone subscription, shares, disks 
 summary: Bietet Informationen zur Kapazitätsauslastung mit dem flexiblen NetApp Keystone Abonnement. 
 ---
@@ -30,12 +30,4 @@ Sie können die anzeigen link:https://docs.netapp.com/us-en/keystone/nkfsosm_key
 
 NOTE: Als Digital Advisor-Benutzer können Sie zwischen ONTAP Collector und AutoSupport wählen, um Daten zur Kapazitätsnutzung zu erhalten.
 
-.Schritte
-. Klicken Sie auf *Details anzeigen*, um den Auslastungstrend im detaillierten Dashboard *Keystone - Kapazitätsauslastung* anzuzeigen.
-. Wählen Sie entweder „Aktueller Abrechnungszeitraum“, „30 Tage“, „7 Tage“ oder „1 Tag“ aus, um den aktuellen durchschnittlichen Nutzungstrend anzuzeigen.
-+
-Für den aktuellen Abrechnungszeitraum können Sie einen Bericht herunterladen, der Informationen zu den Burst-Details enthält.
-
-. Wenn Sie sich für den ONTAP Collector entschieden haben, Daten zur Kapazitätsnutzung abzurufen, können Sie durch die Registerkarten auf dem Dashboard klicken, um weitere Details zu Ihren Dateifreigaben und -Festplatten anzuzeigen.
-. Klicken Sie auf *Shares* oder *Festplatten*, um die Dateifreigaben oder Festplatten zu identifizieren, die sich der Kapazität nähern, und treffen Sie fundierte Entscheidungen, um Storage-Kapazität zu sparen.
-
+Weitere Informationen zum Keystone-Abonnement finden Sie unter link:https://docs.netapp.com/us-en/keystone-staas/integrations/aiq-keystone-details.html["Keystone Abonnement-Dashboard und Berichterstellung"^].

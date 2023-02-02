@@ -1146,11 +1146,6 @@
   <block id="986127c46ede44cd6e9ba2b5754cafca" category="inline-link-macro">Kapazität des Keystone Abonnement-Services</block>
   <block id="eada85ae345afac1356e1265ed14965d" category="paragraph">Sie können die anzeigen <block ref="c3e14696d82449875aa62ae1bc7f05d0" category="inline-link-macro-rx"></block> Die Nutzung der einzelnen abonnierten Services für Ihren Block-, File-Services- oder Objekt-Storage im Dashboard.</block>
   <block id="46b0133ea42a96887a939d9e262c57cf" category="admonition">Als Digital Advisor-Benutzer können Sie zwischen ONTAP Collector und AutoSupport wählen, um Daten zur Kapazitätsnutzung zu erhalten.</block>
-  <block id="559ab0392555ba0574ee8aafcb0dd4b8" category="list-text">Klicken Sie auf *Details anzeigen*, um den Auslastungstrend im detaillierten Dashboard *Keystone - Kapazitätsauslastung* anzuzeigen.</block>
-  <block id="842ffce382b29ce5f564cf2e7a51575e" category="list-text">Wählen Sie entweder „Aktueller Abrechnungszeitraum“, „30 Tage“, „7 Tage“ oder „1 Tag“ aus, um den aktuellen durchschnittlichen Nutzungstrend anzuzeigen.</block>
-  <block id="b75ffe757df198361f55d7334bf6a3ea" category="paragraph">Für den aktuellen Abrechnungszeitraum können Sie einen Bericht herunterladen, der Informationen zu den Burst-Details enthält.</block>
-  <block id="6c6a95e0f5aea889e91da11c9661f08c" category="list-text">Wenn Sie sich für den ONTAP Collector entschieden haben, Daten zur Kapazitätsnutzung abzurufen, können Sie durch die Registerkarten auf dem Dashboard klicken, um weitere Details zu Ihren Dateifreigaben und -Festplatten anzuzeigen.</block>
-  <block id="6fc85e5ba98ece0cf451b774e77a7a7c" category="list-text">Klicken Sie auf *Shares* oder *Festplatten*, um die Dateifreigaben oder Festplatten zu identifizieren, die sich der Kapazität nähern, und treffen Sie fundierte Entscheidungen, um Storage-Kapazität zu sparen.</block>
   <block id="75fb68630cabac33011c445584315dfc" category="summary">Bietet weitere Informationen zu Ansible.</block>
   <block id="5d08ea99dda2f857e6edb3d641d26b98" category="inline-link-macro">Informationen zur Fehlerbehebung</block>
   <block id="36625d4a8e3483d42b841caa5eb55b29" category="list-text"><block ref="36625d4a8e3483d42b841caa5eb55b29" category="inline-link-macro-rx"></block></block>
@@ -1273,4 +1268,6 @@
   <block id="02e55cfbe6e55152bef274ca4a6a3d14" category="cell">Support-Verträge / Hardware EOS</block>
   <block id="e5f2463f379aba48a0f9ca6c913203cc" category="cell">I/O-Dichte</block>
   <block id="7f5c8fc8352c3e254ac3f5c7cf32c466" category="cell">Der Bericht zur I/O-Dichte bietet Einblicke in Spitzen-Input-Output für Kunden in Bezug auf Daten- und Metadaten-Verbrauch und -Dichte.</block>
+  <block id="deaf5bbabe29231a9826b313fee569a1" category="inline-link-macro">Keystone Abonnement-Dashboard und Berichterstellung</block>
+  <block id="706f9582e4d14591a9eeeaf6db8cc6c5" category="paragraph">Weitere Informationen zum Keystone-Abonnement finden Sie unter <block ref="42d99877a3bdc96c47aeda69738db0f2" category="inline-link-macro-rx"></block>.</block>
 </blocks>
