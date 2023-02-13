@@ -23,22 +23,6 @@ Die folgenden Funktionen und Verbesserungen wurden in Digital Advisor eingeführ
 
 
 
-== 09 Februar 2023
-
-
-
-=== Performance-Diagramme
-
-Sie können die durchschnittlichen Lese-, Schreib- und sonstigen Vorgänge im Diagramm „Volume IOPS“ anzeigen.
-
-
-
-=== Storage-Effizienz
-
-SAN- und NAS-Storage-Effizienz ist auf Node-Ebene für ONTAP Systeme verfügbar, einschließlich AFF A-Series, AFF C190, All SAN Array und FAS500 mit ONTAP 9.10 und höher.
-
-
-
 == 12 Januar 2023
 
 
