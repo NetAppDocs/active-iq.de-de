@@ -19,11 +19,11 @@ summary: Dieser Service bietet Informationen dazu, wie Sie den Schutz vor Hacker
 
 
 [role="lead"]
-Die NetApp Security Site ist die Quelle der Wahrheit für die NetApp Produktsicherheit: link:https://security.netapp.com[""]
+Die NetApp Security Site ist die Quelle der Wahrheit für die NetApp Produktsicherheit: link:https://security.netapp.com["NetApp Produktsicherheit"^]
 
 Digital Advisor nutzt Telemetriedaten und veröffentlichte Produktsicherheitsratschläge, um Sicherheitsprobleme bei abgedeckten* und Support-berechtigten Produkten zu erkennen. ProduktTelemetriedaten müssen über AutoSupport an NetApp übermittelt werden, damit der digitale Berater Risiken erkennen kann.
 
-Weitere Informationen zur Produktsicherheit von NetApp, einschließlich Produkte, die nicht durch Digital Advisor abgedeckt sind, finden Sie unter link:https://security.netapp.com[""]
+Weitere Informationen zur Produktsicherheit von NetApp, einschließlich Produkte, die nicht durch Digital Advisor abgedeckt sind, finden Sie unter link:https://security.netapp.com["NetApp Produktsicherheit"^]
 
 *Covered Products: ONTAP 9 (On-Prem und Cloud), SANtricity OS Controller Software, NetApp SolidFire (Element Software), StorageGRID, Active IQ Unified Manager, ONTAP Tools für VMware (OTV)
 

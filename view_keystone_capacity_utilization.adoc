@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: view_keystone_capacity_utilization.html 
 keywords: keystone, capacity utilization, service tiers, Keystone subscription, keystone subscription, shares, disks 
-summary: Bietet Informationen zur Kapazitätsauslastung mit dem flexiblen NetApp Keystone Abonnement. 
+summary: Bietet Informationen zu Ihrer Kapazitätsauslastung mit einem NetApp Keystone-Abonnement. 
 ---
 = Anzeige der Kapazitätsauslastung mit NetApp Keystone-Abonnement
 :toc: macro
@@ -23,9 +23,9 @@ Wenn Sie den Keystone Subscription Service abonniert haben, können Sie das Keys
 
 Das Keystone Abonnement-Widget bietet Ihnen einen Überblick über die Kapazitätsnutzung für Ihr Konto. Es besteht aus Kapazitätsnutzungsdiagramme mit Bezug auf die physische Kapazität, wobei der Snapshot auf die letzten fünf Minuten aufgerundet wird. Die Auslastung über und über der zugesagt Kapazität (die Burst-Kapazität) wird rot markiert.
 
-Sie können sich das Dashboard *Keystone - Capacity Utiliage* ansehen, das die Daten im Widget analysiert und grafisch den Nutzungstrend der Kapazität und Nutzung für den gesamten abonnierten Speicher darstellt link:https://docs.netapp.com/us-en/keystone/nkfsosm_performance.html["Service-Tiers"], Wie Premium, extrem, und Standard, mit Ihrem NetApp Keystone-Abonnement-Konto verbunden.
+Sie können sich das Dashboard *Keystone - Capacity Utiliage* ansehen, das die Daten im Widget analysiert und grafisch den Nutzungstrend der Kapazität und Nutzung für den gesamten abonnierten Speicher darstellt link:https://docs.netapp.com/us-en/keystone/nkfsosm_performance.html["Service-Tiers"^], Wie Premium, extrem, und Standard, mit Ihrem NetApp Keystone-Abonnement-Konto verbunden.
 
-Sie können die anzeigen link:https://docs.netapp.com/us-en/keystone/nkfsosm_keystone_service_capacity_definitions.html["Kapazität des Keystone Abonnement-Services"] Die Nutzung der einzelnen abonnierten Services für Ihren Block-, File-Services- oder Objekt-Storage im Dashboard.
+Sie können die anzeigen link:https://docs.netapp.com/us-en/keystone/nkfsosm_keystone_service_capacity_definitions.html["Kapazität des Keystone Abonnement-Services"^] Die Nutzung der einzelnen abonnierten Services für Ihren Block-, File-Services- oder Objekt-Storage im Dashboard.
 
 
 NOTE: Als Digital Advisor-Benutzer können Sie zwischen ONTAP Collector und AutoSupport wählen, um Daten zur Kapazitätsnutzung zu erhalten.

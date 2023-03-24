@@ -301,7 +301,7 @@ Sie können jetzt Ansible-Inventardateien in .yml- und .ini-Dateiformaten auf Re
 
 === Berichterstellung für inaktive Daten (IDR)
 
-Im Bildschirm FabricPool Advisor können Sie inaktive Datenberichterstellung (Inactive Data Reporting, IDR) aktivieren, um Aggregate zu überwachen und ein Ansible Playbook zu erstellen. link:task_monitor_and_tier_inactive_data_with_FabricPool_Advisor.html["Weitere Informationen ."]
+Im Bildschirm FabricPool Advisor können Sie inaktive Datenberichterstellung (Inactive Data Reporting, IDR) aktivieren, um Aggregate zu überwachen und ein Ansible Playbook zu erstellen.
 
 
 
@@ -427,8 +427,8 @@ Das Widget „Capacity Forecast“ wurde mit einem verbesserten Algorithmus aktu
 
 Sie können nun die biometrische Authentifizierung auf der mobilen Digital Advisor-Anwendung aktivieren. Die verfügbaren Optionen für die Authentifizierung variieren je nach den von Ihrem Mobiltelefon unterstützten Funktionen.
 
-Weitere Informationen erhalten Sie in der Applikation:link:https://play.google.com/store/apps/details?id=com.netapp.aiqda&hl=en_IN&gl=US["Digital Advisor Mobile Application (Android)"]
-link:https://apps.apple.com/in/app/active-iq-digital-advisor/id1562880322["Digital Advisor Mobile Application (iOS)"]
+Weitere Informationen erhalten Sie in der Applikation:link:https://play.google.com/store/apps/details?id=com.netapp.myautosupport["Digital Advisor Mobile Application (Android)"^]
+link:https://apps.apple.com/us/app/active-iq/id1230542480["Digital Advisor Mobile Application (iOS)"^]
 
 
 
@@ -504,7 +504,7 @@ Auf der detaillierten Bestandsseite können Sie die Enddaten der Support-Verträ
 
 
 
-=== Flex-Abonnement-Widget
+=== Keystone Abonnement-Widget
 
 * Wenn Sie sich für ONTAP Collector entschieden haben, Daten zur Kapazitätsnutzung zu erhalten, können Sie die Details Ihrer Dateifreigaben und Laufwerke auf den Registerkarten Freigaben und Festplatten anzeigen. Sie können Speicherplatz einsparen, indem Sie die sich der Kapazitätsgrenze nähert.
 * Die auf dem Keystone angezeigte Kapazitätsauslastung – Dashboard für die Kapazitätsnutzung – wird zur Abrechnung verwendet – basiert nun auf der logischen Kapazität.
@@ -712,7 +712,7 @@ Sie können ClusterViewer-Berichte generieren oder planen, um detaillierte Infor
 
 === Dashboard Für Zustandsprüfung
 
-Das Digital Advisor Health Check Dashboard ermöglicht eine zeitpunktgenaue Überprüfung Ihrer gesamten Umgebung. Auf der Grundlage der Systemcheck-Werte können Sie Ihre Storage-Systeme an die empfohlenen NetApp Best Practices anpassen, um die langfristige Planung zu ermöglichen und den Zustand Ihrer installierten Basis zu verbessern. link:concept_understand_health_check_assessment_dashboard.html["Weitere Informationen ."].
+Das Digital Advisor Health Check Dashboard ermöglicht eine zeitpunktgenaue Überprüfung Ihrer gesamten Umgebung. Auf der Grundlage der Systemcheck-Werte können Sie Ihre Storage-Systeme an die empfohlenen NetApp Best Practices anpassen, um die langfristige Planung zu ermöglichen und den Zustand Ihrer installierten Basis zu verbessern.
 
 
 
@@ -746,9 +746,9 @@ Der manuelle AutoSupport-Upload wurde verbessert, um die Benutzerfreundlichkeit 
 
 
 
-=== Flex-Abonnement-Widget
+=== Keystone Abonnement-Widget
 
-Sie können die zugesagt, belegt und Burst-Storage-Kapazität Ihres NetApp Keystone Flex-Abonnementservice überwachen.
+Sie können die gebuchte, verbrauchte und Burst-Kapazität für Ihren NetApp Keystone-Abonnementservice überwachen.
 
 
 
