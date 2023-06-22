@@ -1,0 +1,80 @@
+---
+sidebar: sidebar 
+permalink: concept_understand_sustainability_dashboard.html 
+keywords: activeiq, sustainability, sustainability score, sustainability dashboard, bluexp 
+summary: Bietet Informationen, um sich mit dem Dashboard für Nachhaltigkeit vertraut zu machen. 
+---
+= Mehr über den BlueXP Nachhaltigkeitsservice erfahren
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Nachhaltigkeit als Service ermöglicht es Ihnen, den Energieverbrauch zu senken und Ihre Umweltziele zu erreichen. So passen Sie Ihre Storage-Systeme an umweltfreundliche Praktiken an und erreichen Ihre Nachhaltigkeitsziele.
+
+
+
+== Was können Sie mit dem Nachhaltigkeitsdienst tun
+
+Sie können den Nachhaltigkeitswert und den prognostizierten Stromverbrauch, direkten CO2-Ausstoß und die Wärmeabgabe anzeigen. Sie können den Prozentsatz der CO2-Minderung für bestimmte Standorte anpassen. Basierend auf dem Nachhaltigkeitswert können Sie Ihre allgemeine Nachhaltigkeitsstrategie beurteilen und die von NetApp empfohlenen Maßnahmen implementieren, um die Punktzahl zu verbessern.
+
+Sie können die Nachhaltigkeitsbewertung auch auf Cluster-Ebene anzeigen. Die Daten auf Cluster-Ebene können zudem helfen, Cluster zu identifizieren, die auf effizienteren Storage verschoben werden können, um ein ausgewogenes Verhältnis zwischen Performance und Energieeffizienz zu erreichen.
+
+
+
+== Nutzen Sie den Nachhaltigkeitsservice
+
+Sie haben zwei Möglichkeiten, auf diesen Service zuzugreifen:
+
+* *Zugriff auf den Nachhaltigkeitsdienst in Digital Advisor*
+Sie können sich bei Digital Advisor anmelden und über das Digital Advisor-Dashboard auf den Nachhaltigkeitsdienst zugreifen.
++
+image:sustainability_dashboard.png["Ein UI-Screenshot, der den Überblick über das Sustainability Dashboard gibt."]
+
++
+Weitere Informationen zur Anmeldung bei Digital Advisor finden Sie unter link:task_login_activeiq.adoc["Melden Sie sich bei Digital Advisor an"].
+
+* *Nutzen Sie den Nachhaltigkeitsservice in BlueXP*
+Sie können sich bei BlueXP anmelden und auf den Nachhaltigkeitsservice von der Kategorie *Governance* zugreifen, die in der linken Navigation von BlueXP verfügbar ist.
++
+image:sustainability_dashboard_bluexp.png["Ein UI-Screenshot mit der Übersicht des Dashboards „Nachhaltigkeit“ in BlueXP."]
+
++
+Zur Anmeldung bei BlueXP können Sie Ihre Zugangsdaten für die NetApp Support Website nutzen oder sich mithilfe Ihrer E-Mail und eines Passworts für eine NetApp Cloud-Anmeldung anmelden. link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["Erfahren Sie mehr über die Anmeldung"^].
+
+
+
+
+
+== Vorteile der Nutzung des Nachhaltigkeitsservice
+
+Der Nachhaltigkeitsservice bietet folgende Vorteile:
+
+* Performance-Steigerung
+* Niedrigere Storage-Kosten
+* Verringerter CO2-Ausstoß
+* Verbesserung der Energieeffizienz
+* Klare Einblicke in Ihre Nachhaltigkeitshaltung
+* KI/ML-basierte Handlungsempfehlungen
+
+
+
+
+== Kosten
+
+NetApp berechnet Ihnen keine Kosten für die Nutzung des BlueXP Nachhaltigkeitsservice. Sie können sie mit Ihrem aktiven Supportvertrag nutzen.
+
+
+
+== Lizenzierung
+
+Für den Zugriff auf diesen Service ist keine spezielle Lizenz erforderlich. Sie können sie mit Ihrem aktiven Supportvertrag nutzen, wenn Sie AutoSupport für Ihre Systeme aktiviert haben.

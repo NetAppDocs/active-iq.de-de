@@ -27,19 +27,20 @@ Sie sollten auch die Farben kennen, die auf die Karten angewendet werden, die de
 
 Im Folgenden sind einige Funktionen von Digital Advisor aufgeführt:
 
-* Zeigen Sie mehrere Watchlisten an, aussagekräftige und nützliche Informationen auf einen Blick
-* Sie erhalten Informationen über alle Risiken für Ihr Storage-System und die Maßnahmen zur Risikominderung
-* Verringerung von Risiken mit Active IQ Unified Manager
-* Führen Sie ein Upgrade Ihres Storage-Systems durch
-* Anzeige des Storage-Effizienz-Verhältnisses, des genutzten logischen Speicherplatzes, des physischen Speicherplatzes sowie der insgesamt für Storage-Systeme mit ONTAP 9.1 und höher gespeicherten Daten
-* Analysieren Sie die Performance Ihrer Speichergeräte, indem Sie sich das grafische Format der Performance-Daten anzeigen lassen
-* Informationen über Hardware und Software, die innerhalb der nächsten 6 Monate abgelaufen sind oder deren Ablauf nahe steht
-* Aktualisieren Sie Ihre ONTAP-Firmware mit Ansible
-* Erfahren Sie mehr über Systeme, die mit ihrer Kapazität von mehr als 90 % oder annähernd 90 % ausgelastet sind
-* Anzeige detaillierter physischer und logischer Konfigurationsinformationen, einschließlich einer Zusammenfassung der Cluster- und Node-Konfiguration, Informationen zur lokalen Tier- und Volume-Konfiguration, Netzwerkschnittstelle und Portinformationen, ein Stack-Diagramm mit Informationen zu Festplatten und Shelfs sowie einigen Kabelvisualisierungen
-* Stack-übergreifende Informationen und Einblicke für Fehlerbehebung, Upgrade-Bewertungen, Lösungsvalidierung und Migration
-* Prüfen der Kompatibilität von Hosts und Bereitstellen von Upgrade-Empfehlungen für Host-Betriebssysteme, Treiber und Firmware
-* Sie erreichen genau das, was Sie wünschen, auf intelligentere und schnellere Weise
+* Anzeigen mehrerer Watchlisten, nützlicher und nützlicher Informationen auf einen Blick.
+* Sie erhalten Einblick in alle Risiken für Ihr Storage-System und die Maßnahmen zur Risikominderung.
+* Risiken mit Active IQ Unified Manager verringern
+* Aktualisieren Sie Ihr Storage-System.
+* Sehen Sie sich den Nachhaltigkeitswert und den prognostizierten Stromverbrauch, direkten Kohlenstoff und die Wärmeabgabe an. Ausgehend von der Nachhaltigkeitsscore beurteilen Sie die allgemeine Effizienz Ihrer Storage-Systeme und passen sie an die empfohlenen Maßnahmen von NetApp zur Verbesserung des erzielten Ergebnisses an. link:concept_understand_sustainability_dashboard.html["Weitere Informationen ."].
+* Anzeige des Storage-Effizienzverhältnisses, des genutzten logischen Speicherplatzes, des genutzten physischen Speicherplatzes und der insgesamt gespeicherten Daten für Storage-Systeme mit ONTAP 9.1 und höher
+* Analysieren Sie die Performance Ihrer Speichergeräte anhand des grafischen Formats der Performance-Daten.
+* Informieren Sie sich über Hardware und Software, die abgelaufen sind oder innerhalb der nächsten 6 Monate kurz vor dem Ablaufdatum stehen.
+* Aktualisieren Sie Ihre ONTAP-Firmware mit Ansible.
+* Informieren Sie sich über Systeme, die eine Kapazität von mehr als 90 % oder fast 90 % erreicht haben.
+* Zeigen Sie detaillierte physische und logische Konfigurationsinformationen an, einschließlich einer Zusammenfassung der Cluster- und Node-Konfiguration, Informationen zu lokalen Ebenen und Volumes, Informationen zu Netzwerkschnittstelle und Port, einem Stack-Diagramm mit Details zu den Festplatten und Shelfs sowie einigen Kabelvisualisierungen.
+* Stack-übergreifende Informationen und Erkenntnisse bereitstellen, die für Fehlerbehebung, Upgrade-Bewertungen, Lösungsvalidierung und Migration von Nutzen sind
+* Prüfen Sie die Kompatibilität der Hosts, und geben Sie Upgrade-Empfehlungen für Host-Betriebssysteme, Treiber und .
+* Finden Sie genau das, was Sie auf intelligente und schnellere Weise finden möchten.
 
 
 

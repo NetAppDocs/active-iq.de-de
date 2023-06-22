@@ -314,7 +314,7 @@ Bei StorageGRID werden die Kapazitäten in Basis 10 angezeigt und die Kapazität
 * Neue Systeme dauern einen Tag, bis sie in Digital Advisor reflektiert werden, sobald sie in SAP hinzugefügt oder aktualisiert wurden.
 * Die Systeme sind sicher und Sie sind nicht berechtigt, die sicheren Systeme anzuzeigen.
 * Sie sind nicht berechtigt, die Systeme anzuzeigen.
-* Systeme sind in SAP inaktiv.
+* Systeme sind in SAP inaktiv oder stillgelegt.
 
 
 Wenn Sie Systeme aus anderen Gründen nicht anzeigen können, link:https://mysupport.netapp.com/site/help["Erstellen eines nicht-technischen Case"]. Weitere Informationen zu einem nicht-technischen Support-Case erhalten Sie auf <<Nicht-technische Support-Cases,Hier.>>
