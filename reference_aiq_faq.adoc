@@ -199,6 +199,21 @@ Wenn Datensicherungs-Volumes im Node aufgrund eines Fehlers in ONTAP vorhanden s
 
 
 
+== Inventar
+
+*Warum kann ich bestimmte Systeme in Digital Advisor nicht finden?*
+Möglicherweise können Sie aus einem der folgenden Gründe nicht nach bestimmten Systemen suchen oder diese auf der Bestandsseite anzeigen:
+
+* Neue Systeme dauern einen Tag, bis sie in Digital Advisor reflektiert werden, sobald sie in SAP hinzugefügt oder aktualisiert wurden.
+* Die Systeme sind sicher und Sie sind nicht berechtigt, die sicheren Systeme anzuzeigen.
+* Sie sind nicht berechtigt, die Systeme anzuzeigen.
+* Systeme werden in SAP inaktiv, archiviert oder stillgelegt.
+
+
+Wenn Sie Systeme aus anderen Gründen nicht anzeigen können, Abfragen haben oder Zugriff anfordern möchten, link:https://mysupport.netapp.com/site/help["Erstellen eines nicht-technischen Case"]. Weitere Informationen zu einem nicht-technischen Support-Case erhalten Sie auf <<Nicht-technische Support-Cases,Hier.>>
+
+
+
 == Kapazität
 
 *Wie werden Kapazitäten in Digital Advisor berechnet?* die Kapazitäten in Digital Advisor werden für Cluster und Knoten berechnet – ausgenommen Root und inklusive Snapshot Kopien
@@ -304,17 +319,3 @@ NOTE: Sie beinhaltet Speicherplatz, der für Volumes reserviert ist, die sich au
 *Werden Kapazitäten in Digital Advisor Base 2 oder Base 10 angezeigt?* Alle Kapazitäten im Digital Advisor werden als Base 2 (dividieren Sie sich durch 1024) angezeigt und stellen Kapazitäten in gib/tib dar. Der ONTAP Storage und andere NetApp Produkte zeigen zudem in Base 2 die Kapazitätsauslastung an.
 
 Bei StorageGRID werden die Kapazitäten in Basis 10 angezeigt und die Kapazitätseinheit wird in TB angegeben.
-
-
-
-== Inventar
-
-*Warum finde ich bestimmte Systeme auf der Bestandsseite nicht?* aus einem der folgenden Gründe ist es eventuell nicht möglich, bestimmte Systeme auf der Bestandsseite anzuzeigen:
-
-* Neue Systeme dauern einen Tag, bis sie in Digital Advisor reflektiert werden, sobald sie in SAP hinzugefügt oder aktualisiert wurden.
-* Die Systeme sind sicher und Sie sind nicht berechtigt, die sicheren Systeme anzuzeigen.
-* Sie sind nicht berechtigt, die Systeme anzuzeigen.
-* Systeme sind in SAP inaktiv oder stillgelegt.
-
-
-Wenn Sie Systeme aus anderen Gründen nicht anzeigen können, link:https://mysupport.netapp.com/site/help["Erstellen eines nicht-technischen Case"]. Weitere Informationen zu einem nicht-technischen Support-Case erhalten Sie auf <<Nicht-technische Support-Cases,Hier.>>
