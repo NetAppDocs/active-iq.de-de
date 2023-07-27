@@ -27,8 +27,8 @@ Sie sollten die AFF- und FAS-Firmware mit Ansible aktualisieren, um die erkannte
 
 Vor dem Aktualisieren der AFF- und FAS-Firmware mit Ansible sollten Sie:
 
-* link:https://netapp.io/2018/10/08/getting-started-with-netapp-and-ansible-install-ansible/["Installation und Einrichtung von Ansible auf Ihrem Storage-System"]
-* link:https://netapp.io/2019/09/17/coming-together-nicely/["Installation von Ansible 2.9 mit Sammlungen auf Ihrem Storage-System"]
+* link:https://netapp.io/2018/10/08/getting-started-with-netapp-and-ansible-install-ansible/["Installation und Einrichtung von Ansible auf Ihrem Storage-System"^]
+* link:https://netapp.io/2019/09/17/coming-together-nicely/["Installation von Ansible 2.9 mit Sammlungen auf Ihrem Storage-System"^]
 * Führen Sie ein Upgrade Ihres Storage-Systems auf ONTAP 9.1 oder höher durch
 * Konfigurieren Sie Ihr Konto mit einer Administratorrolle
 

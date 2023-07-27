@@ -40,7 +40,7 @@ disk     firmware-revision model
 1.11.4   NA01              X423_HCOBE900A10
 ----
 +
-Weitere Informationen zum Befehl finden Sie unter {Link-with-unters}[Storage Disk show].
+Weitere Informationen zum Befehl finden Sie unter {Link-with-Unterstriche}[Storage Disk show^].
 
 . Vergewissern Sie sich, dass die neue NVMe Flash Cache Firmware installiert ist:
 +
@@ -49,7 +49,7 @@ Weitere Informationen zum Befehl finden Sie unter {Link-with-unters}[Storage Dis
 ::*> system controller flash-cache show
 ----
 +
-Weitere Informationen zum Befehl finden Sie unter {Link-with-unters}[System Controller Flash-Cache show].
+Weitere Informationen zu dem Befehl finden Sie unter {Link-with-Unterstriche}[System Controller Flash-Cache show^].
 
 
 
@@ -73,7 +73,7 @@ Vergewissern Sie sich in der Ausgabe, dass die Firmware jedes Shelfs auf die gew
 Shelf 1: IOM6 Firmware rev. IOM6 A: 0191 IOM3 B: 0191
 ----
 +
-Weitere Informationen zum Befehl finden Sie unter {Link-with-unters}[System Node Run].
+Weitere Informationen zum Befehl finden Sie unter {Link-with-Unterstriche}[System Node run^].
 
 . Überprüfen Sie, ob die neue ACP-Firmware aktualisiert wird:
 +
@@ -82,7 +82,7 @@ Weitere Informationen zum Befehl finden Sie unter {Link-with-unters}[System Node
 ::*> storage shelf acp module show -instance
 ----
 +
-Weitere Informationen zum Befehl finden Sie in {Link-with-unters}[Storage Shelf acp Module show].
+Weitere Informationen zum Befehl finden Sie unter {Link-with-Unterstriche}[Storage Shelf acp-Modul show^].
 
 . Vergewissern Sie sich, dass der gewünschte ACP-Modus konfiguriert ist:
 +
@@ -91,7 +91,7 @@ Weitere Informationen zum Befehl finden Sie in {Link-with-unters}[Storage Shelf 
 ::*> storage shelf acp show
 ----
 +
-Weitere Informationen zum Befehl finden Sie unter {Link-with-unters}[Storage Shelf acp show].
+Weitere Informationen zum Befehl finden Sie unter {Link-with-Unterstriche}[Storage Shelf acp show^].
 
 . Ändern des ACP-Modus (Kanal):
 +
@@ -100,7 +100,7 @@ Weitere Informationen zum Befehl finden Sie unter {Link-with-unters}[Storage She
 ::*> storage shelf acp configure -channel [in-band | out-of-band]
 ----
 +
-Weitere Informationen zum Befehl finden Sie unter {Link-with-unters}[Storage Shelf acp configure].
+Weitere Informationen zum Befehl finden Sie unter {Link-with-Unterstriche}[Storage Shelf acp konfigurieren^].
 
 
 

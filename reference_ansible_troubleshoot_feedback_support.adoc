@@ -21,8 +21,8 @@ summary: Bietet weitere Informationen zu Ansible.
 [role="lead"]
 Hier erhalten Sie Hilfe und weitere Informationen über verschiedene Ressourcen.
 
-* link:https://netapp.io/2019/08/05/dealing-with-the-unexpected/["Informationen zur Fehlerbehebung"]
-* link:https://netapp.io/["Slack-Workspace"]
+* link:https://netapp.io/2019/08/05/dealing-with-the-unexpected/["Informationen zur Fehlerbehebung"^]
+* link:https://netapp.io/["Slack-Workspace"^]
 * Mailto:ng-active-iq-feedback@netapp.com[E-Mail]
 * Support-Schaltfläche in Digital Advisor für Support und Feedback.
 

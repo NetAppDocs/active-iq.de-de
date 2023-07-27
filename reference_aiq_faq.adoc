@@ -42,7 +42,7 @@ Es sollte ein nicht-technischer Case für die folgenden Fälle erstellt werden:
 
 *Wie erstelle ich einen nicht-technischen Fall?*
 
-. Klicken Sie Auf link:https://mysupport.netapp.com/site/help["Hier"] Das „Non-Technical Feedback Tool“ auf der NetApp Support Website zu öffnen.
+. Klicken Sie Auf link:https://mysupport.netapp.com/site/help["Hier"^] Das „Non-Technical Feedback Tool“ auf der NetApp Support Website zu öffnen.
 . Wählen Sie die entsprechende Kategorie aus der Dropdown-Liste *Feedbackkategorie* aus.
 . Geben Sie die erforderlichen Angaben ein und geben Sie zusätzliche Informationen in das Feld „Kommentare“ ein.
 . Klicken Sie Auf *Absenden*.
@@ -60,7 +60,7 @@ Um Feedback zu geben oder Fragen zu stellen, senden Sie eine E-Mail an mailto:ng
 
 *Wie erhalte ich Zugriff auf Storage Efficiency in Digital Advisor?*
 
-. Öffnen Sie die Homepage von link:https://activeiq.netapp.com/?source=onlinedocs["Digital Advisor"].
+. Öffnen Sie die Homepage von link:https://activeiq.netapp.com/?source=onlinedocs["Digital Advisor"^].
 . Über das Suchfeld oben rechts nach Kunden, Standorten, Gruppen, Clustern oder Nodes suchen, um das entsprechende Dashboard zu erreichen.
 . Klicken Sie in der linken Navigationsleiste auf *Storage Efficiency*.
 
@@ -210,7 +210,7 @@ Möglicherweise können Sie aus einem der folgenden Gründe nicht nach bestimmte
 * Systeme werden in SAP inaktiv, archiviert oder stillgelegt.
 
 
-Wenn Sie Systeme aus anderen Gründen nicht anzeigen können, Abfragen haben oder Zugriff anfordern möchten, link:https://mysupport.netapp.com/site/help["Erstellen eines nicht-technischen Case"]. Weitere Informationen zu einem nicht-technischen Support-Case erhalten Sie auf <<Nicht-technische Support-Cases,Hier.>>
+Wenn Sie Systeme aus anderen Gründen nicht anzeigen können, Abfragen haben oder Zugriff anfordern möchten, link:https://mysupport.netapp.com/site/help["Erstellen eines nicht-technischen Case"^]. Weitere Informationen zu einem nicht-technischen Support-Case erhalten Sie auf <<Nicht-technische Support-Cases,Hier.>>
 
 
 

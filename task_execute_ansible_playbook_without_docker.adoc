@@ -20,7 +20,7 @@ summary: Enthält Informationen zum Ausführen des Ansible-Playbooks über das D
 
 .Schritte
 [role="lead"]
-. Installieren link:https://docs.python.org/3/using/windows.html["Python"] Und link:https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html["Ansible"].
+. Installieren link:https://docs.python.org/3/using/windows.html["Python"^] Und link:https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html["Ansible"^].
 . Installieren Sie die erforderlichen Python-Pakete mit *pip*:
 +
 [listing]
@@ -43,7 +43,7 @@ $ ansible-galaxy collection install netapp.ontap -p /usr/share/ansible/collectio
 $ chmod -R +rw /usr/share/ansible/collections
 ----
 +
-Weitere Informationen zum ansible-Galaxie-Befehl finden Sie unter link:https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html["Ansible-Galaxy-Dokumentation"] Weitere Informationen zur NetApp Ansible Sammlung finden Sie im link:https://galaxy.ansible.com/netapp/ontap["NetApp Ansible Collection-Seite"].
+Weitere Informationen zum ansible-Galaxie-Befehl finden Sie unter link:https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html["Ansible-Galaxy-Dokumentation"^] Weitere Informationen zur NetApp Ansible Sammlung finden Sie im link:https://galaxy.ansible.com/netapp/ontap["NetApp Ansible Collection-Seite"^].
 
 . Ansible Playbook mit dem Befehl *ansible-Playbook* ausführen:
 +
@@ -63,6 +63,6 @@ NOTE: Wenn es eine Reihe von Clustern mit unterschiedlichen Anmeldedaten gibt, m
 
 
 
-Weitere Informationen zum Befehl *ansible-Playbook* finden Sie im link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Ansible Playbook-Dokumentation"] Informationen zum Ausführen des Ansible Playbook im Check-Modus (Dry Run) finden Sie unter link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible: Prüfen Sie den Modus"].
+Weitere Informationen zum Befehl *ansible-Playbook* finden Sie im link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Ansible Playbook-Dokumentation"^] Informationen zum Ausführen des Ansible Playbook im Check-Modus (Dry Run) finden Sie unter link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible: Prüfen Sie den Modus"^].
 
 Lesen Sie nach dem Ausführen des Playbooks das link:task_validate_firmware_installation.html["Validieren Der Firmware-Installation"] Für Anweisungen nach der Ausführung.

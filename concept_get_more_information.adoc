@@ -21,8 +21,8 @@ summary: Enthält weitere Informationen zu Digital Advisor.
 [role="lead"]
 Hier erhalten Sie Hilfe und weitere Informationen über verschiedene Ressourcen.
 
-* link:https://community.netapp.com/t5/Active-IQ-Digital-Advisor-and-AutoSupport/ct-p/autosupport-and-my-autosupport["NetApp Community"]
-* link:https://www.netapp.com/us/documentation/active-iq.aspx["Dokumentationsressourcen"]
-* link:https://www.netapp.com/us/media/tr-4688.pdf["Sicherheit und Schutz von NetApp Telemetriedaten"]
-* link:https://www.netapp.com/us/media/tr-4444.pdf["ONTAP AutoSupport und AutoSupport on Demand"]
+* link:https://community.netapp.com/t5/Active-IQ-Digital-Advisor-and-AutoSupport/ct-p/autosupport-and-my-autosupport["NetApp Community"^]
+* link:https://www.netapp.com/us/documentation/active-iq.aspx["Dokumentationsressourcen"^]
+* link:https://www.netapp.com/us/media/tr-4688.pdf["Sicherheit und Schutz von NetApp Telemetriedaten"^]
+* link:https://www.netapp.com/us/media/tr-4444.pdf["ONTAP AutoSupport und AutoSupport on Demand"^]
 

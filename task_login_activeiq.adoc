@@ -19,10 +19,13 @@ summary: Stellt Informationen zur Anmeldung bei Digital Advisor bereit.
 
 
 [role="lead"]
-Zur Anmeldung bei Digital Advisor müssen Sie über eine gültige NetApp Support-Website-Zertifizierung verfügen. Wenn Sie kein Konto haben und gerade begonnen haben, klicken Sie auf link:https://mysupport.netapp.com/info/web/ECMP1150550.html/["Hier"].
+Sie können sich von einer webbasierten Konsole aus bei Digital Advisor anmelden, um eine Beobachtungsliste zu erstellen, in der der Gesamtstatus Ihres Storage-Systems angezeigt wird.
+
+.Bevor Sie beginnen
+Zur Anmeldung bei Digital Advisor müssen Sie über eine gültige NetApp Support-Website-Zertifizierung verfügen. Wenn Sie noch kein Konto haben und mit der Arbeit beginnen möchten, fahren Sie mit fort link:https://mysupport.netapp.com/info/web/ECMLP2458178.html["Erstellen Sie ein Konto"^].
 
 .Schritte
-. Klicken Sie Auf link:https://activeiq.netapp.com/?source=onlinedocs["Hier"] Für den Zugriff auf Digital Advisor:
+. Wechseln Sie zum link:https://activeiq.netapp.com/?source=onlinedocs["Digital Advisor"^] anmeldeseite.
 +
 Digital Advisor zeigt Systeme mit einem gültigen Supportvertrag an. Wenn Verträge verfallen, wird eine Kulanzzeit von 90 Tagen angegeben, in der die Systeme weiterhin sichtbar sind. Anschließend sind Systeme innerhalb von Digital Advisor nicht durchsuchbar oder sichtbar.
 

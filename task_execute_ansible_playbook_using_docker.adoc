@@ -34,7 +34,7 @@ Vor der Ausführung des Ansible Playbook mit dem NetApp Docker sollten Sie:
 
 
 .Schritte
-. link:https://docs.docker.com/get-started/["Richten Sie Docker ein"].
+. link:https://docs.docker.com/get-started/["Richten Sie Docker ein"^].
 . Ziehen Sie das NetApp Docker Image aus DockerHub, indem Sie den folgenden Befehl ausführen:
 +
 [listing]
@@ -46,7 +46,7 @@ latest: Pulling from schmots1/netapp-ansible
 docker.io/schmots1/netapp-ansible:lates
 ----
 +
-Weitere Informationen zum Befehl „Andocker Pull“ finden Sie im link:https://docs.docker.com/engine/reference/commandline/pull/["Docker Pull-Dokumentation"].
+Weitere Informationen zum Befehl „Andocker Pull“ finden Sie im link:https://docs.docker.com/engine/reference/commandline/pull/["Docker Pull-Dokumentation"^].
 
 . Führen Sie das Docker Image als Container aus und melden Sie sich zum Ausführen des Ansible Playbook am Container an.
 . Kopieren Sie den Pfad des Ordners, der das extrahierte Ansible Playbook und die Bestanddateien enthält, zum Beispiel *download_Playbook_path*. Das Ansible Playbook und die Bestanddateien sollten sich zur erfolgreichen Ausführung im selben Ordner befinden.
@@ -57,7 +57,7 @@ Weitere Informationen zum Befehl „Andocker Pull“ finden Sie im link:https://
 $ docker run -v <downloaded_playbook_path>:/<container_path> -it schmots1/netapp-ansible:latest /bin/bash
 ----
 +
-Der Container startet und die Konsole befindet sich jetzt in der Bash Shell des Containers. Weitere Informationen zum Befehl Docker Ausführen finden Sie im link:https://docs.docker.com/engine/reference/run/["Docker Führen Die Dokumentation Aus"].
+Der Container startet und die Konsole befindet sich jetzt in der Bash Shell des Containers. Weitere Informationen zum Befehl Docker Ausführen finden Sie im link:https://docs.docker.com/engine/reference/run/["Docker Führen Die Dokumentation Aus"^].
 
 . Ansible-Playbook in den Container mit dem Befehl *ansible-Playbook* ausführen:
 +
@@ -77,6 +77,6 @@ NOTE: Wenn es eine Reihe von Clustern mit unterschiedlichen Anmeldedaten gibt, m
 
 
 
-Weitere Informationen zum Befehl *ansible-Playbook* finden Sie im link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Ansible Playbook-Dokumentation"] Informationen zum Ausführen des Ansible-Playbooks im Check-Modus (Dry Run) finden Sie unter link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible: Prüfen Sie den Modus"].
+Weitere Informationen zum Befehl *ansible-Playbook* finden Sie im link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Ansible Playbook-Dokumentation"^] Informationen zum Ausführen des Ansible-Playbooks im Check-Modus (Dry Run) finden Sie unter link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible: Prüfen Sie den Modus"^].
 
 Informationen zum Ansible Playbook finden Sie nach dem Ausführen des Ansible -Playbook im link:task_validate_firmware_installation.html["Validieren Der Firmware-Installation"] Für Anweisungen nach der Ausführung.

@@ -68,7 +68,7 @@ Für das Tiering werden die Volumes empfohlen, die folgende Kriterien erfüllen:
 . Klicken Sie auf *Tier Data*, um *BlueXP* zu starten.
 
 
-Weitere Informationen zu FabricPool finden Sie unter link:https://www.netapp.com/pdf.html?item=/media/17239-tr4598pdf.pdf["FabricPool Best Practices in sich vereint"].
+Weitere Informationen zu FabricPool finden Sie unter link:https://www.netapp.com/pdf.html?item=/media/17239-tr4598pdf.pdf["FabricPool Best Practices in sich vereint"^].
 
 
 

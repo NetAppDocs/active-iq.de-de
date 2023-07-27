@@ -21,7 +21,7 @@ summary: Stellt Informationen zum Hosten der Firmware-Dateien über einen Webser
 [role="lead"]
 Nach dem Download des Automatisierungspakets sollten die Firmware-Dateien auf einem Webserver gehostet werden.
 
-Der Webserver kann auf mehrere Arten eingerichtet werden. Anweisungen zum Einrichten eines einfachen Webservers mithilfe von Python finden Sie unter link:https://docs.python.org/3/library/http.server.html["Webserver mit Python"].
+Der Webserver kann auf mehrere Arten eingerichtet werden. Anweisungen zum Einrichten eines einfachen Webservers mithilfe von Python finden Sie unter link:https://docs.python.org/3/library/http.server.html["Webserver mit Python"^].
 
 .Schritt
 . Speichern Sie die Basis-URL des Webservers. Wenn die URLs für die Festplatten-Firmware, Shelf-Firmware und Service Processor-Firmware *\http://<web-server>/path/all_shelf_fw.zip*, *\http://<web-server>/path/all.zip* und *\http://<web-server>/path/<SP/BMC>_<version_number>_fw.zip* lauten, speichern Sie *\http://<web-server>/path/* als Basis-URL.
