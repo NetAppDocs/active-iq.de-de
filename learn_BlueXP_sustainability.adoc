@@ -1,0 +1,45 @@
+---
+sidebar: sidebar 
+permalink: learn_BlueXP_sustainability.html 
+keywords: activeiq, sustainability, sustainability score, sustainability dashboard, bluexp, benefits, ONTAP 
+summary: Bietet Informationen zur Nachhaltigkeit, mit deren Hilfe Sie den Energieverbrauch senken und Ihre Umweltziele erreichen können. 
+---
+= Erfahren Sie mehr über Nachhaltigkeit
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Nachhaltigkeit als Service ermöglicht es Ihnen, den Energieverbrauch zu senken und Ihre Umweltziele zu erreichen. So passen Sie Ihre Storage-Systeme an umweltfreundliche Praktiken an und erreichen Ihre Nachhaltigkeitsziele.
+
+Das Dashboard für Nachhaltigkeit hilft Ihnen beim Erreichen Ihrer Umweltziele. Die Nachhaltigkeitsbewertung und die prognostizierte Nutzung von Strom, direktem Kohlenstoff und Wärme können Sie im Dashboard der Nachhaltigkeit anzeigen. Sie können den Prozentsatz der CO2-Minderung für bestimmte Standorte anpassen. Sie können die Nachhaltigkeitsbewertung auch auf Cluster-Ebene anzeigen. Auf der Grundlage der Nachhaltigkeitsbewertung können Sie die Nachhaltigkeit bewerten und die empfohlenen Maßnahmen von NetApp implementieren, um die Punktzahl zu verbessern. Weitere Informationen zum Dashboard Nachhaltigkeit finden Sie unter link:get_started_sustainability_dashboard.html["Erste Schritte mit dem Dashboard „Nachhaltigkeit“"].
+
+
+NOTE: Nachhaltigkeit wird auf AFF Systemen unterstützt, sowohl auf A-Series als auch auf C-Series, FAS Systemen und Cloud Volumes ONTAP (CVO).
+
+
+
+== Vorteile von Nachhaltigkeit
+
+Nachhaltigkeit bietet folgende Vorteile:
+
+* Steigerung der Performance durch Reduzierung der Anzahl an Storage-Geräten, die die gleiche Datenmenge speichern sollen
+* Senken Sie Storage-Kosten durch Optimierung der Auslastung der Storage-Systeme.
+* Verringern Sie den CO2-Ausstoß durch den Einsatz erneuerbarer Energien in Datacentern.
+* Verbesserung der Energieeffizienz durch die Umsetzung energieeffizienter Maßnahmen.
+
+
+
+
+== Kosten und Lizenz
+
+Wenn Sie AutoSupport für Ihre Systeme aktiviert haben, können Sie mit Ihrem aktiven Support-Vertrag auf den Nachhaltigkeitsservice zugreifen.

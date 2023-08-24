@@ -1,0 +1,80 @@
+---
+sidebar: sidebar 
+permalink: task_improve_sustainability_score.html 
+keywords: activeiq, sustainability dashboard, recommended actions, digital advisor, bluexp 
+summary: Enthält Schritte, um die empfohlenen Maßnahmen sofort oder später zu ergreifen. 
+---
+= Nachhaltigkeitsbewertung
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Das BlueXP Dashboard für mehr Nachhaltigkeit generiert empfohlene Maßnahmen, mit denen Sie Ihre Nachhaltigkeit insgesamt verbessern können. Sie können sich diese empfohlenen Aktionen von NetApp BlueXP oder Digital Advisor ansehen.
+
+[role="tabbed-block"]
+====
+.BlueXP
+--
+. Gehen Sie zu *Nachhaltigkeit* aus der Kategorie *Governance* in der Navigation links von BlueXP.
+. Gehen Sie zur Registerkarte *Empfohlene Aktionen*.
++
+** Sie können diese Aktionen sofort durchführen, indem Sie *Fix* oder Adresse später auswählen, indem Sie *later* auswählen.
+** Wenn Sie die Aktionen sofort durchführen möchten, wählen Sie *Fix*.
++
+*** Sie erweitert die Ansicht der ausgewählten empfohlenen Aktion. Sie können die Ansicht Empfohlene Maßnahmen auch mit dem Abwärtspfeil erweitern. In der erweiterten Ansicht können Sie den Cluster-Namen, die Nachhaltigkeitsscore und die nachfolgende Erhöhung sehen, wenn Sie mit der Option *Fix* fortfahren. Sie können auch eine informative Nachricht sehen, wie Sie mit der Option *Fix* fortfahren.
+  +
+image:recommended_actions.png["Ein Screenshot, in dem die Liste der Aktionen in der erweiterten Ansicht angezeigt wird."]
+*** In der erweiterten Ansicht können Sie *Fix* auswählen, um die Aktion sofort zu adressieren.
+
+
+** Wenn Sie die Aktionen später ansprechen möchten, wählen Sie *später*.
++
+*** Wenn Sie *later* auswählen, wird die ausgewählte empfohlene Aktion auf die Registerkarte *actions for later* verschoben. Die ausgewählte Aktion wird um 30 Tage verschoben. Nach 30 Tagen wird diese Aktion zur Registerkarte *Empfohlene Aktionen* verschoben.
+*** Sie können die verschobenen Aktionen auch jederzeit überprüfen und sie auf die Registerkarte *Empfohlene Aktionen* verschieben, indem Sie auf *betrachten* klicken.
+ +
+image:actions_for_later.png["Ein Screenshot, der empfohlene Aktionen mit der Option „Erwägung“ zeigt."]
+
+
+
+
+
+
+--
+.Digital Advisor
+--
+. Gehen Sie in der linken Navigation des Digital Advisor Dashboards zu *Nachhaltigkeit* aus der Kategorie *SPEICHERZUSTAND*.
+. Gehen Sie zur Registerkarte *Empfohlene Aktionen*.
++
+** Sie können diese Aktionen sofort durchführen, indem Sie *Fix* oder Adresse später auswählen, indem Sie *later* auswählen.
+** Wenn Sie die Aktionen sofort durchführen möchten, wählen Sie *Fix*.
++
+*** Die Ansicht der ausgewählten empfohlenen Aktion wird erweitert. Sie können die Ansicht Empfohlene Maßnahmen auch mit dem Abwärtspfeil erweitern. In der erweiterten Ansicht können Sie den Cluster-Namen, die Nachhaltigkeitsscore und die nachfolgende Erhöhung sehen, wenn Sie mit der Option *Fix* fortfahren. Sie können auch eine informative Nachricht sehen, wie Sie mit der Option *Fix* fortfahren.
+  +
+image:recommended_actions.png["Ein Screenshot, in dem die Liste der Aktionen in der erweiterten Ansicht angezeigt wird."]
+*** In der erweiterten Ansicht können Sie *Fix* auswählen, um die Aktion sofort zu adressieren.
+
+
+** Wenn Sie die Aktionen später ansprechen möchten, wählen Sie *später*.
++
+*** Wenn Sie *later* auswählen, wird die ausgewählte empfohlene Aktion auf die Registerkarte *actions for later* verschoben. Die ausgewählte Aktion wird um 30 Tage verschoben. Nach 30 Tagen wird diese Aktion zur Registerkarte *Empfohlene Aktionen* verschoben.
+*** Sie können die verschobenen Aktionen auch jederzeit überprüfen und sie auf die Registerkarte *Empfohlene Aktionen* verschieben, indem Sie auf *betrachten* klicken.
+ +
+image:actions_for_later.png["Ein Screenshot, der empfohlene Aktionen mit der Option „Erwägung“ zeigt."]
+
+
+
+
+
+
+--
+====

@@ -66,6 +66,16 @@ sidebar:
       url: "/task_renew_software_and_hardware.html"
     - title: Analyse des Wohlbefindens von Clustern und Knoten
       url: "/task_analyze_wellness_clusters_and_nodes.html"
+  - title: Nachhaltigkeit Ihres Storage-Systems analysieren
+    entries:
+    - title: Erfahren Sie mehr über Nachhaltigkeit
+      url: "/learn_BlueXP_sustainability.html"
+    - title: Erste Schritte mit dem Dashboard „Nachhaltigkeit“
+      url: "/get_started_sustainability_dashboard.html"
+    - title: Übersicht über das Dashboard „Nachhaltigkeit“
+      url: "/BlueXP_sustainability_dashboard_overview.html"
+    - title: Nachhaltigkeitsbewertung
+      url: "/improve_sustainability_score.html"
   - title: Zeigen Sie Systemdetails an
     entries:
     - title: Anzeigen von Bestandsdetails
@@ -114,12 +124,6 @@ sidebar:
       url: "/concept_get_started_with_health_check_dashboard.html"
     - title: Verlängern Sie Ihre Support-Verträge
       url: "/task_renew_support_contracts_for_your_systems.html"
-  - title: Nachhaltigkeit Ihres Storage-Systems analysieren
-    entries:
-    - title: Mehr über den BlueXP Nachhaltigkeitsservice erfahren
-      url: "/concept_understand_sustainability_dashboard.html"
-    - title: Erste Schritte mit dem Sustainability Dashboard
-      url: "/concept_get_started_with_sustainability_dashboard.html"
   - title: Aktualisieren Sie diese, um Ihre installierte Basis zu optimieren
     entries:
     - title: Aktualisieren Sie die ONTAP-Version Ihres Storage-Systems

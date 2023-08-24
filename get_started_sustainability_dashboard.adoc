@@ -1,0 +1,61 @@
+---
+sidebar: sidebar 
+permalink: get_started_sustainability_dashboard.html 
+keywords: activeiq, sustainability dashboard, bluexp login, sustainability dashboard login, bluexp 
+summary: Erste Schritte mit dem BlueXP Sustainability Dashboard – Sie können es in BlueXP oder Digital Advisor aufrufen. 
+---
+= Erste Schritte mit dem Dashboard „Nachhaltigkeit“
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Das Dashboard für Nachhaltigkeit bietet durch AIOps unterstützte Berichte und Bewertungen mit verwertbaren Erkenntnissen zur Verbesserung Ihrer Nachhaltigkeitsstrategie. Das Dashboard „Nachhaltigkeit“ können Sie über NetApp BlueXP oder Digital Advisor aufrufen.
+
+[role="tabbed-block"]
+====
+.BlueXP
+--
+Zur Anmeldung bei BlueXP können Sie Ihre Zugangsdaten für die NetApp Support Website nutzen oder sich mithilfe Ihrer E-Mail und eines Passworts für eine NetApp Cloud-Anmeldung anmelden. Weitere Informationen zu link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["Melden Sie sich bei BlueXP an"^].
+
+.Schritte
+. Öffnen Sie einen Webbrowser, und wechseln Sie zum link:https://console.bluexp.netapp.com/["BlueXP-Konsole"^].
+Die Anmeldeseite für NetApp BlueXP wird angezeigt.
+. Melden Sie sich bei BlueXP an.
+. Wählen Sie in der linken Navigationsleiste von BlueXP *Governance* > *Nachhaltigkeit* aus.
+  Das Dashboard Nachhaltigkeit wird angezeigt.
+  +
+image:sustainability_dashboard_bluexp.png["Ein UI-Screenshot mit der Übersicht zum Nachhaltigkeit-Dashboard in BlueXP."]
+
+
+
+NOTE: Wenn das Sustainability Dashboard nicht eingerichtet ist, wird die Option *NSS-Konto hinzufügen* angezeigt. Geben Sie Ihre Zugangsdaten für die NetApp-Support-Website (NSS) ein, um Ihr NachhaltigkeitsDashboard und die mit Ihrem Konto verbundenen Systeme anzuzeigen.
+
+--
+.Digital Advisor
+--
+Zur Anmeldung bei Digital Advisor können Sie Ihre Anmeldedaten für die NetApp Support-Website verwenden.
+
+.Schritte
+. Öffnen Sie einen Webbrowser, und wechseln Sie zum link:https://activeiq.netapp.com/?source=onlinedocs["Digital Advisor"^] anmeldeseite.
+. Geben Sie Ihren Benutzernamen und Ihr Kennwort ein und klicken Sie auf *Anmelden*.
+. Wählen Sie in der linken Navigation *SPEICHERZUSTAND* > *Nachhaltigkeit*.
++
+image:sustainability_dashboard.png["Ein UI-Screenshot, der den Überblick über das Sustainability Dashboard gibt."]
+
+
+
+
+NOTE: Die Option *Nachhaltigkeit* ist deaktiviert, wenn die Watchlist nicht konfiguriert ist. Sie können entweder eine Watchlist erstellen oder eine Suche unter Verwendung von Kundenname, Standortname, Gruppenname, StorageGRID, Hostname, Cluster, Seriennummer oder System-ID. link:concept_overview_dashboard.html["Erfahren Sie mehr über Watchlist"].
+
+--
+====

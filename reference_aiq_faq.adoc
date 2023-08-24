@@ -72,9 +72,9 @@ NOTE: Die mit einer Watchlist erstellten Dashboards werden im Widget „Storage-
 
 Digital Advisor zeigt Verhältnisse für Systeme mit ONTAP 9.1 und höher an.
 
-*Was ist das ‘ohne Snapshots’ Kontrollkästchen auf dem Efficiency Dashboard?*
+*Was ist der ‘mit Snapshot-Kopien’ Schalter auf dem Effizienz-Dashboard?*
 
-Standardmäßig berechnet das Digital Advisor Efficiency Dashboard das Gesamtverhältnis auf Kunden-, Standort-, Gruppen-, Cluster- und Node-Ebene. Das Gesamtverhältnis beinhaltet das Verhältnis zu den folgenden Storage-Effizienz-Technologien:
+Das Digital Advisor Efficiency Dashboard berechnet das Datenreduzierungsverhältnis auf mehreren Ebenen, einschließlich Kunde, Standort, Gruppe, Cluster und Knoten. Wenn Sie den Schalter *mit Snapshot-Kopien* aktivieren, umfasst die Berechnung des Datenreduzierungsverhältnisses die folgenden Storage-Effizienztechnologien:
 
 * Deduplizierung
 * Komprimierung
@@ -83,7 +83,7 @@ Standardmäßig berechnet das Digital Advisor Efficiency Dashboard das Gesamtver
 * Snapshots
 
 
-Wenn Sie das Kontrollkästchen *ohne Snapshots* aktivieren, berechnet Digital Advisor das Effizienzverhältnis (Verhältnis von Deduplizierung, Komprimierung, Data-Compaction und Klonen von Storage-Effizienztechnologien) auf Kunden-, Standort-, Gruppen-, Cluster- und Node-Ebene.
+Standardmäßig umfasst die Berechnung des Datenreduzierungsverhältnisses keine Snapshot Storage-Effizienztechnologie.
 
 *Was werden physische Daten verwendet und logische Daten verwendet?*
 
@@ -104,13 +104,13 @@ Wenn Sie das Kontrollkästchen *ohne Snapshots* aktivieren, berechnet Digital Ad
 
 
 
-*Welche AutoSupport Instanzen werden zur Berechnung der Effizienzverhältnisse verwendet?*
+*Welche AutoSupport-Instanzen werden zur Berechnung des Datenreduzierungsverhältnisses verwendet?*
 
-Die Berechnungen werden entweder anhand der aktuellsten wöchentlichen bzw. von Benutzern ausgelösten AutoSupport Instanzen durchgeführt, die die meisten Abschnitte zur Berechnung der Verhältnisse enthalten.
+Die Berechnungen werden entweder mit den letzten wöchentlichen oder benutzergetriggerten AutoSupport-Instanzen durchgeführt, die in der Regel die meisten Abschnitte enthalten, die für die Berechnung des Verhältnisses erforderlich sind.
 
-*Welche Volumes oder Aggregate sind von Effizienzberechnungen ausgenommen?*
+*Welche Volumes oder Aggregate sind von der Berechnung der Datenreduzierung ausgeschlossen?*
 
-Die folgenden Objekte werden bei der Berechnung von Effizienzverhältnissen nicht berücksichtigt:
+Die folgenden Objekte werden bei der Berechnung des Datenreduzierungsverhältnisses nicht berücksichtigt:
 
 * Root-Aggregate
 * Offline-Volumes
@@ -118,13 +118,13 @@ Die folgenden Objekte werden bei der Berechnung von Effizienzverhältnissen nich
 * MCC Konfigurations-Volumes
 
 
-*Wie sehe ich den Trend in den Effizienzverhältnissen?*
+*Wie sehe ich den Trend in der Datenreduktionsrate?*
 
-Derzeit werden die Effizienzverhältnisse auf Grundlage der letzten wöchentlichen bzw. von Benutzern ausgelösten AutoSupport Instanz berechnet. Effizienztendenzen können bei einer zukünftigen Version berücksichtigt werden.
+Derzeit wird das Datenreduzierungsverhältnis auf der Grundlage der letzten wöchentlichen bzw. vom Benutzer ausgelösten AutoSupport-Instanz berechnet. Die Trendanalyse kann für eine zukünftige Version in Betracht gezogen werden.
 
-*Wie werden die Kennzahlen und Effizienzeinsparungen auf Kundenebene berechnet?*
+*Wie werden Verhältnisse auf Kundenebene und Einsparungen bei der Datenreduzierung berechnet?*
 
-Die Storage-Effizienz-Konsole auf Kundenebene bietet das Effizienzverhältnis mit und ohne Snapshot Kopien für AFF und Systeme anderer Anbieter und werden über den gesamten Installationsbestand des Kunden für Systeme mit ONTAP 9.1 und höher kombiniert. Die erforderlichen Parameter für die folgenden Berechnungen stammen aus ONTAP AutoSupport:
+Das Dashboard für Storage-Effizienz auf Kundenebene bietet das Datenreduzierungsverhältnis mit und ohne Snapshot Kopien für AFF Systeme und Systeme anderer Anbieter und werden über die installierte Basis des Kunden bei Systemen mit ONTAP 9.1 und höher hinweg kombiniert. Die erforderlichen Parameter für die folgenden Berechnungen stammen aus ONTAP AutoSupport:
 
 Ohne Snapshot-Kopien (zuerst berechnet für pro Aggr):
 
@@ -135,7 +135,7 @@ Ohne Snapshot-Kopien (zuerst berechnet für pro Aggr):
 | AGGR-logisch genutzt ohne Snapshot-Kopien | Von Volumes, Klonen und Snapshot Kopien im Aggregat verwendete logische Größe – durch Snapshot Kopien verwendete logische Größe 
 
 
-| AGGR physisch ohne Snapshot Kopien verwendet | Insgesamt genutzte physische Größe – (durch Snapshot Kopien genutzte physische Größe / durch Data Reduction SE-Verhältnis insgesamt) 
+| AGGR physisch ohne Snapshot Kopien verwendet | Insgesamt genutzte physische Ressourcen (physische Größe, die von Snapshot-Kopien verwendet wird,/aggregierte Datenreduzierungsverhältnis) 
 
 
 | Effizienzverhältnis für Kunden ohne Snapshot Kopien | Summe [Aggr logisch genutzt ohne Snapshot Kopien für alle Aggregate und für alle Knoten eines Kunden] / Summe [Aggr physisch genutzt ohne Snapshot-Kopien für alle Aggregate und für alle Knoten eines Kunden] : 1 
@@ -189,13 +189,13 @@ Berechnungen der Tabellen für Effizienzfunktionen:
 
 | Einsparungen bei Backups mit Snapshot Kopien | Summe (logische Größe, die von Snapshot Kopien verwendet wird – von Snapshot Kopien verwendete physische Größe) aller Aggregate eines Kunden 
 |===
-*Warum kommen bei der Steigerung der individuellen Effizienzeinsparungen nicht die durch Storage-Effizienz insgesamt gespeicherten Daten zusammen?*
+*Warum ergeben sich bei jeder einzelnen Datenreduzierung nicht Einsparungen durch Datenreduzierung?*
 
-Einsparungen durch mehr Effizienz werden im Storage-Effizienz-Dashboard für Volumes und lokale Tiers (Aggregate) angezeigt. Sie können Volume-Einsparungen und Aggregat-Einsparungen nicht hinzufügen, da beide an unterschiedlichen Storage-Objekten geschehen.
+Die Einsparungen durch Datenreduzierung werden im Storage-Effizienz-Dashboard für Volumes und lokale Tiers (Aggregate) dargestellt.  Sie können Volume-Einsparungen und Aggregat-Einsparungen nicht hinzufügen, da beide an unterschiedlichen Storage-Objekten geschehen.
 
-*Warum wurden Storage-Effizienzen vor einem Upgrade auf ONTAP als höher oder falsch gemeldet?*
+*Warum wurde die Datenreduzierung vor dem Upgrade auf ONTAP als höher oder falsch gemeldet?*
 
-Wenn Datensicherungs-Volumes im Node aufgrund eines Fehlers in ONTAP vorhanden sind, erhöht sich die Storage-Effizienz. Das Problem wurde in ONTAP 9.3P11 behoben. Bei einem Upgrade von ONTAP Versionen vor 9.3P11 sowie bei Datensicherungs-Volumes im Node werden korrekte oder niedrigere Werte angezeigt.
+Wenn aufgrund eines Fehlers in ONTAP Datensicherungs-Volumes im Node vorhanden sind, wird die Datenreduzierung höher angezeigt. Das Problem wurde in ONTAP 9.3P11 behoben. Bei einem Upgrade von ONTAP Versionen vor 9.3P11 sowie bei Datensicherungs-Volumes im Node werden korrekte oder niedrigere Werte angezeigt.
 
 
 
