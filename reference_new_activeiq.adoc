@@ -23,6 +23,22 @@ Die folgenden Funktionen und Verbesserungen wurden in Digital Advisor eingeführ
 
 
 
+== 27 September 2023
+
+
+
+=== Upgrade Advisor
+
+Sie können über die auf die Seite Upgrade Advisor für Ihre Standardliste oder Ihr Dashboard zugreifen link:https://activeiq.netapp.com/redirect/upgrade-advisor["Upgrade Advisor"^] Verlinken: Wenn Sie nicht über eine Standardliste oder ein Dashboard verfügen, werden Sie durch Klicken auf den Link zur Seite „Suchen“ weitergeleitet.
+
+
+
+=== Upgrade-Plan
+
+Der Upgrade-Plan wurde optimiert, um redundante Upgrade-Schritte zu entfernen, Informationen und Warnungen zu ändern und den Backout-Plan zu vereinfachen. Die gemeinsamen Schritte aller Knoten in einem Cluster sind konsolidiert und stehen im Abschnitt Allgemeine Informationen zur Verfügung. Um den verbesserten Plan anzuzeigen, erstellen Sie den Upgrade-Plan anhand der in genannten Schritte link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["Aktualisieren Sie die ONTAP-Version mithilfe des Upgrade-Plans"].
+
+
+
 == 16 Juli 2023
 
 

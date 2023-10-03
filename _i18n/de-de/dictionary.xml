@@ -200,18 +200,9 @@
   <block id="022a011d9b874fb921f0168799a144d0" category="list-text">*Best Practices*: Zeigt die Bewertung der Systemüberprüfung an, indem Sie die Best Practices-Attribute Ihres Storage-Systems bewerten: Schwachstellen bei Performance und Effizienz, Verfügbarkeit und Schutz, Kapazität, Konfiguration und Sicherheit. Die NetApp Best Practices tragen dazu bei, den Systemzustand zu erhalten, wodurch die Performance Ihrer installierten Basis optimiert wird.</block>
   <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link-macro">NetApp Support Website</block>
   <block id="d22d74dd6e0a6c5cd64ecb61ba45759d" category="summary">Enthält Informationen zum Anzeigen und Aktualisieren der ONTAP-Version Ihres Speichersystems.</block>
-  <block id="d6917a390639e0a267939dc55858c685" category="doc">Aktualisieren Sie die ONTAP-Version, indem Sie einen Upgrade-Plan erstellen</block>
-  <block id="46a187e39eefc3fd35138a494e565b49" category="paragraph">Sie können die ausstehenden Upgrades Ihres Storage-Systems anzeigen und ein Upgrade auf eine neuere Version von ONTAP durchführen, indem Sie einen Upgrade-Plan erstellen. Sie sollten auch die Liste der Risiken auf der Registerkarte *Risk Advisor* anzeigen, was aufgrund des Upgrades entschärfst wäre.</block>
   <block id="1e3c19e3742fbfc0e6dd22bb91d109a3" category="inline-image-macro">Upgrade Advisor</block>
-  <block id="e9588616576594b7265f748171c85266" category="list-text">Zeigen Sie auf dem Dashboard im Widget *Upgrades* ausstehende Upgrades an.<block ref="aee744d64cc19e679b53b0c639b25694" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="38fafc5e9c9553727750b9510171bb41" category="list-text">Klicken Sie auf die Anzahl der *Aktionen*, um die ausstehenden Upgrades anzuzeigen.</block>
   <block id="64916198004d1ee19b1b50002f51f1a8" category="inline-image-macro">Upgrade-Optionen</block>
-  <block id="6398194d87822fdaa5a4dac58b51a1cd" category="list-text">Wählen Sie die gewünschte Upgrade-Option.<block ref="63134457816850025801f96a7797e55c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="01d220f359ae904005a0944f594a1bcd" category="list-text">Klicken Sie auf die Anzahl der im Widget angezeigten Systeme, um die Registerkarte *Upgrade Advisor* anzuzeigen.</block>
   <block id="b58373ef1164bbd04be01f9d80e8c58e" category="inline-image-macro">Erstellung eines Upgrade-Plans</block>
-  <block id="7438b9deedb82087dad294ad34018afe" category="paragraph">Sie können auch die Versionshinweise überprüfen, um detaillierte Informationen über die Version anzuzeigen.<block ref="04306a8a1debf79f0ac04ae6415d891b" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ac73a7625c762ca863d294bc61f64a16" category="list-text">Sehen Sie sich die Risikoliste auf der Registerkarte *Risk Advisor* an, zusammen mit dem Schweregrad, der durch das Upgrade minimiert würde.</block>
-  <block id="281921503952801e23be5489728f4728" category="list-text">Klicken Sie auf *Upgrade Plan erstellen*, um zu *Upgrade Advisor* zu navigieren.</block>
   <block id="36b9a40607be4fe5327a83c15f10355e" category="summary">Bietet Informationen zum Vergleich einer Konfigurations-Drift-Vorlage.</block>
   <block id="07bccdf47af12c51bb370278a660f033" category="doc">Vergleichen Sie eine Konfigurations-Drift-Vorlage</block>
   <block id="5a8fec4938d8693af6506cce2afba55d" category="paragraph">Sie können die System- und Cluster-Konfigurationen vergleichen und Konfigurationsänderungen nahezu in Echtzeit erkennen.</block>
@@ -1412,4 +1403,32 @@ Die Anmeldeseite für NetApp BlueXP wird angezeigt.</block>
   <block id="fa67fcdec3a9597a8256117c23529953" category="paragraph">Wenn Sie NetApp Keystone StaaS-Services abonniert haben, können Sie das Widget „Keystone Abonnement“ im Digital Advisor Dashboard ansehen.</block>
   <block id="580577f00c6e952d8dad642fa30380db" category="inline-link-macro">Keystone und Digital Advisor</block>
   <block id="2f9ac5e4626cf891d09ebda2d18327db" category="paragraph">Das Keystone Abonnement-Widget bietet Ihnen einen Überblick über die Kapazitätsnutzung für Ihr Konto. Es besteht aus Kapazitätsauslastungsdiagrammen in Bezug auf die physische Kapazität. Weitere Informationen zu den verschiedenen Ebenen von Abonnementdaten und Nutzungsinformationen finden Sie unter <block ref="db5795af5cbf28cf9af79d32298b7715" category="inline-link-macro-rx"></block>.</block>
+  <block id="31b9d852bd062a4549ad97725d279a03" category="doc">Aktualisieren Sie die ONTAP-Version mithilfe eines Upgrade-Plans</block>
+  <block id="05101a0f55d1824ea65fdd4aed3a0df5" category="paragraph">Sie können die ausstehenden Upgrades Ihres Speichersystems anzeigen und mithilfe eines Upgrade-Plans auf eine neuere Version von ONTAP aktualisieren. Sie können die Liste der Risiken auch auf der Registerkarte *Risk Advisor* anzeigen, die aufgrund des Upgrades verringert wird.</block>
+  <block id="88c21efa97d0237f72649c201f8b8d3e" category="list-text">Klicken Sie im Dashboard im Widget *Upgrade Advisor* auf die Anzahl der Aktionen, um die ausstehenden Upgrades anzuzeigen.</block>
+  <block id="aee744d64cc19e679b53b0c639b25694" category="paragraph"><block ref="aee744d64cc19e679b53b0c639b25694" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5bd5fef463b4aadc5c62af290cab7b03" category="list-text">Wählen Sie die gewünschte Upgrade-Option.</block>
+  <block id="63134457816850025801f96a7797e55c" category="paragraph"><block ref="63134457816850025801f96a7797e55c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="21161aff1728668cb5f36b56c240c89c" category="list-text">Klicken Sie auf die Anzahl der kompatiblen Systeme aus der ausgewählten Upgrade-Option, um zur Seite *Upgrade-Details* zu gelangen, um einen Upgrade-Plan zu erstellen.</block>
+  <block id="04306a8a1debf79f0ac04ae6415d891b" category="paragraph"><block ref="04306a8a1debf79f0ac04ae6415d891b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0d67c629baadb827d64b6f908a024ff7" category="inline-image-macro">Registerkarte „Risikoberater“</block>
+  <block id="0520934f7f277be53d0e5af988901e83" category="list-text">Sie können die Registerkarte *Risk Advisor* aufrufen, um die Liste der Risiken zusammen mit ihrem Schweregrad anzuzeigen, der aufgrund des Upgrades verringert wird.
+  +
+<block ref="54041361f5c1eaef6bcf2a769063421a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="10df3b7bc0d299d1789736d691e0d81b" category="list-text">Sie können auf die Anzahl der Gesamtrisiken klicken, um die Liste der Risiken auf der Registerkarte *Risikoberater* anzuzeigen, wenn die ausgewählte Upgrade-Option *Gesamtrisiken* enthält.</block>
+  <block id="c406705ee0488217955ba39bbcd3e0f3" category="inline-image-macro">Gesamtrisiken</block>
+  <block id="545606e93056e8efc230dfc45f3dffd2" category="paragraph"><block ref="545606e93056e8efc230dfc45f3dffd2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0d3a6c12cad96c6c84d2e06211666b7a" category="list-text">Klicken Sie auf der Registerkarte *Upgrade Advisor* auf *Upgrade Plan erstellen*.</block>
+  <block id="ee86a97709cbf5c06d97b73c231dde60" category="list-text">Geben Sie die Details im angezeigten Popup-Fenster ein. Sie können auch das Kontrollkästchen *Plan zurücksetzen* aktivieren, um den Backout-Plan in den Bericht zum Upgrade-Plan aufzunehmen.</block>
+  <block id="9b9689199f95721c2dbffc551f8161fa" category="inline-image-macro">Ein Popup-Fenster mit den Angaben zum Senden der Anfrage zur Erstellung des Upgrade-Plans</block>
+  <block id="d9884ccdf942ab0c8a261c9bf340eefe" category="paragraph"><block ref="d9884ccdf942ab0c8a261c9bf340eefe" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5d97ab11aa1e9f44020218850b335941" category="list-text">Gehen Sie zu *Berichte*. Sie können den Status des Upgrade-Plans überwachen und ihn herunterladen, sobald er verfügbar ist.</block>
+  <block id="c1b382578ccbe1b4821d0b8a7f29e343" category="paragraph">Nach der Erstellung erhalten Sie auch eine E-Mail mit dem Upgrade-Plan.</block>
+  <block id="3cefe062f61e5f64624dd75eec82a381" category="inline-image-macro">Ein Screenshot, der den Status des Berichts zum Upgrade-Plan anzeigt</block>
+  <block id="6f8fd13bf5cb0b5816478a43f298af9e" category="paragraph"><block ref="6f8fd13bf5cb0b5816478a43f298af9e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0d2ad64b559232943585fd7b1d8a6a97" category="section-title">27 September 2023</block>
+  <block id="ca6933ae0f261efa98f09526aba05bf1" category="paragraph">Sie können über die auf die Seite Upgrade Advisor für Ihre Standardliste oder Ihr Dashboard zugreifen <block ref="2a9dc4897c9bae502dc40fd9fb7b1c92" category="inline-link-macro-rx"></block> Verlinken: Wenn Sie nicht über eine Standardliste oder ein Dashboard verfügen, werden Sie durch Klicken auf den Link zur Seite „Suchen“ weitergeleitet.</block>
+  <block id="9622c46ac664d07f743905654edd5f26" category="section-title">Upgrade-Plan</block>
+  <block id="bd3f220b24dc61548511364f320ec8ea" category="inline-link-macro">Aktualisieren Sie die ONTAP-Version mithilfe des Upgrade-Plans</block>
+  <block id="62418fbf78b58ba84b3c5a6987815772" category="paragraph">Der Upgrade-Plan wurde optimiert, um redundante Upgrade-Schritte zu entfernen, Informationen und Warnungen zu ändern und den Backout-Plan zu vereinfachen. Die gemeinsamen Schritte aller Knoten in einem Cluster sind konsolidiert und stehen im Abschnitt Allgemeine Informationen zur Verfügung. Um den verbesserten Plan anzuzeigen, erstellen Sie den Upgrade-Plan anhand der in genannten Schritte <block ref="90927e731c81adade70cb7e4c40b43bd" category="inline-link-macro-rx"></block>.</block>
 </blocks>
