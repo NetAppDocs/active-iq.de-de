@@ -4,7 +4,7 @@ permalink: task_view_upgrade.html
 keywords: upgrade, ONTAP version, upgrade advisor, upgrade plan, risk advisor, pending upgrades 
 summary: Enthält Informationen zum Anzeigen und Aktualisieren der ONTAP-Version Ihres Speichersystems. 
 ---
-= Aktualisieren Sie die ONTAP-Version mithilfe eines Upgrade-Plans
+= Aktualisieren Sie die ONTAP-Version Ihres Storage-Systems
 :toc: macro
 :hardbreaks:
 :toclevels: 1
