@@ -4,7 +4,7 @@ permalink: task_view_upgrade.html
 keywords: upgrade, ONTAP version, upgrade advisor, upgrade plan, risk advisor, pending upgrades 
 summary: Enthält Informationen zum Anzeigen und Aktualisieren der ONTAP-Version Ihres Speichersystems. 
 ---
-= Aktualisieren Sie die ONTAP-Version Ihres Storage-Systems
+= Aktualisieren Sie die ONTAP-Version Ihrer Speichersysteme
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -19,33 +19,35 @@ summary: Enthält Informationen zum Anzeigen und Aktualisieren der ONTAP-Version
 
 
 [role="lead"]
-Sie können die ausstehenden Upgrades Ihres Speichersystems anzeigen und mithilfe eines Upgrade-Plans auf eine neuere Version von ONTAP aktualisieren. Sie können die Liste der Risiken auch auf der Registerkarte *Risk Advisor* anzeigen, die aufgrund des Upgrades verringert wird.
+Mit Upgrade Advisor können Sie empfohlene Upgrades anzeigen und einen Upgrade-Plan für Ihre Storage-Systeme erstellen. Sie können die Liste der Risiken in der mit Ihren Storage-Systemen verbundenen Registerkarte „Risikoberater“ anzeigen und diese Risiken beim Upgrade Ihrer Storage-Systeme auf eine neuere Version von ONTAP minimieren.
 
 .Schritte
 . Klicken Sie im Dashboard im Widget *Upgrade Advisor* auf die Anzahl der Aktionen, um die ausstehenden Upgrades anzuzeigen.
 +
 image:upgrade_advisor_widget.png["Upgrade Advisor"]
 
-. Wählen Sie die gewünschte Upgrade-Option.
+. Wählen Sie die Upgrade-Option aus.
 +
 image:upgrade_options.png["Upgrade-Optionen"]
 
-. Klicken Sie auf die Anzahl der kompatiblen Systeme aus der ausgewählten Upgrade-Option, um zur Seite *Upgrade-Details* zu gelangen, um einen Upgrade-Plan zu erstellen.
+. Klicken Sie auf die Anzahl der kompatiblen Systeme, um einen Upgrade-Plan zu erstellen.
+Die Seite *Upgrade-Details* wird angezeigt.
 +
 image:generate_upgrade_plan.png["Erstellung eines Upgrade-Plans"]
 
 +
-** Sie können die Registerkarte *Risk Advisor* aufrufen, um die Liste der Risiken zusammen mit ihrem Schweregrad anzuzeigen, der aufgrund des Upgrades verringert wird.
+** Sie können die Registerkarte *Risk Advisor* aufrufen, um die Liste der Risiken zusammen mit ihrem Schweregrad anzuzeigen.
   +
 image:view_risks.png["Registerkarte „Risikoberater“"]
-** Sie können auf die Anzahl der Gesamtrisiken klicken, um die Liste der Risiken auf der Registerkarte *Risikoberater* anzuzeigen, wenn die ausgewählte Upgrade-Option *Gesamtrisiken* enthält.
+** Sie können auf die Anzahl der Gesamtrisiken klicken, um die Liste der Risiken auf der Registerkarte *Risikoberater* anzuzeigen, wenn die Upgrade-Option *Gesamtrisiken* enthält.
 +
 image:total_risks.png["Gesamtrisiken"]
 
 
 
-. Klicken Sie auf der Registerkarte *Upgrade Advisor* auf *Upgrade Plan erstellen*.
-. Geben Sie die Details im angezeigten Popup-Fenster ein. Sie können auch das Kontrollkästchen *Plan zurücksetzen* aktivieren, um den Backout-Plan in den Bericht zum Upgrade-Plan aufzunehmen.
+. Wählen Sie auf der Registerkarte *Upgrade Advisor* die zu aktualisierenden Systeme aus.
+. Klicken Sie Auf *Upgrade Plan Erstellen*.
+. Geben Sie die Details im angezeigten Popup-Fenster ein. Sie können auch das Kontrollkästchen *Plan zurücksetzen* aktivieren, um den Backout-Plan in den Upgrade-Plan aufzunehmen.
 +
 image:details_upgrade_plan.png["Ein Popup-Fenster mit den Angaben zum Senden der Anfrage zur Erstellung des Upgrade-Plans"]
 
