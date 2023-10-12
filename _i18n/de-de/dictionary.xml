@@ -1103,7 +1103,6 @@
   <block id="ff40d476eb35d6d339a7a745c5825109" category="sidebar">Digital Advisor Webportal</block>
   <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">Videos Von Digital Advisor</block>
   <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">NetApp Community – Digital Advisor</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Alle BlueXP-Dokumentationen</block>
   <block id="8081688f219c172dde2cb99dbacc51d8" category="doc">Fundierte Entscheidungen auf der Basis von Cloud-Empfehlungen</block>
   <block id="e404f7c0800eac65e5e44442bb4fd0cc" category="admonition">Sie sollten das Zugriffstoken herunterladen und speichern und das Token zur späteren Verwendung aktualisieren. Access Tokens verfallen eine Stunde nach der Erstellung und aktualisieren Token sollten neu generiert werden, manuell, alle 7 Tage und in der Anwendung installiert. Dazu müssen Sie sich nicht bei der Anwendung anmelden. Nach 90 Tagen müssen Sie sich jedoch bei der Anwendung anmelden, um ein neues Token für den Zugriff zu erhalten und zu aktualisieren.</block>
   <block id="73924ddc2c905c2855a59dc4ad4e29a7" category="paragraph">Die Attribute in einer Konfigurations-Drift-Vorlage sind bearbeitbar, und die folgenden Gruppen der Vorlage unterstützen reguläre Ausdrücke für einige Abschnitte:</block>
@@ -1431,4 +1430,7 @@ Die Seite *Upgrade-Details* wird angezeigt.</block>
   <block id="81ff79ba6c57be0faaf7131e8c633f75" category="list-text">Klicken Sie Auf *Upgrade Plan Erstellen*.</block>
   <block id="06cb9645f9905dac3c50116c8abb865c" category="list-text">Geben Sie die Details im angezeigten Popup-Fenster ein. Sie können auch das Kontrollkästchen *Plan zurücksetzen* aktivieren, um den Backout-Plan in den Upgrade-Plan aufzunehmen.</block>
   <block id="98f475d7aa8f966d87ccc93ba94fba94" category="sidebar">Analysieren Sie die Nachhaltigkeit Ihrer Storage-Systeme</block>
+  <block id="d36a1ccbf2d01a1ff61c0e50416882e9" category="section-title">04 Oktober 2023</block>
+  <block id="ec795e7f7ea26d9d59bc0e1e031d4234" category="section-title">Widget „Planung“</block>
+  <block id="cf75b31aeb339e309fa309a49a276a28" category="paragraph">Die Anzahl der Empfehlungen für Tech Refresh ist im Planungs-Widget des Dashboard auf Kundenebene enthalten. Diese Empfehlungen unterstützen die Planung von Aktualisierungen der Hardware-Technologie, wenn die Hardware nicht mehr unterstützt wird oder sich dem Ende des Supports nähert.</block>
 </blocks>

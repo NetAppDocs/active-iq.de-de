@@ -23,6 +23,16 @@ Die folgenden Funktionen und Verbesserungen wurden in Digital Advisor eingeführ
 
 
 
+== 04 Oktober 2023
+
+
+
+=== Widget „Planung“
+
+Die Anzahl der Empfehlungen für Tech Refresh ist im Planungs-Widget des Dashboard auf Kundenebene enthalten. Diese Empfehlungen unterstützen die Planung von Aktualisierungen der Hardware-Technologie, wenn die Hardware nicht mehr unterstützt wird oder sich dem Ende des Supports nähert.
+
+
+
 == 27 September 2023
 
 
