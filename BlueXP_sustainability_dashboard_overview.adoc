@@ -53,5 +53,5 @@ Weitere Informationen zur Verbesserung der Nachhaltigkeitsbewertung finden Sie u
 +
 image:working_environments.png["Ein UI-Screenshot, der verschiedene Umgebungsparameter anzeigt"]
 
-* Aktivieren Sie die Überwachung aus der Spalte *Echtzeit-Power*, um die Details der Echtzeit-Stromversorgung auf Cluster-Ebene anzuzeigen. Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Einblicke in die Cloud"^].
+* Aktivieren Sie die Überwachung aus der Spalte *Echtzeit-Power*, um die Details der Echtzeitleistung auf Cluster-Ebene anzuzeigen. Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Einblicke in die Cloud"^].
 

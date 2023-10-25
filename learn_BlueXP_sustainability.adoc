@@ -24,7 +24,7 @@ Nachhaltigkeit als Service ermöglicht es Ihnen, den Energieverbrauch zu senken 
 Das Dashboard für Nachhaltigkeit hilft Ihnen beim Erreichen Ihrer Umweltziele. Die Nachhaltigkeitsbewertung und die prognostizierte Nutzung von Strom, direktem Kohlenstoff und Wärme können Sie im Dashboard der Nachhaltigkeit anzeigen. Sie können den Prozentsatz der CO2-Minderung für bestimmte Standorte anpassen. Sie können die Nachhaltigkeitsbewertung auch auf Cluster-Ebene anzeigen. Auf der Grundlage der Nachhaltigkeitsbewertung können Sie die Nachhaltigkeit bewerten und die empfohlenen Maßnahmen von NetApp implementieren, um die Punktzahl zu verbessern. Weitere Informationen zum Dashboard Nachhaltigkeit finden Sie unter link:get_started_sustainability_dashboard.html["Erste Schritte mit dem Dashboard „Nachhaltigkeit“"].
 
 
-NOTE: Nachhaltigkeit wird auf AFF Systemen unterstützt, sowohl auf A-Series als auch auf C-Series, FAS Systemen und Cloud Volumes ONTAP (CVO).
+NOTE: Nachhaltigkeit wird auf AFF Systemen unterstützt – sowohl Der A-Serie als auch der C-Serie, FAS Systemen und Cloud Volumes ONTAP (CVO).
 
 
 
