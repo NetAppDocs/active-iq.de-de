@@ -23,13 +23,31 @@ Die folgenden Funktionen und Verbesserungen wurden in Digital Advisor eingeführ
 
 
 
+== Bis 16. November 2023
+
+
+
+== Watchlist
+
+Sie können jetzt maximal 100 Watchlisten erstellen.
+
+
+
+=== Widget „Planung“
+
+* Empfehlungen zur Technologieaktualisierung sind jetzt in Dashboards für die Watchlist, die Site und die Gruppe verfügbar.
+* Sie können jetzt potenzielle Kandidaten für Technologieaktualisierungen anzeigen, wenn die Empfehlungen zur Technologieaktualisierung null sind.
+
+
+
+
 == 04 Oktober 2023
 
 
 
 === Widget „Planung“
 
-Die Anzahl der Empfehlungen für Tech Refresh ist im Planungs-Widget des Dashboard auf Kundenebene enthalten. Diese Empfehlungen unterstützen die Planung von Aktualisierungen der Hardware-Technologie, wenn die Hardware nicht mehr unterstützt wird oder sich dem Ende des Supports nähert.
+Die Anzahl der Empfehlungen für Technologieaktualisierungen ist im Planungs-Widget des Dashboard auf Kundenebene enthalten. Diese Empfehlungen unterstützen die Planung von Aktualisierungen der Hardware-Technologie, wenn die Hardware nicht mehr unterstützt wird oder sich dem Ende des Supports nähert.
 
 
 
