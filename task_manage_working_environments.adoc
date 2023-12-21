@@ -5,17 +5,14 @@ keywords: activeiq, sustainability dashboard, sustainability score, clusterviewe
 summary: Enthält Informationen zu Arbeitsumgebungen. 
 ---
 = Verwalten von Arbeitsumgebungen
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

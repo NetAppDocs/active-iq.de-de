@@ -5,17 +5,14 @@ keywords: config deviation, drift, configuration, add template
 summary: Enthält Informationen zum Hinzufügen einer Konfigurations-Drift-Vorlage. 
 ---
 = Fügen Sie eine Konfigurations-Drift-Vorlage hinzu
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

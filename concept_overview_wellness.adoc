@@ -5,17 +5,14 @@ keywords: overview, wellness, risk types, risk definition, mitigate risks, perfo
 summary: Stellt Informationen zum Wellness-Bereich und zu den Risikoarten bereit, um Ihr Storage-System zu verbessern. 
 ---
 = Wellness verstehen
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

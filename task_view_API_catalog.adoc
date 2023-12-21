@@ -5,17 +5,14 @@ keywords: API Catalog, APIs, integrate data, view catalog
 summary: Liefert Informationen zu den im API-Katalog verfügbaren APIs. 
 ---
 = Verwenden Sie den API-Katalog zur Ausführung von APIs
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

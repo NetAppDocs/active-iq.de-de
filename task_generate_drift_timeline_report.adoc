@@ -5,17 +5,14 @@ keywords: reports, generate reports, drift timeline, drift timeline report, Auto
 summary: Enthält Informationen zum Generieren von Zeitachse-Drift-Berichten. 
 ---
 = Generieren eines Zeitachsenberichts
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

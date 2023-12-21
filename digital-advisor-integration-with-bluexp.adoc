@@ -5,17 +5,14 @@ keywords: digital advisor, integration, bluexp
 summary: 'Digital Advisor (ehemals Active IQ Digital Advisor) ist nun vollständig in BlueXP integriert. Sie können jetzt Ihre Cluster verwalten und auf alle Funktionen von Digital Advisor über die Benutzeroberfläche von BlueXP zugreifen.' 
 ---
 = Integration von Digital Advisor in BlueXP
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

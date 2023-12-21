@@ -5,17 +5,14 @@ keywords: inventory, platforms, systems, clusters, sites
 summary: Stellt Informationen zum Gesamtbestand bereit, zu dem Sie gehören. 
 ---
 = Anzeigen von Bestandsdetails
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

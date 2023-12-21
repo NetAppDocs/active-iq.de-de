@@ -5,17 +5,14 @@ keywords: wellness history, risks, wellness, view all actions, risk history,
 summary: Bietet Informationen zu Systemrisiken und zur Anzeige der Wellness-Geschichte. 
 ---
 = Anzeigen der Wellness-Geschichte
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

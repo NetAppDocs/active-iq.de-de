@@ -5,17 +5,14 @@ keywords: activeiq, health check, health, HCA, health check dashboard, health ch
 summary: Enthält Informationen, die Sie mit dem Health Check Dashboard vertraut machen können. 
 ---
 = Verstehen Des Health Check Dashboard
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

@@ -5,17 +5,14 @@ keywords: digital advisor, features, upgrade, support offering
 summary: Enthält Informationen zum Dashboard, zu Watchlisten, zu Funktionen und zu den Widgets. 
 ---
 = Lernen Sie die Funktionen von Digital Advisor kennen
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

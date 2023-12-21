@@ -5,17 +5,14 @@ keywords: activeiq, sustainability dashboard, sustainability score, sustainabili
 summary: Enthält Informationen zum Dashboard, zur Bewertung der Nachhaltigkeit, zu Arbeitsumgebungen und zu den empfohlenen Maßnahmen. 
 ---
 = Übersicht über das Dashboard „Nachhaltigkeit“
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
@@ -24,7 +21,7 @@ Das Dashboard zur Nachhaltigkeit bietet eine Bewertung der Umgebung Ihres Storag
 image:get_started_sustainability_dashboard.png["Ein UI-Screenshot, der das Dashboard für Nachhaltigkeit zeigt."]
 
 
-NOTE: Damit das Dashboard optimal genutzt werden kann, müssen Sie AutoSupport aktivieren. Wenn AutoSupport nicht aktiviert ist, basieren die Daten auf Produktspezifikationen. Um Leistungsdetails in Echtzeit zu erhalten, müssen Sie Cloud Insights aktivieren. Weitere Informationen zum Aktivieren von Cloud Insights finden Sie unter link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Einblicke in die Cloud"^].
+NOTE: AutoSupport sollte für die genaue Berechnung der Nachhaltigkeitsbewertung aktiviert sein.
 
 *Nachhaltigkeitsbewertung*: Zeigt die Gesamtscore an, die die ökologische Nachhaltigkeit Ihrer Speichersysteme angibt. Sie können den Nachhaltigkeitsgrad Ihrer Storage-Systeme anhand der folgenden Bereiche beurteilen:
 

@@ -5,17 +5,14 @@ keywords: wellness, performance, efficiency, availability, capacity, security vu
 summary: Stellt Informationen zur Verfügung, mit denen Sie den Wellness-Bereich Ihres Storage-Systems anzeigen und analysieren und Risiken minimieren können. 
 ---
 = Risiken anzeigen und manuell Korrekturmaßnahmen ergreifen
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

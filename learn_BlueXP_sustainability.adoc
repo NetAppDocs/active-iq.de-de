@@ -5,27 +5,27 @@ keywords: activeiq, sustainability, sustainability score, sustainability dashboa
 summary: Bietet Informationen zur Nachhaltigkeit, mit deren Hilfe Sie den Energieverbrauch senken und Ihre Umweltziele erreichen können. 
 ---
 = Erfahren Sie mehr über Nachhaltigkeit
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
 Nachhaltigkeit als Service ermöglicht es Ihnen, den Energieverbrauch zu senken und Ihre Umweltziele zu erreichen. So passen Sie Ihre Storage-Systeme an umweltfreundliche Praktiken an und erreichen Ihre Nachhaltigkeitsziele.
 
-Das Dashboard für Nachhaltigkeit hilft Ihnen beim Erreichen Ihrer Umweltziele. Die Nachhaltigkeitsbewertung und die prognostizierte Nutzung von Strom, direktem Kohlenstoff und Wärme können Sie im Dashboard der Nachhaltigkeit anzeigen. Sie können den Prozentsatz der CO2-Minderung für bestimmte Standorte anpassen. Sie können die Nachhaltigkeitsbewertung auch auf Cluster-Ebene anzeigen. Auf der Grundlage der Nachhaltigkeitsbewertung können Sie die Nachhaltigkeit bewerten und die empfohlenen Maßnahmen von NetApp implementieren, um die Punktzahl zu verbessern. Weitere Informationen zum Dashboard Nachhaltigkeit finden Sie unter link:get_started_sustainability_dashboard.html["Erste Schritte mit dem Dashboard „Nachhaltigkeit“"].
+Über das Dashboard „Nachhaltigkeit“ können Sie die Nachhaltigkeitsbewertung und die prognostizierte Nutzung von Strom, direktem Kohlenstoff und Wärme aus dem Dashboard „Nachhaltigkeit“ anzeigen. Sie können den Prozentsatz der CO2-Minderung für bestimmte Standorte anpassen. Sie können die Nachhaltigkeitsbewertung auch auf Cluster-Ebene anzeigen. Auf der Grundlage der Nachhaltigkeitsbewertung können Sie die Nachhaltigkeit bewerten und die empfohlenen Maßnahmen von NetApp implementieren, um die Punktzahl zu verbessern. Weitere Informationen zum Dashboard Nachhaltigkeit finden Sie unter link:BlueXP_sustainability_dashboard_overview.html["Übersicht über das Dashboard „Nachhaltigkeit“"].
 
 
 NOTE: Nachhaltigkeit wird auf AFF Systemen unterstützt – sowohl Der A-Serie als auch der C-Serie, FAS Systemen und Cloud Volumes ONTAP (CVO).
 
+Sie können das folgende Video ansehen, um mehr über das Dashboard „Nachhaltigkeit“ zu erfahren:
+
+video::yNRHeOvbGX8[youtube,width=848,height=480]
 
 
 == Vorteile von Nachhaltigkeit
@@ -37,9 +37,3 @@ Nachhaltigkeit bietet folgende Vorteile:
 * Verringern Sie den CO2-Ausstoß durch den Einsatz erneuerbarer Energien in Datacentern.
 * Verbesserung der Energieeffizienz durch die Umsetzung energieeffizienter Maßnahmen.
 
-
-
-
-== Kosten und Lizenz
-
-Wenn Sie AutoSupport für Ihre Systeme aktiviert haben, können Sie mit Ihrem aktiven Support-Vertrag auf den Nachhaltigkeitsservice zugreifen.

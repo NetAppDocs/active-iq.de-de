@@ -5,17 +5,14 @@ keywords: protection, hackers, ransomware, ransomware attacks, attack
 summary: Dieser Service bietet Informationen dazu, wie Sie den Schutz vor Hackern und Ransomware-Angriffen verbessern. 
 ---
 = Sicherheitsschwachstelle Erkennen
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

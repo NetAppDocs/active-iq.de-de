@@ -5,17 +5,14 @@ keywords: firmware, web server, hosting
 summary: Stellt Informationen zum Hosten der Firmware-Dateien über einen Webserver bereit. 
 ---
 = Hosten Sie Firmware-Dateien mithilfe des Webservers
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

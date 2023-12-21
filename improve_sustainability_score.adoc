@@ -5,26 +5,21 @@ keywords: activeiq, sustainability dashboard, recommended actions, digital advis
 summary: Bietet Schritte zur Verbesserung der Nachhaltigkeitsbewertung durch die empfohlenen Maßnahmen. 
 ---
 = Nachhaltigkeitsbewertung
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
-Das Dashboard „Nachhaltigkeit“ generiert empfohlene Maßnahmen, mit denen Sie die Nachhaltigkeitsbewertung verbessern können. Sie können diese empfohlenen Aktionen von NetApp BlueXP oder Digital Advisor anzeigen und implementieren.
-
-Sie können die Gesamtbewertung für die Nachhaltigkeit und die Bewertung für die Nachhaltigkeit auf Cluster-Ebene verbessern.
+Das Dashboard „Nachhaltigkeit“ enthält empfohlene Maßnahmen, die Sie implementieren können, um die Gesamtbewertung für die Nachhaltigkeit und die Bewertung der Nachhaltigkeit auf Cluster-Ebene zu verbessern.
 
 
-NOTE: AutoSupport muss aktiviert sein, um die Gesamtbewertung für die Nachhaltigkeit und die Nachhaltigkeitsbewertung auf Cluster-Ebene zu berechnen.
+NOTE: Damit das Dashboard optimal genutzt werden kann, müssen Sie AutoSupport aktivieren. Wenn AutoSupport nicht aktiviert ist, basieren die Daten auf Produktspezifikationen. Um Leistungsdetails in Echtzeit zu erhalten, müssen Sie Cloud Insights aktivieren. Weitere Informationen zum Aktivieren von Cloud Insights finden Sie unter link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Einblicke in die Cloud"^].
 
 
 

@@ -5,17 +5,14 @@ keywords: overview, inventory, wellness, widgets, actions
 summary: Enthält Informationen zu den Schlüsselbegriffen, die in Digital Advisor verwendet werden. 
 ---
 = Schlüsselkonzepte
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

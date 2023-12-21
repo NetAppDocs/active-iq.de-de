@@ -5,17 +5,14 @@ keywords: validate, firmware, firmware installation
 summary: Enthält Informationen zur Validierung der Firmware-Installation. 
 ---
 = Validieren der Firmware-Installation
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

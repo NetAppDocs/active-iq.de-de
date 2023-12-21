@@ -5,17 +5,14 @@ keywords: dashboard, watchlist, add watchlist
 summary: Enthält Informationen zum Hinzufügen einer Watchlist zum Dashboard. 
 ---
 = Erstellen Sie eine Watchlist
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

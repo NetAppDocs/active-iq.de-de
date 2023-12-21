@@ -5,17 +5,14 @@ keywords: capacity, space, increase,
 summary: Stellt Informationen zur Erhöhung der Kapazität des Systems bereit. 
 ---
 = Systeme, die an ihre Kapazitätsgrenzen stoßen
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

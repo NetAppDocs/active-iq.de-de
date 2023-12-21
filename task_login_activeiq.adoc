@@ -5,17 +5,14 @@ keywords: login, log in
 summary: Stellt Informationen zur Anmeldung bei Digital Advisor bereit. 
 ---
 = Melden Sie sich bei Digital Advisor an
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

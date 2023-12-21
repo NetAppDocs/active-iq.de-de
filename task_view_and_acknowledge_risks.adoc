@@ -5,17 +5,14 @@ keywords: wellness, performance, efficiency, availability, capacity, security vu
 summary: Bietet Informationen zur Anzeige und Analyse des Wohlbefindens Ihres Speichersystems und zur Anerkennung der Risiken. 
 ---
 = Anzeigen und Bestätigen des Risikos
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
