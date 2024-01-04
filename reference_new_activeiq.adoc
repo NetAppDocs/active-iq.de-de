@@ -20,6 +20,16 @@ Die folgenden Funktionen und Verbesserungen wurden in Digital Advisor eingeführ
 
 
 
+== 03 Januar 2024
+
+
+
+== Upgrade Advisor
+
+Upgrade Advisor wurde erweitert und ermöglicht automatisierte, unterbrechungsfreie Upgrade-Pläne für ein einzelnes Cluster und mehrere Cluster. Sie können die Upgrade-Empfehlung nur für ein einzelnes Cluster anzeigen. Dazu gehören eine Risikoübersicht, ein Prüfbericht vor dem Upgrade sowie Informationen zu neuen Funktionen und Verbesserungen. link:https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html["Erfahren Sie, wie Sie die Upgrade-Empfehlung anzeigen und einen Upgrade-Plan erstellen."]
+
+
+
 == Bis 16. November 2023
 
 
@@ -55,7 +65,7 @@ Die Anzahl der Empfehlungen für Technologieaktualisierungen ist im Planungs-Wid
 === Upgrade Advisor
 
 * Über die können Sie auf die Seite Upgrade Advisor für Ihre Standard-Watchlist zugreifen link:https://activeiq.netapp.com/redirect/upgrade-advisor["Upgrade Advisor"^] Verlinken:
-* Der Upgrade-Plan wurde optimiert, um redundante Upgrade-Schritte zu entfernen und den Backout-Plan zu vereinfachen. Die allgemeinen Schritte aller Nodes in einem Cluster werden konsolidiert und stehen im Abschnitt „Allgemeine Informationen“ des Upgrade-Plans zur Verfügung. link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["Erfahren Sie, wie Sie einen Upgrade-Plan erstellen und anzeigen"].
+* Der Upgrade-Plan wurde optimiert, um redundante Upgrade-Schritte zu entfernen und den Backout-Plan zu vereinfachen. Die allgemeinen Schritte aller Nodes in einem Cluster werden konsolidiert und stehen im Abschnitt „Allgemeine Informationen“ des Upgrade-Plans zur Verfügung. link:https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html["Erfahren Sie, wie Sie einen Upgrade-Plan erstellen und anzeigen"].
 
 
 

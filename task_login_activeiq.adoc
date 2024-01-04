@@ -16,10 +16,11 @@ summary: Stellt Informationen zur Anmeldung bei Digital Advisor bereit.
 
 
 [role="lead"]
-Sie können sich von einer webbasierten Konsole aus bei Digital Advisor anmelden, um eine Beobachtungsliste zu erstellen, in der der Gesamtstatus Ihres Storage-Systems angezeigt wird.
+Sie können sich von einer webbasierten Konsole aus bei Digital Advisor anmelden, um den Gesamtstatus Ihres Speichersystems anzuzeigen.
 
 .Bevor Sie beginnen
-Zur Anmeldung bei Digital Advisor müssen Sie über eine gültige NetApp Support-Website-Zertifizierung verfügen. Wenn Sie noch kein Konto haben und mit der Arbeit beginnen möchten, fahren Sie mit fort link:https://mysupport.netapp.com/info/web/ECMLP2458178.html["Erstellen Sie ein Konto"^].
+Zur Anmeldung bei Digital Advisor müssen Sie über eine gültige NetApp Support-Website-Zertifizierung verfügen. Wenn Sie noch keinen Account haben und noch nicht begonnen haben, können Sie im folgenden KB-Artikel ein Konto erstellen:
+link:https://kb.netapp.com/Support/General_Support/How_to_register_for_a_NetApp_Support_Site_account_as_a_Customer_or_a_Guest_user["Registrieren für das NetApp Support Site Konto als Kunden- oder Gastbenutzer"^].
 
 .Schritte
 . Wechseln Sie zum link:https://activeiq.netapp.com/?source=onlinedocs["Digital Advisor"^] anmeldeseite.

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task_view_upgrade.html 
 keywords: upgrade, ONTAP version, upgrade advisor, upgrade plan, risk advisor, pending upgrades 
-summary: Enthält Informationen zum Anzeigen und Aktualisieren der ONTAP-Version Ihres Speichersystems. 
+summary: 'Bietet Informationen zum Anzeigen und Aktualisieren der ONTAP-Version der Nodes (Speichersystem).' 
 ---
-= Aktualisieren Sie die ONTAP-Version Ihrer Speichersysteme
+= Erstellen eines Upgrade-Plans für Nodes
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,44 +16,49 @@ summary: Enthält Informationen zum Anzeigen und Aktualisieren der ONTAP-Version
 
 
 [role="lead"]
-Mit Upgrade Advisor können Sie empfohlene Upgrades anzeigen und einen Upgrade-Plan für Ihre Storage-Systeme erstellen. Sie können die Liste der Risiken in der mit Ihren Storage-Systemen verbundenen Registerkarte „Risikoberater“ anzeigen und diese Risiken beim Upgrade Ihrer Storage-Systeme auf eine neuere Version von ONTAP minimieren.
+Mit Upgrade Advisor können Sie empfohlene Upgrades anzeigen und einen Upgrade-Plan für Nodes (Storage-Systeme) erstellen. Sie können die Liste der Risiken auf der mit Nodes verknüpften Registerkarte „Risikoberater“ anzeigen und diese Risiken beim Upgrade auf eine neuere Version von ONTAP verringern.
 
 .Schritte
-. Klicken Sie im Dashboard im Widget *Upgrade Advisor* auf die Anzahl der Aktionen, um die ausstehenden Upgrades anzuzeigen.
+. Klicken Sie im Dashboard auf die Anzahl der Cluster im Widget *Upgrade Advisor*.
 +
-image:upgrade_advisor_widget.png["Upgrade Advisor"]
+image:ua_widget.png["Ein Screenshot, der die Anzahl der Cluster zeigt."]
+
++
+Die Seite *Upgrade Advisor-ONTAP* wird angezeigt.
+
+. Deaktivieren Sie den *Enhanced Upgrade Advisor*-Schalter.
++
+image:ua_disable_toggle.png["Ein Screenshot, der den erweiterten Upgrade Advisor Umschalter zeigt, ist deaktiviert."]
 
 . Wählen Sie die Upgrade-Option aus.
 +
-image:upgrade_options.png["Upgrade-Optionen"]
+image:ua_upgrade_options.png["Upgrade-Optionen"]
 
 . Klicken Sie auf die Anzahl der kompatiblen Systeme, um einen Upgrade-Plan zu erstellen.
 Die Seite *Upgrade-Details* wird angezeigt.
 +
-image:generate_upgrade_plan.png["Erstellung eines Upgrade-Plans"]
+image:r_ua_generate_upgrade_plan.png["Erstellung eines Upgrade-Plans"]
 
 +
+** Sie können auf klicken image:edit_icon.png["Bild der Schaltfläche Bearbeiten"] Symbol in der *Target OS Version*, um eine andere Ziel-OS-Version eines Clusters auszuwählen.
 ** Sie können die Registerkarte *Risk Advisor* aufrufen, um die Liste der Risiken zusammen mit ihrem Schweregrad anzuzeigen.
   +
-image:view_risks.png["Registerkarte „Risikoberater“"]
+image:ua_view_risks.png["Registerkarte „Risikoberater“"]
 ** Sie können auf die Anzahl der Gesamtrisiken klicken, um die Liste der Risiken auf der Registerkarte *Risikoberater* anzuzeigen, wenn die Upgrade-Option *Gesamtrisiken* enthält.
 +
-image:total_risks.png["Gesamtrisiken"]
+image:ua_total_risks.png["Gesamtrisiken"]
 
 
 
-. Wählen Sie auf der Registerkarte *Upgrade Advisor* die zu aktualisierenden Systeme aus.
+. Wählen Sie auf der Registerkarte *Upgrade Advisor* Systeme für ein Upgrade aus.
 . Klicken Sie Auf *Upgrade Plan Erstellen*.
 . Geben Sie die Details im angezeigten Popup-Fenster ein. Sie können auch das Kontrollkästchen *Plan zurücksetzen* aktivieren, um den Backout-Plan in den Upgrade-Plan aufzunehmen.
 +
-image:details_upgrade_plan.png["Ein Popup-Fenster mit den Angaben zum Senden der Anfrage zur Erstellung des Upgrade-Plans"]
+image:ua_details_upgrade_plan.png["Ein Popup-Fenster mit den Angaben zum Senden der Anfrage zur Erstellung des Upgrade-Plans"]
 
 . Klicken Sie Auf *Absenden*.
-. Gehen Sie zu *Berichte*. Sie können den Status des Upgrade-Plans überwachen und ihn herunterladen, sobald er verfügbar ist.
-+
-Nach der Erstellung erhalten Sie auch eine E-Mail mit dem Upgrade-Plan.
-
-+
-image:download_upgrade_plan.png["Ein Screenshot, der den Status des Berichts zum Upgrade-Plan anzeigt"]
+Sie werden zur Seite *Reports* weitergeleitet.
+. Sie können den Upgrade-Plan von der Seite *Reports* herunterladen, sobald er verfügbar ist.
 
 
+Einige Aufgaben sollten Sie durchführen, um die Bereitschaft des Clusters nach dem Upgrade von ONTAP zu bestätigen. Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/ontap/upgrade/task_what_to_do_after_upgrade.html["Maßnahmen nach einem ONTAP Upgrade"].
