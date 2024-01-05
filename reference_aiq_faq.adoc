@@ -316,3 +316,10 @@ NOTE: Sie beinhaltet Speicherplatz, der für Volumes reserviert ist, die sich au
 *Werden Kapazitäten in Digital Advisor Base 2 oder Base 10 angezeigt?* Alle Kapazitäten im Digital Advisor werden als Base 2 (dividieren Sie sich durch 1024) angezeigt und stellen Kapazitäten in gib/tib dar. Der ONTAP Storage und andere NetApp Produkte zeigen zudem in Base 2 die Kapazitätsauslastung an.
 
 Bei StorageGRID werden die Kapazitäten in Basis 10 angezeigt und die Kapazitätseinheit wird in TB angegeben.
+
+
+
+== Verschiedenes
+
+*Warum sind die Funktionen unter SPEICHERZUSTAND im linken Navigationsbereich deaktiviert?*
+Die Verfügbarkeit der Funktionen unter *STORAGE HEALTH* hängt vom Systemtyp und -Level ab. ClusterViewer ist beispielsweise für ONTAP- und Cloud Volumes ONTAP-Systeme (CVO) auf Cluster- und Node-Ebene verfügbar. Sie können den Mauszeiger über das *i*-Symbol neben den einzelnen Funktionen bewegen, um mehr über die jeweiligen Systemtypen und -Ebenen zu erfahren.
