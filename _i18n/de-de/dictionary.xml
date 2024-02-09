@@ -153,7 +153,6 @@
   <block id="541d1e8525d813225b5812766f70549c" category="paragraph">Sie können auch den Abschnitt *Antworten* der API untersuchen, um die Daten zu verstehen, die besser zurückgegeben werden. Klicken Sie auf *Beispielwert*, um das Format der Daten anzuzeigen, oder klicken Sie auf *Modell* und klicken Sie auf die Carets, um die Abschnitte zu erweitern, um die Definition jedes Elements anzuzeigen.</block>
   <block id="dd2ac633c61d9191fba57c56e22336db" category="paragraph">Wenn Sie den Schalter in die *Code*-Ansicht schieben, können Sie Codebeispiele in verschiedenen Sprachen anzeigen.</block>
   <block id="9d094e845c465f9cb6c298c2cfa8c71d" category="summary">Gibt Empfehlungen, auf deren Grundlage fundierte Entscheidungen getroffen werden können.</block>
-  <block id="5649476905365d651ff75a651e4e79a8" category="doc">Fundiertere Entscheidungen auf der Basis von Cloud-Empfehlungen</block>
   <block id="571d621f51c49640d8adb2c5bb15554a" category="paragraph">Digital Advisor analysiert Ihr System kontinuierlich und gibt Empfehlungen, wie Sie die Performance, Effizienz und den Zustand Ihres Systems verbessern können.</block>
   <block id="ee8a7221101a63a879e7b11a9e134817" category="admonition">Digital Advisor navigiert Sie zu BlueXP, um die Empfehlungen umzusetzen.</block>
   <block id="19f59b74448f6a27519db281a44e4b12" category="section-title">Migration</block>
@@ -1090,17 +1089,6 @@
   <block id="3d771951f480b18b116afdfb0da9cb88" category="sidebar">Token für den Zugriff auf APIs generieren</block>
   <block id="8b00815fc5298212e3dc28a279ed4a10" category="sidebar">Erstellen benutzerdefinierter Berichte</block>
   <block id="af2a4d2810d86aa0169c117f82682f9a" category="sidebar">Häufig gestellte Fragen</block>
-  <block id="102d9716e9927264b03dcd24c0dd5cc3" category="sidebar">Erfahren Sie mehr über Digital Advisor</block>
-  <block id="156203bd2f0dca053d9b9dbd8f8912c7" category="sidebar">Verwenden Sie Digital Advisor</block>
-  <block id="11d4d5337b73945892437ccbc95a0733" category="sidebar">Risiken anzeigen und Korrekturmaßnahmen ergreifen</block>
-  <block id="a54afc6b3736cfe74798cc6c434300fc" category="sidebar">Erkennen von Konfigurationsabweichungen</block>
-  <block id="7a61fe0aacb0733ede2f886638474e22" category="sidebar">Kritische Sicherheitsrisiken beheben</block>
-  <block id="6cb30ae6af19fc79cca62d705f6b0744" category="sidebar">Analyse mit Digital Advisor</block>
-  <block id="0aace9b9585a40db8e20e3e200feeb89" category="sidebar">Upgrade-Empfehlungen von ONTAP</block>
-  <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">Mehr Ressourcen</block>
-  <block id="ff40d476eb35d6d339a7a745c5825109" category="sidebar">Digital Advisor Webportal</block>
-  <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">Videos Von Digital Advisor</block>
-  <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">NetApp Community – Digital Advisor</block>
   <block id="8081688f219c172dde2cb99dbacc51d8" category="doc">Fundierte Entscheidungen auf der Basis von Cloud-Empfehlungen</block>
   <block id="e404f7c0800eac65e5e44442bb4fd0cc" category="admonition">Sie sollten das Zugriffstoken herunterladen und speichern und das Token zur späteren Verwendung aktualisieren. Access Tokens verfallen eine Stunde nach der Erstellung und aktualisieren Token sollten neu generiert werden, manuell, alle 7 Tage und in der Anwendung installiert. Dazu müssen Sie sich nicht bei der Anwendung anmelden. Nach 90 Tagen müssen Sie sich jedoch bei der Anwendung anmelden, um ein neues Token für den Zugriff zu erhalten und zu aktualisieren.</block>
   <block id="73924ddc2c905c2855a59dc4ad4e29a7" category="paragraph">Die Attribute in einer Konfigurations-Drift-Vorlage sind bearbeitbar, und die folgenden Gruppen der Vorlage unterstützen reguläre Ausdrücke für einige Abschnitte:</block>
@@ -1402,7 +1390,6 @@ Die Seite *Upgrade-Details* wird angezeigt.</block>
   <block id="f4547f31c09ed6f71cd2e94db143fffd" category="list-text"><block ref="f4547f31c09ed6f71cd2e94db143fffd" category="inline-link-macro-rx"></block></block>
   <block id="4f0ba3197c25744bb644bb7e83a43b5f" category="list-text"><block ref="4f0ba3197c25744bb644bb7e83a43b5f" category="inline-link-macro-rx"></block></block>
   <block id="dc52fcbf0f80ad7cfad9b3efcbd2df3d" category="list-text">Aktivieren Sie die Überwachung aus der Spalte *Echtzeit-Power*, um die Details der Echtzeitleistung auf Cluster-Ebene anzuzeigen. Weitere Informationen finden Sie unter <block ref="0287186bd1777b27f244433b8d45ea17" category="inline-link-macro-rx"></block>.</block>
-  <block id="17ee9449f19b1975afdae38c7db7d001" category="admonition">Nachhaltigkeit wird auf AFF Systemen unterstützt – sowohl Der A-Serie als auch der C-Serie, FAS Systemen und Cloud Volumes ONTAP (CVO).</block>
   <block id="20cc757c4cb0c9b6153ae0f56705ae36" category="section-title">Bis 16. November 2023</block>
   <block id="20015eaa9dc8feb8cbf1eaadb95c6b20" category="paragraph">Sie können jetzt maximal 100 Watchlisten erstellen.</block>
   <block id="752f0c78427b5fffe498798d609a58a7" category="list-text">Empfehlungen zur Technologieaktualisierung sind jetzt in Dashboards für die Watchlist, die Site und die Gruppe verfügbar.</block>
@@ -1506,4 +1493,9 @@ In der Spalte *Target OS Version* wird die empfohlene Ziel-OS-Version angezeigt.
   <block id="48c86fda9292a5b410c6b86a0d2e64b7" category="paragraph">*Warum sind die Funktionen unter SPEICHERZUSTAND im linken Navigationsbereich deaktiviert?*
 Die Verfügbarkeit der Funktionen unter *STORAGE HEALTH* hängt vom Systemtyp und -Level ab. ClusterViewer ist beispielsweise für ONTAP- und Cloud Volumes ONTAP-Systeme (CVO) auf Cluster- und Node-Ebene verfügbar. Sie können den Mauszeiger über das *i*-Symbol neben den einzelnen Funktionen bewegen, um mehr über die jeweiligen Systemtypen und -Ebenen zu erfahren.</block>
   <block id="568d1629463645988ff4868c31e4cba7" category="open-title">Mehrere Cluster</block>
+  <block id="d873b57150944650b53661161f297953" category="admonition">Nachhaltigkeit wird auf AFF Systemen der A-Serie und C-Serie, FAS Systemen und Cloud Volumes ONTAP unterstützt.</block>
+  <block id="82e62a186bc8e1499e10d1400cd762e1" category="section-title">08 Februar 2024</block>
+  <block id="f66a566e9695faf3a9ac3f398a6e5dcd" category="inline-link-macro">Dashboard Für Nachhaltigkeit</block>
+  <block id="abb657094a0038dadd2b0ad8a1f2644b" category="paragraph">Sie können jetzt direkt über das auf die Nachhaltigkeitsmetriken für Ihr Standard-Dashboard oder Ihre Standard-Watchlist zugreifen <block ref="3bfa14a7a0d533bd50f797d3680bb9e4" category="inline-link-macro-rx"></block> Verlinken:</block>
+  <block id="3f0a64c1722e89371bae517923a9f798" category="paragraph">Sie können jetzt Festplatten-RPM-Informationen im Abschnitt Datenträgerzusammenfassung anzeigen, der auf der Registerkarte Speicher und in ClusterViewer-Berichten verfügbar ist.</block>
 </blocks>

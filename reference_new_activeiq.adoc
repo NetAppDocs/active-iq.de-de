@@ -20,6 +20,22 @@ Die folgenden Funktionen und Verbesserungen wurden in Digital Advisor eingeführ
 
 
 
+== 08 Februar 2024
+
+
+
+=== Dashboard zur Nachhaltigkeit
+
+Sie können jetzt direkt über das auf die Nachhaltigkeitsmetriken für Ihr Standard-Dashboard oder Ihre Standard-Watchlist zugreifen link:https://activeiq.netapp.com/redirect/sustainability["Dashboard Für Nachhaltigkeit"^] Verlinken:
+
+
+
+=== ClusterViewer
+
+Sie können jetzt Festplatten-RPM-Informationen im Abschnitt Datenträgerzusammenfassung anzeigen, der auf der Registerkarte Speicher und in ClusterViewer-Berichten verfügbar ist.
+
+
+
 == 03 Januar 2024
 
 
