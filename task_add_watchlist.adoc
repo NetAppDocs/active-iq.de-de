@@ -16,7 +16,10 @@ summary: Enthält Informationen zum Hinzufügen einer Watchlist zum Dashboard.
 
 
 [role="lead"]
-Sie können eine Watchlist erstellen, um schnell und einfach auf eine Reihe von Systemen zuzugreifen. Sie können die Systemgruppe basierend auf der Kategorie oder dem Standort kombinieren.
+Sie können eine Watchlist erstellen, um schnell und einfach auf eine Reihe von Systemen zuzugreifen. Sie können die Systeme basierend auf Kategorie oder Seriennummer hinzufügen.
+
+
+NOTE: Sie können maximal 15,000 Systeme unter einer Kategorie und 500 Systeme unter einer Seriennummer hinzufügen.
 
 .Schritte
 . Klicken Sie im linken Fensterbereich auf *Watchlisten*
@@ -25,9 +28,15 @@ Der Bildschirm *Watchlist verwalten* wird angezeigt.
 
 . Klicken Sie Auf *Watchlist Erstellen*.
 . Geben Sie einen Namen für die Watchlist ein.
-. Geben Sie die Details der Systeme an, die Sie der Watchlist hinzufügen möchten.
+. Wählen Sie eine der folgenden Optionen aus, um der Watchlist Systeme hinzuzufügen:
 +
-Sie können maximal 15,000 Systeme unter einer Kategorie und 500 Systeme unter einer Seriennummer hinzufügen.
+** *Kategorie*: Mit dieser Option können Sie den gesamten Bestand hinzufügen, der einer bestimmten Kategorie zugeordnet ist, z. B. Kunden-, Standort-, Gruppen- oder Keystone-Abonnements, zu Ihrer Merkliste.
++
+
+NOTE: Mit der Option *Keystone Subscriptions* können Sie alle mit Keystone Abonnements verbundenen Abonnementnummern angeben. Bei der Suche nach einer Watchlist werden die Abonnements im Widget *Keystone Abonnements* im Digital Advisor Dashboard angezeigt. Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/keystone-staas/integrations/keystone-aiq.html#search-by-keystone-watchlists["Sie können nach Keystone Watchlisten suchen"^].
+
+** *Seriennummer*: Mit dieser Option können Sie anhand der angegebenen Seriennummern den Bestand in Ihre Beobachtungsliste aufnehmen. Sie können entweder die Seriennummer direkt eingeben oder Seriennummern aus Kategorien wie Kunde, Standort oder Gruppe auswählen.
+
 
 . Klicken Sie Auf *Watchlist Erstellen*.
 +

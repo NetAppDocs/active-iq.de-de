@@ -130,7 +130,6 @@
   <block id="112380f3f709a44ef8f75f6d665ac2c9" category="list-text">Installieren Sie Python und Ansible und laden Sie dann die Python-Pakete mit PIP herunter:</block>
   <block id="03f27531419e8390d55e5ee184b373c7" category="list-text">Installieren Sie die NetApp Ansible Sammlung:</block>
   <block id="9b838c4ce633e917e74290b161349c3a" category="list-text">Stellen Sie sicher, dass sich das Ansible Playbook und die Inventardatei im selben Pfad befinden, und führen Sie dann das Ansible Playbook aus. Die Firmware-Updates werden einige Stunden im Hintergrund ausgeführt.</block>
-  <block id="2d0aa76ea44ffecf44fd1e54e726b8a1" category="summary">Mit Digital Advisor optimieren Sie Ihre Dateninfrastruktur in der gesamten globalen Hybrid Cloud. Dazu bieten wir Ihnen konkrete prädiktive Analysen und proaktiven Support über ein Cloud-basiertes Portal und mobile App. Die Cloud-basierten Services von Digital Advisor nutzen das Community-Wissen und Branchenvergleiche, die sich aus der riesigen installierten Basis von NetApp ziehen. Diese Einblicke werden mit AutoSupport-Telemetrie und My AutoSupport-Funktionen kombiniert, um eine Reihe fortschrittlicher Analyseservices bereitzustellen.</block>
   <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="doc">Digital Advisor Dokumentation</block>
   <block id="98fb6b15dbf8f4dbd1391e6345a22114" category="summary">Enthält Informationen zum Widget „wertvolle Einblicke“</block>
   <block id="972d710da4877c6c96be5f36ff410fe3" category="doc">Wertvolle Einblicke anzeigen</block>
@@ -546,7 +545,6 @@
   <block id="5d15b41ee5ac810b6e7268188476648c" category="paragraph">Der Dateiname wird automatisch vom Ansible Playbook erkannt.</block>
   <block id="27c0c1bb0cadc9e37385f3ef549226cb" category="summary">Enthält Informationen zum Dashboard, zu Watchlisten und zu den Widgets.</block>
   <block id="d3e5b7c94097697f92f75fe7c9a676ee" category="doc">Watchlist verstehen</block>
-  <block id="16d182da6aeb172074cbe06d557991cc" category="paragraph">Mit Watchlisten können Sie schnell und einfach auf vorgewählte Systeme in Digital Advisor zugreifen. Wenn Sie einen bestimmten Kunden oder eine Reihe von Systemen häufig sehen, empfehlen wir Ihnen, Watchlisten zu erstellen. Sie können bis zu 50 Watchlisten erstellen und jede Watchlist kann bis zu 15,000 Systeme nach Kategorie oder 500 Systeme nach Seriennummern enthalten.</block>
   <block id="fdcefef7d938550393c7f560b2c30cac" category="paragraph">Wenn Sie zum ersten Mal auf Digital Advisor zugreifen, können Sie entweder eine Watchlist erstellen oder nach Kundennamen, Standortnamen, Gruppennamen, StorageGRID, Hostnamen suchen. Cluster, Seriennummer oder System-ID.</block>
   <block id="dece35eb22b3654f47ea7b34c8d28b05" category="paragraph">Sie sollten auch die Farben kennen, die auf die Karten angewendet werden, die den Schweregrad und die Art der Risiken angeben.</block>
   <block id="ca2539d7307d0d34f3e2f7bbef6876a0" category="summary">Bietet einen Überblick über die API-Servicefunktion.</block>
@@ -1050,11 +1048,9 @@
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Datenschutzrichtlinie</block>
   <block id="f39b53c109ef22724fc3808f3709808c" category="summary">Enthält Informationen zum Hinzufügen einer Watchlist zum Dashboard.</block>
   <block id="19a1aa0085c346ac0453f3463cfe5ae0" category="doc">Erstellen Sie eine Watchlist</block>
-  <block id="a6b5018db137b1873575388bb66fd696" category="paragraph">Sie können eine Watchlist erstellen, um schnell und einfach auf eine Reihe von Systemen zuzugreifen. Sie können die Systemgruppe basierend auf der Kategorie oder dem Standort kombinieren.</block>
   <block id="da2d66a259f4a63d3108ebfd2b3e72c3" category="list-text">Klicken Sie im linken Fensterbereich auf *Watchlisten*</block>
   <block id="f93fd0b56ed95d156b42c479f821efef" category="list-text">Klicken Sie Auf *Watchlist Erstellen*.</block>
   <block id="6e6456ff615835fa78db50bf4c134885" category="list-text">Geben Sie einen Namen für die Watchlist ein.</block>
-  <block id="d92f20aa0037ca0433951e4c3075ac1e" category="list-text">Geben Sie die Details der Systeme an, die Sie der Watchlist hinzufügen möchten.</block>
   <block id="d757f95a394959d080114b15fde1d52e" category="paragraph">Sie können maximal 15,000 Systeme unter einer Kategorie und 500 Systeme unter einer Seriennummer hinzufügen.</block>
   <block id="4e8d1ca8d221cc5795ac4f7e56661686" category="paragraph">Das Dashboard der Watchlist wird angezeigt.</block>
   <block id="c8a6259aed44fea9ff6723eeb59cce9e" category="sidebar">Digital Advisor Dokumentation</block>
@@ -1498,4 +1494,27 @@ Die Verfügbarkeit der Funktionen unter *STORAGE HEALTH* hängt vom Systemtyp un
   <block id="f66a566e9695faf3a9ac3f398a6e5dcd" category="inline-link-macro">Dashboard Für Nachhaltigkeit</block>
   <block id="abb657094a0038dadd2b0ad8a1f2644b" category="paragraph">Sie können jetzt direkt über das auf die Nachhaltigkeitsmetriken für Ihr Standard-Dashboard oder Ihre Standard-Watchlist zugreifen <block ref="3bfa14a7a0d533bd50f797d3680bb9e4" category="inline-link-macro-rx"></block> Verlinken:</block>
   <block id="3f0a64c1722e89371bae517923a9f798" category="paragraph">Sie können jetzt Festplatten-RPM-Informationen im Abschnitt Datenträgerzusammenfassung anzeigen, der auf der Registerkarte Speicher und in ClusterViewer-Berichten verfügbar ist.</block>
+  <block id="ee994369582acbd0aa1a2c594329160a" category="section-title">29 Februar 2024</block>
+  <block id="a87afd0ebe87406d33b58f65b33a438b" category="paragraph">Sie können jetzt eine Watchlist auf Basis der Keystone Abonnementnummern erstellen und über die ersten drei Zeichen einer Abonnement-Nummer oder eines Watchlist-Namens nach einem Keystone Abonnement suchen.</block>
+  <block id="bb6677c30e1599d498cc331db9ae9ac1" category="paragraph">Mit Watchlisten können Sie schnell und einfach auf vorgewählte Systeme in Digital Advisor zugreifen. Wenn Sie einen bestimmten Kunden oder eine Reihe von Systemen häufig sehen, empfehlen wir Ihnen, Watchlisten zu erstellen. Sie können bis zu 100 Watchlisten erstellen und jede Watchlist kann bis zu 15,000 Systeme nach Kategorie oder 500 Systeme nach Seriennummern enthalten.</block>
+  <block id="0c9919bc11a911adb7dfe0c3fcfec57e" category="paragraph">Wenn Sie zum ersten Mal auf Digital Advisor zugreifen, können Sie entweder eine Watchlist erstellen oder nach Kundennamen, Standortnamen, Gruppennamen, StorageGRID, Hostnamen, Cluster, Seriennummer, System-ID oder Keystone Abonnement.</block>
+  <block id="696132aa64e1de699fed134cebca0cb4" category="paragraph">Sie können eine Watchlist erstellen, um schnell und einfach auf eine Reihe von Systemen zuzugreifen. Sie können die Systeme basierend auf Kategorie oder Seriennummer hinzufügen.</block>
+  <block id="8724cab6ff3882b095d7f7a1af087d3c" category="list-text">Wählen Sie eine der folgenden Optionen aus, um der Watchlist Systeme hinzuzufügen:</block>
+  <block id="046b77894dfde73619bb48b4dc431dd0" category="list-text">*Kategorie*: Mit dieser Option können Sie den gesamten Bestand hinzufügen, der einer bestimmten Kategorie zugeordnet ist, z. B. Kunden-, Standort-, Gruppen- oder Keystone-Abonnements, zu Ihrer Merkliste.</block>
+  <block id="ca5b91a68ba656cb1cb6cdd4e75f646a" category="inline-link-macro">Sie können nach Keystone Watchlisten suchen</block>
+  <block id="a5a3e88ca2e2f72fdd690c7bf4473d53" category="admonition">Mit der Option *Keystone Subscriptions* können Sie alle mit Keystone Abonnements verbundenen Abonnementnummern angeben. Bei der Suche nach einer Watchlist werden die Abonnements im Widget *Keystone Abonnements* im Digital Advisor Dashboard angezeigt. Weitere Informationen finden Sie unter <block ref="6c48397e666066c17d428674ea869bc7" category="inline-link-macro-rx"></block>.</block>
+  <block id="abc045a62577e8c80a76e2f49162b3ae" category="list-text">*Seriennummer*: Mit dieser Option können Sie anhand der angegebenen Seriennummern den Bestand in Ihre Beobachtungsliste aufnehmen. Sie können entweder die Seriennummer direkt eingeben oder Seriennummern aus Kategorien wie Kunde, Standort oder Gruppe auswählen.</block>
+  <block id="28fa24f22582565336a20a99aac1a3b6" category="sidebar">Active IQ Digital Advisor (auch als digitaler Berater bekannt) ermöglicht Ihnen die Optimierung der Dateninfrastruktur in der gesamten globalen Hybrid Cloud durch nutzbare prädiktive Analysen und proaktiven Support über ein Cloud-basiertes Portal und mobile App. Die Cloud-basierten Services von Digital Advisor nutzen das Community-Wissen und Branchenvergleiche, die sich aus der riesigen installierten Basis von NetApp ziehen. Diese Einblicke werden mit AutoSupport-Telemetrie und My AutoSupport-Funktionen kombiniert, um eine Reihe fortschrittlicher Analyseservices bereitzustellen.</block>
+  <block id="102d9716e9927264b03dcd24c0dd5cc3" category="sidebar">Erfahren Sie mehr über Digital Advisor</block>
+  <block id="156203bd2f0dca053d9b9dbd8f8912c7" category="sidebar">Verwenden Sie Digital Advisor</block>
+  <block id="11d4d5337b73945892437ccbc95a0733" category="sidebar">Risiken anzeigen und Korrekturmaßnahmen ergreifen</block>
+  <block id="a54afc6b3736cfe74798cc6c434300fc" category="sidebar">Erkennen von Konfigurationsabweichungen</block>
+  <block id="7a61fe0aacb0733ede2f886638474e22" category="sidebar">Kritische Sicherheitsrisiken beheben</block>
+  <block id="6cb30ae6af19fc79cca62d705f6b0744" category="sidebar">Analyse mit Digital Advisor</block>
+  <block id="0aace9b9585a40db8e20e3e200feeb89" category="sidebar">Upgrade-Empfehlungen von ONTAP</block>
+  <block id="5649476905365d651ff75a651e4e79a8" category="sidebar">Fundiertere Entscheidungen auf der Basis von Cloud-Empfehlungen</block>
+  <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">Mehr Ressourcen</block>
+  <block id="ff40d476eb35d6d339a7a745c5825109" category="sidebar">Digital Advisor Webportal</block>
+  <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">Videos Von Digital Advisor</block>
+  <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">NetApp Community – Digital Advisor</block>
 </blocks>

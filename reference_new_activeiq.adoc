@@ -20,6 +20,16 @@ Die folgenden Funktionen und Verbesserungen wurden in Digital Advisor eingeführ
 
 
 
+== 29 Februar 2024
+
+
+
+=== Watchlist
+
+Sie können jetzt eine Watchlist auf Basis der Keystone Abonnementnummern erstellen und über die ersten drei Zeichen einer Abonnement-Nummer oder eines Watchlist-Namens nach einem Keystone Abonnement suchen.
+
+
+
 == 08 Februar 2024
 
 
