@@ -1,0 +1,24 @@
+---
+sidebar: sidebar 
+permalink: evaluate-tech-refresh.html 
+keywords: tech refresh, tech support contract, hardware 
+summary: Informationen zur Evaluierung der Technologieaktualisierung bei Ihrem Vertrag für technischen Support oder Ihrer Hardware 
+---
+= Bewertung einer Technologieaktualisierung
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Wenn Sie herausfinden möchten, ob eine Technologieaktualisierung für Ihren Vertrag für den technischen Support oder für Ihre Hardware empfohlen wird, können Sie die Option zur Technologieaktualisierung nutzen.
+
+
+NOTE: Sie können auf diese Funktion entweder über die wirtschaftliche Effizienz von BlueXP (*Governance > wirtschaftliche Effizienz > Technologieaktualisierung*) oder über den digitalen NetApp-Berater (*Dashboard > Widget Planung > Technologieaktualisierung*) zugreifen.
+
+Weitere Informationen zu dieser Funktion finden Sie unter link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["Bewertung einer Technologieaktualisierung"] In der BlueXP Dokumentation.
