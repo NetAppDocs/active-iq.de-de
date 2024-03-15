@@ -16,13 +16,14 @@ summary:
 
 
 [role="lead"]
-Wenn Sie sich beim Digital Advisor anmelden, können Sie die *Aktionen* auf dem Widget *Ransomware Defense* anzeigen, die die Risikozahl anzeigt.
+Wenn Sie sich beim Digital Advisor anmelden, können Sie die im Widget *Sicherheit & Ransomware Defense* hervorgehobenen *Aktionen* anzeigen, die die Risikozählungen anzeigen.
 
 Sie können die Risiken von Snapshot-Erstellung, -Aufbewahrung und -ONTAP einsehen und dann Maßnahmen ergreifen, um sie zu beheben.
 
 .Schritte
 . Melden Sie sich bei Digital Advisor an.
-. Klicken Sie auf *Aktionen* auf dem Widget *Ransomware Defense*.
+. Klicken Sie im Widget *Sicherheit & Ransomware Defense* auf *Aktionen*.
+. Deaktivieren Sie das Kontrollkästchen *Sicherheitsschwachstellen*.
 . Überprüfen Sie die Auswirkungen auf die angezeigten Risiken und befolgen Sie die empfohlenen Maßnahmen.
 . Klicken Sie auf die Registerkarte eindeutige Risiken und klicken Sie auf den Link in der Spalte *Korrekturmaßnahmen*.
 . Klicken Sie auf die Registerkarte *Betroffene Systeme*, um Systeme mit Risiken anzuzeigen.

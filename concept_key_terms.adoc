@@ -50,13 +50,13 @@ Beim Einsatz von Digital Advisor ist es wichtig, dass Sie einige der grundlegend
 |===
 * *Wellness-Widget:* zeigt Informationen über die Leistung, Effizienz, Kapazität, Konfigurationseinstellungen, Sicherheitsschwachstellen, Und anderen. Es bestimmt proaktiv, dass die Systeme entweder die Kapazität überschritten oder die Kapazität fast 90 % überschreiten. Darüber hinaus erhalten Sie Informationen zu Software und Hardware, die entweder abgelaufen sind oder in den nächsten 6 Monaten ablaufen.
 +
+** *Sicherheit & Ransomware Defense:* bietet Informationen über Risiken und Korrekturmaßnahmen im Zusammenhang mit Sicherheitslücken, Ransomware-Erkennung, Prävention und Recovery.
 ** *Performance & Effizienz:* zeigt Informationen zur Leistung und Effizienz des Speichersystems an.
 ** *Verfügbarkeit & Schutz:* zeigt Informationen zur Verfügbarkeit und zum Schutz des Speichersystems an.
 ** *Kapazität:* besteht aus Risiken mit einem Kapazitätsattribut für die Werte der Wirkungsfläche.
 ** *Konfiguration:* besteht aus Risiken mit einem Konfigurationsattribut für die Werte des Wirkungsbereichs, sortiert mit der höchsten Auswirkung auf die Oberseite.
-** *Sicherheitsschwachstellen:* besteht aus Risiken mit einem Sicherheitsattribut für Impact Area Werte.
+** *Nachhaltigkeit:* zeigt die Anzahl der empfohlenen Maßnahmen zur Verbesserung der Nachhaltigkeitsbewertung auf Kunden-, Watchlist-, Standort- und Gruppenebene an.
 ** *Wellness-Geschichte:* zeigt Informationen über Systemrisiken, die in den letzten drei Monaten auftreten, an, damit Sie lernen können, wie sie Überstunden ergehen.
-** *Ransomware Defence:* bietet Informationen zu Risiken und Korrekturmaßnahmen im Zusammenhang mit Ransomware-Erkennung, -Prävention und -Wiederherstellung.
 ** *Risiken erkennen (Ack):* ermöglicht es Ihnen, die betroffenen Risiken und Systeme anzuerkennen. Sie können diese Risiken erkennen und sich mit den Maßnahmen vertraut machen, die Sie zur Minderung dieser Risiken durchführen können.
 ** *Unquittieren von Risiken (unkacked):* ermöglicht es Ihnen, die Risiken und Systeme, die anerkannt wurden, nicht zu erkennen.
 ** *Beheben Sie es:* behebt die Risiken für das System mit Active IQ United Manager (um) 9.7 oder höher. Klicken Sie auf diese Schaltfläche, um zu starten und die Schritte zur Risikominderung auszuführen.

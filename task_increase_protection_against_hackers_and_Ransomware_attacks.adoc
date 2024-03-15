@@ -26,10 +26,10 @@ Weitere Informationen zur Produktsicherheit von NetApp, einschließlich Produkte
 
 .Schritte
 . Melden Sie sich bei Digital Advisor an.
-. Klicken Sie im Widget * Sicherheitslücke* auf *Aktionen*.image:Security_Image 1 Ransomware attacks.png["Widget mit Sicherheitsschwachstellen"]
-+
-Folgen Sie den empfohlenen Maßnahmen zur Aktualisierung des Betriebssystems, um die Sicherheitsrisiken zu minimieren.
-
+. Klicken Sie im Widget *Sicherheit & Ransomware Defense* auf *Aktionen*.
+image:Security_Image 2 Ransomware attacks.png["Widget mit Sicherheitsschwachstellen"]
+. Deaktivieren Sie das Kontrollkästchen *Ransomware Defense*.
+. Folgen Sie den empfohlenen Maßnahmen zur Aktualisierung des Betriebssystems, um die Sicherheitsrisiken zu minimieren.
 . Klicken Sie auf die Registerkarte * Unique risks* und dann auf den Link in der Spalte *Corrective Action*.image:Corrective Action_Image 2 Ransomware attacks.png["Spalte „Korrekturmaßnahme“"]
 +
 Das Risiko ist in ONTAP 9.7P8 und höher behoben.image:Remediations_Image 3 Ransomware attacks.png["Registerkarte „Korrekturmaßnahmen“"]

@@ -20,6 +20,24 @@ Die folgenden Funktionen und Verbesserungen wurden in Digital Advisor eingeführ
 
 
 
+== 15 März 2024
+
+
+
+=== Wellness
+
+* Der Wellness-Workflow enthält jetzt das Widget Nachhaltigkeit, das die Anzahl der empfohlenen Aktionen auf Kunden-, Watchlist-, Standort- und Gruppenebene enthält. Sie können auf die Anzahl der Aktionen klicken, um eine detaillierte Ansicht dieser empfohlenen Aktionen auf dem Dashboard Nachhaltigkeit anzuzeigen. Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html["Analysieren Sie die Nachhaltigkeit Ihrer Storage-Systeme"].
+* Die Sicherheitsanfälligkeiten und Ransomware Defense Widgets im Wellness-Workflow werden in einem einzigen Widget kombiniert, das jetzt als Sicherheit & Ransomware Defense bezeichnet wird.
+
+
+
+
+=== Health Check Dashboard
+
+Der Zeitrahmen für technische Cases wird verbessert, um den gesamten Verlauf der Fälle für 6 oder 12 Monate anzuzeigen.
+
+
+
 == 29 Februar 2024
 
 
