@@ -62,7 +62,7 @@ Wählen Sie beispielsweise die Registerkarte 2 Monate aus, um Daten für 2 Monat
 |  | Netzwerkdurchsatz |  |  
 |===
 
-NOTE: Node-Latenz-Performance-Diagramme und Volume-Performance-Diagramme werden nur auf Systemen unterstützt, auf denen ONTAP 9.2 und höher ausgeführt werden.
+NOTE: Diagramme zur Node-Latenz, lokalen Tier (Aggregat) und Volume-Performance werden nur auf Systemen unterstützt, auf denen ONTAP 9.2 und höher ausgeführt wird.
 
 . Die folgenden Performance-Diagramme mit den erforderlichen Metriken sind für E-Series Controller verfügbar:
 +

@@ -18,11 +18,13 @@ summary: Diese Folie bietet einen Überblick über den Upgrade Advisor, der die 
 [role="lead"]
 Mit Upgrade Advisor erstellen Sie einen Upgrade-Plan mit detaillierten Schritt-für-Schritt-Informationen, die für ein erfolgreiches ONTAP Upgrade oder Zurücksetzen erforderlich sind.
 
-Die Erstellung automatisierter, unterbrechungsfreier Upgrade-Pläne für ein einzelnes Cluster und mehrere Cluster ist möglich. Sie können die Upgrade-Empfehlung nur für einen einzelnen Cluster anzeigen, der eine Liste der mit einem Cluster verbundenen Risiken, einen Prüfbericht vor dem Upgrade mit einer Liste von Upgrade-Blockern und -Warnungen sowie Informationen zu neuen Funktionen und Verbesserungen enthält. Weitere Informationen finden Sie unter link:generate_upgrade_plan_single_multiple_clusters.html["Erstellen eines Upgrade-Plans für ein einzelnes Cluster und mehrere Cluster"].
+Die Erstellung automatisierter, unterbrechungsfreier Upgrade-Pläne für ein einzelnes Cluster und mehrere Cluster ist möglich. Sie können Upgrade-Empfehlungen für ein einzelnes Cluster anzeigen, das eine Liste der Risiken enthält, die mit einem Cluster verbunden sind, einen Prüfbericht vor dem Upgrade mit einer Liste von Upgrade-Blockern und -Warnungen sowie Informationen zu neuen Funktionen und Verbesserungen enthält. Die Upgrade-Empfehlungen stehen für mehrere Cluster nicht zur Verfügung. Weitere Informationen finden Sie unter link:generate_upgrade_plan_single_multiple_clusters.html["Erstellen eines Upgrade-Plans für ein einzelnes Cluster und mehrere Cluster"].
+
+[NOTE]
+====
+* Generieren Sie für jedes Cluster in einer MetroCluster-Konfiguration einen individuellen Upgrade-Plan mit einer vollständigen Upgrade-Anleitung.
+* Bei Clustern mit ONTAP 9.6 oder älteren Versionen können Sie sich Informationen zu neuen Funktionen und Verbesserungen in Upgrade-Empfehlungen anzeigen lassen. Der Prüfbericht vor dem Upgrade und die Risikoübersicht sind nicht verfügbar, und Sie können einen Upgrade-Plan in dem älteren Format erstellen.
 
 
-NOTE: Generieren Sie für jedes Cluster in einer MetroCluster-Konfiguration einen individuellen Upgrade-Plan mit einer vollständigen Upgrade-Anleitung.
-
-Für Nodes (Storage-Systeme) lassen sich automatisierte unterbrechungsfreie und unterbrechungsfreie Upgrade-Pläne erstellen. Sie können die empfohlenen Upgrade-Pfade überprüfen und einen Upgrade-Plan erstellen. Weitere Informationen finden Sie unter link:task_view_upgrade.html["Erstellen Sie einen Upgrade-Plan für Ihre Nodes"].
-
+====
 Bevor Sie einen Upgrade-Plan erstellen, sollten Sie sich auf ein ONTAP Upgrade vorbereiten. Die richtige Vorbereitung hilft bei der Identifizierung und Minimierung potenzieller Upgrade-Risiken oder Blockers, bevor Sie mit dem Upgrade-Prozess beginnen. Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/ontap/upgrade/prepare.html["Bereiten Sie sich auf ein ONTAP Upgrade vor"^].

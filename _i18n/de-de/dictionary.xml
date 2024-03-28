@@ -51,7 +51,6 @@
   <block id="26ae7bdd1d6fb8c4886e6fde8d12601c" category="cell">Latenz</block>
   <block id="363feef65df9d9b2c15feec5eeae6961" category="cell">Durchschnittliche Auslastung</block>
   <block id="52d04ac041f40e180ee13d2d46edbfc6" category="cell">Protokoll-IOPS</block>
-  <block id="23f1323406f594572732c2bad13eebde" category="admonition">Node-Latenz-Performance-Diagramme und Volume-Performance-Diagramme werden nur auf Systemen unterstützt, auf denen ONTAP 9.2 und höher ausgeführt werden.</block>
   <block id="194a23f51af9ff2576303b43382ec1b9" category="list-text">Die folgenden Performance-Diagramme mit den erforderlichen Metriken sind für E-Series Controller verfügbar:</block>
   <block id="cc2748501c3e7b4010b19883a07f8053" category="list-text">CPU-Auslastung</block>
   <block id="0b85467ebafa7ca3c47e82dc38184484" category="list-text">Durchsatz</block>
@@ -198,8 +197,6 @@
   <block id="022a011d9b874fb921f0168799a144d0" category="list-text">*Best Practices*: Zeigt die Bewertung der Systemüberprüfung an, indem Sie die Best Practices-Attribute Ihres Storage-Systems bewerten: Schwachstellen bei Performance und Effizienz, Verfügbarkeit und Schutz, Kapazität, Konfiguration und Sicherheit. Die NetApp Best Practices tragen dazu bei, den Systemzustand zu erhalten, wodurch die Performance Ihrer installierten Basis optimiert wird.</block>
   <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link-macro">NetApp Support Website</block>
   <block id="1e3c19e3742fbfc0e6dd22bb91d109a3" category="inline-image-macro">Upgrade Advisor</block>
-  <block id="64916198004d1ee19b1b50002f51f1a8" category="inline-image-macro">Upgrade-Optionen</block>
-  <block id="b58373ef1164bbd04be01f9d80e8c58e" category="inline-image-macro">Erstellung eines Upgrade-Plans</block>
   <block id="36b9a40607be4fe5327a83c15f10355e" category="summary">Bietet Informationen zum Vergleich einer Konfigurations-Drift-Vorlage.</block>
   <block id="07bccdf47af12c51bb370278a660f033" category="doc">Vergleichen Sie eine Konfigurations-Drift-Vorlage</block>
   <block id="5a8fec4938d8693af6506cce2afba55d" category="paragraph">Sie können die System- und Cluster-Konfigurationen vergleichen und Konfigurationsänderungen nahezu in Echtzeit erkennen.</block>
@@ -1359,19 +1356,11 @@ Die Anmeldeseite für NetApp BlueXP wird angezeigt.</block>
   <block id="fa67fcdec3a9597a8256117c23529953" category="paragraph">Wenn Sie NetApp Keystone StaaS-Services abonniert haben, können Sie das Widget „Keystone Abonnement“ im Digital Advisor Dashboard ansehen.</block>
   <block id="580577f00c6e952d8dad642fa30380db" category="inline-link-macro">Keystone und Digital Advisor</block>
   <block id="2f9ac5e4626cf891d09ebda2d18327db" category="paragraph">Das Keystone Abonnement-Widget bietet Ihnen einen Überblick über die Kapazitätsnutzung für Ihr Konto. Es besteht aus Kapazitätsauslastungsdiagrammen in Bezug auf die physische Kapazität. Weitere Informationen zu den verschiedenen Ebenen von Abonnementdaten und Nutzungsinformationen finden Sie unter <block ref="db5795af5cbf28cf9af79d32298b7715" category="inline-link-macro-rx"></block>.</block>
-  <block id="0d67c629baadb827d64b6f908a024ff7" category="inline-image-macro">Registerkarte „Risikoberater“</block>
-  <block id="c406705ee0488217955ba39bbcd3e0f3" category="inline-image-macro">Gesamtrisiken</block>
-  <block id="9b9689199f95721c2dbffc551f8161fa" category="inline-image-macro">Ein Popup-Fenster mit den Angaben zum Senden der Anfrage zur Erstellung des Upgrade-Plans</block>
   <block id="0d2ad64b559232943585fd7b1d8a6a97" category="section-title">27 September 2023</block>
   <block id="f32be3299de249a0d2ea856582aaf567" category="list-text">Über die können Sie auf die Seite Upgrade Advisor für Ihre Standard-Watchlist zugreifen <block ref="2a9dc4897c9bae502dc40fd9fb7b1c92" category="inline-link-macro-rx"></block> Verlinken:</block>
   <block id="d733f1a5970e5ea99d583388ac25e9cf" category="inline-link-macro">Erfahren Sie, wie Sie einen Upgrade-Plan erstellen und anzeigen</block>
   <block id="728961fac8324355b6e6e72caa3fcab4" category="paragraph">Ein NachhaltigkeitsDashboard bietet wertvolle Einblicke in die ökologische Nachhaltigkeit Ihres Storage-Systems. Sie können die Informationen wie Nachhaltigkeitsbewertung, CO2-Minderung, prognostizierte Nutzung von Energie, direkter Kohlenstoff und Wärme anzeigen. Sie können den Prozentsatz der CO2-Minderung für bestimmte Standorte anpassen. Sie können die Nachhaltigkeitsbewertung auch auf Cluster-Ebene anzeigen. Basierend auf dem Ergebnis für die Nachhaltigkeit können Sie die Gesamteffizienz Ihres Storage-Systems beurteilen und das System an den von NetApp empfohlenen Maßnahmen zur Steigerung der Nachhaltigkeit ausrichten. <block ref="14f04672b3a078b1589b8f46c67500a4" category="inline-link-macro-rx"></block>.</block>
-  <block id="a51f3b59b1e2e55eb492198c5498a7bf" category="list-text">Wählen Sie die Upgrade-Option aus.</block>
-  <block id="fd23e666b2cc48f70922dc0a25bed60d" category="list-text">Klicken Sie auf die Anzahl der kompatiblen Systeme, um einen Upgrade-Plan zu erstellen.
-Die Seite *Upgrade-Details* wird angezeigt.</block>
-  <block id="f4e13f16e7fba0f60794942036b0d5b3" category="list-text">Sie können auf die Anzahl der Gesamtrisiken klicken, um die Liste der Risiken auf der Registerkarte *Risikoberater* anzuzeigen, wenn die Upgrade-Option *Gesamtrisiken* enthält.</block>
   <block id="81ff79ba6c57be0faaf7131e8c633f75" category="list-text">Klicken Sie Auf *Upgrade Plan Erstellen*.</block>
-  <block id="06cb9645f9905dac3c50116c8abb865c" category="list-text">Geben Sie die Details im angezeigten Popup-Fenster ein. Sie können auch das Kontrollkästchen *Plan zurücksetzen* aktivieren, um den Backout-Plan in den Upgrade-Plan aufzunehmen.</block>
   <block id="98f475d7aa8f966d87ccc93ba94fba94" category="sidebar">Analysieren Sie die Nachhaltigkeit Ihrer Storage-Systeme</block>
   <block id="d36a1ccbf2d01a1ff61c0e50416882e9" category="section-title">04 Oktober 2023</block>
   <block id="ec795e7f7ea26d9d59bc0e1e031d4234" category="section-title">Widget „Planung“</block>
@@ -1392,53 +1381,29 @@ Die Seite *Upgrade-Details* wird angezeigt.</block>
   <block id="d99a4bbfe0f45d32ff5e507f38f9f1a7" category="admonition">AutoSupport sollte für die genaue Berechnung der Nachhaltigkeitsbewertung aktiviert sein.</block>
   <block id="f1a07ac2a47e6ae773882ceb0f2e9570" category="doc">Auf das Dashboard „Nachhaltigkeit“ zugreifen</block>
   <block id="4a94cc80e3bef643a461eac57bc8c9ef" category="paragraph">Das Dashboard für Nachhaltigkeit bietet durch AIOps unterstützte Berichte und Bewertungen mit verwertbaren Erkenntnissen zur Verbesserung Ihrer Nachhaltigkeitsstrategie. Das Sustainability Dashboard kann über NetApp BlueXP oder Digital Advisor aufgerufen werden.</block>
-  <block id="be5178143d843340e4e67eba4c9e81e5" category="summary">Bietet Informationen zum Anzeigen und Aktualisieren der ONTAP-Version der Nodes (Speichersystem).</block>
-  <block id="8601f406e80391d056c58948aa581fb2" category="doc">Erstellen eines Upgrade-Plans für Nodes</block>
-  <block id="2bd844d4631a34a970dfaf3be90c4a0b" category="paragraph">Mit Upgrade Advisor können Sie empfohlene Upgrades anzeigen und einen Upgrade-Plan für Nodes (Storage-Systeme) erstellen. Sie können die Liste der Risiken auf der mit Nodes verknüpften Registerkarte „Risikoberater“ anzeigen und diese Risiken beim Upgrade auf eine neuere Version von ONTAP verringern.</block>
   <block id="24fbd138c7dc295cdff7b25fb0003595" category="list-text">Klicken Sie im Dashboard auf die Anzahl der Cluster im Widget *Upgrade Advisor*.</block>
   <block id="bcc117d8c868654bdcb5b2de44d7fbf2" category="inline-image-macro">Ein Screenshot, der die Anzahl der Cluster zeigt.</block>
   <block id="28c5b9b9eefe3c1e8c902c9d79cc6787" category="paragraph"><block ref="28c5b9b9eefe3c1e8c902c9d79cc6787" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a66487996a06c28a71be20aa0af1d26c" category="paragraph">Die Seite *Upgrade Advisor-ONTAP* wird angezeigt.</block>
-  <block id="154c77c413a39ecb8c39b457c5252f40" category="list-text">Deaktivieren Sie den *Enhanced Upgrade Advisor*-Schalter.</block>
-  <block id="8b60d322239e9b30aae8b8fd47a48ce3" category="inline-image-macro">Ein Screenshot, der den erweiterten Upgrade Advisor Umschalter zeigt, ist deaktiviert.</block>
-  <block id="0041204be6f9f2e470c98ebfb3d5b0b0" category="paragraph"><block ref="0041204be6f9f2e470c98ebfb3d5b0b0" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="aad5368020cbd683aeba5851f49b4a38" category="paragraph"><block ref="aad5368020cbd683aeba5851f49b4a38" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a7b4dbfcbcafcdcc68cd3071fff921ef" category="paragraph"><block ref="a7b4dbfcbcafcdcc68cd3071fff921ef" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9d13760352c3ef2c67f70c65eb9218c3" category="inline-image-macro">Bild der Schaltfläche Bearbeiten</block>
-  <block id="42dc80a9f868807808bfb3bd6d3fa3e4" category="list-text">Sie können auf klicken <block ref="94cf0a310bc1ba95ee82428676c1afeb" category="inline-image-macro-rx" type="image"></block> Symbol in der *Target OS Version*, um eine andere Ziel-OS-Version eines Clusters auszuwählen.</block>
-  <block id="81782223768cc597145a7fe6649737aa" category="list-text">Sie können die Registerkarte *Risk Advisor* aufrufen, um die Liste der Risiken zusammen mit ihrem Schweregrad anzuzeigen.
-  +
-<block ref="64ab9e5ee435c8d4125b4c4b2f334200" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="141bbe67ced8a85bfd11063ebb59d88d" category="paragraph"><block ref="141bbe67ced8a85bfd11063ebb59d88d" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="13c6c834b23acb47e87a7edcc32e7f88" category="list-text">Wählen Sie auf der Registerkarte *Upgrade Advisor* Systeme für ein Upgrade aus.</block>
-  <block id="f5a352aea6c7a54f54feff2b5821b2f0" category="paragraph"><block ref="f5a352aea6c7a54f54feff2b5821b2f0" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="680ec4642757efc9cf2d150edf5ce5fc" category="list-text">Klicken Sie Auf *Absenden*.
-Sie werden zur Seite *Reports* weitergeleitet.</block>
   <block id="d983f30395f8346ffd80f3672dfe8b2a" category="list-text">Sie können den Upgrade-Plan von der Seite *Reports* herunterladen, sobald er verfügbar ist.</block>
   <block id="e914294f6ad533c4cc5d44ff79ab35e3" category="inline-link-macro">Maßnahmen nach einem ONTAP Upgrade</block>
   <block id="bbc10f30b2ee9ee55d84238475ba20b0" category="paragraph">Einige Aufgaben sollten Sie durchführen, um die Bereitschaft des Clusters nach dem Upgrade von ONTAP zu bestätigen. Weitere Informationen finden Sie unter <block ref="49be8ce40deb1a0b7eb5c98a4fed6622" category="inline-link-macro-rx"></block>.</block>
   <block id="ef2ca72de9895714706408c3a660a3ad" category="summary">Diese Folie bietet einen Überblick über den Upgrade Advisor, der die Planung eines ONTAP Upgrades vereinfacht.</block>
   <block id="67ee936e795ffe8e8018ac6757105eae" category="paragraph">Mit Upgrade Advisor erstellen Sie einen Upgrade-Plan mit detaillierten Schritt-für-Schritt-Informationen, die für ein erfolgreiches ONTAP Upgrade oder Zurücksetzen erforderlich sind.</block>
   <block id="d9b9898ac1165db3daef0e6e50933c02" category="inline-link-macro">Erstellen eines Upgrade-Plans für ein einzelnes Cluster und mehrere Cluster</block>
-  <block id="db336d8bf73f1c92f4ed725650c533e9" category="paragraph">Die Erstellung automatisierter, unterbrechungsfreier Upgrade-Pläne für ein einzelnes Cluster und mehrere Cluster ist möglich. Sie können die Upgrade-Empfehlung nur für einen einzelnen Cluster anzeigen, der eine Liste der mit einem Cluster verbundenen Risiken, einen Prüfbericht vor dem Upgrade mit einer Liste von Upgrade-Blockern und -Warnungen sowie Informationen zu neuen Funktionen und Verbesserungen enthält. Weitere Informationen finden Sie unter <block ref="41932a416de65dadbc9f715244a32fe5" category="inline-link-macro-rx"></block>.</block>
   <block id="86889b2158b4ac7c9d8fcef2845d3f55" category="admonition">Generieren Sie für jedes Cluster in einer MetroCluster-Konfiguration einen individuellen Upgrade-Plan mit einer vollständigen Upgrade-Anleitung.</block>
-  <block id="5681200d8f1383312047ace6aad75922" category="inline-link-macro">Erstellen Sie einen Upgrade-Plan für Ihre Nodes</block>
-  <block id="9b7d1ab37e6749081c5ac63cb683b1c4" category="paragraph">Für Nodes (Storage-Systeme) lassen sich automatisierte unterbrechungsfreie und unterbrechungsfreie Upgrade-Pläne erstellen. Sie können die empfohlenen Upgrade-Pfade überprüfen und einen Upgrade-Plan erstellen. Weitere Informationen finden Sie unter <block ref="480e8086971f91861d6dfe49fd297465" category="inline-link-macro-rx"></block>.</block>
   <block id="7b410e5aa098af7d98f180ce6460fdfe" category="inline-link-macro">Bereiten Sie sich auf ein ONTAP Upgrade vor</block>
   <block id="222865b37915c0c4bc9b2b9bfcf5b07b" category="paragraph">Bevor Sie einen Upgrade-Plan erstellen, sollten Sie sich auf ein ONTAP Upgrade vorbereiten. Die richtige Vorbereitung hilft bei der Identifizierung und Minimierung potenzieller Upgrade-Risiken oder Blockers, bevor Sie mit dem Upgrade-Prozess beginnen. Weitere Informationen finden Sie unter <block ref="ea9d3240085371b5bf3a3755f96d8f6d" category="inline-link-macro-rx"></block>.</block>
   <block id="0850cf3036348eacfcb9da9c7e6dff71" category="section-title">03 Januar 2024</block>
-  <block id="9c818280eee76d75834ab648289ae85f" category="inline-link-macro">Erfahren Sie, wie Sie die Upgrade-Empfehlung anzeigen und einen Upgrade-Plan erstellen.</block>
-  <block id="bdc2200252b96cc6ed0c081012882ca8" category="paragraph">Upgrade Advisor wurde erweitert und ermöglicht automatisierte, unterbrechungsfreie Upgrade-Pläne für ein einzelnes Cluster und mehrere Cluster. Sie können die Upgrade-Empfehlung nur für ein einzelnes Cluster anzeigen. Dazu gehören eine Risikoübersicht, ein Prüfbericht vor dem Upgrade sowie Informationen zu neuen Funktionen und Verbesserungen. <block ref="5432771afbfeb8bee17b110b384d0041" category="inline-link-macro-rx"></block></block>
   <block id="fdee59a37f60e4c66e5c6b1c6c80b2c1" category="list-text">Der Upgrade-Plan wurde optimiert, um redundante Upgrade-Schritte zu entfernen und den Backout-Plan zu vereinfachen. Die allgemeinen Schritte aller Nodes in einem Cluster werden konsolidiert und stehen im Abschnitt „Allgemeine Informationen“ des Upgrade-Plans zur Verfügung. <block ref="f0e67dfcb5ef41ef22b88debd0952b4f" category="inline-link-macro-rx"></block>.</block>
   <block id="54c8d286439441f65d676d4c8b3f8e5d" category="paragraph">Sie können sich von einer webbasierten Konsole aus bei Digital Advisor anmelden, um den Gesamtstatus Ihres Speichersystems anzuzeigen.</block>
   <block id="1e483625e81b84fcdebccdf1e8a9446a" category="inline-link-macro">Registrieren für das NetApp Support Site Konto als Kunden- oder Gastbenutzer</block>
   <block id="dd535b546ee88a50134df4a8bcb9ebc7" category="paragraph">Zur Anmeldung bei Digital Advisor müssen Sie über eine gültige NetApp Support-Website-Zertifizierung verfügen. Wenn Sie noch keinen Account haben und noch nicht begonnen haben, können Sie im folgenden KB-Artikel ein Konto erstellen:
 <block ref="b73ff2fa987bdb24b44ced01bb2bd4c6" category="inline-link-macro-rx"></block>.</block>
   <block id="cb6d856529734d9ca63ed119e0c1bba6" category="summary">Schritte zur Erstellung eines Upgrade-Plans für ein erfolgreiches ONTAP Upgrade oder Zurücksetzen von Clustern und Clustern</block>
-  <block id="85af6d120b0bc5a9e283fc346b4434ba" category="paragraph">Sie können Upgrade Advisor verwenden, um eine Liste der Cluster anzuzeigen, die für ein Upgrade qualifiziert oder nicht berechtigt sind. Sie können die Upgrade-Empfehlung für ein berechtigeCluster anzeigen und einen Upgrade-Plan erstellen. Sie können die Probleme mit einem nicht berechtigten Cluster beheben, um ein Upgrade zu erhalten.</block>
   <block id="6e394bcec3129051274784fa1f725065" category="paragraph">Führen Sie die folgenden Schritte aus, um einen Upgrade-Plan für ein einzelnes Cluster und mehrere Cluster zu erstellen:</block>
   <block id="94df3919fe9cfa11e61d8a1c34ab29ac" category="open-title">Einzelnes Cluster</block>
-  <block id="a8a13bd076efa14c76bf4d2412097a76" category="list-text">Vergewissern Sie sich, dass der Schalter *Enhanced Upgrade Advisor* aktiviert ist.</block>
   <block id="b8b6bd2d3e7273f469feb9820cd57266" category="inline-image-macro">Ein Screenshot, in dem der erweiterte Upgrade Advisor Umschalter angezeigt wird, ist aktiviert.</block>
   <block id="e5030f0aad42928362a1dd6d459850f1" category="paragraph"><block ref="e5030f0aad42928362a1dd6d459850f1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="97bf638dd7855f5b871198e3de655fb7" category="paragraph">Sie können eine Liste mit geeigneten und nicht berechtigten Clustern für ein Upgrade anzeigen.</block>
@@ -1530,4 +1495,12 @@ Die Verfügbarkeit der Funktionen unter *STORAGE HEALTH* hängt vom Systemtyp un
   <block id="994ea9e16920acdbe0ac6e35ae6fffad" category="paragraph">Wenn Sie sich beim Digital Advisor anmelden, können Sie die im Widget *Sicherheit &amp; Ransomware Defense* hervorgehobenen *Aktionen* anzeigen, die die Risikozählungen anzeigen.</block>
   <block id="e8563fdf2c4612622ba50a5e8cfcb99a" category="list-text">Klicken Sie im Widget *Sicherheit &amp; Ransomware Defense* auf *Aktionen*.</block>
   <block id="4d7b0b036dd7f28233ff7e59c3c1dbf5" category="list-text">Deaktivieren Sie das Kontrollkästchen *Sicherheitsschwachstellen*.</block>
+  <block id="8ab2cb8f529884d0aa70d068b846421e" category="admonition">Diagramme zur Node-Latenz, lokalen Tier (Aggregat) und Volume-Performance werden nur auf Systemen unterstützt, auf denen ONTAP 9.2 und höher ausgeführt wird.</block>
+  <block id="fbf668c351539b8a0b137fcc8beb4b5e" category="paragraph">Die Erstellung automatisierter, unterbrechungsfreier Upgrade-Pläne für ein einzelnes Cluster und mehrere Cluster ist möglich. Sie können Upgrade-Empfehlungen für ein einzelnes Cluster anzeigen, das eine Liste der Risiken enthält, die mit einem Cluster verbunden sind, einen Prüfbericht vor dem Upgrade mit einer Liste von Upgrade-Blockern und -Warnungen sowie Informationen zu neuen Funktionen und Verbesserungen enthält. Die Upgrade-Empfehlungen stehen für mehrere Cluster nicht zur Verfügung. Weitere Informationen finden Sie unter <block ref="41932a416de65dadbc9f715244a32fe5" category="inline-link-macro-rx"></block>.</block>
+  <block id="cd65827c11cd37b34e44b3a7ab206c41" category="list-text">Bei Clustern mit ONTAP 9.6 oder älteren Versionen können Sie sich Informationen zu neuen Funktionen und Verbesserungen in Upgrade-Empfehlungen anzeigen lassen. Der Prüfbericht vor dem Upgrade und die Risikoübersicht sind nicht verfügbar, und Sie können einen Upgrade-Plan in dem älteren Format erstellen.</block>
+  <block id="83c0915932deaf70b0873b6eb47c3a28" category="section-title">28 März 2024</block>
+  <block id="888059a12fa3532d54872d17517e780c" category="inline-link-macro">Erfahren Sie, wie Sie Upgrade-Empfehlungen anzeigen und einen Upgrade-Plan erstellen.</block>
+  <block id="9d10674ae163e749f65c1eeb852cdf2b" category="paragraph">Die ältere Version von Upgrade Advisor ist jetzt veraltet. Mit der erweiterten Version von Upgrade Advisor können Sie Upgrade-Pläne für ein einzelnes Cluster und mehrere Cluster erstellen. <block ref="b6cac2681a05b9a8dd19bf0553cd1066" category="inline-link-macro-rx"></block></block>
+  <block id="09e1051fd25e78ca51d5f56f36581890" category="paragraph">Upgrade Advisor wurde erweitert und ermöglicht automatisierte, unterbrechungsfreie Upgrade-Pläne für ein einzelnes Cluster und mehrere Cluster. Sie können die Upgrade-Empfehlung nur für ein einzelnes Cluster anzeigen. Dazu gehören eine Risikoübersicht, ein Prüfbericht vor dem Upgrade sowie Informationen zu neuen Funktionen und Verbesserungen. <block ref="b6cac2681a05b9a8dd19bf0553cd1066" category="inline-link-macro-rx"></block></block>
+  <block id="cd798e0859b41c1efded8de089ce45b3" category="paragraph">Sie können Upgrade Advisor verwenden, um eine Liste der Cluster anzuzeigen, die für ein Upgrade qualifiziert oder nicht berechtigt sind. Sie können Upgrade-Empfehlungen für ein berechtigter Cluster anzeigen und einen Upgrade-Plan erstellen. Sie können die Probleme mit einem nicht berechtigten Cluster beheben, um ein Upgrade zu erhalten.</block>
 </blocks>

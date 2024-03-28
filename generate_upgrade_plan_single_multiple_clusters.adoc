@@ -16,7 +16,7 @@ summary: Schritte zur Erstellung eines Upgrade-Plans für ein erfolgreiches ONTA
 
 
 [role="lead"]
-Sie können Upgrade Advisor verwenden, um eine Liste der Cluster anzuzeigen, die für ein Upgrade qualifiziert oder nicht berechtigt sind. Sie können die Upgrade-Empfehlung für ein berechtigeCluster anzeigen und einen Upgrade-Plan erstellen. Sie können die Probleme mit einem nicht berechtigten Cluster beheben, um ein Upgrade zu erhalten.
+Sie können Upgrade Advisor verwenden, um eine Liste der Cluster anzuzeigen, die für ein Upgrade qualifiziert oder nicht berechtigt sind. Sie können Upgrade-Empfehlungen für ein berechtigter Cluster anzeigen und einen Upgrade-Plan erstellen. Sie können die Probleme mit einem nicht berechtigten Cluster beheben, um ein Upgrade zu erhalten.
 
 Führen Sie die folgenden Schritte aus, um einen Upgrade-Plan für ein einzelnes Cluster und mehrere Cluster zu erstellen:
 
@@ -31,12 +31,9 @@ image:ua_widget.png["Ein Screenshot, der die Anzahl der Cluster zeigt."]
 +
 Die Seite *Upgrade Advisor-ONTAP* wird angezeigt.
 
-. Vergewissern Sie sich, dass der Schalter *Enhanced Upgrade Advisor* aktiviert ist.
+. Sie können eine Liste mit geeigneten und nicht berechtigten Clustern für ein Upgrade anzeigen.
 +
 image:r_enhanced_ua_toggle.png["Ein Screenshot, in dem der erweiterte Upgrade Advisor Umschalter angezeigt wird, ist aktiviert."]
-
-+
-Sie können eine Liste mit geeigneten und nicht berechtigten Clustern für ein Upgrade anzeigen.
 
 . Wählen Sie einen Cluster für ein Upgrade aus.
 In der Spalte *Target OS Version* wird die empfohlene Ziel-OS-Version angezeigt. Sie können auf klicken image:edit_icon.png["Bild der Schaltfläche Bearbeiten"] Symbol, um eine andere Ziel-BS-Version eines Clusters auszuwählen.
@@ -88,12 +85,9 @@ image:ua_widget.png["Ein Screenshot, der die Anzahl der Cluster zeigt."]
 +
 Die Seite *Upgrade Advisor-ONTAP* wird angezeigt.
 
-. Vergewissern Sie sich, dass der Schalter *Enhanced Upgrade Advisor* aktiviert ist.
+. Sie können eine Liste mit geeigneten und nicht berechtigten Clustern für ein Upgrade anzeigen.
 +
 image:r_enhanced_ua_toggle.png["Ein Screenshot, in dem der erweiterte Upgrade Advisor Umschalter angezeigt wird, ist aktiviert."]
-
-+
-Sie können eine Liste mit geeigneten und nicht berechtigten Clustern für ein Upgrade anzeigen.
 
 . Wählen Sie Cluster für ein Upgrade aus.
 In der Spalte *Target OS Version* wird die empfohlene Ziel-OS-Version angezeigt.Sie können auf klicken image:edit_icon.png["Bild der Schaltfläche Bearbeiten"] Symbol, um eine andere Ziel-BS-Version eines Clusters auszuwählen.

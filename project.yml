@@ -82,8 +82,6 @@ sidebar:
       url: "/upgrade_advisor_overview.html"
     - title: Erstellen eines Upgrade-Plans für ein einzelnes Cluster und mehrere Cluster
       url: "/generate_upgrade_plan_single_multiple_clusters.html"
-    - title: Erstellen eines Upgrade-Plans für Nodes
-      url: "/task_view_upgrade.html"
   - title: Zeigen Sie Systemdetails an
     entries:
     - title: Anzeigen von Bestandsdetails
