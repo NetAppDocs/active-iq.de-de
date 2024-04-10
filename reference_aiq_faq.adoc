@@ -20,17 +20,42 @@ Die folgenden Fragen beantworten Ihre häufigen Fragen zu Digital Advisor.
 
 
 
+== Technische Fallstudie
+
+*Wann erstelle ich einen technischen Case?*
+
+Technische Cases sollen bei technischen Problemen im Zusammenhang mit Hardwareunterbrechungen, schlechter Performance, Datenproblemen oder Anforderungen an technische Informationen Unterstützung bei jedem der NetApp Produkte erhalten.
+
+*Wie erstelle ich einen technischen Case?*
+
+. Klicken Sie Auf link:https://mysupport.netapp.com/site/global/dashboard["Hier"^] Um die NetApp Support-Website zu öffnen.
+. Klicken Sie im oberen Menü auf *Meine Fälle*.
+. Klicken Sie auf *Fall erstellen*.
+. Wählen Sie eine Kategorie aus, geben Sie die erforderlichen Details ein, und klicken Sie auf *Neue Suche*, um ein System aus Ihrem Bestand zu suchen.
+. Wählen Sie aus der angezeigten Liste das System aus, um den Fall zu erstellen.
+. Wählen Sie die Priorität für den neuen Fall aus.
+. Wählen Sie die entsprechende Kategorie aus der Dropdown-Liste *Problemkategorie* aus.
+. Geben Sie die Problembeschreibung in das Feld Problembeschreibung ein und klicken Sie auf *Fortfahren*.
+. Geben Sie weitere Details über das Problem an.
+. Klicken Sie auf *Select Files*, um Dateien oder Bilder hochzuladen, die bei der Diagnose des Problems helfen können.
+. Klicken Sie Auf *Weiter*.
+. Geben Sie Ihre Kontaktdaten an.
+. Klicken Sie Auf *Fall Erstellen*.
+
+
+
+
 == Nicht-technische Support-Cases
 
 *Was ist ein nicht-technischer Fall?*
 
 Probleme wie unfähige Systeme im Bestand, falsche Vertragstermine usw., die nicht technisch sind, werden als nichttechnische Fälle klassifiziert.
 
-*Wann muss ich einen nicht-technischen Fall erstellen?*
+*Wann erstelle ich einen nicht-technischen Case?*
 
 Es sollte ein nicht-technischer Case für die folgenden Fälle erstellt werden:
 
-* Zugriff auf bestimmte Funktionen nicht möglich
+* Auf bestimmte Funktionen kann nicht zugegriffen werden, oder Sie benötigen Unterstützung bei Digital Advisor-Funktionen
 * Fehlende Systeme im Bestand
 * Außerbetriebnahme eines Systems von der Installationsbasis
 * Falsche oder fehlende Vertragslaufzeit
