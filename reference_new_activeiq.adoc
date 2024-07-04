@@ -20,6 +20,16 @@ Die folgenden Funktionen und Verbesserungen wurden in Digital Advisor eingeführ
 
 
 
+== 04 Juli 2024
+
+
+
+=== Dashboard zur Nachhaltigkeit
+
+Umgebungsindikatoren, die Einblick in den Zustand der Umgebung Ihrer Storage-Systeme bieten, bieten nun präzisere Werte für den prognostizierten Stromverbrauch, den direkten Kohlenstoffverbrauch und die Wärmeabgabe auf der Grundlage eines erweiterten Prognosemodells. Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["Übersicht über das Dashboard „Nachhaltigkeit“"^].
+
+
+
 == 15 Mai 2024
 
 

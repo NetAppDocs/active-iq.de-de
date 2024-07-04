@@ -16,7 +16,7 @@ summary: Enthält Informationen zum Dashboard, zur Bewertung der Nachhaltigkeit,
 
 
 [role="lead"]
-Das Dashboard zur Nachhaltigkeit bietet eine Bewertung der Umgebung Ihres Storage-Systems und liefert Ihnen nützliche Einblicke für Verbesserungen in Form empfohlener Maßnahmen von NetApp.
+Das Sustainability Dashboard bietet eine Bewertung der Systemumgebung für Ihre Storage-Systeme und liefert nützliche Informationen für Verbesserungen in Form der von NetApp empfohlenen Maßnahmen.
 
 image:get_started_sustainability_dashboard.png["Ein UI-Screenshot, der das Dashboard für Nachhaltigkeit zeigt."]
 
@@ -35,14 +35,13 @@ Sie können die grafische Darstellung der Partitur für bis zu 5 Wochen sehen, d
 
 image:sustainability_score.png["Ein Screenshot, der die Nachhaltigkeitsbewertung zusammen mit der Grafik zeigt."]
 
-*Umweltindikatoren*: Zeigt Projektionen für Ihre Leistung, den direkten Kohlenstoffverbrauch und die Wärmeabstrahlung an, um den Umweltzustand Ihres Speichersystems zu bewerten. Diese Projektionen basieren auf den tatsächlichen Stromwerten, falls nicht verfügbar, typischen Leistungswerten. Sie können diese Projektionen monatlich, vierteljährlich oder jährlich anzeigen, indem Sie in der Dropdown-Liste oben rechts in diesem Abschnitt die gewünschte Option auswählen.
+*Umweltindikatoren*: Zeigt Projektionen für Ihre Leistung, Ihren direkten Kohlenstoffverbrauch und Ihre Wärmeabstrahlung an, um den Umweltzustand Ihrer Speichersysteme zu bewerten. Diese Projektionen basieren auf den tatsächlichen Stromwerten, falls nicht verfügbar, typischen Leistungswerten. Sie können diese Projektionen monatlich, vierteljährlich oder jährlich anzeigen, indem Sie in der Dropdown-Liste oben rechts in diesem Abschnitt die gewünschte Option auswählen.
 
 *Prozentsatz der CO2-Minderung*: Zeigt den Prozentsatz der CO2-Minderung an jedem Standort/Ort an, und die dargestellten Basiswerte basieren auf Ihrem Standort. Sie können den Prozentsatz der CO2-Minderung für bestimmte Standorte anpassen, indem Sie auf die klicken image:edit_icon_1.png["Ein Screenshot mit einem editierbaren Symbol."] Neben den Prozentwerten befindet sich das Symbol, und die Kohlenstoffwerte werden automatisch entsprechend angepasst.
 
 image:carbon_mitigation_percentage.png["Ein Screenshot, der den Prozentsatz der CO2-Minderung an Standorten und die Vorgehensweise zum Bearbeiten dieses Prozentsatzes zeigt."]
 
-*Empfohlene Maßnahmen*: Zeigt die Liste der empfohlenen Maßnahmen zur Verbesserung der Nachhaltigkeitsbewertung Ihres Speichersystems an. Diese Maßnahmen können sofort oder später ergriffen werden.
-Weitere Informationen zur Verbesserung der Nachhaltigkeitsbewertung finden Sie unter link:improve_sustainability_score.html["Nachhaltigkeitsbewertung"].
+*Empfohlene Maßnahmen*: Zeigt die Liste der empfohlenen Maßnahmen zur Verbesserung der Nachhaltigkeitsbewertung Ihrer Speichersysteme an. Diese Maßnahmen können sofort oder später ergriffen werden. Weitere Informationen zur Verbesserung der Nachhaltigkeitsbewertung finden Sie unter link:improve_sustainability_score.html["Nachhaltigkeitsbewertung"].
 
 *Arbeitsumgebungen*: Zeigt Umgebungsparameter in der Tabelle an, die bei der Identifizierung von Clustern helfen können, um zu effizienterem Speicher zu wechseln. Aus dieser Tabelle können Sie:
 
