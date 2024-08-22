@@ -25,9 +25,6 @@ Die folgenden Berichtstypen sind in Digital Advisor verfügbar:
 | Berichtsname | Beschreibung 
 
 
-| 7-Mode Upgrade Advisor Pläne | Erstellt einen Bericht über den Upgrade Advisor-Plan für 7-Mode Systeme. Dieser Bericht enthält Informationen zum HA-Partner. 
-
-
 | Ansible-Bestandsaufnahme | Bietet eine Ansible-Bestandsdatei, in der alle Details zum Systembestand nach Region oder Standort aufgelistet sind. Diese Datei kann zur Automatisierung verwendet werden. 
 
 

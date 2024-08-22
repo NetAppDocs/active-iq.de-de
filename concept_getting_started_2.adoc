@@ -40,7 +40,7 @@ Lesen Sie die folgenden Informationen, um sich über die Widgets zu informieren,
 | Verlängerungen | Unterstützung auf allen Plattformen | Unterstützung auf allen Plattformen | Unterstützung auf allen Plattformen 
 
 
-| Kapazitätszuwächse | Unterstützung nur auf ONTAP Plattformen (Data ONTAP 7-Mode und Clustered Data ONTAP) | Unterstützung nur auf ONTAP Plattformen (Data ONTAP 7-Mode und Clustered Data ONTAP) | Unterstützung nur auf ONTAP Plattformen (Data ONTAP 7-Mode und Clustered Data ONTAP) 
+| Kapazitätszuwächse | Nur auf Clustered Data ONTAP unterstützt | Nur auf Clustered Data ONTAP unterstützt | Nur auf Clustered Data ONTAP unterstützt 
 
 
 | Inventar | Unterstützung auf allen Plattformen | Nur auf Clustered Data ONTAP unterstützt | Nur auf Clustered Data ONTAP unterstützt 

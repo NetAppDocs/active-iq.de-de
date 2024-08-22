@@ -326,8 +326,6 @@
   <block id="8d4f3dea5577dce7739de17b3c022f16" category="cell">Enthält Informationen zu ausstehenden und anerkannten Risiken, Risikodetails, Korrekturmaßnahmen und betroffenen Systemen.</block>
   <block id="117d48eb5d133fd5a508d66f884c3c85" category="cell">Wellness – Zusammengefasst</block>
   <block id="df67990129d3bd9cbda01755e666bbee" category="cell">Bietet eine Zusammenfassung der offenen Risiken und der Anzahl der betroffenen Systeme.</block>
-  <block id="0c9c13cde9e8b69be84ca36dee87f611" category="cell">7-Mode Upgrade Advisor Pläne</block>
-  <block id="997e7cc095a9554f17d93457daa42a47" category="cell">Erstellt einen Bericht über den Upgrade Advisor-Plan für 7-Mode Systeme. Dieser Bericht enthält Informationen zum HA-Partner.</block>
   <block id="206b11a774f63418bae21625e6f6d2fb" category="cell">Ansible-Bestandsaufnahme</block>
   <block id="f34a643181d75dbba89d10d14f0d8041" category="cell">Bietet eine Ansible-Bestandsdatei, in der alle Details zum Systembestand nach Region oder Standort aufgelistet sind. Diese Datei kann zur Automatisierung verwendet werden.</block>
   <block id="55449fd175613962d882ab450cfc5f3c" category="cell">FabricPool</block>
@@ -844,7 +842,6 @@
   <block id="04eaef0c64f7604067332b0b05e598d3" category="cell">*Knoten*</block>
   <block id="fe40d8b49a8a95c2a28179b7ef3039d6" category="cell">Unterstützung auf allen Plattformen</block>
   <block id="28e26766a62bd9ef329986f7963b6357" category="cell">Kapazitätszuwächse</block>
-  <block id="b892c2b3bdaaf51bbf65f75ef159ae10" category="cell">Unterstützung nur auf ONTAP Plattformen (Data ONTAP 7-Mode und Clustered Data ONTAP)</block>
   <block id="7c3098d5e7bbe4908e01ab684d9cd021" category="cell">Nur auf Clustered Data ONTAP unterstützt</block>
   <block id="240f9686efc9548a1d556d924c143924" category="cell">Upgrades</block>
   <block id="20827f5f11724ac7658af2f39f50f964" category="doc">Verlängern Sie die Software und die Hardware Ihres Storage-Systems</block>
@@ -1529,4 +1526,8 @@ Die Verfügbarkeit der Funktionen unter *STORAGE HEALTH* hängt vom Systemtyp un
   <block id="8352fdd61dbba9f97925bd7797c4eb47" category="paragraph">Nachhaltigkeit wird nun auf Systemen der E-Series und StorageGRID unterstützt. Sie können eine Liste empfohlener Maßnahmen und Umweltindikatoren anzeigen, die Prognosen für Leistung, direkten Kohlenstoffverbrauch und Wärme aus dem Sustainability Dashboard für diese Systeme anzeigen. Weitere Informationen finden Sie unter <block ref="8ef455a63dd9427c902954b8e3c7f21b" category="inline-link-macro-rx"></block>.</block>
   <block id="2a4b13cd943c24cfe2735c05922d1427" category="list-text"><block ref="2a4b13cd943c24cfe2735c05922d1427" category="inline-link-macro-rx"></block></block>
   <block id="7581b2408d4adfb3df4e98d5f1f96473" category="list-text"><block ref="7581b2408d4adfb3df4e98d5f1f96473" category="inline-link-macro-rx"></block></block>
+  <block id="788b77f1903c86b79d6ab3fa3aeac01e" category="section-title">21 August 2024</block>
+  <block id="fc1d748db1b5b488ce7af7d17ea15d55" category="inline-link-macro">Unterstützung Der Softwareversion</block>
+  <block id="846815401f996d92d6775164d37e6015" category="inline-link-macro">Upgrade der Data ONTAP Storage-Systeme in 7-Mode</block>
+  <block id="bebf3b3af19cc5d4d44b97e70e8b3ffb" category="paragraph">Der Bericht *7-Mode Upgrade Advisor Plans* ist nicht mehr verfügbar, da Systeme mit 7-Mode den begrenzten Support erreicht haben. Weitere Informationen finden Sie unter <block ref="20732c2f8b67b7236a6509e096709359" category="inline-link-macro-rx"></block>. Erfahren Sie mehr über <block ref="ee2cd00409c56591f09249cc9e682f11" category="inline-link-macro-rx"></block>.</block>
 </blocks>
