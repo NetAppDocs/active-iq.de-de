@@ -24,8 +24,8 @@ Bevor Sie das Ansible Playbook ausführen, stellen Sie sicher, dass die Datei *N
 
 Vor der Ausführung des Ansible Playbook mit dem NetApp Docker sollten Sie:
 
-* link:task_update_AFF_FAS_firmware.html["Laden Sie das Ansible-Automatisierungspaket für AFF und FAS Firmware herunter"]
-* link:task_hosting_firmware_files_using_web_server.html["Hosten Sie die Firmware-Dateien über den Webserver"]
+* link:task_update_AFF_FAS_firmware.html["Laden Sie das Paket zur Automatisierung mit der AFF- und FAS-Firmware herunter"]
+* link:task_hosting_firmware_files_using_web_server.html["Hosten Sie die Firmware-Dateien mit dem Webserver"]
 * link:concept_working_with_inventory_file.html["Arbeiten Sie mit der Bestandsdatei"]
 * Vergewissern Sie sich, dass NetApp Docker installiert ist.
 

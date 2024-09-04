@@ -4,7 +4,7 @@ permalink: task_view_API_catalog.html
 keywords: API Catalog, APIs, integrate data, view catalog 
 summary: Liefert Informationen zu den im API-Katalog verfügbaren APIs. 
 ---
-= Verwenden Sie den API-Katalog zur Ausführung von APIs
+= API-Katalog zur Ausführung von APIs
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

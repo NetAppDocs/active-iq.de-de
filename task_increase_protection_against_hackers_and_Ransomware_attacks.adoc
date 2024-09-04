@@ -4,7 +4,7 @@ permalink: task_increase_protection_against_hackers_and_Ransomware_attacks.html
 keywords: protection, hackers, ransomware, ransomware attacks, attack 
 summary: Dieser Service bietet Informationen dazu, wie Sie den Schutz vor Hackern und Ransomware-Angriffen verbessern. 
 ---
-= Sicherheitsschwachstelle Erkennen
+= Erkennung von Sicherheitsschwachstellen
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

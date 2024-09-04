@@ -4,7 +4,7 @@ permalink: get_started_sustainability_dashboard.html
 keywords: activeiq, sustainability dashboard, bluexp login, sustainability dashboard login, bluexp 
 summary: Erste Schritte mit dem BlueXP Sustainability Dashboard – Sie können es in BlueXP oder Digital Advisor aufrufen. 
 ---
-= Auf das Dashboard „Nachhaltigkeit“ zugreifen
+= Erste Schritte mit dem Dashboard „Nachhaltigkeit“
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

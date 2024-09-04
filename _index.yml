@@ -47,7 +47,7 @@ indexpage:
       url: task_view_upgrade.html
     - title: Fundiertere Entscheidungen auf der Basis von Cloud-Empfehlungen
       url: task-informed-decisions-based-on-cloud-recommendations.html
-    - title: Anzeige der Kapazitätsauslastung mit NetApp Keystone-Abonnement
+    - title: Anzeige der Kapazitätsauslastung mit NetApp Keystone Abonnement
       url: view_keystone_capacity_utilization.html
   - title: Mehr Ressourcen
     links:

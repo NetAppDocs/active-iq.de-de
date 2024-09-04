@@ -4,7 +4,7 @@ permalink: concept_get_started_with_health_check_dashboard.html
 keywords: activeiq, health check, health, HCA, health check dashboard, autosupport, autosupport adoption, recommended configuration, best practices, support, support and entitlements, support contract, contracts, active contracts, expired contracts, nearing-expiration, key recommendations, recommendations,  digital advisor, features, recommended software 
 summary: Enthält Informationen zum Dashboard, zu Zustandscores, zu Funktionen und zu den Widgets. 
 ---
-= Erste Schritte mit dem Health Check Dashboard
+= Starten Sie mit dem Health Check Dashboard
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

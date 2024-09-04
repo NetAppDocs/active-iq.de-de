@@ -4,7 +4,7 @@ permalink: concept_understand_health_check_dashboard.html
 keywords: activeiq, health check, health, HCA, health check dashboard, health check score 
 summary: Enthält Informationen, die Sie mit dem Health Check Dashboard vertraut machen können. 
 ---
-= Verstehen Des Health Check Dashboard
+= Health Check Dashboard verstehen
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,9 +16,9 @@ summary: Enthält Informationen, die Sie mit dem Health Check Dashboard vertraut
 
 
 [role="lead"]
-Das Digital Advisor Health Check Dashboard ermöglicht eine zeitpunktgenaue Überprüfung Ihrer gesamten Umgebung.
+Das Digital Advisor Health Check Dashboard bietet eine zeitpunktgenaue Überprüfung Ihrer gesamten Umgebung.
 
 Auf der Grundlage des Ergebnis der Systemüberprüfung können Sie Ihre Storage-Systeme an den empfohlenen NetApp Best Practices ausrichten, um die langfristige Planung zu ermöglichen. Es hilft Ihnen, alle Systeme, die auf Software und Hardware ausgeführt werden, über eine zentrale Benutzeroberfläche zu überwachen. Ergebnisse der Integritätsprüfung ermöglichen Ihnen schnelle Einblicke in Systemrisiken. Mit den wichtigsten Empfehlungen und Best Practices können Sie Maßnahmen zur Verbesserung des Zustands Ihrer installierten Basis ergreifen.
 
 
-NOTE: Sie können nur über die Serviceangebote von NetApp SupportEdge Advisor und SupportEdge Expert auf das Dashboard zur Zustandsprüfung zugreifen.
+NOTE: Das Dashboard der Integritätsprüfung kann nur über die Serviceangebote NetApp SupportEdge Advisor und SupportEdge Expert aufgerufen werden.

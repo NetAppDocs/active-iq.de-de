@@ -59,10 +59,6 @@
   <block id="18e4b799fc66943cb5ca094c22421d14" category="paragraph">Bevor Sie das Ansible Playbook ausführen, stellen Sie sicher, dass die Datei *NetApp_Ansible_**.*zip* extrahiert wurde und der Webserver mit Festplatten- oder Shelf-Firmware-Dateien bereit ist.</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="section-title">Bevor Sie beginnen</block>
   <block id="2e539a8b55656611ca1f039b25d5987b" category="paragraph">Vor der Ausführung des Ansible Playbook mit dem NetApp Docker sollten Sie:</block>
-  <block id="439d63cd3905d44125be50793bdd3ab5" category="inline-link-macro">Laden Sie das Ansible-Automatisierungspaket für AFF und FAS Firmware herunter</block>
-  <block id="82d6e33ffa2d3e136792c8074ac54f9c" category="list-text"><block ref="82d6e33ffa2d3e136792c8074ac54f9c" category="inline-link-macro-rx"></block></block>
-  <block id="cd52899f1679a9b2e3b756255e5c3676" category="inline-link-macro">Hosten Sie die Firmware-Dateien über den Webserver</block>
-  <block id="4e934f63fd61cf954bde477d71345e3c" category="list-text"><block ref="4e934f63fd61cf954bde477d71345e3c" category="inline-link-macro-rx"></block></block>
   <block id="6b4dbbb245371383fcc0b1b43ca85958" category="inline-link-macro">Arbeiten Sie mit der Bestandsdatei</block>
   <block id="27f8f6c7481c543f7ac1c0d9d320816e" category="list-text"><block ref="27f8f6c7481c543f7ac1c0d9d320816e" category="inline-link-macro-rx"></block></block>
   <block id="3570d1e60985f402f1d406b1bb17fabe" category="list-text">Vergewissern Sie sich, dass NetApp Docker installiert ist.</block>
@@ -136,7 +132,6 @@
   <block id="6e8eb21f5c710d91b6fa76bd91af461f" category="paragraph">Das Widget * Valuable Insights* ist auf dem Dashboard verfügbar.</block>
   <block id="07fd0f116aaad9b880128783daa7bc1a" category="list-text">Lesen Sie die Informationen im Widget, um den geschäftlichen und technischen Mehrwert zu ermitteln, den Ihr Support-Vertrag erhalten hat.</block>
   <block id="bd006ceeb17633ee0556ac28eaf949f6" category="summary">Liefert Informationen zu den im API-Katalog verfügbaren APIs.</block>
-  <block id="99690ba41792c97440fb7507094c827d" category="doc">Verwenden Sie den API-Katalog zur Ausführung von APIs</block>
   <block id="40626d7035cc7f4a6caa9d104fd7d387" category="paragraph">Der API-Katalog ermöglicht das Durchsuchen von Kategorien und den verfügbaren APIs innerhalb jeder dieser Kategorien.</block>
   <block id="2b033bd9dec6fb568acb85aff511102a" category="paragraph">Mit einem gültigen Access Token und korrekten Eingaben für die erforderlichen Felder können Sie einen Testaufruf für eine API durchführen.</block>
   <block id="1b041cdfdc19a7bdb36e4bb710521c3b" category="list-text">Klicken Sie im Menü *Quick Links* auf *API Services*.</block>
@@ -188,7 +183,6 @@
   <block id="a883cf21600271d7200622fa1132d9b8" category="list-text">Klicken Sie auf einen Link im Fenster * Disaster Recovery*.</block>
   <block id="75bbd62b379d56356d9a8bb6cfdedb8d" category="list-text">Klicken Sie auf *in Cloud replizieren*, um *BlueXP* zu starten.</block>
   <block id="a0a811ca28574ec3a01b64693e2fe336" category="summary">Enthält Informationen zum Dashboard, zu Zustandscores, zu Funktionen und zu den Widgets.</block>
-  <block id="e916508b5fb2cdc772d71fc2a189c67b" category="doc">Erste Schritte mit dem Health Check Dashboard</block>
   <block id="0283692678f3caa0a73dcdba11b167a0" category="paragraph">Dieses Dashboard bietet eine Übersicht über die installierte Basis über die folgenden Widgets:</block>
   <block id="820ed668f5824044ba24b743388d94f8" category="list-text">*AutoSupport Adoption*: Zeigt die Anzahl und den Prozentsatz der Systeme an, für die AutoSupport aktiviert ist. Sie können auch Systeme mit der Kennzeichnung ‘Decliniert’, solche mit *HTTPS* und *AutoSupport on Demand* sowie *Signalverlust* für Systeme ansehen, die in den letzten 7 Tagen nicht mehr AutoSupport-Daten senden. Klicken Sie auf das Widget *AutoSupport Adoption*, um Ihre Bewertung und Informationen zu den Systemen in Ihrer Installationsbasis anzuzeigen.</block>
   <block id="5a203b8ad736b84e1741fd3d04b50fd8" category="list-text">* Empfohlene Konfiguration*: Zeigt Systeme an, die konform und nicht kompatibel sind, wie im Widget * Recommended Configuration* beschrieben. Es hilft Ihnen, Maßnahmen zu ergreifen, um sicherzustellen, dass Ihre Systeme an Ihrer gesamten installierten Basis gut konfiguriert sind. Sie können den auf dem Dashboard bereitgestellten Wert anzeigen und anhand der Empfehlungen, die nach Priorität angegeben wurden, Maßnahmen ergreifen.</block>
@@ -222,7 +216,6 @@
   <block id="3caae258f0b7b1933ce92f0c03955521" category="paragraph">Das Ansible Playbook für Updates der Service-Prozessor/BMC-Firmware wird mit der Option aktiviert, um zu überprüfen, ob die Installation der neuesten SP/BMC-Firmware auf dem Controller installiert ist. Nach Abschluss der Überprüfung (die Updates können maximal zwei Stunden in Anspruch nehmen) wendet das Ansible Playbook interne Firmware-Updates für Switches an, indem eine Verbindung zur SP/BMC-Konsole hergestellt wird.</block>
   <block id="b80d891d0b3572cb38b140778c2439e6" category="paragraph">Fehler- und Erfolgsinformationen bei der Installation der SP-/BMC-Firmware und der internen Switch-Firmware werden am Ende der Ausführung des Ansible Playbook benachrichtigt. Befolgen Sie die im Ansible Playbook genannten Schritte, falls die Installation der SP/BMC-Firmware/interner Switch-Firmware fehlschlägt.</block>
   <block id="f839cdbae8d80bc224d943c9c45a46f0" category="summary">Stellt Informationen zur Verfügung, mit denen Sie den Wellness-Bereich Ihres Storage-Systems anzeigen und analysieren und Risiken minimieren können.</block>
-  <block id="20ee74a30034c5c1341368bee35c84ff" category="doc">Risiken anzeigen und manuell Korrekturmaßnahmen ergreifen</block>
   <block id="0e3a68f1f6b2f1d1d9fe331b11c5efa2" category="paragraph">Sie können die Wellness-Attribute Ihres Storage-Systems analysieren, indem Sie sich die damit verbundenen Maßnahmen und Risiken anzeigen lassen. Sie sollten die entsprechenden Korrekturmaßnahmen anzeigen und das Risiko manuell minimieren.</block>
   <block id="9bbf83543e304f4973370a44626c0d09" category="list-text">Klicken Sie im Dashboard auf das Widget *Wellness* oder klicken Sie auf *Alle Aktionen anzeigen*, um die Liste aller Aktionen und Risiken anzuzeigen.</block>
   <block id="09cf3ca5d8f7efac34773df93eb9049a" category="list-text">Sehen Sie sich die mit dem Wellness-Attribut verbundenen *Aktionen* und *Risiken* an.</block>
@@ -514,7 +507,6 @@
   <block id="2fc27556f44d8a6724ac003effded441" category="inline-link-macro">Sicherheit und Schutz von NetApp Telemetriedaten</block>
   <block id="338fec277abf8dd8a9f3f83288b2911d" category="inline-link-macro">ONTAP AutoSupport und AutoSupport on Demand</block>
   <block id="144deae4a5b0b4c9284528157c461f6c" category="summary">Dieser Service bietet Informationen dazu, wie Sie den Schutz vor Hackern und Ransomware-Angriffen verbessern.</block>
-  <block id="f7e6c88265534036ac8e0f442a755875" category="doc">Sicherheitsschwachstelle Erkennen</block>
   <block id="e3f44fedccc2711587690bd9581827ed" category="paragraph">Digital Advisor nutzt Telemetriedaten und veröffentlichte Produktsicherheitsratschläge, um Sicherheitsprobleme bei abgedeckten* und Support-berechtigten Produkten zu erkennen. ProduktTelemetriedaten müssen über AutoSupport an NetApp übermittelt werden, damit der digitale Berater Risiken erkennen kann.</block>
   <block id="820369c7769d4f36cf2076f618fe371d" category="paragraph">*Covered Products: ONTAP 9 (On-Prem und Cloud), SANtricity OS Controller Software, NetApp SolidFire (Element Software), StorageGRID, Active IQ Unified Manager, ONTAP Tools für VMware (OTV)</block>
   <block id="6c0397360aa8b37bbbe1fa3a38744674" category="list-text">Melden Sie sich bei Digital Advisor an.</block>
@@ -844,7 +836,6 @@
   <block id="28e26766a62bd9ef329986f7963b6357" category="cell">Kapazitätszuwächse</block>
   <block id="7c3098d5e7bbe4908e01ab684d9cd021" category="cell">Nur auf Clustered Data ONTAP unterstützt</block>
   <block id="240f9686efc9548a1d556d924c143924" category="cell">Upgrades</block>
-  <block id="20827f5f11724ac7658af2f39f50f964" category="doc">Verlängern Sie die Software und die Hardware Ihres Storage-Systems</block>
   <block id="6134af206850e07eeb1d6838aae2ceb5" category="paragraph">Sie können proaktiv die Software und Hardware erkennen, die bereits abgelaufen sind oder in den nächsten 6 Monaten bald ablaufen, und einen Antrag auf Erneuerung der Hardware und Software stellen.</block>
   <block id="86592c16b8e8d8d0b3cfdda42cfb12b9" category="list-text">Klicken Sie im Widget *Planung* auf *Renewals*.</block>
   <block id="0d9283785cad0930c05662c95f72d63d" category="list-text">Wählen Sie die Systeme aus, die Sie erneuern möchten, und klicken Sie auf *verlängern*.</block>
@@ -864,10 +855,7 @@
   <block id="d46650e342e5c88508541b7bf48a859f" category="section-title">Anerkannte und nicht anerkannte Risiken können 60 Minuten dauern, um im Digital Advisor reflektiert zu werden</block>
   <block id="de031b37ae88787ef3cdc870e9177445" category="paragraph">Der Status der Risiken, die anerkannt und nicht anerkannt werden, spiegelt sich im Digital Advisor nicht sofort wider. Es kann bis zu 60 Minuten dauern, bis die Änderungen im Digital Advisor und im Wellness-Bericht reflektiert werden.</block>
   <block id="9f7c9f58bb8756fe75c88f458c094ff5" category="summary">Enthält Informationen, die Sie mit dem Health Check Dashboard vertraut machen können.</block>
-  <block id="8bd30f76be476058b4d8d425fef989b2" category="doc">Verstehen Des Health Check Dashboard</block>
-  <block id="194c61820d9b82b7329e3153ac5cd674" category="paragraph">Das Digital Advisor Health Check Dashboard ermöglicht eine zeitpunktgenaue Überprüfung Ihrer gesamten Umgebung.</block>
   <block id="3cc3a0dbf287ac1f117caad7c4ff3529" category="paragraph">Auf der Grundlage des Ergebnis der Systemüberprüfung können Sie Ihre Storage-Systeme an den empfohlenen NetApp Best Practices ausrichten, um die langfristige Planung zu ermöglichen. Es hilft Ihnen, alle Systeme, die auf Software und Hardware ausgeführt werden, über eine zentrale Benutzeroberfläche zu überwachen. Ergebnisse der Integritätsprüfung ermöglichen Ihnen schnelle Einblicke in Systemrisiken. Mit den wichtigsten Empfehlungen und Best Practices können Sie Maßnahmen zur Verbesserung des Zustands Ihrer installierten Basis ergreifen.</block>
-  <block id="73b22abb2810760940bcbce346e76523" category="admonition">Sie können nur über die Serviceangebote von NetApp SupportEdge Advisor und SupportEdge Expert auf das Dashboard zur Zustandsprüfung zugreifen.</block>
   <block id="39c8987e43727590806ec031b3dd0a86" category="summary">Enthält Informationen zu den Schlüsselbegriffen, die in Digital Advisor verwendet werden.</block>
   <block id="aecb526721c5811e8b940ed95c7e8b18" category="doc">Schlüsselkonzepte</block>
   <block id="9d20c3f0e792e5776281264573b1c017" category="paragraph">Beim Einsatz von Digital Advisor ist es wichtig, dass Sie einige der grundlegenden Begriffe kennen, die Sie im Digital Advisor erwarten können.</block>
@@ -946,7 +934,6 @@
   <block id="170bb6f16db0d4bbf5962cd0bdb83cdc" category="list-text">Klicken Sie auf *Bearbeiten*, um die Details der Watchlist zu aktualisieren.</block>
   <block id="71c11d072ed3800acd07298b9da0447f" category="list-text">Klicken Sie auf *Löschen*, um die Watchlist zu löschen.</block>
   <block id="2ddb7471f4505c6b0aa8e3464634debc" category="summary">Stellt Informationen zu ClusterViewer bereit.</block>
-  <block id="6e6b112d636d5497f59ccca67738fac3" category="doc">Analyse des Wohlbefindens von Clustern und Knoten</block>
   <block id="964f0ca73e7ebb063af3a2240b8483fb" category="paragraph">Mithilfe von ClusterViewer, einer zentralen Anlaufstelle für Informationen zur physischen und logischen Konfiguration der Cluster und Nodes, können Sie den Wellness-Bereich der Cluster und Nodes analysieren.</block>
   <block id="6db3885477641d8e5ca59335970bf0b0" category="paragraph">ClusterViewer stellt Informationen wie Stack-Diagramme der Nodes, Storage-Nutzung und -Effizienz, Reserven an Hardwarekapazität usw. bereit, mit denen Sie fundierte Entscheidungen treffen und den Wellness-Nutzen Ihrer Cluster und Nodes verbessern können.</block>
   <block id="acc7732ef13d215f323b715a75c23913" category="paragraph">Sie können Visualisierungen oder grafische Darstellungen der physischen Konfiguration Ihrer Nodes auf Kabel-, Stack- und RAID-Festplattenebene anzeigen. Sie können die Visualisierungen auch im SVG-Format herunterladen.</block>
@@ -995,14 +982,12 @@
   <block id="712521b43d0b848d99bf5f898ee9c033" category="list-text">Wenn Sie das Risiko zu diesem Zeitpunkt nicht mindern möchten oder nicht in der Lage sind, geben Sie die Werte für die Felder ein und klicken Sie auf *Bestätigen*.</block>
   <block id="6f93dec8e32211fde259c444ab2d63fb" category="paragraph">Das Risiko wird zu anerkannten Risiken hinzugefügt.</block>
   <block id="862744f0ea49f8f06aab2a99ec7a3482" category="admonition">Wenn Sie kein Risiko mehr anerkennen möchten, können Sie das Risiko ignorieren, indem Sie auf *UN-Ack* klicken und die gleichen Schritte befolgen.</block>
-  <block id="b5d0947d6bc5e70f868d560d859163f5" category="doc">Anzeige der Kapazitätsauslastung mit NetApp Keystone-Abonnement</block>
   <block id="75fb68630cabac33011c445584315dfc" category="summary">Bietet weitere Informationen zu Ansible.</block>
   <block id="5d08ea99dda2f857e6edb3d641d26b98" category="inline-link-macro">Informationen zur Fehlerbehebung</block>
   <block id="e350176e2ca4464b7c8bb3efa4e581fa" category="inline-link-macro">Slack-Workspace</block>
   <block id="e1ceb514961568f187bb88fa116f776f" category="list-text">Mailto:ng-active-iq-feedback@netapp.com[E-Mail]</block>
   <block id="ededec00f7d24950f152983df2ad1f73" category="list-text">Support-Schaltfläche in Digital Advisor für Support und Feedback.</block>
   <block id="79e6bb72bf3b27322743b85d46e7028f" category="summary">Bietet Informationen zur Vermeidung von Ausfallzeiten und möglichen Datenverlusten.</block>
-  <block id="aab3d4ecb2113aebbbf0fc0f4e0bd569" category="doc">Vermeiden Sie Ausfallzeiten und mögliche Datenverluste</block>
   <block id="a66a2f6647458a57d2e6fc1df3f920bf" category="paragraph">Wenn Sie sich beim Digital Advisor anmelden und das rote Abzeichen im Widget *Verfügbarkeit und Schutz* bemerken, können Sie Maßnahmen ergreifen, um kritische Risiken zu beheben. Ohne die Firmware-Korrektur können diese Laufwerke nach einer gewissen Anzahl von Stunden funktionsunfähig werden. Um dies zu vermeiden, würden sowohl die Ausfallzeiten als auch mögliche Datenverluste verhindert.</block>
   <block id="7668feb1d998cf5c94c1e24359309154" category="list-text">Melden Sie sich beim Digital Advisor an.</block>
   <block id="a9d1a3c661cd780de1547f8874ba7fa9" category="inline-image-macro">Verfügbarkeit &amp;amp; Schutz-Widget</block>
@@ -1036,31 +1021,16 @@
   <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">Schnellstart</block>
   <block id="f9e8725fc2db4a86d0c8d9ae95581d74" category="sidebar">Beobachtungsliste bereitstellen</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">Überblick</block>
-  <block id="a847a249ea34e3557fd4b0faa9b1a58c" category="sidebar">Risiken, die mithilfe des Active IQ Unified Manager oder Ansible Playbook automatisch gemindert werden können, anzeigen</block>
-  <block id="e5c576a815351e15ac0b32011a7cd066" category="sidebar">Verlängern Sie die Software und Hardware</block>
   <block id="b99a21b99fb9e230b533835afc100672" category="sidebar">Zeigen Sie Systemdetails an</block>
-  <block id="46edca0ff6e552183e1d49c7d4a3ff08" category="sidebar">Integration in Cloud Insights zur Anzeige von Details der Virtual Machines</block>
-  <block id="6721d14778dfec7598747969baedc497" category="sidebar">Zeigen Sie die Keystone-Abonnementkapazitätsauslastung an</block>
   <block id="2cedeaac2dc61820b8d8fc6586834073" category="sidebar">Proaktive Ermittlung der Systemanforderungen</block>
-  <block id="b3f73dc804d731e2fd50580bfb4bd2bb" category="sidebar">Identifizierung von Konfigurationsabweichungen</block>
-  <block id="2239c723cc5ca3dc6ba1585521896ba0" category="sidebar">Bericht Drift Timeline generieren</block>
   <block id="0cc0b1a131ca25b1ae5d22ddb1c11865" category="sidebar">Steigern Sie die Effizienz und Performance Ihres Storage-Systems</block>
-  <block id="6029b29ba0bf4fa906d9b33aeb4affea" category="sidebar">Analyse von Kapazitäts- und Effizienzeinsparungen</block>
   <block id="5b333f7c3257e7754518c2d09d86555e" category="sidebar">Analyse der Storage-Performance</block>
   <block id="b0f4d50e3b0a80acae4cdfe5ec415bf2" category="sidebar">Analyse des Zustands Ihres Storage-Systems</block>
   <block id="5c76b7629087dd257b9ab47efd972727" category="sidebar">Aktualisieren Sie diese, um Ihre installierte Basis zu optimieren</block>
   <block id="bcbe3404f4519b7a276724fb02a336ec" category="sidebar">Aktualisieren Sie Ihre AFF- und FAS-Firmware mit dem Ansible Playbook</block>
-  <block id="cac43af1157491380365a3fbc40ffd0e" category="sidebar">Installieren und Ausführen des Ansible-Automatisierungspakets von AFF und FAS Firmware (erfahrene Benutzer)</block>
-  <block id="296c50bb7122e36d72b344edcdd0c679" category="sidebar">Installieren und Ausführen des Ansible-Automatisierungspakets für AFF und FAS Firmware (Einsteiger)</block>
-  <block id="d9daa9f2104f9630f56fba5a79e00e16" category="sidebar">Host-Firmware-Dateien über den Webserver</block>
-  <block id="1ecec82935ab6d53ed561471cf78dfed" category="sidebar">Mit Bestandsdatei arbeiten</block>
   <block id="09a5a45f88e6f466acff860555335df6" category="sidebar">Ansible-Playbook mit NetApp Docker Image ausführen</block>
-  <block id="72d8c17b82a8128c57dce58c29f29979" category="sidebar">Ausführen des Ansible-Playbook ohne Docker</block>
-  <block id="624bf3c50fda6cdcdab599281e893dee" category="sidebar">Fehlerbehebung, Feedback und Support</block>
   <block id="94248bdab6eca12666593501ea5684f7" category="sidebar">Integration von Daten mithilfe von APIs</block>
-  <block id="3d771951f480b18b116afdfb0da9cb88" category="sidebar">Token für den Zugriff auf APIs generieren</block>
   <block id="8b00815fc5298212e3dc28a279ed4a10" category="sidebar">Erstellen benutzerdefinierter Berichte</block>
-  <block id="af2a4d2810d86aa0169c117f82682f9a" category="sidebar">Häufig gestellte Fragen</block>
   <block id="8081688f219c172dde2cb99dbacc51d8" category="doc">Fundierte Entscheidungen auf der Basis von Cloud-Empfehlungen</block>
   <block id="e404f7c0800eac65e5e44442bb4fd0cc" category="admonition">Sie sollten das Zugriffstoken herunterladen und speichern und das Token zur späteren Verwendung aktualisieren. Access Tokens verfallen eine Stunde nach der Erstellung und aktualisieren Token sollten neu generiert werden, manuell, alle 7 Tage und in der Anwendung installiert. Dazu müssen Sie sich nicht bei der Anwendung anmelden. Nach 90 Tagen müssen Sie sich jedoch bei der Anwendung anmelden, um ein neues Token für den Zugriff zu erhalten und zu aktualisieren.</block>
   <block id="73924ddc2c905c2855a59dc4ad4e29a7" category="paragraph">Die Attribute in einer Konfigurations-Drift-Vorlage sind bearbeitbar, und die folgenden Gruppen der Vorlage unterstützen reguläre Ausdrücke für einige Abschnitte:</block>
@@ -1355,7 +1325,6 @@ Die Anmeldeseite für NetApp BlueXP wird angezeigt.</block>
   <block id="4a33ef12db92e241992049db5250349e" category="paragraph">Das Dashboard „Nachhaltigkeit“ enthält empfohlene Maßnahmen, die Sie implementieren können, um die Gesamtbewertung für die Nachhaltigkeit und die Bewertung der Nachhaltigkeit auf Cluster-Ebene zu verbessern.</block>
   <block id="5e5fa64fce688126dbdf2ee76a2a88dc" category="paragraph">Sie können das folgende Video ansehen, um mehr über das Dashboard „Nachhaltigkeit“ zu erfahren:</block>
   <block id="d99a4bbfe0f45d32ff5e507f38f9f1a7" category="admonition">AutoSupport sollte für die genaue Berechnung der Nachhaltigkeitsbewertung aktiviert sein.</block>
-  <block id="f1a07ac2a47e6ae773882ceb0f2e9570" category="doc">Auf das Dashboard „Nachhaltigkeit“ zugreifen</block>
   <block id="4a94cc80e3bef643a461eac57bc8c9ef" category="paragraph">Das Dashboard für Nachhaltigkeit bietet durch AIOps unterstützte Berichte und Bewertungen mit verwertbaren Erkenntnissen zur Verbesserung Ihrer Nachhaltigkeitsstrategie. Das Sustainability Dashboard kann über NetApp BlueXP oder Digital Advisor aufgerufen werden.</block>
   <block id="24fbd138c7dc295cdff7b25fb0003595" category="list-text">Klicken Sie im Dashboard auf die Anzahl der Cluster im Widget *Upgrade Advisor*.</block>
   <block id="bcc117d8c868654bdcb5b2de44d7fbf2" category="inline-image-macro">Ein Screenshot, der die Anzahl der Cluster zeigt.</block>
@@ -1530,4 +1499,29 @@ Die Verfügbarkeit der Funktionen unter *STORAGE HEALTH* hängt vom Systemtyp un
   <block id="fc1d748db1b5b488ce7af7d17ea15d55" category="inline-link-macro">Unterstützung Der Softwareversion</block>
   <block id="846815401f996d92d6775164d37e6015" category="inline-link-macro">Upgrade der Data ONTAP Storage-Systeme in 7-Mode</block>
   <block id="bebf3b3af19cc5d4d44b97e70e8b3ffb" category="paragraph">Der Bericht *7-Mode Upgrade Advisor Plans* ist nicht mehr verfügbar, da Systeme mit 7-Mode den begrenzten Support erreicht haben. Weitere Informationen finden Sie unter <block ref="20732c2f8b67b7236a6509e096709359" category="inline-link-macro-rx"></block>. Erfahren Sie mehr über <block ref="ee2cd00409c56591f09249cc9e682f11" category="inline-link-macro-rx"></block>.</block>
+  <block id="f316bc2d9abc434547fa8fee1b52c8ca" category="doc">Starten Sie mit dem Health Check Dashboard</block>
+  <block id="67b672f77d14898a21dd7c6d39e4fa6a" category="doc">Health Check Dashboard verstehen</block>
+  <block id="1fca6cd27ed3729b316e545f40560430" category="paragraph">Das Digital Advisor Health Check Dashboard bietet eine zeitpunktgenaue Überprüfung Ihrer gesamten Umgebung.</block>
+  <block id="85de05b2e998b63934fdb41cb0ae1267" category="admonition">Das Dashboard der Integritätsprüfung kann nur über die Serviceangebote NetApp SupportEdge Advisor und SupportEdge Expert aufgerufen werden.</block>
+  <block id="65d0a6b734949784b0887407ba3ca70d" category="doc">Erste Schritte mit dem Dashboard „Nachhaltigkeit“</block>
+  <block id="bf8be6c11a39d44324275419a51aa06d" category="doc">Analyse des Wohlbefindens von Clustern und Nodes</block>
+  <block id="3a9edb9763f2d4f0983c1ba1d9c37307" category="doc">Vermeidung von Ausfallzeiten und möglichen Datenverlusten</block>
+  <block id="2ffe9e86d8e5979dbd4b981f50f1aa43" category="inline-link-macro">Laden Sie das Paket zur Automatisierung mit der AFF- und FAS-Firmware herunter</block>
+  <block id="16fa1266171f008ddc9bdf0c3a3101de" category="list-text"><block ref="16fa1266171f008ddc9bdf0c3a3101de" category="inline-link-macro-rx"></block></block>
+  <block id="5d66e54e3beb67d22f4fce6eed9083ee" category="inline-link-macro">Hosten Sie die Firmware-Dateien mit dem Webserver</block>
+  <block id="fe767912a8dc4f32a2931397397e89a4" category="list-text"><block ref="fe767912a8dc4f32a2931397397e89a4" category="inline-link-macro-rx"></block></block>
+  <block id="c2abfe15bc2ca33fe842167128892ed3" category="doc">Erkennung von Sicherheitsschwachstellen</block>
+  <block id="88ee9568f7a3ba0f64aee190914804a5" category="doc">Software und Hardware Ihres Speichersystems erneuern</block>
+  <block id="87d10a1ebc7440bb06c109388cf143ad" category="doc">API-Katalog zur Ausführung von APIs</block>
+  <block id="a1b35cc8af8f9016bf417e1cb56f58c4" category="doc">Risiken anzeigen und manuell Korrekturmaßnahmen ergreifen</block>
+  <block id="c65128dfcbb07719f3725e4d63112c78" category="doc">Anzeige der Kapazitätsauslastung mit NetApp Keystone Abonnement</block>
+  <block id="483a5da192f46e3cfe8391d3ef234fc4" category="sidebar">FAQs</block>
+  <block id="10774cfa8212ea83d9277785a67ca25c" category="sidebar">Nachhaltigkeit Ihres Storage-Systems analysieren</block>
+  <block id="f79801f4d29b490bbe3ea28f5605af09" category="sidebar">Identifizieren von Konfigurationsabweichungen</block>
+  <block id="952f02280592bc013c384a90a7d80069" category="sidebar">Installation und Ausführung des Ansible Automatisierungspakets für die AFF- und FAS-Firmware (erfahrene Benutzer)</block>
+  <block id="52337cbca028caf9e3f5a7f4d46f0bf5" category="sidebar">Installation und Ausführung des Ansible Automatisierungspakets für die AFF- und FAS-Firmware (Anfänger)</block>
+  <block id="bb56f3fc7f81eda7cac1534c7986e8f5" category="sidebar">Führen Sie das Ansible Playbook ohne NetApp Docker Image aus</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Wissen und Support</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="sidebar">Für den Support anmelden</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="sidebar">Holen Sie sich Hilfe</block>
 </blocks>
