@@ -20,6 +20,16 @@ Die folgenden Funktionen und Verbesserungen wurden in Digital Advisor eingeführ
 
 
 
+== 23 September 2024
+
+
+
+=== Supportangebote
+
+Das NetApp SupportEdge Basic Serviceangebot umfasst jetzt alle in SupportEdge Advisor und SupportEdge Expert verfügbaren Digital Advisor-Funktionen, mit Ausnahme der umfassenden Topologie (VMware), die selbst bei Aktivierung keine Sichtbarkeit der vollständigen Überwachung des VMware Stacks bietet.
+
+
+
 == 21 August 2024
 
 
