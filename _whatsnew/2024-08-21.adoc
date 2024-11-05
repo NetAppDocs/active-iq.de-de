@@ -1,0 +1,9 @@
+= Berichte An
+:allow-uri-read: 
+
+
+
+
+=== Berichte An
+
+Der Bericht *7-Mode Upgrade Advisor Plans* ist nicht mehr verfügbar, da Systeme mit 7-Mode den begrenzten Support erreicht haben. Weitere Informationen finden Sie unter link:https://mysupport.netapp.com/site/info/version-support["Unterstützung Der Softwareversion"^]. Erfahren Sie mehr über link:https://docs.netapp.com/a/ontap/7-mode/8.2.1/Upgrade-And-Revert-Or-Downgrade-Guide-For-7-Mode.pdf["Upgrade der Data ONTAP Storage-Systeme in 7-Mode"^].

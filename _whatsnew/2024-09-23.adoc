@@ -1,0 +1,9 @@
+= Supportangebote
+:allow-uri-read: 
+
+
+
+
+=== Supportangebote
+
+Das NetApp SupportEdge Basic Serviceangebot umfasst jetzt alle in SupportEdge Advisor und SupportEdge Expert verfügbaren Digital Advisor-Funktionen, mit Ausnahme der umfassenden Topologie (VMware), die selbst bei Aktivierung keine Sichtbarkeit der vollständigen Überwachung des VMware Stacks bietet.
