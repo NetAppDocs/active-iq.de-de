@@ -23,7 +23,6 @@ Die Erstellung automatisierter, unterbrechungsfreier Upgrade-Pläne für ein ein
 [NOTE]
 ====
 * Generieren Sie für jedes Cluster in einer MetroCluster-Konfiguration einen individuellen Upgrade-Plan mit einer vollständigen Upgrade-Anleitung.
-* Bei Clustern mit ONTAP 9.6 oder älteren Versionen können Sie sich Informationen zu neuen Funktionen und Verbesserungen in Upgrade-Empfehlungen anzeigen lassen. Der Prüfbericht vor dem Upgrade und die Risikoübersicht sind nicht verfügbar, und Sie können einen Upgrade-Plan in dem älteren Format erstellen.
 
 
 ====

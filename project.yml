@@ -8,7 +8,7 @@ settings:
   prod:
     pdf_enabled: true
     harmony_enabled: false
-  langs: de-de,us-en,ja-jp,ko-kr,zh-cn,zh-tw,es-es,fr-fr,it-it
+  langs: de-de,us-en,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn,zh-tw
 sidebar:
   entries:
   - title: Digital Advisor Dokumentation
@@ -87,6 +87,8 @@ sidebar:
       - title: Erstellen eines Upgrade-Plans für ein einzelnes Cluster und mehrere
           Cluster
         url: "/generate_upgrade_plan_single_multiple_clusters.html"
+      - title: Zeigen Sie Empfehlungen für Firmware-Updates an
+        url: "/view-firmware-update-recommendations.html"
     - title: Zeigen Sie Systemdetails an
       entries:
       - title: Anzeigen von Bestandsdetails

@@ -20,6 +20,16 @@ Die folgenden Funktionen und Verbesserungen wurden in Digital Advisor eingeführ
 
 
 
+== Bis 12. Dezember 2024
+
+
+
+=== Upgrade Advisor
+
+Sie können jetzt die Speicherfirmware, die SP/BMC-Firmware und das Autonome Ransomware-Paket (ARP) anzeigen, die für ein Update empfohlen werden. link:https://docs.netapp.com/us-en/active-iq/view-firmware-update-recommendations.html["Erfahren Sie, wie Sie Empfehlungen für Firmware-Updates anzeigen"].
+
+
+
 == 23 September 2024
 
 

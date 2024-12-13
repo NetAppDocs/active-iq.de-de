@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: view-firmware-update-recommendations.html 
+keywords: Upgrade Advisor, firmware recommendations, storage firmware, SP/BMC firmware, system files, security files 
+summary: Zeigen Sie Update-Empfehlungen für Storage Firmware, SP/BMC Firmware, Systemdateien und Sicherheitsdateien an. 
+---
+= Zeigen Sie Empfehlungen für Firmware-Updates an
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Kunden können jetzt Zeit und Aufwand sparen, da Control Tower ihre Systeme automatisch mit den neuesten Firmware-Versionen aktualisieren kann, sodass kein manuelles Eingreifen oder eine manuelle Planung erforderlich ist. Dieses Update reduziert das Risiko, dass Probleme aufgrund veralteter oder inkompatibler Firmware-Versionen auftreten, und sorgt so für optimale Systemleistung, Stabilität und Sicherheit.
+
+Kunden erhalten zeitnah Benachrichtigungen und Warnungen über den Status der Firmware-Updates. Es stehen Optionen zur Aktivierung von AutoSupport und Auto-Update-Einstellungen zur Verfügung.
+
+.Schritte
+. Klicken Sie auf der Dashboard-Seite im Widget *Upgrade Advisor* auf *andere Empfehlungen*.
+. Klicken Sie auf *Empfehlungen anzeigen*, um die Liste der Empfehlungen anzuzeigen.
+. Klicken Sie in der Spalte *Update Status* auf *See Progress*, um die Cluster anzuzeigen, die für ein Update geeignet sind.
+. Klicken Sie bei Problemen auf die entsprechenden Links, um die Schritte zur Behebung der Probleme anzuzeigen.
+
