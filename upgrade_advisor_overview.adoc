@@ -22,8 +22,7 @@ Die Erstellung automatisierter, unterbrechungsfreier Upgrade-Pläne für ein ein
 
 [NOTE]
 ====
-* Generieren Sie für jedes Cluster in einer MetroCluster-Konfiguration einen individuellen Upgrade-Plan mit einer vollständigen Upgrade-Anleitung.
-
+Generieren Sie für jedes Cluster in einer MetroCluster-Konfiguration einen individuellen Upgrade-Plan mit einer vollständigen Upgrade-Anleitung.
 
 ====
 Bevor Sie einen Upgrade-Plan erstellen, sollten Sie sich auf ein ONTAP Upgrade vorbereiten. Die richtige Vorbereitung hilft bei der Identifizierung und Minimierung potenzieller Upgrade-Risiken oder Blockers, bevor Sie mit dem Upgrade-Prozess beginnen. Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/ontap/upgrade/prepare.html["Bereiten Sie sich auf ein ONTAP Upgrade vor"^].
