@@ -30,6 +30,16 @@ Sie können jetzt die Speicherfirmware, die SP/BMC-Firmware und das Autonome Ran
 
 
 
+== Bis 04. Dezember 2024
+
+
+
+=== AutoSupport-Widget
+
+Das Widget „AutoSupport“ wurde dem Dashboard-Hauptbildschirm hinzugefügt, um Kunden über die Probleme mit dem AutoSupport-Status zu informieren.
+
+
+
 == 23 September 2024
 
 

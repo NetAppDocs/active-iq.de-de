@@ -1538,4 +1538,13 @@ Die Verfügbarkeit der Funktionen unter *STORAGE HEALTH* hängt vom Systemtyp un
   <block id="d7e31a0bb5b5ba6257ea5fda3503a013" category="list-text">Klicken Sie auf *Empfehlungen anzeigen*, um die Liste der Empfehlungen anzuzeigen.</block>
   <block id="11672318e1b710ceb9ea65a5a12aa393" category="list-text">Klicken Sie in der Spalte *Update Status* auf *See Progress*, um die Cluster anzuzeigen, die für ein Update geeignet sind.</block>
   <block id="ea9fb85557d50ae07af62f60044c60d5" category="list-text">Klicken Sie bei Problemen auf die entsprechenden Links, um die Schritte zur Behebung der Probleme anzuzeigen.</block>
+  <block id="998e01ff2383d2b9e06b55738a27346b" category="doc">AutoSupport-Widget</block>
+  <block id="526c3ba007bad7c7b6408ba4672f5f6e" category="paragraph">Das Widget „AutoSupport“ wurde dem Dashboard-Hauptbildschirm hinzugefügt, um Kunden über die Probleme mit dem AutoSupport-Status zu informieren.</block>
+  <block id="92806a8b46867129d50cde3d86748bb6" category="section-title">Das AutoSupport Widget ist für Cluster- und Seriennummern nicht verfügbar</block>
+  <block id="03d676ea619bd44dde41c38b2851a15d" category="paragraph">Das Widget „AutoSupport“ enthält keine Warnmeldungen für die Suche nach Clustern und Seriennummern.</block>
+  <block id="c0ac6b1bce52487f5b5af28ecef07c1f" category="section-title">AutoSupport Widget kann keine AutoSupport-Details auf Serienebene abrufen</block>
+  <block id="84262a27dab2047f1176d0c336762208" category="paragraph">Klicken Sie auf der Seite AutoSupport-Berichte auf einen der Status, Systeme, die kürzlich den Sendevorgang beendet haben, oder Systeme, bei denen AutoSupport ausgeschaltet ist, und navigieren Sie nicht zum Bildschirm Integritätsprüfung.</block>
+  <block id="82a9da1ab6bff23f72740b42a10ddeb9" category="section-title">Filter und Sortierung sind im Widget „Inventar“ nicht verfügbar</block>
+  <block id="eeb5db985fd60cfebc33e606802e2112" category="paragraph">Daten können im Widget „Inventar“ nicht gefiltert und sortiert werden. Es werden keine Daten angezeigt, wenn Sie im Dropdown-Menü „Filtern nach“ die Option „ONTAP AFF“, „ONTAP ASA“, „ONTAP Edge“ oder „ONTAP Select“ auswählen.</block>
+  <block id="4b546cad2ee01a6cbf9ccc96b97242b6" category="section-title">Bis 04. Dezember 2024</block>
 </blocks>

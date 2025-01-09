@@ -46,3 +46,21 @@ Geplante Berichte sind nur in Verbindung mit einem SupportEdge Advisor oder eine
 == Anerkannte und nicht anerkannte Risiken können 60 Minuten dauern, um im Digital Advisor reflektiert zu werden
 
 Der Status der Risiken, die anerkannt und nicht anerkannt werden, spiegelt sich im Digital Advisor nicht sofort wider. Es kann bis zu 60 Minuten dauern, bis die Änderungen im Digital Advisor und im Wellness-Bericht reflektiert werden.
+
+
+
+== Das AutoSupport Widget ist für Cluster- und Seriennummern nicht verfügbar
+
+Das Widget „AutoSupport“ enthält keine Warnmeldungen für die Suche nach Clustern und Seriennummern.
+
+
+
+== AutoSupport Widget kann keine AutoSupport-Details auf Serienebene abrufen
+
+Klicken Sie auf der Seite AutoSupport-Berichte auf einen der Status, Systeme, die kürzlich den Sendevorgang beendet haben, oder Systeme, bei denen AutoSupport ausgeschaltet ist, und navigieren Sie nicht zum Bildschirm Integritätsprüfung.
+
+
+
+== Filter und Sortierung sind im Widget „Inventar“ nicht verfügbar
+
+Daten können im Widget „Inventar“ nicht gefiltert und sortiert werden. Es werden keine Daten angezeigt, wenn Sie im Dropdown-Menü „Filtern nach“ die Option „ONTAP AFF“, „ONTAP ASA“, „ONTAP Edge“ oder „ONTAP Select“ auswählen.

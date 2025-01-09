@@ -1,0 +1,9 @@
+= AutoSupport-Widget
+:allow-uri-read: 
+
+
+
+
+=== AutoSupport-Widget
+
+Das Widget „AutoSupport“ wurde dem Dashboard-Hauptbildschirm hinzugefügt, um Kunden über die Probleme mit dem AutoSupport-Status zu informieren.
