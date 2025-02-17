@@ -20,49 +20,61 @@ Digital Advisor bietet eine Vielzahl von Berichtsoptionen, mit denen Sie den Sys
 
 Die folgenden Berichtstypen sind in Digital Advisor verfügbar:
 
-[cols="30,70"]
+[cols="20,50,10,10,10"]
 |===
-| Berichtsname | Beschreibung 
+| Berichtsname | Beschreibung | Verfügbar in ONTAP | In E-Series verfügbar | Verfügbar in StorageGRID 
 
 
-| Ansible-Bestandsaufnahme | Bietet eine Ansible-Bestandsdatei, in der alle Details zum Systembestand nach Region oder Standort aufgelistet sind. Diese Datei kann zur Automatisierung verwendet werden. 
+| Ansible-Bestandsaufnahme | Bietet eine Ansible-Bestandsdatei, in der alle Details zum Systembestand nach Region oder Standort aufgelistet sind. Diese Datei kann zur Automatisierung verwendet werden. | Ja. | Nein | Nein 
 
 
-| Kapazität Und Effizienz Zu Steigern | Bietet Informationen zur Kapazität und Effizienz auf Cluster-, Kunden-, Standort-, Gruppen-, Watchlist- und Node-Ebene. 
+| Kapazität Und Effizienz Zu Steigern | Bietet Informationen zur Kapazität und Effizienz auf Cluster-, Kunden-, Standort-, Gruppen-, Watchlist- und Node-Ebene. | Ja. | Ja. | Ja. 
 
 
-| ClusterViewer-Bericht | Bietet Informationen über einzelne oder mehrere Cluster auf Kunden- und Watchlist-Ebene. Sie können diesen Bericht nur für Watchlist mit bis zu 100 Knoten generieren. 
+| Cloud-Empfehlungen | Bietet Einblicke und Empfehlungen zur Optimierung von Cloud-Ressourcen Sie enthält Details zu Disaster Recovery, Backup, Tiering und Migration. | Ja. | Nein | Nein 
 
 
-| FabricPool | Stellt Informationen über inaktive, kalte, aktive, heiße, Tier-basierte, Und nicht überwachten Daten speichern. Dieser Bericht enthält außerdem ein Ansible-Playbook zur Aktivierung der inaktiven Datenberichterstellung für deaktivierte Aggregate. 
+| ClusterViewer | Bietet Informationen über einzelne oder mehrere Cluster auf Kunden- und Watchlist-Ebene. Sie können diesen Bericht nur für Watchlist mit bis zu 100 Knoten generieren. | Ja. | Nein | Nein 
 
 
-| Inventar | Enthält Informationen über die Installationsbasis für eine ausgewählte Watchlist, einen Kunden, einen Standort und eine ausgewählte Gruppe. Dieser Bericht kann entweder direkt von der Seite Bestandsdetails heruntergeladen oder von der Seite Berichte generiert werden. 
+| Konfigurationsdrift | Benutzer können eine „goldene Basis“ für Systemkonfigurationen erstellen und bei Abweichungen von dieser Basislinie darauf hinweisen. Es hilft, Konfigurationsänderungen zu identifizieren und zu beheben, die sich auf die Systemleistung oder -Sicherheit auswirken können. | Ja. | Nein | Nein 
 
 
-| I/O-Dichte | Der Bericht zur I/O-Dichte bietet Einblicke in Spitzen-Input-Output für Kunden in Bezug auf Daten- und Metadaten-Verbrauch und -Dichte. 
+| Lieferlogistik | Bietet Informationen über die Logistik der Lieferung von Produkten und Dienstleistungen. | Ja. | Ja. | Nein 
 
 
-| Performance-Bericht | Hier erhalten Sie Informationen zu der Performance eines Clusters, Nodes, der lokalen Tier (Aggregat) und eines Volumes auf Watchlist-Ebene. Sie können diesen Bericht nur für Watchlist mit bis zu 100 Knoten generieren. 
+| Zusammenfassung Der Integritätsbewertung | Bietet Informationen zu verschiedenen Active IQ-KPIs in einem PowerPoint-Format (PPT), wobei unterschiedliche KPIs auf verschiedenen Folien beschrieben werden. | Ja. | Ja. | Nein 
 
 
-| Empfohlene Konfiguration | Enthält Informationen zu den verschiedenen empfohlenen Konfigurationslücken für Remote-Management-Konfiguration, Ersatzteile und Laufwerke, HA-Paar und SVM-Zustand. 
+| Inventar | Enthält Informationen über die Installationsbasis für eine ausgewählte Watchlist, einen Kunden, einen Standort und eine ausgewählte Gruppe. Dieser Bericht kann entweder direkt von der Seite Bestandsdetails heruntergeladen oder von der Seite Berichte generiert werden. | Ja. | Ja. | Ja. 
 
 
-| Support-Verträge / Hardware EOS | Enthält Informationen zu Controllern, Shelfs und Festplatten, für die EOS (End-of-Support) erreicht ist. 
+| I/O-Dichte | Der Bericht zur I/O-Dichte bietet Einblicke in Spitzen-Input-Output für Kunden in Bezug auf Daten- und Metadaten-Verbrauch und -Dichte. | Ja. | Nein | Nein 
 
 
-| Technische Case-Details | Zeigt einen jährlichen Bericht zu allen technischen Support-Fällen und ihrem Status an. 
+| Leistung | Hier erhalten Sie Informationen zu der Performance eines Clusters, Nodes, der lokalen Tier (Aggregat) und eines Volumes auf Watchlist-Ebene. Sie können diesen Bericht nur für Watchlist mit bis zu 100 Knoten generieren. | Ja. | Ja. | Nein 
 
 
-| Upgrade-Empfehlungen (Software & FW) | Bericht über die Währung der Software und der Firmware mit mehreren Registerkarten und empfohlene Versionen für jeden Controller oder jedes Seriell in den Suchkriterien. 
+| Periodische Digest | Fasst wichtige Kennzahlen und Erkenntnisse regelmäßig zusammen. Daten zu System-Performance, Kapazität und Effizienz werden erfasst. | Ja. | Nein | Nein 
 
 
-| Volume Performance Report | Bietet Informationen zur Performance-Details der Volumes auf Cluster-Ebene. 
+| Empfohlene Konfiguration | Bietet Informationen zu den verschiedenen empfohlenen Konfigurationslücken für Remote-Management-Konfigurationen, Ersatzteile und Laufwerke, HA-Paar, SVM-Zustand, Akkustatus und Recovery-Guru-Empfehlungen. | Ja. | Ja. | Nein 
 
 
-| Wellness | Enthält Informationen zu ausstehenden und anerkannten Risiken, Risikodetails, Korrekturmaßnahmen und betroffenen Systemen. 
+| Support-Verträge / Hardware EOS | Er bietet Informationen zu den Vertragsdetails und der Liste der Controller, Shelfs und Festplatten, für die das EOS (End-of-Support) erreicht wurde. | Ja. | Ja. | Nein 
 
 
-| Wellness – Zusammengefasst | Bietet eine Zusammenfassung der offenen Risiken und der Anzahl der betroffenen Systeme. 
+| Technische Case-Details | Zeigt einen jährlichen Bericht zu allen technischen Support-Fällen und ihrem Status an. | Ja. | Ja. | Ja. 
+
+
+| Upgrade-Plan | Gibt Empfehlungen für Software- und Firmware-Upgrades. Sie enthält Details zu den neuesten empfohlenen Versionen, potenziellen Problemen und Schritten zur Durchführung von Upgrades. | Ja. | Nein | Nein 
+
+
+| Upgrade-Empfehlungen (Software & FW) | Bericht über die Währung der Software und der Firmware mit mehreren Registerkarten und empfohlene Versionen für jeden Controller oder jedes Seriell in den Suchkriterien. | Ja. | Ja. | Nein 
+
+
+| Volume-Performance | Bietet Informationen zur Performance-Details der Volumes auf Cluster-Ebene. | Ja. | Nein | Nein 
+
+
+| Wellness | Enthält Informationen zu ausstehenden und anerkannten Risiken, Risikodetails, Korrekturmaßnahmen und betroffenen Systemen. | Ja. | Ja. | Ja. 
 |===

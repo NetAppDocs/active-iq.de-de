@@ -317,28 +317,19 @@
   <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">Beschreibung</block>
   <block id="32a07c6643e39bb3fe494292db9ae233" category="cell">Wellness</block>
   <block id="8d4f3dea5577dce7739de17b3c022f16" category="cell">Enthält Informationen zu ausstehenden und anerkannten Risiken, Risikodetails, Korrekturmaßnahmen und betroffenen Systemen.</block>
-  <block id="117d48eb5d133fd5a508d66f884c3c85" category="cell">Wellness – Zusammengefasst</block>
-  <block id="df67990129d3bd9cbda01755e666bbee" category="cell">Bietet eine Zusammenfassung der offenen Risiken und der Anzahl der betroffenen Systeme.</block>
   <block id="206b11a774f63418bae21625e6f6d2fb" category="cell">Ansible-Bestandsaufnahme</block>
   <block id="f34a643181d75dbba89d10d14f0d8041" category="cell">Bietet eine Ansible-Bestandsdatei, in der alle Details zum Systembestand nach Region oder Standort aufgelistet sind. Diese Datei kann zur Automatisierung verwendet werden.</block>
-  <block id="55449fd175613962d882ab450cfc5f3c" category="cell">FabricPool</block>
-  <block id="7eaee357275d531796b5348076c7abaa" category="cell">Stellt Informationen über inaktive, kalte, aktive, heiße, Tier-basierte, Und nicht überwachten Daten speichern. Dieser Bericht enthält außerdem ein Ansible-Playbook zur Aktivierung der inaktiven Datenberichterstellung für deaktivierte Aggregate.</block>
   <block id="4d604dd8f008145471dc845683399189" category="cell">Inventar</block>
   <block id="2a414d2cb2f384ea04369dd0623dab64" category="cell">Enthält Informationen über die Installationsbasis für eine ausgewählte Watchlist, einen Kunden, einen Standort und eine ausgewählte Gruppe. Dieser Bericht kann entweder direkt von der Seite Bestandsdetails heruntergeladen oder von der Seite Berichte generiert werden.</block>
-  <block id="945bdabc5825ce732fb5d22e7dd80610" category="cell">Enthält Informationen zu Controllern, Shelfs und Festplatten, für die EOS (End-of-Support) erreicht ist.</block>
   <block id="8a12eef10db15850c4fa22387e8a4ff9" category="cell">Empfohlene Konfiguration</block>
-  <block id="c829d71ff8f116d3f11dc69d03aa4c34" category="cell">Enthält Informationen zu den verschiedenen empfohlenen Konfigurationslücken für Remote-Management-Konfiguration, Ersatzteile und Laufwerke, HA-Paar und SVM-Zustand.</block>
   <block id="fca571dd1b59c732f4bccd0d20435b5d" category="cell">Technische Case-Details</block>
   <block id="d6cb167525a6b69100791b38c109bfe9" category="cell">Zeigt einen jährlichen Bericht zu allen technischen Support-Fällen und ihrem Status an.</block>
   <block id="5cbae6debb1f76f9bf4bec9196da5dc6" category="cell">Upgrade-Empfehlungen (Software &amp; FW)</block>
   <block id="9932f2379db681a01520e32c482a3ddb" category="cell">Bericht über die Währung der Software und der Firmware mit mehreren Registerkarten und empfohlene Versionen für jeden Controller oder jedes Seriell in den Suchkriterien.</block>
-  <block id="7ba03c87de2b2098f95107674c8477ff" category="cell">ClusterViewer-Bericht</block>
   <block id="acaaa059ccc549a29b26a0c1ad515bba" category="cell">Bietet Informationen über einzelne oder mehrere Cluster auf Kunden- und Watchlist-Ebene. Sie können diesen Bericht nur für Watchlist mit bis zu 100 Knoten generieren.</block>
   <block id="2d99f2b259d1d48f91090cd494f911f9" category="cell">Kapazität Und Effizienz Zu Steigern</block>
   <block id="5da3b92de536337b0597bb58ef5868ac" category="cell">Bietet Informationen zur Kapazität und Effizienz auf Cluster-, Kunden-, Standort-, Gruppen-, Watchlist- und Node-Ebene.</block>
-  <block id="7780a058aaed86fab91b6e7629c71e93" category="cell">Volume Performance Report</block>
   <block id="2bc63cd07b97ee266354dc14df194285" category="cell">Bietet Informationen zur Performance-Details der Volumes auf Cluster-Ebene.</block>
-  <block id="f7ced170f0a650cade73ee4d9d2d75de" category="cell">Performance-Bericht</block>
   <block id="a26bfd54d2d0360c1432f1b51ff336ad" category="cell">Hier erhalten Sie Informationen zu der Performance eines Clusters, Nodes, der lokalen Tier (Aggregat) und eines Volumes auf Watchlist-Ebene. Sie können diesen Bericht nur für Watchlist mit bis zu 100 Knoten generieren.</block>
   <block id="93ae395e2672dbc470bc375ec78e11e4" category="summary">Bietet einen Überblick über die Konfigurationsdrift-Funktion</block>
   <block id="039bebff198c8cd18e071d60368ea6a5" category="doc">Verstehen der Konfigurationsabweichung</block>
@@ -1547,4 +1538,22 @@ Die Verfügbarkeit der Funktionen unter *STORAGE HEALTH* hängt vom Systemtyp un
   <block id="82a9da1ab6bff23f72740b42a10ddeb9" category="section-title">Filter und Sortierung sind im Widget „Inventar“ nicht verfügbar</block>
   <block id="eeb5db985fd60cfebc33e606802e2112" category="paragraph">Daten können im Widget „Inventar“ nicht gefiltert und sortiert werden. Es werden keine Daten angezeigt, wenn Sie im Dropdown-Menü „Filtern nach“ die Option „ONTAP AFF“, „ONTAP ASA“, „ONTAP Edge“ oder „ONTAP Select“ auswählen.</block>
   <block id="4b546cad2ee01a6cbf9ccc96b97242b6" category="section-title">Bis 04. Dezember 2024</block>
+  <block id="1ae1cd0b4937cfa4a52d9dd9c59a7bff" category="cell">Verfügbar in ONTAP</block>
+  <block id="eda9493cdedf376a22ce96af673b5ce1" category="cell">In E-Series verfügbar</block>
+  <block id="ae816a91a9239284b014c29def79b1a9" category="cell">Verfügbar in StorageGRID</block>
+  <block id="93cba07454f06a4a960172bbd6e2a435" category="cell">Ja.</block>
+  <block id="bafd7322c6e97d25b6299b5d6fe8920b" category="cell">Nein</block>
+  <block id="9c575f87ce93324cdc7902925f6337cc" category="cell">Bietet Einblicke und Empfehlungen zur Optimierung von Cloud-Ressourcen Sie enthält Details zu Disaster Recovery, Backup, Tiering und Migration.</block>
+  <block id="710106984647f0730faca0e1eaeeee6d" category="cell">Benutzer können eine „goldene Basis“ für Systemkonfigurationen erstellen und bei Abweichungen von dieser Basislinie darauf hinweisen. Es hilft, Konfigurationsänderungen zu identifizieren und zu beheben, die sich auf die Systemleistung oder -Sicherheit auswirken können.</block>
+  <block id="cb8da66b45b686427a31e5d56a8122db" category="cell">Lieferlogistik</block>
+  <block id="d0606acb5c07dedf89ff7c2b06144f81" category="cell">Bietet Informationen über die Logistik der Lieferung von Produkten und Dienstleistungen.</block>
+  <block id="fbd781a535485932684e2fdb756c3913" category="cell">Zusammenfassung Der Integritätsbewertung</block>
+  <block id="0cb0fa6009199e89058c343d1d127fda" category="cell">Bietet Informationen zu verschiedenen Active IQ-KPIs in einem PowerPoint-Format (PPT), wobei unterschiedliche KPIs auf verschiedenen Folien beschrieben werden.</block>
+  <block id="83009b6eb15f65a7b4a558c0e23269c3" category="cell">Periodische Digest</block>
+  <block id="f4786124ed46b14b49d37f9f8c042ce4" category="cell">Fasst wichtige Kennzahlen und Erkenntnisse regelmäßig zusammen. Daten zu System-Performance, Kapazität und Effizienz werden erfasst.</block>
+  <block id="17b58822f294ceb27e2330591b9224e4" category="cell">Bietet Informationen zu den verschiedenen empfohlenen Konfigurationslücken für Remote-Management-Konfigurationen, Ersatzteile und Laufwerke, HA-Paar, SVM-Zustand, Akkustatus und Recovery-Guru-Empfehlungen.</block>
+  <block id="67049dbeb0547988bdd3bb265ef87afc" category="cell">Er bietet Informationen zu den Vertragsdetails und der Liste der Controller, Shelfs und Festplatten, für die das EOS (End-of-Support) erreicht wurde.</block>
+  <block id="9622c46ac664d07f743905654edd5f26" category="cell">Upgrade-Plan</block>
+  <block id="1a9aef730533c89cbf56cb32b9856a4a" category="cell">Gibt Empfehlungen für Software- und Firmware-Upgrades. Sie enthält Details zu den neuesten empfohlenen Versionen, potenziellen Problemen und Schritten zur Durchführung von Upgrades.</block>
+  <block id="a86c1de3e38559902af8a77c138a08f4" category="cell">Volume-Performance</block>
 </blocks>
