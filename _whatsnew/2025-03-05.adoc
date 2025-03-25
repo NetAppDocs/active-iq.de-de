@@ -1,0 +1,11 @@
+= Upgrade Advisor
+:allow-uri-read: 
+
+
+
+
+=== Upgrade Advisor
+
+* Mit dem Disk Qualification Package (DQP) können Sie jetzt die Festplatten-Controller und die Firmware des Speichergeräts automatisch gemäß den vordefinierten Integrations- und Leistungskriterien aktualisieren. Dies verringert potenzielle Ausfälle und verbessert die allgemeine Systemzuverlässigkeit.
+* Die Zeitzonendatenbank (DB) wurde eingeführt, um die Systemausrichtung automatisch mit den aktuellen Zeitzonendefinitionen zu halten. Dadurch wird sichergestellt, dass zeitabhängige Vorgänge auch dann reibungslos ablaufen, wenn sich die Zeitzonenregeln ändern.
+

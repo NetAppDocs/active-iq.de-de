@@ -1556,4 +1556,7 @@ Die Verfügbarkeit der Funktionen unter *STORAGE HEALTH* hängt vom Systemtyp un
   <block id="9622c46ac664d07f743905654edd5f26" category="cell">Upgrade-Plan</block>
   <block id="1a9aef730533c89cbf56cb32b9856a4a" category="cell">Gibt Empfehlungen für Software- und Firmware-Upgrades. Sie enthält Details zu den neuesten empfohlenen Versionen, potenziellen Problemen und Schritten zur Durchführung von Upgrades.</block>
   <block id="a86c1de3e38559902af8a77c138a08f4" category="cell">Volume-Performance</block>
+  <block id="5542dbcb72159ed44fa6bf922b45c1e8" category="list-text">Mit dem Disk Qualification Package (DQP) können Sie jetzt die Festplatten-Controller und die Firmware des Speichergeräts automatisch gemäß den vordefinierten Integrations- und Leistungskriterien aktualisieren. Dies verringert potenzielle Ausfälle und verbessert die allgemeine Systemzuverlässigkeit.</block>
+  <block id="90dd6f07c096c3965dc62d991f80f7fd" category="list-text">Die Zeitzonendatenbank (DB) wurde eingeführt, um die Systemausrichtung automatisch mit den aktuellen Zeitzonendefinitionen zu halten. Dadurch wird sichergestellt, dass zeitabhängige Vorgänge auch dann reibungslos ablaufen, wenn sich die Zeitzonenregeln ändern.</block>
+  <block id="1b4189ae198caba09051ca2138497fc7" category="section-title">05 März 2025</block>
 </blocks>
