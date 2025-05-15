@@ -1529,7 +1529,6 @@ Die Verfügbarkeit der Funktionen unter *STORAGE HEALTH* hängt vom Systemtyp un
   <block id="d7e31a0bb5b5ba6257ea5fda3503a013" category="list-text">Klicken Sie auf *Empfehlungen anzeigen*, um die Liste der Empfehlungen anzuzeigen.</block>
   <block id="11672318e1b710ceb9ea65a5a12aa393" category="list-text">Klicken Sie in der Spalte *Update Status* auf *See Progress*, um die Cluster anzuzeigen, die für ein Update geeignet sind.</block>
   <block id="ea9fb85557d50ae07af62f60044c60d5" category="list-text">Klicken Sie bei Problemen auf die entsprechenden Links, um die Schritte zur Behebung der Probleme anzuzeigen.</block>
-  <block id="998e01ff2383d2b9e06b55738a27346b" category="doc">AutoSupport-Widget</block>
   <block id="526c3ba007bad7c7b6408ba4672f5f6e" category="paragraph">Das Widget „AutoSupport“ wurde dem Dashboard-Hauptbildschirm hinzugefügt, um Kunden über die Probleme mit dem AutoSupport-Status zu informieren.</block>
   <block id="92806a8b46867129d50cde3d86748bb6" category="section-title">Das AutoSupport Widget ist für Cluster- und Seriennummern nicht verfügbar</block>
   <block id="03d676ea619bd44dde41c38b2851a15d" category="paragraph">Das Widget „AutoSupport“ enthält keine Warnmeldungen für die Suche nach Clustern und Seriennummern.</block>
@@ -1559,4 +1558,10 @@ Die Verfügbarkeit der Funktionen unter *STORAGE HEALTH* hängt vom Systemtyp un
   <block id="5542dbcb72159ed44fa6bf922b45c1e8" category="list-text">Mit dem Disk Qualification Package (DQP) können Sie jetzt die Festplatten-Controller und die Firmware des Speichergeräts automatisch gemäß den vordefinierten Integrations- und Leistungskriterien aktualisieren. Dies verringert potenzielle Ausfälle und verbessert die allgemeine Systemzuverlässigkeit.</block>
   <block id="90dd6f07c096c3965dc62d991f80f7fd" category="list-text">Die Zeitzonendatenbank (DB) wurde eingeführt, um die Systemausrichtung automatisch mit den aktuellen Zeitzonendefinitionen zu halten. Dadurch wird sichergestellt, dass zeitabhängige Vorgänge auch dann reibungslos ablaufen, wenn sich die Zeitzonenregeln ändern.</block>
   <block id="1b4189ae198caba09051ca2138497fc7" category="section-title">05 März 2025</block>
+  <block id="4503a1a889a3b7c3dc4f3af490b089c6" category="doc">AutoSupport-Widget</block>
+  <block id="41e1c349288a8b454c83244a4a28b8f7" category="paragraph">Das Widget „AutoSupport“ wurde um ein Popup-Fenster erweitert, das Details zu Systemen enthält, die nicht mehr AutoSupport-Daten senden. Durch die Aktivierung von AutoSupport wird das Risiko von Ausfallzeiten verringert und ein proaktives Management des Systemzustands unterstützt.</block>
+  <block id="dc82c5b795e4118bc2472e86475bf5da" category="section-title">Bericht zu Supportverträgen</block>
+  <block id="6877ece75d4d613c107eed29f14b3975" category="paragraph">Der Bericht „Supportverträge“ wurde um das neue ASP/LSG-Flag-Feld erweitert. Dieses Feld ermöglicht das Filtern und Identifizieren von Systemen, die von einem autorisierten Support-Partner abgedeckt werden, auch als Lifecycle Services Certified bekannt.</block>
+  <block id="80604874cd369ef578265c67a223d997" category="paragraph">Über den in der Nachhaltigkeitspräsentation enthaltenen Link können Sie nun das Dashboard Nachhaltigkeit starten.</block>
+  <block id="9b6594622a22e82296250ca296e7a0b3" category="section-title">08 Mai 2025</block>
 </blocks>

@@ -1,0 +1,21 @@
+= AutoSupport-Widget
+:allow-uri-read: 
+
+
+
+
+=== AutoSupport-Widget
+
+Das Widget „AutoSupport“ wurde um ein Popup-Fenster erweitert, das Details zu Systemen enthält, die nicht mehr AutoSupport-Daten senden. Durch die Aktivierung von AutoSupport wird das Risiko von Ausfallzeiten verringert und ein proaktives Management des Systemzustands unterstützt.
+
+
+
+=== Bericht zu Supportverträgen
+
+Der Bericht „Supportverträge“ wurde um das neue ASP/LSG-Flag-Feld erweitert. Dieses Feld ermöglicht das Filtern und Identifizieren von Systemen, die von einem autorisierten Support-Partner abgedeckt werden, auch als Lifecycle Services Certified bekannt.
+
+
+
+=== Dashboard zur Nachhaltigkeit
+
+Über den in der Nachhaltigkeitspräsentation enthaltenen Link können Sie nun das Dashboard Nachhaltigkeit starten.
