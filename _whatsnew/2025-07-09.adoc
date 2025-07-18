@@ -1,0 +1,17 @@
+= Upgrade Advisor
+:allow-uri-read: 
+
+
+
+
+=== Upgrade Advisor
+
+* Für Upgrade Advisor-Pläne wurde eine Download-Option in mehreren Formaten hinzugefügt, um die ONTAP -Upgrade-Planung zu vereinfachen und potenzielle Blocker oder Warnungen zu beheben. Sie können Upgrade Advisor-Pläne jetzt in den Formaten Excel, PDF und JSON herunterladen.
+* Im Excel-Format des Upgrade Advisor-Plans wurden die folgenden Verbesserungen vorgenommen:
++
+** Sie können die im Cluster durchgeführten Vorprüfungen einsehen und die Ergebnisse mit Indikatoren wie „Bestanden“, „Fehlgeschlagen“ oder „Übersprungen“ kennzeichnen. So stellen Sie sicher, dass sich der Cluster in optimalem Zustand für das ONTAP Upgrade befindet.
+** Sie können die empfohlenen neuesten Firmware-Updates für den Cluster sowie die mit der ONTAP Zielversion gelieferte Version anzeigen.
+** Eine neue Registerkarte bietet Interoperabilitätsprüfungen für SAN-Cluster. Sie bietet eine Ansicht der unterstützten Host-Betriebssystemversionen für die ausgewählte ONTAP Zielversion.
+
+
+

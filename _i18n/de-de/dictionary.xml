@@ -1564,4 +1564,10 @@ Die Verfügbarkeit der Funktionen unter *STORAGE HEALTH* hängt vom Systemtyp un
   <block id="6877ece75d4d613c107eed29f14b3975" category="paragraph">Der Bericht „Supportverträge“ wurde um das neue ASP/LSG-Flag-Feld erweitert. Dieses Feld ermöglicht das Filtern und Identifizieren von Systemen, die von einem autorisierten Support-Partner abgedeckt werden, auch als Lifecycle Services Certified bekannt.</block>
   <block id="80604874cd369ef578265c67a223d997" category="paragraph">Über den in der Nachhaltigkeitspräsentation enthaltenen Link können Sie nun das Dashboard Nachhaltigkeit starten.</block>
   <block id="9b6594622a22e82296250ca296e7a0b3" category="section-title">08 Mai 2025</block>
+  <block id="e0feed907f4bf22cc0b1ffa18048f926" category="list-text">Für Upgrade Advisor-Pläne wurde eine Download-Option in mehreren Formaten hinzugefügt, um die ONTAP -Upgrade-Planung zu vereinfachen und potenzielle Blocker oder Warnungen zu beheben. Sie können Upgrade Advisor-Pläne jetzt in den Formaten Excel, PDF und JSON herunterladen.</block>
+  <block id="e78e85c2863b9ed09c47dacdcfda2a1d" category="list-text">Im Excel-Format des Upgrade Advisor-Plans wurden die folgenden Verbesserungen vorgenommen:</block>
+  <block id="24a524d6161aca2fe5398b80dd9fa10c" category="list-text">Sie können die im Cluster durchgeführten Vorprüfungen einsehen und die Ergebnisse mit Indikatoren wie „Bestanden“, „Fehlgeschlagen“ oder „Übersprungen“ kennzeichnen. So stellen Sie sicher, dass sich der Cluster in optimalem Zustand für das ONTAP Upgrade befindet.</block>
+  <block id="081533dbbdd673ebb2632d92a90a4a77" category="list-text">Sie können die empfohlenen neuesten Firmware-Updates für den Cluster sowie die mit der ONTAP Zielversion gelieferte Version anzeigen.</block>
+  <block id="6276222a738837860023343f423eb60c" category="list-text">Eine neue Registerkarte bietet Interoperabilitätsprüfungen für SAN-Cluster. Sie bietet eine Ansicht der unterstützten Host-Betriebssystemversionen für die ausgewählte ONTAP Zielversion.</block>
+  <block id="be5dc5f5e2d7e93e1002f9bc9daa9179" category="section-title">09 Juli 2025</block>
 </blocks>
