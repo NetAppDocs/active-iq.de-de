@@ -20,6 +20,34 @@ Die folgenden Funktionen und Verbesserungen wurden in Digital Advisor eingeführ
 
 
 
+== 06. August 2025
+
+
+
+=== Unterstützt berechtigte Switches
+
+Sie können jetzt Informationen zu Brocade Fibre Channel SAN-Switches anzeigen, die Anspruch auf Support haben.  Dazu gehören Details zum Switch-Modell, zur Seriennummer und zum Support-Status. link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["Erfahren Sie, wie Sie Support-berechtigte Switches anzeigen"] .
+
+
+
+=== Schwellenwert für RSS- AutoSupport -Daten
+
+Das RSS-Limit (Currently Stopped Sending) im AutoSupport Widget wurde von 48 Stunden (2 Tage) auf 216 Stunden (9 Tage) verlängert, bevor ein System als RSS gekennzeichnet wird.  Dies geschieht, um Plattformen wie StorageGRID entgegenzukommen, die nur wöchentliche AutoSupport Daten senden.
+
+
+
+=== Abschnitt „Veraltete API“ im Digital Advisor API-Katalog
+
+Im Digital Advisor API-Katalog ist ein neuer veralteter API-Abschnitt verfügbar.  Darin werden die APIs aufgelistet, deren Einstellung geplant ist, zusammen mit den Zeitplänen für die Einstellung und alternativen APIs.
+
+
+
+=== Kapazitätsprognose V2 und Einstellung der API-Module für das Supportende
+
+Die API-Module „Capacity Forecast V2“ und „End of Support“ werden voraussichtlich nicht mehr unterstützt.  Um auf die veralteten APIs zuzugreifen oder sich über die Zeitpläne für die Veraltung und alternative APIs zu informieren, navigieren Sie zu *API-Dienste -> Durchsuchen -> Veraltete APIs*.
+
+
+
 == 09 Juli 2025
 
 

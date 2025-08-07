@@ -21,7 +21,6 @@
   <block id="f05b4b84106eafcc5aad0f438b841dff" category="admonition">Für die Verwendung der *Fix it*-Option und der Ansible-Playbook-Funktionen ist ein SupportEdge Advisor- oder SupportEdge Expert-Vertrag erforderlich.</block>
   <block id="e4f7548bfc57cb05ec15b81412fadffb" category="summary">Stellt Informationen zum Gesamtbestand bereit, zu dem Sie gehören.</block>
   <block id="a8c9ef5b4f3d7f23d67ca929bf6a60ee" category="doc">Anzeigen von Bestandsdetails</block>
-  <block id="241d0a5c7d11b08c4b6742aafec7ad3e" category="paragraph">Das Widget *Inventory* bietet Ihnen ein Rollup der gesamten Systeme, die Sie besitzen. Dies umfasst sowohl Digital Advisor-fähige als auch nicht-aktivierte Produkte.</block>
   <block id="95cc9b63edd3c2016f97c0476635528a" category="paragraph">Sie können auch den Bericht der ausgewählten Watchlist generieren und den Bericht an maximal 5 Empfänger senden.</block>
   <block id="7a7d4a4667b4536acd427d4c99b2e845" category="list-text">Klicken Sie im Widget *Inventory* auf *Systems*, um die Systeminformationen aller Plattformen anzuzeigen, oder klicken Sie auf den Plattformtyp und klicken Sie dann auf *Systems*, um die für diese Plattform spezifischen Systeme anzuzeigen.</block>
   <block id="da7363bcf69f8ff499f5f44a09b9c4ac" category="list-text">Klicken Sie auf den Node oder Cluster, um detaillierte Informationen über das System anzuzeigen.</block>
@@ -137,7 +136,6 @@
   <block id="1b041cdfdc19a7bdb36e4bb710521c3b" category="list-text">Klicken Sie im Menü *Quick Links* auf *API Services*.</block>
   <block id="1dce9bd049d6c9e9c500be142e33de38" category="inline-link-macro">* Durchsuchen*</block>
   <block id="54e7835f3f1f70bc142c9b5e847e6ec9" category="paragraph">Der API-Katalog wird angezeigt.</block>
-  <block id="82ee712943040cce957254912d97aba0" category="list-text">Wählen Sie eine beliebige API aus</block>
   <block id="04c8967b6880007c6fea1e2c0e66614d" category="list-text">Schieben Sie oben auf der Seite den Schalter auf „Experiment“.</block>
   <block id="835a43b0478137c574edbef583d126a1" category="list-text">Erweitern Sie in der linken Navigation die Kategorien und wählen Sie eine beliebige API, um detaillierte Informationen anzuzeigen.</block>
   <block id="fcf9335996c4ed1473286f8644d4b479" category="list-text">Erweitern Sie die API.</block>
@@ -1570,4 +1568,29 @@ Die Verfügbarkeit der Funktionen unter *STORAGE HEALTH* hängt vom Systemtyp un
   <block id="081533dbbdd673ebb2632d92a90a4a77" category="list-text">Sie können die empfohlenen neuesten Firmware-Updates für den Cluster sowie die mit der ONTAP Zielversion gelieferte Version anzeigen.</block>
   <block id="6276222a738837860023343f423eb60c" category="list-text">Eine neue Registerkarte bietet Interoperabilitätsprüfungen für SAN-Cluster. Sie bietet eine Ansicht der unterstützten Host-Betriebssystemversionen für die ausgewählte ONTAP Zielversion.</block>
   <block id="be5dc5f5e2d7e93e1002f9bc9daa9179" category="section-title">09 Juli 2025</block>
+  <block id="a30ce25654f610d7e9e47c6277028c38" category="doc">Unterstützt berechtigte Switches</block>
+  <block id="d98c483ab007e03305ae5655fe6cbaf8" category="inline-link-macro">Erfahren Sie, wie Sie Support-berechtigte Switches anzeigen</block>
+  <block id="e71b090a525e98d8d6e64f80e67acf6f" category="paragraph">Sie können jetzt Informationen zu Brocade Fibre Channel SAN-Switches anzeigen, die Anspruch auf Support haben.  Dazu gehören Details zum Switch-Modell, zur Seriennummer und zum Support-Status. <block ref="0ccb1381392c0ca51f280aad697adc46" category="inline-link-macro-rx"></block> .</block>
+  <block id="adc76ac62c705df3456206213de66002" category="section-title">Schwellenwert für RSS- AutoSupport -Daten</block>
+  <block id="3cdd6b50a4e4c3395ca5fea20c94ee5b" category="paragraph">Das RSS-Limit (Currently Stopped Sending) im AutoSupport Widget wurde von 48 Stunden (2 Tage) auf 216 Stunden (9 Tage) verlängert, bevor ein System als RSS gekennzeichnet wird.  Dies geschieht, um Plattformen wie StorageGRID entgegenzukommen, die nur wöchentliche AutoSupport Daten senden.</block>
+  <block id="bbe4dac655b49c7a3978eb5864452f05" category="section-title">Abschnitt „Veraltete API“ im Digital Advisor API-Katalog</block>
+  <block id="4632607b0b76f87d36568a2df2c3a267" category="paragraph">Im Digital Advisor API-Katalog ist ein neuer veralteter API-Abschnitt verfügbar.  Darin werden die APIs aufgelistet, deren Einstellung geplant ist, zusammen mit den Zeitplänen für die Einstellung und alternativen APIs.</block>
+  <block id="9eadf268f4ef55df53b7403a020082b1" category="section-title">Kapazitätsprognose V2 und Einstellung der API-Module für das Supportende</block>
+  <block id="bd2055e6fb5a6ca7ecc6d9d52f394548" category="paragraph">Die API-Module „Capacity Forecast V2“ und „End of Support“ werden voraussichtlich nicht mehr unterstützt.  Um auf die veralteten APIs zuzugreifen oder sich über die Zeitpläne für die Veraltung und alternative APIs zu informieren, navigieren Sie zu *API-Dienste -&gt; Durchsuchen -&gt; Veraltete APIs*.</block>
+  <block id="6e04d6bd41fa83c137f7b99364e843c9" category="admonition">NetApp Digital Advisor wechselt von REST-APIs zu GraphQL als primärer API-Plattform, um Leistung, Flexibilität und Skalierbarkeit zu verbessern.  Der Übergang erfolgt schrittweise, mit einer Überschneidungsphase zwischen REST-APIs und GraphQL-APIs.  Für jede veraltete REST-API wird im Digital Advisor API-Katalog ein Veraltungshinweis veröffentlicht und Sie haben 6 Monate Zeit, diesen bestimmten Endpunkt zu GraphQL zu migrieren.  Um die Liste der APIs anzuzeigen, deren Einstellung geplant ist, navigieren Sie zu *API-Dienste -&gt; Durchsuchen -&gt; Veraltete APIs*</block>
+  <block id="e8b6643d4bda95ae4c2dacb6a8e40cac" category="section-title">06. August 2025</block>
+  <block id="51aa04f109d45d42868cc0b36f25fd52" category="section-title">Zugriff auf GraphQL-APIs</block>
+  <block id="6bdcd3c5aba802a9e7d2f1d96dd5aff5" category="list-text">Klicken Sie auf *GraphQL* und lesen Sie die Dokumentation.</block>
+  <block id="9d4615fe1d2320cc19b894b5d333d7c1" category="inline-link-macro">GraphQL-API-Endpunkt und Überprüfungsschema</block>
+  <block id="b546d5412fcbcd954e28c950fb2a6ca4" category="list-text">Zugang<block ref="89a08dcaa38ea8d40daf6964132bb7ee" category="inline-link-macro-rx"></block></block>
+  <block id="e306bcdfb9b3334cf7659705e8358e27" category="inline-link-macro">Digital Advisor GraphQL Studio</block>
+  <block id="b1e54092f36831f6a814e51a7c93bdd8" category="list-text">Testen Sie die GraphQL-APIs mit den sofort einsatzbereiten Beispielabfragen unter<block ref="ae67cca60092e176d8c2dddd34356b5e" category="inline-link-macro-rx"></block> .</block>
+  <block id="637bbe10a2e1fa5eea6be6cb23319cca" category="list-text">Geben Sie ein Benutzertoken an, indem Sie das Autorisierungsfeld im Header der API-Anfrage auswählen</block>
+  <block id="85608152841a7f2e1feb0fe64d6e0ea6" category="list-text">Geben Sie die erforderlichen Variablen an</block>
+  <block id="f957bd87c6ca02f7e8d3b7e94c1b1992" category="list-text">Führen Sie die Abfrage aus und überprüfen Sie die Ausgabe</block>
+  <block id="56221c5b2b531b839a3cd5c7e9c9cd9f" category="section-title">Zugriff auf REST-APIs</block>
+  <block id="35c99013ee51309b261a35e68d7b57ba" category="list-text">Klicken Sie auf *ActiveIQ-Public* und wählen Sie eine beliebige API aus</block>
+  <block id="b564cac98074bd875d810d6572dc9927" category="paragraph">Das Widget *Inventar* bietet Ihnen eine Übersicht über alle Systeme und die Switches mit Supportberechtigung, die Sie besitzen.  Dies umfasst sowohl Digital Advisor -fähige als auch nicht-fähige Produkte.</block>
+  <block id="9714b9edaef026c9c44f49389eb60d44" category="section-title">Details zum Support-berechtigten Switch anzeigen</block>
+  <block id="e5449af777fdc7f9d2eec34f87da1138" category="list-text">Klicken Sie im Widget *Inventar* auf *Supportberechtigte Switches*, um Informationen zu allen supportberechtigten Switches anzuzeigen.</block>
 </blocks>

@@ -20,13 +20,35 @@ Der API-Katalog ermöglicht das Durchsuchen von Kategorien und den verfügbaren 
 
 Mit einem gültigen Access Token und korrekten Eingaben für die erforderlichen Felder können Sie einen Testaufruf für eine API durchführen.
 
+
+
+== Zugriff auf GraphQL-APIs
+
 .Schritte
 . Klicken Sie im Menü *Quick Links* auf *API Services*.
 . Klicken Sie Auf link:https://activeiq.netapp.com/catalog/internal/api-reference/introduction["* Durchsuchen*"^] Unter dem Symbol *API-Katalog*.
 +
 Der API-Katalog wird angezeigt.
 
-. Wählen Sie eine beliebige API aus
+. Klicken Sie auf *GraphQL* und lesen Sie die Dokumentation.
+. Zuganglink:https://gql.aiq.netapp.com/["GraphQL-API-Endpunkt und Überprüfungsschema"^]
+. Testen Sie die GraphQL-APIs mit den sofort einsatzbereiten Beispielabfragen unterlink:https://studio.apollographql.com/public/ActiveIQ-Graph-Prd-API/variant/current/explorer?collectionId=251c50ce-797e-4549-bb9c-f6557ef5a176OPERATION_COLLECTIONfocusCollectionId=251c50ce-797e-4549-bb9c-f6557ef5a176["Digital Advisor GraphQL Studio"^] .
+. Geben Sie ein Benutzertoken an, indem Sie das Autorisierungsfeld im Header der API-Anfrage auswählen
+. Geben Sie die erforderlichen Variablen an
+. Führen Sie die Abfrage aus und überprüfen Sie die Ausgabe
+
+
+
+
+== Zugriff auf REST-APIs
+
+.Schritte
+. Klicken Sie im Menü *Quick Links* auf *API Services*.
+. Klicken Sie Auf link:https://activeiq.netapp.com/catalog/internal/api-reference/introduction["* Durchsuchen*"^] Unter dem Symbol *API-Katalog*.
++
+Der API-Katalog wird angezeigt.
+
+. Klicken Sie auf *ActiveIQ-Public* und wählen Sie eine beliebige API aus
 . Schieben Sie oben auf der Seite den Schalter auf „Experiment“.
 . Erweitern Sie in der linken Navigation die Kategorien und wählen Sie eine beliebige API, um detaillierte Informationen anzuzeigen.
 . Erweitern Sie die API.
