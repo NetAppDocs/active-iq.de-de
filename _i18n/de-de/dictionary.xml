@@ -1569,8 +1569,6 @@ Die Verfügbarkeit der Funktionen unter *STORAGE HEALTH* hängt vom Systemtyp un
   <block id="6276222a738837860023343f423eb60c" category="list-text">Eine neue Registerkarte bietet Interoperabilitätsprüfungen für SAN-Cluster. Sie bietet eine Ansicht der unterstützten Host-Betriebssystemversionen für die ausgewählte ONTAP Zielversion.</block>
   <block id="be5dc5f5e2d7e93e1002f9bc9daa9179" category="section-title">09 Juli 2025</block>
   <block id="a30ce25654f610d7e9e47c6277028c38" category="doc">Unterstützt berechtigte Switches</block>
-  <block id="d98c483ab007e03305ae5655fe6cbaf8" category="inline-link-macro">Erfahren Sie, wie Sie Support-berechtigte Switches anzeigen</block>
-  <block id="e71b090a525e98d8d6e64f80e67acf6f" category="paragraph">Sie können jetzt Informationen zu Brocade Fibre Channel SAN-Switches anzeigen, die Anspruch auf Support haben.  Dazu gehören Details zum Switch-Modell, zur Seriennummer und zum Support-Status. <block ref="0ccb1381392c0ca51f280aad697adc46" category="inline-link-macro-rx"></block> .</block>
   <block id="adc76ac62c705df3456206213de66002" category="section-title">Schwellenwert für RSS- AutoSupport -Daten</block>
   <block id="3cdd6b50a4e4c3395ca5fea20c94ee5b" category="paragraph">Das RSS-Limit (Currently Stopped Sending) im AutoSupport Widget wurde von 48 Stunden (2 Tage) auf 216 Stunden (9 Tage) verlängert, bevor ein System als RSS gekennzeichnet wird.  Dies geschieht, um Plattformen wie StorageGRID entgegenzukommen, die nur wöchentliche AutoSupport Daten senden.</block>
   <block id="bbe4dac655b49c7a3978eb5864452f05" category="section-title">Abschnitt „Veraltete API“ im Digital Advisor API-Katalog</block>
@@ -1593,4 +1591,6 @@ Die Verfügbarkeit der Funktionen unter *STORAGE HEALTH* hängt vom Systemtyp un
   <block id="b564cac98074bd875d810d6572dc9927" category="paragraph">Das Widget *Inventar* bietet Ihnen eine Übersicht über alle Systeme und die Switches mit Supportberechtigung, die Sie besitzen.  Dies umfasst sowohl Digital Advisor -fähige als auch nicht-fähige Produkte.</block>
   <block id="9714b9edaef026c9c44f49389eb60d44" category="section-title">Details zum Support-berechtigten Switch anzeigen</block>
   <block id="e5449af777fdc7f9d2eec34f87da1138" category="list-text">Klicken Sie im Widget *Inventar* auf *Supportberechtigte Switches*, um Informationen zu allen supportberechtigten Switches anzuzeigen.</block>
+  <block id="617f2d0adf2001440f244bf5c45be277" category="inline-link-macro">Erfahren Sie, wie Sie Support-berechtigte Switches anzeigen</block>
+  <block id="ef3139c75debdd9ee259a4ea386083d3" category="paragraph">Sie können jetzt Informationen zu Brocade Fibre Channel SAN-Switches anzeigen, die Anspruch auf Support haben. Dazu gehören Details zum Switch-Modell, zur Seriennummer und zum Support-Status. <block ref="de42528af60c9393a2c8b32539c694f1" category="inline-link-macro-rx"></block> .</block>
 </blocks>

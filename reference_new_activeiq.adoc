@@ -26,7 +26,7 @@ Die folgenden Funktionen und Verbesserungen wurden in Digital Advisor eingeführ
 
 === Unterstützt berechtigte Switches
 
-Sie können jetzt Informationen zu Brocade Fibre Channel SAN-Switches anzeigen, die Anspruch auf Support haben.  Dazu gehören Details zum Switch-Modell, zur Seriennummer und zum Support-Status. link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["Erfahren Sie, wie Sie Support-berechtigte Switches anzeigen"] .
+Sie können jetzt Informationen zu Brocade Fibre Channel SAN-Switches anzeigen, die Anspruch auf Support haben. Dazu gehören Details zum Switch-Modell, zur Seriennummer und zum Support-Status. link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["Erfahren Sie, wie Sie Support-berechtigte Switches anzeigen"] .
 
 
 
