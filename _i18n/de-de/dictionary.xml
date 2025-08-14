@@ -134,7 +134,6 @@
   <block id="40626d7035cc7f4a6caa9d104fd7d387" category="paragraph">Der API-Katalog ermöglicht das Durchsuchen von Kategorien und den verfügbaren APIs innerhalb jeder dieser Kategorien.</block>
   <block id="2b033bd9dec6fb568acb85aff511102a" category="paragraph">Mit einem gültigen Access Token und korrekten Eingaben für die erforderlichen Felder können Sie einen Testaufruf für eine API durchführen.</block>
   <block id="1b041cdfdc19a7bdb36e4bb710521c3b" category="list-text">Klicken Sie im Menü *Quick Links* auf *API Services*.</block>
-  <block id="1dce9bd049d6c9e9c500be142e33de38" category="inline-link-macro">* Durchsuchen*</block>
   <block id="54e7835f3f1f70bc142c9b5e847e6ec9" category="paragraph">Der API-Katalog wird angezeigt.</block>
   <block id="04c8967b6880007c6fea1e2c0e66614d" category="list-text">Schieben Sie oben auf der Seite den Schalter auf „Experiment“.</block>
   <block id="835a43b0478137c574edbef583d126a1" category="list-text">Erweitern Sie in der linken Navigation die Kategorien und wählen Sie eine beliebige API, um detaillierte Informationen anzuzeigen.</block>
@@ -1112,7 +1111,6 @@ Möglicherweise können Sie aus einem der folgenden Gründe nicht nach bestimmte
   <block id="ae60d74a912ddc26168a3645463cc941" category="list-text"><block ref="ae60d74a912ddc26168a3645463cc941" category="inline-link-macro-rx"></block></block>
   <block id="801b554762e480a183c2424cbe8c2fb6" category="list-text"><block ref="801b554762e480a183c2424cbe8c2fb6" category="inline-link-macro-rx"></block></block>
   <block id="373fd27c1797dca500c6c9dbce1225f7" category="paragraph">Der Webserver kann auf mehrere Arten eingerichtet werden. Anweisungen zum Einrichten eines einfachen Webservers mithilfe von Python finden Sie unter <block ref="303512ecf00930b786dea080d96799d8" category="inline-link-macro-rx"></block>.</block>
-  <block id="713451159dacf58d1a99e356169dfb3f" category="list-text">Klicken Sie Auf <block ref="9b2adf8ad12dd16d4d2b3750ca65e5de" category="inline-link-macro-rx"></block> Unter dem Symbol *API-Katalog*.</block>
   <block id="d3b731ac977fc38e625943ab24125e73" category="list-text">Wechseln Sie zum <block ref="6ea90873ff127896ae7a3eaf21cda455" category="inline-link-macro-rx"></block> anmeldeseite.</block>
   <block id="2cf504c669255f96f48e417bf3c86399" category="paragraph">Bei ONTAP Systemen ist AutoSupport standardmäßig aktiviert, wenn Sie Ihr Storage-System zum ersten Mal konfigurieren. Sollten Sie <block ref="03ce3f8b24f3ba6194d1a4f01375a3eb" category="inline-link-macro-rx"></block> In ONTAP Systemen zu steuern, wie die AutoSupport Informationen an den technischen Support und Ihre interne Support-Abteilung gesendet werden.</block>
   <block id="836b35da2a4494ce20730d485e090b9b" category="list-text"><block ref="836b35da2a4494ce20730d485e090b9b" category="inline-link-macro-rx"></block></block>
@@ -1579,8 +1577,6 @@ Die Verfügbarkeit der Funktionen unter *STORAGE HEALTH* hängt vom Systemtyp un
   <block id="e8b6643d4bda95ae4c2dacb6a8e40cac" category="section-title">06. August 2025</block>
   <block id="51aa04f109d45d42868cc0b36f25fd52" category="section-title">Zugriff auf GraphQL-APIs</block>
   <block id="6bdcd3c5aba802a9e7d2f1d96dd5aff5" category="list-text">Klicken Sie auf *GraphQL* und lesen Sie die Dokumentation.</block>
-  <block id="9d4615fe1d2320cc19b894b5d333d7c1" category="inline-link-macro">GraphQL-API-Endpunkt und Überprüfungsschema</block>
-  <block id="b546d5412fcbcd954e28c950fb2a6ca4" category="list-text">Zugang<block ref="89a08dcaa38ea8d40daf6964132bb7ee" category="inline-link-macro-rx"></block></block>
   <block id="e306bcdfb9b3334cf7659705e8358e27" category="inline-link-macro">Digital Advisor GraphQL Studio</block>
   <block id="b1e54092f36831f6a814e51a7c93bdd8" category="list-text">Testen Sie die GraphQL-APIs mit den sofort einsatzbereiten Beispielabfragen unter<block ref="ae67cca60092e176d8c2dddd34356b5e" category="inline-link-macro-rx"></block> .</block>
   <block id="637bbe10a2e1fa5eea6be6cb23319cca" category="list-text">Geben Sie ein Benutzertoken an, indem Sie das Autorisierungsfeld im Header der API-Anfrage auswählen</block>
@@ -1593,4 +1589,6 @@ Die Verfügbarkeit der Funktionen unter *STORAGE HEALTH* hängt vom Systemtyp un
   <block id="e5449af777fdc7f9d2eec34f87da1138" category="list-text">Klicken Sie im Widget *Inventar* auf *Supportberechtigte Switches*, um Informationen zu allen supportberechtigten Switches anzuzeigen.</block>
   <block id="617f2d0adf2001440f244bf5c45be277" category="inline-link-macro">Erfahren Sie, wie Sie Support-berechtigte Switches anzeigen</block>
   <block id="ef3139c75debdd9ee259a4ea386083d3" category="paragraph">Sie können jetzt Informationen zu Brocade Fibre Channel SAN-Switches anzeigen, die Anspruch auf Support haben. Dazu gehören Details zum Switch-Modell, zur Seriennummer und zum Support-Status. <block ref="de42528af60c9393a2c8b32539c694f1" category="inline-link-macro-rx"></block> .</block>
+  <block id="1b9abf135ccb7ed2f2cd9c155137c351" category="inline-link-macro">Durchsuchen</block>
+  <block id="2981195e7f0b7a603227ab0ab32a8349" category="list-text">Klicken<block ref="3dddd0be9b2e921fda9092125563366a" category="inline-link-macro-rx"></block> unter dem Symbol *API-Katalog*.</block>
 </blocks>
