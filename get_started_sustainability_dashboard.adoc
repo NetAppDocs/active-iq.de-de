@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: get_started_sustainability_dashboard.html 
-keywords: activeiq, sustainability dashboard, bluexp login, sustainability dashboard login, bluexp 
-summary: Erste Schritte mit dem BlueXP Sustainability Dashboard – Sie können es in BlueXP oder Digital Advisor aufrufen. 
+keywords: activeiq, sustainability dashboard, sustainability dashboard login, bluexp, NetApp Console 
+summary: Beginnen Sie mit dem Nachhaltigkeits-Dashboard, indem Sie auf die NetApp Konsole oder Digital Advisor zugreifen. 
 ---
 = Erste Schritte mit dem Dashboard „Nachhaltigkeit“
 :hardbreaks:
@@ -16,22 +16,18 @@ summary: Erste Schritte mit dem BlueXP Sustainability Dashboard – Sie können 
 
 
 [role="lead"]
-Das Dashboard für Nachhaltigkeit bietet durch AIOps unterstützte Berichte und Bewertungen mit verwertbaren Erkenntnissen zur Verbesserung Ihrer Nachhaltigkeitsstrategie. Das Sustainability Dashboard kann über NetApp BlueXP oder Digital Advisor aufgerufen werden.
+Das Nachhaltigkeits-Dashboard bietet AIOps-fähige Berichte und Bewertungen mit umsetzbaren Erkenntnissen zur Verbesserung Ihrer Nachhaltigkeitsposition.  Sie können über die NetApp Console oder Digital Advisor auf das Nachhaltigkeits-Dashboard zugreifen.
 
 [role="tabbed-block"]
 ====
-.BlueXP
+.NetApp Konsole
 --
-Zur Anmeldung bei BlueXP können Sie Ihre Zugangsdaten für die NetApp Support Website nutzen oder sich mithilfe Ihrer E-Mail und eines Passworts für eine NetApp Cloud-Anmeldung anmelden. Weitere Informationen zu link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["Melden Sie sich bei BlueXP an"^].
+Um sich bei der Konsole anzumelden, können Sie Ihre Anmeldeinformationen für die NetApp Support-Site verwenden oder sich mit Ihrer E-Mail-Adresse und einem Kennwort für die Anmeldung bei der NetApp -Konsole anmelden. Erfahren Sie mehr über link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["Anmelden bei der Konsole"^] .
 
 .Schritte
-. Öffnen Sie einen Webbrowser, und wechseln Sie zum link:https://console.bluexp.netapp.com/["BlueXP-Konsole"^].
-Die Anmeldeseite für NetApp BlueXP wird angezeigt.
-. Melden Sie sich bei BlueXP an.
-. Wählen Sie in der linken Navigationsleiste von BlueXP *Governance* > *Nachhaltigkeit* aus.
-  Das Dashboard Nachhaltigkeit wird angezeigt.
-  +
-image:sustainability_dashboard_bluexp.png["Ein UI-Screenshot mit der Übersicht zum Nachhaltigkeit-Dashboard in BlueXP."]
+. Öffnen Sie einen Webbrowser und gehen Sie zulink:https://console.netapp.com/["Konsole"^] .  Die Anmeldeseite der Konsole wird angezeigt.
+. Melden Sie sich bei der Konsole an.
+. Wählen Sie in der linken Navigation der Konsole *Gesundheit* > *Nachhaltigkeit* aus.  Das Nachhaltigkeits-Dashboard wird angezeigt. +image:sustainability_dashboard_console.png["Ein UI-Screenshot, der einen Überblick über das Nachhaltigkeits-Dashboard in der Konsole bietet."]
 
 
 
@@ -45,7 +41,7 @@ Zur Anmeldung bei Digital Advisor können Sie Ihre Anmeldedaten für die NetApp 
 .Schritte
 . Öffnen Sie einen Webbrowser, und wechseln Sie zum link:https://activeiq.netapp.com/?source=onlinedocs["Digital Advisor"^] anmeldeseite.
 . Geben Sie Ihren Benutzernamen und Ihr Kennwort ein und klicken Sie auf *Anmelden*.
-. Wählen Sie in der linken Navigation *SPEICHERZUSTAND* > *Nachhaltigkeit*.
+. Wählen Sie in der linken Navigation *Nachhaltigkeit* aus.
 +
 image:sustainability_dashboard.png["Ein UI-Screenshot, der den Überblick über das Sustainability Dashboard gibt."]
 

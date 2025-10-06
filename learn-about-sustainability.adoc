@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
-permalink: learn_BlueXP_sustainability.html 
-keywords: activeiq, sustainability, sustainability score, sustainability dashboard, bluexp, benefits, ONTAP 
+permalink: learn-about-sustainability.html 
+keywords: activeiq, sustainability, sustainability score, sustainability dashboard, bluexp, benefits, ONTAP, NetApp Console 
 summary: Bietet Informationen zur Nachhaltigkeit, mit deren Hilfe Sie den Energieverbrauch senken und Ihre Umweltziele erreichen können. 
 ---
 = Erfahren Sie mehr über Nachhaltigkeit
@@ -16,9 +16,9 @@ summary: Bietet Informationen zur Nachhaltigkeit, mit deren Hilfe Sie den Energi
 
 
 [role="lead"]
-Nachhaltigkeit als Service ermöglicht es Ihnen, den Energieverbrauch zu senken und Ihre Umweltziele zu erreichen. So passen Sie Ihre Storage-Systeme an umweltfreundliche Praktiken an und erreichen Ihre Nachhaltigkeitsziele.
+Durch Nachhaltigkeit können Sie den Energieverbrauch senken und auf Ihre Umweltziele hinarbeiten.  So können Sie Ihre Speichersysteme umweltfreundlich ausrichten und die Nachhaltigkeitsziele erreichen.
 
-Sie können den Nachhaltigkeitswert und die prognostizierte Nutzung von Strom, direktem Kohlenstoff und Wärme über das Dashboard „Nachhaltigkeit“ anzeigen. Sie können den Prozentsatz der CO2-Minderung für bestimmte Standorte anpassen. Sie können die Nachhaltigkeitsbewertung auch auf Cluster-Ebene anzeigen. Auf der Grundlage der Nachhaltigkeitsbewertung können Sie die Nachhaltigkeit bewerten und die empfohlenen Maßnahmen von NetApp implementieren, um die Punktzahl zu verbessern. Weitere Informationen zum Dashboard Nachhaltigkeit finden Sie unter link:BlueXP_sustainability_dashboard_overview.html["Übersicht über das Dashboard „Nachhaltigkeit“"].
+Sie können den Nachhaltigkeitswert und den prognostizierten Verbrauch von Strom, direktem Kohlenstoff und Wärme im Nachhaltigkeits-Dashboard anzeigen.  Sie können den Prozentsatz der CO2-Minderung für bestimmte Standorte anpassen.  Sie können den Nachhaltigkeits-Score auch auf Clusterebene anzeigen.  Anhand des Nachhaltigkeits-Scores können Sie die Nachhaltigkeitsposition beurteilen und die von NetApp empfohlenen Maßnahmen zur Verbesserung des Scores umsetzen.  Weitere Informationen zum Nachhaltigkeits-Dashboard finden Sie unterlink:sustainability-dashboard-overview.html["Übersicht über das Dashboard „Nachhaltigkeit“"] .
 
 
 NOTE: Nachhaltigkeit wird auf Cloud Volumes ONTAP, AFF Systemen (A-Series und C-Series), E-Series, FAS und StorageGRID Systemen unterstützt.

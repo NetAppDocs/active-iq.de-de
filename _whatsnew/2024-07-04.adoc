@@ -6,4 +6,4 @@
 
 === Dashboard zur Nachhaltigkeit
 
-Umgebungsindikatoren, die Einblick in den Zustand der Umgebung Ihrer Storage-Systeme bieten, bieten nun präzisere Werte für den prognostizierten Stromverbrauch, den direkten Kohlenstoffverbrauch und die Wärmeabgabe auf der Grundlage eines erweiterten Prognosemodells. Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["Übersicht über das Dashboard „Nachhaltigkeit“"].
+Umweltindikatoren, die Einblicke in die Umweltverträglichkeit Ihrer Speichersysteme bieten, liefern jetzt präzisere Werte für den prognostizierten Stromverbrauch, den direkten Kohlenstoffverbrauch und die Wärmeabgabe basierend auf einem fortschrittlichen Vorhersagemodell. Weitere Informationen finden Sie unterlink:https://docs.netapp.com/us-en/active-iq/sustainability-dashboard-overview.html["Übersicht über das Dashboard „Nachhaltigkeit“"] .

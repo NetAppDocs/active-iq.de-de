@@ -20,6 +20,18 @@ Die folgenden Funktionen und Verbesserungen wurden in Digital Advisor eingeführ
 
 
 
+== 06. Oktober 2025
+
+
+
+=== BlueXP heißt jetzt NetApp Console
+
+Die NetApp Console basiert auf der verbesserten und neu strukturierten BlueXP -Grundlage und ermöglicht die zentrale Verwaltung von NetApp Storage und NetApp Data Services in On-Premises- und Cloud-Umgebungen auf Unternehmensniveau. Sie liefert Einblicke in Echtzeit, schnellere Workflows und eine vereinfachte Administration mit hoher Sicherheit und Konformität.
+
+Einzelheiten zu den Änderungen finden Sie im https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Versionshinweise zur NetApp Konsole"] .
+
+
+
 == 06. August 2025
 
 
@@ -146,7 +158,7 @@ Der Bericht *7-Mode Upgrade Advisor Plans* ist nicht mehr verfügbar, da Systeme
 
 === Dashboard zur Nachhaltigkeit
 
-Umgebungsindikatoren, die Einblick in den Zustand der Umgebung Ihrer Storage-Systeme bieten, bieten nun präzisere Werte für den prognostizierten Stromverbrauch, den direkten Kohlenstoffverbrauch und die Wärmeabgabe auf der Grundlage eines erweiterten Prognosemodells. Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["Übersicht über das Dashboard „Nachhaltigkeit“"].
+Umweltindikatoren, die Einblicke in die Umweltverträglichkeit Ihrer Speichersysteme bieten, liefern jetzt präzisere Werte für den prognostizierten Stromverbrauch, den direkten Kohlenstoffverbrauch und die Wärmeabgabe basierend auf einem fortschrittlichen Vorhersagemodell. Weitere Informationen finden Sie unterlink:https://docs.netapp.com/us-en/active-iq/sustainability-dashboard-overview.html["Übersicht über das Dashboard „Nachhaltigkeit“"] .
 
 
 
@@ -156,7 +168,7 @@ Umgebungsindikatoren, die Einblick in den Zustand der Umgebung Ihrer Storage-Sys
 
 === Dashboard zur Nachhaltigkeit
 
-Nachhaltigkeit wird nun auf Systemen der E-Series und StorageGRID unterstützt. Sie können eine Liste empfohlener Maßnahmen und Umweltindikatoren anzeigen, die Prognosen für Leistung, direkten Kohlenstoffverbrauch und Wärme aus dem Sustainability Dashboard für diese Systeme anzeigen. Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["Übersicht über das Dashboard „Nachhaltigkeit“"^].
+Nachhaltigkeit wird jetzt auf E-Series- und StorageGRID Systemen unterstützt.  Sie können eine Liste empfohlener Maßnahmen und Umweltindikatoren anzeigen, die Prognosen für Strom, direkten Kohlenstoffverbrauch und Wärme aus dem Nachhaltigkeits-Dashboard für diese Systeme anzeigen. Weitere Informationen finden Sie unterlink:https://docs.netapp.com/us-en/active-iq/sustainability-dashboard-overview.html["Übersicht über das Dashboard „Nachhaltigkeit“"^] .
 
 
 
@@ -176,7 +188,7 @@ Die ältere Version von Upgrade Advisor ist jetzt veraltet. Mit der erweiterten 
 
 === Wellness
 
-* Der Wellness-Workflow enthält jetzt das Widget Nachhaltigkeit, das die Anzahl der empfohlenen Aktionen auf Kunden-, Watchlist-, Standort- und Gruppenebene enthält. Sie können auf die Anzahl der Aktionen klicken, um eine detaillierte Ansicht dieser empfohlenen Aktionen auf dem Dashboard Nachhaltigkeit anzuzeigen. Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html["Analysieren Sie die Nachhaltigkeit Ihrer Storage-Systeme"].
+* Der Wellness-Workflow umfasst jetzt das Nachhaltigkeits-Widget, das die Anzahl der empfohlenen Aktionen auf Kunden-, Beobachtungslisten-, Site- und Gruppenebene bereitstellt.  Sie können auf die Anzahl der Aktionen klicken, um eine detaillierte Ansicht dieser empfohlenen Aktionen im Nachhaltigkeits-Dashboard anzuzeigen. Weitere Informationen finden Sie unterlink:https://docs.netapp.com/us-en/active-iq/learn-about-sustainability.html["Analysieren Sie die Nachhaltigkeit Ihrer Storage-Systeme"] .
 * Die Sicherheitsanfälligkeiten und Ransomware Defense Widgets im Wellness-Workflow werden in einem einzigen Widget kombiniert, das jetzt als Sicherheit & Ransomware Defense bezeichnet wird.
 
 
@@ -283,7 +295,7 @@ Die Anzahl der Empfehlungen für Technologieaktualisierungen ist im Planungs-Wid
 
 === Dashboard zur Nachhaltigkeit
 
-Ein NachhaltigkeitsDashboard bietet wertvolle Einblicke in die ökologische Nachhaltigkeit Ihres Storage-Systems. Sie können die Informationen wie Nachhaltigkeitsbewertung, CO2-Minderung, prognostizierte Nutzung von Energie, direkter Kohlenstoff und Wärme anzeigen. Sie können den Prozentsatz der CO2-Minderung für bestimmte Standorte anpassen. Sie können die Nachhaltigkeitsbewertung auch auf Cluster-Ebene anzeigen. Basierend auf dem Ergebnis für die Nachhaltigkeit können Sie die Gesamteffizienz Ihres Storage-Systems beurteilen und das System an den von NetApp empfohlenen Maßnahmen zur Steigerung der Nachhaltigkeit ausrichten. link:https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html["Weitere Informationen ."].
+Das Nachhaltigkeits-Dashboard bietet wertvolle Einblicke in die ökologische Nachhaltigkeit Ihres Speichersystems.  Sie können Informationen wie Nachhaltigkeitsbewertung, Prozentsatz der Kohlenstoffreduzierung, voraussichtlichen Stromverbrauch, direkten Kohlenstoffausstoß und Wärmeverbrauch anzeigen.  Sie können den Prozentsatz der CO2-Minderung für bestimmte Standorte anpassen.  Sie können den Nachhaltigkeits-Score auch auf Clusterebene anzeigen.  Anhand des Nachhaltigkeits-Scores können Sie die Gesamteffizienz Ihres Speichersystems beurteilen und es mit den von NetApp empfohlenen Maßnahmen zur Verbesserung der Nachhaltigkeit abstimmen. link:https://docs.netapp.com/us-en/active-iq/learn-about-sustainability.html["Weitere Informationen ."] .
 
 
 
@@ -319,7 +331,7 @@ Sie können die durchschnittlichen Lese-, Schreib- und sonstigen Vorgänge in Pe
 
 === Digital Advisor Integration mit BlueXP
 
-Active IQ Digital Advisor wird im digitalen Berater umgewandelt und ist nun in BlueXP integriert, der einheitlichen Managementkonsole von NetApp für hybride Multi-Cloud-Umgebungen. link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html["Weitere Informationen ."].
+Active IQ Digital Advisor wird in Digital Advisor geändert und ist jetzt in BlueXP integriert, die einheitliche Verwaltungskonsole von NetApp für hybride Multicloud-Umgebungen. link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-console.html["Weitere Informationen ."] .
 
 
 

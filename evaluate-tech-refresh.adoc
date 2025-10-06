@@ -19,6 +19,6 @@ summary: Informationen zur Evaluierung der Technologieaktualisierung bei Ihrem V
 Wenn Sie herausfinden möchten, ob eine Technologieaktualisierung für Ihren Vertrag für den technischen Support oder für Ihre Hardware empfohlen wird, können Sie die Option zur Technologieaktualisierung nutzen.
 
 
-NOTE: Sie können auf diese Funktion entweder über die wirtschaftliche Effizienz von BlueXP (*Governance > wirtschaftliche Effizienz > Technologieaktualisierung*) oder über den digitalen NetApp-Berater (*Dashboard > Widget Planung > Technologieaktualisierung*) zugreifen.
+NOTE: Sie können auf diese Funktion entweder über die Lebenszyklusplanung (*Speicher* > *Lebenszyklusplanung*) oder über Digital Advisor (*Dashboard > Planungs-Widget > Tech Refresh*) zugreifen.
 
-Weitere Informationen zu dieser Funktion finden Sie unter link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["Bewertung einer Technologieaktualisierung"] In der BlueXP Dokumentation.
+Weitere Informationen zu dieser Funktion finden Sie unterlink:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["Bewertung einer Technologieaktualisierung"] in der Konsolendokumentation.

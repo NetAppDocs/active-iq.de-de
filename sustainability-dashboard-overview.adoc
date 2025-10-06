@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
-permalink: BlueXP_sustainability_dashboard_overview.html 
-keywords: activeiq, sustainability dashboard, sustainability score, sustainability, environmental indicators, carbon mitigation, recommended actions, working environments, best practices, support, recommendations,  digital advisor, bluexp, cluster, sustainability initatives 
-summary: Enthält Informationen zum Dashboard, zur Bewertung der Nachhaltigkeit, zu Arbeitsumgebungen und zu den empfohlenen Maßnahmen. 
+permalink: sustainability-dashboard-overview.html 
+keywords: activeiq, sustainability dashboard, sustainability score, sustainability, environmental indicators, carbon mitigation, recommended actions, systems, best practices, support, recommendations,  digital advisor, bluexp, cluster, sustainability initatives, NetApp Console 
+summary: Bietet Informationen zum Dashboard, zum Nachhaltigkeits-Score, zu Systemen und zu empfohlenen Maßnahmen. 
 ---
 = Übersicht über das Dashboard „Nachhaltigkeit“
 :hardbreaks:
@@ -18,7 +18,7 @@ summary: Enthält Informationen zum Dashboard, zur Bewertung der Nachhaltigkeit,
 [role="lead"]
 Das Sustainability Dashboard bietet eine Bewertung der Systemumgebung für Ihre Storage-Systeme und liefert nützliche Informationen für Verbesserungen in Form der von NetApp empfohlenen Maßnahmen.
 
-image:get_started_sustainability_dashboard.png["Ein UI-Screenshot, der das Dashboard für Nachhaltigkeit zeigt."]
+image:sustainability_dashboard_console.png["Ein UI-Screenshot, der einen Überblick über das Nachhaltigkeits-Dashboard in der Konsole bietet."]
 
 
 NOTE: AutoSupport sollte für die genaue Berechnung der Nachhaltigkeitsbewertung aktiviert sein.
@@ -43,11 +43,11 @@ image:carbon_mitigation_percentage.png["Ein Screenshot, der den Prozentsatz der 
 
 *Empfohlene Maßnahmen*: Zeigt die Liste der empfohlenen Maßnahmen zur Verbesserung der Nachhaltigkeitsbewertung Ihrer Speichersysteme an. Diese Maßnahmen können sofort oder später ergriffen werden. Weitere Informationen zur Verbesserung der Nachhaltigkeitsbewertung finden Sie unter link:improve_sustainability_score.html["Nachhaltigkeitsbewertung"].
 
-*Arbeitsumgebungen*: Zeigt Umgebungsparameter in der Tabelle an, die bei der Identifizierung von Clustern helfen können, um zu effizienterem Speicher zu wechseln. Aus dieser Tabelle können Sie:
+*Systeme*: Zeigt in der Tabelle Umgebungsparameter an, die bei der Identifizierung von Clustern für die Migration auf effizientere Speicher helfen können.  Von dieser Tabelle aus können Sie:
 
 * Zeigen Sie die Nachhaltigkeitsbewertung auf Cluster-Ebene an, wählen Sie den Cluster-Namen aus, um auf *ClusterViewer* zuzugreifen, und ergreifen Sie spezifische empfohlene Maßnahmen, um die Nachhaltigkeit zu verbessern. Weitere Informationen finden Sie unter link:improve_sustainability_score.html["Nachhaltigkeitsbewertung auf Cluster-Ebene verbessern"].
 +
-image:working_environments.png["Ein UI-Screenshot, der verschiedene Umgebungsparameter anzeigt"]
+image:systems.png["Ein UI-Screenshot, der verschiedene Umgebungsparameter anzeigt"]
 
-* Aktivieren Sie die Überwachung aus der Spalte *Echtzeit-Power*, um die Details der Echtzeitleistung auf Cluster-Ebene anzuzeigen. Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Einblicke in die Cloud"^].
+* Aktivieren Sie die Überwachung in der Spalte *Echtzeitleistung*, um die Echtzeit-Leistungsdetails auf Clusterebene anzuzeigen. Weitere Informationen finden Sie unter link:https://docs.netapp.com/us-en/data-infrastructure-insights/task_getting_started_with_cloud_insights.html["Data Infrastructure Insights"^] .
 

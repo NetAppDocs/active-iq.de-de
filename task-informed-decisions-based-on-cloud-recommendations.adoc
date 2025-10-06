@@ -19,7 +19,7 @@ summary: Gibt Empfehlungen, auf deren Grundlage fundierte Entscheidungen getroff
 Digital Advisor analysiert Ihr System kontinuierlich und gibt Empfehlungen, wie Sie die Performance, Effizienz und den Zustand Ihres Systems verbessern können.
 
 
-NOTE: Digital Advisor navigiert Sie zu BlueXP, um die Empfehlungen umzusetzen.
+NOTE: Digital Advisor navigiert Sie zur NetApp Konsole, um die Empfehlungen umzusetzen.
 
 
 
@@ -39,7 +39,7 @@ Die Volumes, die die folgenden Kriterien erfüllen, werden für die Migration au
 .Schritte
 . Klicken Sie im linken Fensterbereich auf *Cloud Recommendations*.
 . Klicken Sie auf einen beliebigen Link im Fenster *Migration*.
-. Klicken Sie auf *in die Cloud migrieren*, um *BlueXP* zu starten.
+. Klicken Sie auf *In die Cloud migrieren*, um die *Konsole* zu starten.
 
 
 
@@ -62,7 +62,7 @@ Für das Tiering werden die Volumes empfohlen, die folgende Kriterien erfüllen:
 .Schritte
 . Klicken Sie im linken Fensterbereich auf *Cloud Recommendations*.
 . Klicken Sie auf einen Link im Fenster *Tiering*.
-. Klicken Sie auf *Tier Data*, um *BlueXP* zu starten.
+. Klicken Sie auf *Tierdaten*, um die *Konsole* zu starten.
 
 
 Weitere Informationen zu FabricPool finden Sie unter link:https://www.netapp.com/pdf.html?item=/media/17239-tr4598pdf.pdf["FabricPool Best Practices in sich vereint"^].
@@ -82,7 +82,7 @@ Für die Datensicherung in der Cloud empfehlen wir die Volumes, die die folgende
 .Schritte
 . Klicken Sie im linken Fensterbereich auf *Cloud Recommendations*.
 . Klicken Sie auf einen beliebigen Link im Fensterbereich *Backup & Archiv*.
-. Klicken Sie auf *Backup in Cloud*, um *BlueXP* zu starten.
+. Klicken Sie auf *Backup in der Cloud*, um die *Konsole* zu starten.
 
 
 
@@ -101,5 +101,5 @@ Für die Replizierung in die Cloud werden die Volumes empfohlen, die folgende Kr
 .Schritte
 . Klicken Sie im linken Fensterbereich auf *Cloud Recommendations*.
 . Klicken Sie auf einen Link im Fenster * Disaster Recovery*.
-. Klicken Sie auf *in Cloud replizieren*, um *BlueXP* zu starten.
+. Klicken Sie auf *In Cloud replizieren*, um die *Konsole* zu starten.
 
