@@ -146,7 +146,6 @@
   <block id="571d621f51c49640d8adb2c5bb15554a" category="paragraph">Digital Advisor analysiert Ihr System kontinuierlich und gibt Empfehlungen, wie Sie die Performance, Effizienz und den Zustand Ihres Systems verbessern können.</block>
   <block id="19f59b74448f6a27519db281a44e4b12" category="section-title">Migration</block>
   <block id="4fc6b52f3180163cea93aa7c8da0e7dd" category="paragraph">Informationen zu den verschiedenen Workload-Typen, die innerhalb Ihres Storage-Systems verfügbar sind, und Ermittlung der Cloud-fähigen Workloads Das Verschieben von Workloads in die Cloud führt zu Kosteneinsparungen und ermöglicht eine Disaster Recovery in der Cloud.</block>
-  <block id="46c5977f0ec6a34283e38ed39033952e" category="paragraph">Die Volumes, die die folgenden Kriterien erfüllen, werden für die Migration auf Cloud Volumes ONTAP (CVO) und Cloud Volumes Service (CVS) empfohlen:</block>
   <block id="4f18efd74627acd1e83311ad6a450b7c" category="list-text">Volumes sollten NFS-, SMB-, CIFS-, FCP- oder iSCSI-Protokolle verwenden</block>
   <block id="3c765c5584278c5b7d2bb8a2e48bbea0" category="list-text">Root Volumes sind ausgeschlossen</block>
   <block id="eee58b17a5b1a316e3d557e27113c69e" category="list-text">Workloads im Volume sind mit ORACLE, SAP, SAP HANA, MSSQL, MYSQL, SHAREPOINT, FILESHARE, VIRTUALISIERUNG UND TRIDENT</block>
@@ -1561,4 +1560,5 @@ Die Verfügbarkeit der Funktionen unter *STORAGE HEALTH* hängt vom Systemtyp un
   <block id="5e76877e0dc9fe309e6133171cf4f2c7" category="paragraph">Digital Advisor ist jetzt in die Basisversion von Data Infrastructure Insights integriert, um Kunden eine vollständige Stapelinventur und Interoperabilitätsprüfungen bereitzustellen.</block>
   <block id="685bbd026f2ca02a1ba1e629c16611de" category="list-text">Klicken Sie im Widget *Inventar* auf *Virtuelle Maschinen*, um die in Data Infrastructure Insights verfügbaren Daten anzuzeigen.</block>
   <block id="d4ec3e135a12bb96c4afe463cfa6cb07" category="list-text">Klicken Sie auf den *ESX-Namen*, um zu Data Infrastructure Insights zu navigieren und weitere Informationen anzuzeigen.</block>
+  <block id="45c1e1a0501d6b75b99c21659e420c55" category="paragraph">Für die Migration zu Cloud Volumes ONTAP (CVO) werden folgende Volumes empfohlen:</block>
 </blocks>

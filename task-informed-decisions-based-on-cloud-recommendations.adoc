@@ -27,7 +27,7 @@ NOTE: Digital Advisor navigiert Sie zur NetApp Konsole, um die Empfehlungen umzu
 
 Informationen zu den verschiedenen Workload-Typen, die innerhalb Ihres Storage-Systems verfügbar sind, und Ermittlung der Cloud-fähigen Workloads Das Verschieben von Workloads in die Cloud führt zu Kosteneinsparungen und ermöglicht eine Disaster Recovery in der Cloud.
 
-Die Volumes, die die folgenden Kriterien erfüllen, werden für die Migration auf Cloud Volumes ONTAP (CVO) und Cloud Volumes Service (CVS) empfohlen:
+Für die Migration zu Cloud Volumes ONTAP (CVO) werden folgende Volumes empfohlen:
 
 * Volumes sollten NFS-, SMB-, CIFS-, FCP- oder iSCSI-Protokolle verwenden
 * Root Volumes sind ausgeschlossen
