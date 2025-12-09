@@ -18,6 +18,17 @@ summary: Schritte zur Erstellung eines Upgrade-Plans für ein erfolgreiches ONTA
 [role="lead"]
 Sie können Upgrade Advisor verwenden, um eine Liste der Cluster anzuzeigen, die für ein Upgrade qualifiziert oder nicht berechtigt sind. Sie können Upgrade-Empfehlungen für ein berechtigter Cluster anzeigen und einen Upgrade-Plan erstellen. Sie können die Probleme mit einem nicht berechtigten Cluster beheben, um ein Upgrade zu erhalten.
 
+
+
+== Bevor Sie beginnen
+
+Bevor Sie einen Upgrade-Plan erstellen, sollten Sie Folgendes tun:
+
+* Stellen Sie sicher, dass AutoSupport (ASUP) aktiviert und korrekt konfiguriert ist und alle erforderlichen Abschnitte enthalten sind. Weitere Informationen finden Sie unter link:hhttps://kb.netapp.com/on-prem/ontap/Ontap_OS/OS-KBs/ONTAP_AutoSupport_Resolution_Guide["ONTAP AutoSupport Lösungsleitfaden"].
+* Überprüfen Sie, ob die Cluster-Mitglieder von AutoSupport mit der SAP-Cluster-Konfiguration übereinstimmen.  Für weitere Informationen,link:https://kb.netapp.com/Support/NSS/Support_Site/How_to_open_a_non-technical_case["Eröffnen Sie einen nicht-technischen Fall."] Die
+
+
+.Schritte
 Führen Sie die folgenden Schritte aus, um einen Upgrade-Plan für ein einzelnes Cluster und mehrere Cluster zu erstellen:
 
 [role="tabbed-block"]

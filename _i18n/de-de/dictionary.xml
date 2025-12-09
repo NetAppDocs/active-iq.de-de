@@ -1561,4 +1561,9 @@ Die Verfügbarkeit der Funktionen unter *STORAGE HEALTH* hängt vom Systemtyp un
   <block id="685bbd026f2ca02a1ba1e629c16611de" category="list-text">Klicken Sie im Widget *Inventar* auf *Virtuelle Maschinen*, um die in Data Infrastructure Insights verfügbaren Daten anzuzeigen.</block>
   <block id="d4ec3e135a12bb96c4afe463cfa6cb07" category="list-text">Klicken Sie auf den *ESX-Namen*, um zu Data Infrastructure Insights zu navigieren und weitere Informationen anzuzeigen.</block>
   <block id="45c1e1a0501d6b75b99c21659e420c55" category="paragraph">Für die Migration zu Cloud Volumes ONTAP (CVO) werden folgende Volumes empfohlen:</block>
+  <block id="f53ebb0d19beec32f25d5bd12221adf7" category="paragraph">Bevor Sie einen Upgrade-Plan erstellen, sollten Sie Folgendes tun:</block>
+  <block id="9c8a06503c0fcff82a72b9a47d15fdd8" category="inline-link-macro">ONTAP AutoSupport Lösungsleitfaden</block>
+  <block id="c04b16bfcb0ae04e942f5b8f40f89958" category="list-text">Stellen Sie sicher, dass AutoSupport (ASUP) aktiviert und korrekt konfiguriert ist und alle erforderlichen Abschnitte enthalten sind. Weitere Informationen finden Sie unter <block ref="d9fca8defeb9ffc51d54bc8014960f3d" category="inline-link-macro-rx"></block>.</block>
+  <block id="5c2f83424a92d9f87bfe784acf51ef8f" category="inline-link-macro">Eröffnen Sie einen nicht-technischen Fall.</block>
+  <block id="ece2db758a882f00813e14d082e4552c" category="list-text">Überprüfen Sie, ob die Cluster-Mitglieder von AutoSupport mit der SAP-Cluster-Konfiguration übereinstimmen.  Für weitere Informationen,<block ref="eb6134c35f89e9a6ed78736959d7ff7d" category="inline-link-macro-rx"></block> Die</block>
 </blocks>
