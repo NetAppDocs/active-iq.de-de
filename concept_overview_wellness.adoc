@@ -4,7 +4,7 @@ permalink: concept_overview_wellness.html
 keywords: overview, wellness, risk types, risk definition, mitigate risks, performance, configuration, renewal, risk, remediation 
 summary: Stellt Informationen zum Wellness-Bereich und zu den Risikoarten bereit, um Ihr Storage-System zu verbessern. 
 ---
-= Wellness verstehen
+= Erfahren Sie mehr über das Wellness-Widget im Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

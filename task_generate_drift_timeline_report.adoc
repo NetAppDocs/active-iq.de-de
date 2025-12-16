@@ -4,7 +4,7 @@ permalink: task_generate_drift_timeline_report.html
 keywords: reports, generate reports, drift timeline, drift timeline report, AutoSupport data 
 summary: Enthält Informationen zum Generieren von Zeitachse-Drift-Berichten. 
 ---
-= Generieren eines Zeitachsenberichts
+= Erstellen Sie in Digital Advisor einen Bericht über die Zeitleiste der Konfigurationsabweichungen.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

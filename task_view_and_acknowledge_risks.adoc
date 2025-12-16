@@ -4,7 +4,7 @@ permalink: task_view_and_acknowledge_risks.html
 keywords: wellness, performance, efficiency, availability, capacity, security vulnerabilities, protection, protect, acknowledge, unacknowledge, disregard 
 summary: Bietet Informationen zur Anzeige und Analyse des Wohlbefindens Ihres Speichersystems und zur Anerkennung der Risiken. 
 ---
-= Anzeigen und Bestätigen des Risikos
+= Analysieren Sie die Wellness-Attribute im Digital Advisor und erkennen Sie die Risiken an.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

@@ -4,7 +4,7 @@ permalink: task_view_valuable_insight_widget.html
 keywords: valuable insight, support cases, storage efficiency savings, mitigated risks 
 summary: Enthält Informationen zum Widget „wertvolle Einblicke“ 
 ---
-= Wertvolle Einblicke anzeigen
+= Mit dem Widget „Wertvolle Einblicke“ im Digital Advisor können Sie Supportfälle und Details zum Speichersystem einsehen.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

@@ -4,7 +4,7 @@ permalink: task_analyze_storage_efficiency.html
 keywords: renew, hardware, software 
 summary: Enthält Informationen zur Erneuerung der Software und Hardware Ihres Speichersystems. 
 ---
-= Analyse der Einsparungen bei Kapazität und Storage-Effizienz
+= Kapazitäts- und Speichereffizienzeinsparungen können Sie im Digital Advisor einsehen.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

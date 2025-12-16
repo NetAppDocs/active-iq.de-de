@@ -4,7 +4,7 @@ permalink: task_renew_software_and_hardware.html
 keywords: renew, hardware, software 
 summary: Enthält Informationen zur Erneuerung der Software und Hardware Ihres Speichersystems. 
 ---
-= Software und Hardware Ihres Speichersystems erneuern
+= Identifizieren Sie Software- und Hardware-Erneuerungen für Ihr Speichersystem mit Hilfe von Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,11 +16,11 @@ summary: Enthält Informationen zur Erneuerung der Software und Hardware Ihres S
 
 
 [role="lead"]
-Sie können proaktiv die Software und Hardware erkennen, die bereits abgelaufen sind oder in den nächsten 6 Monaten bald ablaufen, und einen Antrag auf Erneuerung der Hardware und Software stellen.
+Sie können proaktiv die Software und Hardware Ihres Speichersystems identifizieren, deren Gültigkeit abgelaufen ist oder in den nächsten 6 Monaten abläuft, und eine Anfrage zur Erneuerung der Hardware und Software senden.
 
 .Schritte
 . Klicken Sie im Widget *Planung* auf *Renewals*.
-. Wählen Sie die Systeme aus, die Sie erneuern möchten, und klicken Sie auf *verlängern*.
+. Wählen Sie die Speichersysteme aus, die Sie verlängern möchten, und klicken Sie auf *Verlängern*.
 . Geben Sie optional zusätzliche Anmerkungen ein.
 . Klicken Sie Auf *Senden*.
 

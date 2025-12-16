@@ -22,163 +22,167 @@ sidebar:
       url: "/reference_limitations_activeiq.html"
   - title: Los geht's
     entries:
-    - title: Schnellstart
+    - title: Schnellstart für Digital Advisor
       url: "/concept_getting_started_2.html"
-    - title: Lernen Sie die Funktionen von Digital Advisor kennen
+    - title: Erfahren Sie mehr über die Funktionen von Digital Advisor.
       url: "/concept_understand_activeiq_features.html"
-    - title: Digital Advisor Integration mit der NetApp Konsole
+    - title: Zugriff auf Digital Advisor in der NetApp Konsole
       url: "/digital-advisor-integration-with-console.html"
-    - title: Schlüsselkonzepte
+    - title: Erfahren Sie mehr über Digital Advisor
       url: "/concept_key_terms.html"
-    - title: Was ist AutoSupport
+    - title: Erfahren Sie mehr über AutoSupport
       url: "/concept_autosupport.html"
     - title: Melden Sie sich bei Digital Advisor an
       url: "/task_login_activeiq.html"
     - title: Beobachtungsliste bereitstellen
       entries:
-      - title: Überblick
+      - title: Erfahren Sie mehr über Watchlists.
         url: "/concept_overview_dashboard.html"
       - title: Erstellen Sie eine Watchlist
         url: "/task_add_watchlist.html"
       - title: Verwalten einer Watchlist
         url: "/task_manage_watchlists.html"
-    - title: FAQs
+    - title: Häufig gestellte Fragen für Digital Advisor
       url: reference_aiq_faq.html
   - title: Verwenden Sie Digital Advisor
     entries:
     - title: Analyse der Wellness-Attribute
       entries:
-      - title: Überblick
+      - title: Erfahren Sie mehr über das Wellness-Widget.
         url: "/concept_overview_wellness.html"
-      - title: Risiken anzeigen und manuell Korrekturmaßnahmen ergreifen
+      - title: Risiken des Speichersystems prüfen und Korrekturmaßnahmen ergreifen
         url: "/task_view_risk_and_take_action.html"
-      - title: Erkennung von Sicherheitsschwachstellen
+      - title: Sicherheitsrisiken erkennen und Korrekturmaßnahmen ergreifen
         url: "/task_increase_protection_against_hackers_and_Ransomware_attacks.html"
-      - title: Schutz der Systeme vor Ransomware-Risiken
+      - title: Schützen Sie Speichersysteme vor Ransomware-Risiken
         url: "/task_protect_systems_against_ransomware_risks.html"
-      - title: Anzeigen und Bestätigen des Risikos
+      - title: Analysieren Sie die Wellness-Faktoren und erkennen Sie die Risiken
+          an
         url: "/task_view_and_acknowledge_risks.html"
-      - title: Anzeigen der Wellness-Geschichte
+      - title: Risikohistorie des Speichersystems anzeigen
         url: "/task_view_wellness_history.html"
-      - title: Anzeigen von Risiken, die mithilfe von Unified Manager oder Ansible
-          Playbook automatisch gemindert werden können
+      - title: Risiken erkennen und minimieren mit Unified Manager oder Ansible Playbook
         url: "/task_view_risks_remediated_unified_manager.html"
-      - title: Vermeidung von Ausfallzeiten und möglichen Datenverlusten
+      - title: Nutzen Sie Digital Advisor , um die identifizierten kritischen Risiken
+          zu beheben.
         url: "/task_avoid_the_downtime_and_possible_data_loss.html"
-      - title: Abonnieren Sie die E-Mail zur Wellnessüberprüfung
+      - title: Abonnieren Sie Benachrichtigungen zum Zustand des Speichersystems.
         url: "/task_subscribe_to_wellness_review_email.html"
-      - title: Software und Hardware Ihres Speichersystems erneuern
+      - title: Identifizieren Sie Software- und Hardwareerneuerungen für das Speichersystem
         url: "/task_renew_software_and_hardware.html"
-      - title: Analyse des Wohlbefindens von Clustern und Nodes
+      - title: Überprüfen Sie den Zustand von Clustern und Knoten mithilfe des ClusterViewer-Widgets.
         url: "/task_analyze_wellness_clusters_and_nodes.html"
-    - title: Nachhaltigkeit Ihres Storage-Systems analysieren
+    - title: Analysieren Sie die Nachhaltigkeit des Speichersystems
       entries:
       - title: Erfahren Sie mehr über Nachhaltigkeit
         url: "/learn-about-sustainability.html"
-      - title: Erste Schritte mit dem Dashboard „Nachhaltigkeit“
+      - title: Greifen Sie auf das Nachhaltigkeits-Dashboard zu
         url: "/get_started_sustainability_dashboard.html"
-      - title: Übersicht über das Dashboard „Nachhaltigkeit“
+      - title: Erfahren Sie mehr über die Funktionen des Nachhaltigkeits-Dashboards.
         url: "/sustainability-dashboard-overview.html"
-      - title: Nachhaltigkeitsbewertung
+      - title: Verbesserung der Nachhaltigkeitsbewertung des Speichersystems
         url: "/improve_sustainability_score.html"
     - title: Erstellen eines Upgrade-Plans
       entries:
-      - title: Überblick
+      - title: Erfahren Sie mehr über die Erstellung eines ONTAP -Upgrade-Plans
         url: "/upgrade_advisor_overview.html"
-      - title: Erstellen eines Upgrade-Plans für ein einzelnes Cluster und mehrere
-          Cluster
+      - title: Erstellen Sie einen ONTAP Upgradeplan für einzelne und mehrere Cluster.
         url: "/generate_upgrade_plan_single_multiple_clusters.html"
       - title: Zeigen Sie Empfehlungen für Firmware-Updates an
         url: "/view-firmware-update-recommendations.html"
     - title: Zeigen Sie Systemdetails an
       entries:
-      - title: Anzeigen von Bestandsdetails
+      - title: Details zum Lagerbestand anzeigen
         url: "/task_view_inventory_details.html"
-      - title: Integration mit Data Infrastructure Insights zum Anzeigen von Details
-          virtueller Maschinen
+      - title: Die in Data Infrastructure Insights verfügbaren Daten zu virtuellen
+          Maschinen können Sie hier einsehen.
         url: "/task-integrating-with-cloud-insights-to-view-vm-details.html"
-      - title: Wertvolle Einblicke anzeigen
+      - title: Mit dem Widget „Wertvolle Einblicke“ können Sie Supportfälle und Details
+          zum Speichersystem einsehen.
         url: "/task_view_valuable_insight_widget.html"
       - title: Anzeige der Kapazitätsauslastung mit NetApp Keystone Abonnement
         url: "/view_keystone_capacity_utilization.html"
     - title: Proaktive Ermittlung der Systemanforderungen
       entries:
-      - title: Überblick
+      - title: Verwalten Sie die Speicherkapazitätsanforderungen mit dem Planungs-Widget.
         url: "/concept_overview_planning.html"
-      - title: Systeme, die an ihre Kapazitätsgrenzen stoßen
+      - title: Identifizieren Sie Speichersysteme, die sich ihren Kapazitätsgrenzen
+          nähern.
         url: "/task_identify_capacity_system.html"
-      - title: Vermeiden Sie eine Volume-Füllung, um einen Ausfall zu verhindern
+      - title: Speicherkapazitätsschwellen verwalten
         url: "/task_avoid_a_volume_filling_up_to_prevent_an_outage.html"
-      - title: Bewertung einer Technologieaktualisierung
+      - title: Prüfen Sie, ob eine Technologieerneuerung für das Speichersystem empfohlen
+          wird.
         url: "/evaluate-tech-refresh.html"
-      - title: Software und Hardware Ihres Speichersystems erneuern
+      - title: Software und Hardware des Speichersystems erneuern
         url: "/task_renew_software_and_hardware.html"
-    - title: Fundierte Entscheidungen auf der Basis von Cloud-Empfehlungen
+    - title: Analysieren Sie den Zustand Ihres Speichersystems mithilfe von Cloud-Empfehlungen.
       url: "/task-informed-decisions-based-on-cloud-recommendations.html"
     - title: Identifizieren von Konfigurationsabweichungen
       entries:
-      - title: Überblick
+      - title: Konfigurationsabweichungen für das Speichersystem erkennen
         url: "/concept_overview_config_drift.html"
-      - title: Fügen Sie eine Konfigurations-Drift-Vorlage hinzu
+      - title: Fügen Sie eine Konfigurationsdriftvorlage für das Speichersystem hinzu.
         url: "/task_add_config_drift_template.html"
-      - title: Vergleichen Sie eine Konfigurations-Drift-Vorlage
+      - title: Konfigurationsdriftvorlagen vergleichen
         url: "/task_compare_config_drift_template.html"
-      - title: Generieren eines Zeitachsenberichts
+      - title: Erstellen Sie einen Bericht über die Zeitleiste der Konfigurationsabweichung.
         url: "/task_generate_drift_timeline_report.html"
-      - title: Managen Sie eine Vorlage
+      - title: Konfigurationsabweichungsvorlagen verwalten
         url: "/task_manage_template.html"
-    - title: Steigern Sie die Effizienz und Performance Ihres Storage-Systems
+    - title: Verbesserung der Effizienz und Leistung des Speichersystems
       entries:
-      - title: Analyse der Einsparungen bei Kapazität und Storage-Effizienz
+      - title: Einsparungen bei Kapazität und Speichereffizienz anzeigen
         url: "/task_analyze_storage_efficiency.html"
-      - title: Performance-Diagramme analysieren
+      - title: Diagramme zur Speichersystemleistung anzeigen
         url: "/task_view_performance_graphs.html"
-    - title: Analyse des Zustands Ihres Storage-Systems
+    - title: Analysieren Sie den Zustand des Speichersystems
       entries:
-      - title: Überblick
+      - title: Erfahren Sie mehr über das Health Check-Dashboard
         url: "/concept_understand_health_check_dashboard.html"
       - title: Starten Sie mit dem Health Check Dashboard
         url: "/concept_get_started_with_health_check_dashboard.html"
-      - title: Verlängern Sie Ihre Support-Verträge
+      - title: Supportverträge verlängern
         url: "/task_renew_support_contracts_for_your_systems.html"
     - title: Aktualisieren Sie diese, um Ihre installierte Basis zu optimieren
       entries:
-      - title: Upgrade des Support-Angebots
+      - title: Upgrade-Supportangebot
         url: "/task_upgrade_support_offering.html"
-      - title: Aktualisieren Sie Ihre AFF- und FAS-Firmware mit dem Ansible Playbook
+      - title: Aktualisieren Sie die AFF und FAS -Firmware mithilfe des Ansible Playbooks.
         entries:
-        - title: Laden Sie das Paket zur Automatisierung mit der AFF- und FAS-Firmware
-            herunter
+        - title: Laden Sie das Ansible-Paket für die AFF und FAS -Firmware herunter.
           url: "/task_update_AFF_FAS_firmware.html"
-        - title: Installation und Ausführung des Ansible Automatisierungspakets für
-            die AFF- und FAS-Firmware (erfahrene Benutzer)
+        - title: Aktualisierung der AFF und FAS -Firmware mithilfe eines Ansible-Pakets
+            (für erfahrene Benutzer).
           url: "/task_install_execute_firmware_update_exp_user.html"
         - title: Installation und Ausführung des Ansible Automatisierungspakets für
             die AFF- und FAS-Firmware (Anfänger)
           entries:
-          - title: Hosten Sie Firmware-Dateien mithilfe des Webservers
+          - title: Hosten Sie AFF und FAS -Firmware-Dateien auf einem Webserver
             url: "/task_hosting_firmware_files_using_web_server.html"
-          - title: Mit Bestandsdatei arbeiten
+          - title: Aktualisieren Sie die Inventardatei für das AFF und FAS -Firmware-Update.
             url: "/concept_working_with_inventory_file.html"
-          - title: Ansible-Playbook mit NetApp Docker Image ausführen
+          - title: Führen Sie das Ansible-Playbook mithilfe des NetApp Docker-Images
+              aus.
             url: "/task_execute_ansible_playbook_using_docker.html"
-          - title: Führen Sie das Ansible Playbook ohne NetApp Docker Image aus
+          - title: Führen Sie das Ansible-Playbook ohne das NetApp Docker-Image aus.
             url: "/task_execute_ansible_playbook_without_docker.html"
-          - title: Validieren der Firmware-Installation
+          - title: Überprüfen Sie die Installation der AFF und FAS -Firmware auf dem
+              Speichersystem.
             url: "/task_validate_firmware_installation.html"
     - title: Integration von Daten mithilfe von APIs
       entries:
-      - title: Überblick
+      - title: Erfahren Sie mehr über die Digital Advisor API-Dienste.
         url: "/concept_overview_API_service.html"
-      - title: Token zur Verwendung von APIs generieren
+      - title: Generieren Sie Tokens zur Nutzung der Digital Advisor API-Dienste.
         url: "/task_generate_tokens_API_services.html"
-      - title: API-Katalog zur Ausführung von APIs
+      - title: Verwenden Sie den Digital Advisor API-Katalog, um die APIs auszuführen.
         url: "/task_view_API_catalog.html"
     - title: Erstellen benutzerdefinierter Berichte
       entries:
-      - title: Berichtstypen
+      - title: Erfahren Sie mehr über die Berichte von Digital Advisor.
         url: "/concept_report_types.html"
-      - title: Berichte generieren
+      - title: Erstellen oder planen Sie einen Bericht
         url: "/task_generate_reports.html"
   - title: Wissen und Support
     entries:

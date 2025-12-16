@@ -4,7 +4,7 @@ permalink: digital-advisor-integration-with-console.html
 keywords: digital advisor, integration, bluexp, NetApp Console 
 summary: 'Digital Advisor ist jetzt vollständig in die NetApp Konsole integriert.  Sie können jetzt Ihre Cluster verwalten und über die Benutzeroberfläche (UI) der NetApp Konsole auf alle Funktionen von Digital Advisor zugreifen.' 
 ---
-= Digital Advisor Integration mit der NetApp Konsole
+= Zugriff auf Digital Advisor in der NetApp Konsole
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -31,10 +31,6 @@ Die NetApp Konsole ermöglicht eine zentrale Verwaltung von NetApp -Speicher- un
 Sie benötigen weder eine Lizenz noch ein Abonnement, um die NetApp -Konsole zu verwenden. Es fallen nur dann Kosten an, wenn Sie Konsolenagenten in Ihrer Cloud bereitstellen müssen, um die Konnektivität zu Ihren Speichersystemen oder NetApp -Datendiensten sicherzustellen.  Einige NetApp -Datendienste, auf die über die Konsole zugegriffen werden kann, sind jedoch lizenz- oder abonnementbasiert.
 
 Erfahren Sie mehr über die https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["NetApp Konsole"] .
-
-
-
-== Zugriff auf Digital Advisor in der NetApp Konsole
 
 Sie können über die Konsole auf Digital Advisor zugreifen, um Ihren Cluster zu verwalten.
 

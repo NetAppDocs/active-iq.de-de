@@ -4,7 +4,7 @@ permalink: task_avoid_the_downtime_and_possible_data_loss.html
 keywords: downtime, data loss, avoid downtime, avoid data loss 
 summary: Bietet Informationen zur Vermeidung von Ausfallzeiten und möglichen Datenverlusten. 
 ---
-= Vermeidung von Ausfallzeiten und möglichen Datenverlusten
+= Nutzen Sie Digital Advisor , um die im Verfügbarkeits- und Schutz-Widget identifizierten kritischen Risiken zu beheben.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

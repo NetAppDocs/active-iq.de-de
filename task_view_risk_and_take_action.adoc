@@ -4,7 +4,7 @@ permalink: task_view_risk_and_take_action.html
 keywords: wellness, performance, efficiency, availability, capacity, security vulnerabilities, protection, protect, mitigate, rectify 
 summary: Stellt Informationen zur Verfügung, mit denen Sie den Wellness-Bereich Ihres Storage-Systems anzeigen und analysieren und Risiken minimieren können. 
 ---
-= Risiken anzeigen und manuell Korrekturmaßnahmen ergreifen
+= Prüfen Sie die Risiken des Speichersystems im Digital Advisor und ergreifen Sie Korrekturmaßnahmen.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

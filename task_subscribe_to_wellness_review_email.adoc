@@ -4,7 +4,7 @@ permalink: task_subscribe_to_wellness_review_email.html
 keywords: wellness, wellness review subscription, unsubscribe, supportedge expert, supportedge advisor 
 summary:  
 ---
-= Abonnieren Sie die E-Mail zur Wellnessüberprüfung
+= Abonnieren Sie Benachrichtigungen zum Zustand Ihres Speichersystems von Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,7 +16,7 @@ summary:
 
 
 [role="lead"]
-Sie können die E-Mail zum Wellness-Programm abonnieren, um eine monatliche E-Mail zu erhalten, die den Wellness-Status aufweist, Systeme, die sich bald erneuern, Systeme, für die ein Upgrade für die NetApp Produkte in Ihrer installierten Basis erforderlich ist. Sie erhalten eine E-Mail zur Überprüfung des Wellness-Wohlbefindens, damit Sie sich eine monatliche Zusammenfassung ansehen und Maßnahmen für Ihre Systeme ergreifen können. Darüber hinaus stehen Ihnen Optionen zum Anzeigen, Bearbeiten, Weitergeben und Löschen Ihrer Abonnements zur Verfügung. Wenn Sie sich entscheiden, die E-Mail nicht zu erhalten, können Sie sich jederzeit vom Erhalt von E-Mails abmelden.
+Sie können den Wellness-Review-E-Mail-Service abonnieren, um monatlich eine E-Mail zu erhalten, die den Wellness-Status, Speichersysteme, deren Erneuerungsdatum näher rückt, und Speichersysteme, die ein Upgrade benötigen, für die NetApp Produkte in Ihrer installierten Basis zusammenfasst. Sie erhalten eine E-Mail mit einer monatlichen Zusammenfassung Ihres Speichersystems, in der Sie alle relevanten Informationen einsehen und gegebenenfalls Maßnahmen ergreifen können. Sie haben außerdem die Möglichkeit, Ihre Abonnements anzuzeigen, zu bearbeiten, zu teilen und zu löschen. Wenn Sie die E-Mail nicht mehr erhalten möchten, können Sie sich jederzeit vom E-Mail-Empfang abmelden.
 
 Wenn das Abonnement aktiviert ist, sollten Sie beim Hinzufügen eines Abonnements ein Startdatum auswählen. Die monatliche E-Mail-Zusammenfassung bietet einen Überblick über ausstehende Maßnahmen in den Bereichen Wellness, Erneuerung, Upgrade und Health Check. Sie können die E-Mail-Adresse bestätigen und die E-Mail an die angegebene E-Mail-Adresse senden. Sie haben auch die Möglichkeit, Abonnements zu löschen.
 

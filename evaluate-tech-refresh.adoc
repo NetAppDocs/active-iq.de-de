@@ -4,7 +4,7 @@ permalink: evaluate-tech-refresh.html
 keywords: tech refresh, tech support contract, hardware 
 summary: Informationen zur Evaluierung der Technologieaktualisierung bei Ihrem Vertrag für technischen Support oder Ihrer Hardware 
 ---
-= Bewertung einer Technologieaktualisierung
+= Prüfen Sie in Digital Advisor , ob eine Technologieerneuerung für Ihr Speichersystem empfohlen wird.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -18,7 +18,6 @@ summary: Informationen zur Evaluierung der Technologieaktualisierung bei Ihrem V
 [role="lead"]
 Wenn Sie herausfinden möchten, ob eine Technologieaktualisierung für Ihren Vertrag für den technischen Support oder für Ihre Hardware empfohlen wird, können Sie die Option zur Technologieaktualisierung nutzen.
 
-
-NOTE: Sie können auf diese Funktion entweder über die Lebenszyklusplanung (*Speicher* > *Lebenszyklusplanung*) oder über Digital Advisor (*Dashboard > Planungs-Widget > Tech Refresh*) zugreifen.
+Sie können auf diese Funktion entweder über die Lebenszyklusplanung (*Speicher* > *Lebenszyklusplanung*) oder über Digital Advisor (*Dashboard > Planungs-Widget > Tech Refresh*) zugreifen.
 
 Weitere Informationen zu dieser Funktion finden Sie unterlink:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["Bewertung einer Technologieaktualisierung"] in der Konsolendokumentation.

@@ -4,7 +4,7 @@ permalink: task_view_wellness_history.html
 keywords: wellness history, risks, wellness, view all actions, risk history, 
 summary: Bietet Informationen zu Systemrisiken und zur Anzeige der Wellness-Geschichte. 
 ---
-= Anzeigen der Wellness-Geschichte
+= Sehen Sie sich die Risikohistorie Ihres Speichersystems in Digital Advisor an.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,7 +16,7 @@ summary: Bietet Informationen zu Systemrisiken und zur Anzeige der Wellness-Gesc
 
 
 [role="lead"]
-Sie können sich die in den letzten drei Monaten auftretenden Systemrisiken ansehen, so dass Sie lernen, wie sie Überstunden machen.
+Sie können die in den letzten drei Monaten aufgetretenen Risiken für Speichersysteme einsehen, um zu erfahren, wie sie sich im Laufe der Zeit entwickeln.
 
 Diese Risiken werden unter vier Arten von Risiken klassifiziert – *ungelöst*, *neu*, *gelöst* und *anerkannt*. Sie werden durch verschiedene Farben dargestellt. Die Zusammenfassung dieser Risiken wird durch einen *Risikoverlauf*-Diagramm dargestellt.
 

@@ -4,7 +4,7 @@ permalink: task_avoid_a_volume_filling_up_to_prevent_an_outage.html
 keywords: volume filling up, prevent an outage 
 summary: Bietet Informationen zur Vermeidung von Volume-Füllungen, um einen Ausfall zu verhindern. 
 ---
-= Vermeiden Sie eine Volume-Füllung, um einen Ausfall zu verhindern
+= Verwalten Sie die Schwellenwerte für die Speicherkapazität in Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

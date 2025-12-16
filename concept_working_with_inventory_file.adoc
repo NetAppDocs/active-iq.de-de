@@ -4,7 +4,7 @@ permalink: concept_working_with_inventory_file.html
 keywords: inventory file, file format 
 summary: Stellt Informationen zum Arbeiten mit der Bestandsdatei bereit. 
 ---
-= Mit Bestandsdatei arbeiten
+= Aktualisieren Sie die Inventardatei für das AFF und FAS -Firmware-Update.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

@@ -4,7 +4,7 @@ permalink: task_execute_ansible_playbook_without_docker.html
 keywords: Ansible Playbook, Ansible, playbook, without docker 
 summary: Enthält Informationen zum Ausführen des Ansible-Playbooks über das Docker-Image. 
 ---
-= Ansible Playbook ohne NetApp Docker Image ausführen
+= Führen Sie das Ansible-Playbook ohne das NetApp Docker-Image aus.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

@@ -4,7 +4,7 @@ permalink: task_add_config_drift_template.html
 keywords: config deviation, drift, configuration, add template 
 summary: Enthält Informationen zum Hinzufügen einer Konfigurations-Drift-Vorlage. 
 ---
-= Fügen Sie eine Konfigurations-Drift-Vorlage hinzu
+= Fügen Sie in Digital Advisor eine Konfigurationsdriftvorlage für Ihr Speichersystem hinzu.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

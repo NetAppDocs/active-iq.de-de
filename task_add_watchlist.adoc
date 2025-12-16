@@ -4,7 +4,7 @@ permalink: task_add_watchlist.html
 keywords: dashboard, watchlist, add watchlist 
 summary: Enthält Informationen zum Hinzufügen einer Watchlist zum Dashboard. 
 ---
-= Erstellen Sie eine Watchlist
+= Erstellen Sie eine Watchlist in Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,10 +16,10 @@ summary: Enthält Informationen zum Hinzufügen einer Watchlist zum Dashboard.
 
 
 [role="lead"]
-Sie können eine Watchlist erstellen, um schnell und einfach auf eine Reihe von Systemen zuzugreifen. Sie können die Systeme basierend auf Kategorie oder Seriennummer hinzufügen.
+Sie können eine Watchlist erstellen, um schnell und einfach auf eine Reihe von Speichersystemen zuzugreifen. Sie können die Speichersysteme anhand der Kategorie oder der Seriennummer hinzufügen.
 
 
-NOTE: Sie können maximal 15,000 Systeme unter einer Kategorie und 500 Systeme unter einer Seriennummer hinzufügen.
+NOTE: Sie können maximal 15.000 Speichersysteme unter einer Kategorie und 500 Speichersysteme unter einer Seriennummer hinzufügen.
 
 .Schritte
 . Klicken Sie im linken Fensterbereich auf *Watchlisten*
@@ -28,7 +28,7 @@ Der Bildschirm *Watchlist verwalten* wird angezeigt.
 
 . Klicken Sie Auf *Watchlist Erstellen*.
 . Geben Sie einen Namen für die Watchlist ein.
-. Wählen Sie eine der folgenden Optionen aus, um der Watchlist Systeme hinzuzufügen:
+. Wählen Sie eine der folgenden Optionen aus, um Speichersysteme zur Beobachtungsliste hinzuzufügen:
 +
 ** *Kategorie*: Mit dieser Option können Sie den gesamten Bestand hinzufügen, der einer bestimmten Kategorie zugeordnet ist, z. B. Kunden-, Standort-, Gruppen- oder Keystone-Abonnements, zu Ihrer Merkliste.
 +

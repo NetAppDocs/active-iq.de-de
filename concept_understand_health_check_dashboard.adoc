@@ -4,7 +4,7 @@ permalink: concept_understand_health_check_dashboard.html
 keywords: activeiq, health check, health, HCA, health check dashboard, health check score 
 summary: Enthält Informationen, die Sie mit dem Health Check Dashboard vertraut machen können. 
 ---
-= Health Check Dashboard verstehen
+= Erfahren Sie mehr über das Health-Check-Dashboard im Digital Advisor.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

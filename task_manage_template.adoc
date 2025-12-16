@@ -4,7 +4,7 @@ permalink: task_manage_template.html
 keywords: templates, share template, clone template, edit template, delete template 
 summary: Stellt Informationen zur Verwaltung von Vorlagen bereit. 
 ---
-= Managen Sie eine Vorlage
+= Konfigurationsabweichungsvorlagen in Digital Advisor verwalten
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

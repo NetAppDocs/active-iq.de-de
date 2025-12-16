@@ -4,7 +4,7 @@ permalink: view_keystone_capacity_utilization.html
 keywords: keystone, capacity utilization, service tiers, Keystone subscription, keystone subscription, shares, disks 
 summary: Bietet Informationen zu Ihrer Kapazitätsauslastung mit einem NetApp Keystone-Abonnement. 
 ---
-= Anzeige der Kapazitätsauslastung mit NetApp Keystone Abonnement
+= Die Kapazitätsauslastung mit einem NetApp Keystone -Abonnement können Sie im Digital Advisor einsehen.
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

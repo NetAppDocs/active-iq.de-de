@@ -4,7 +4,7 @@ permalink: task_hosting_firmware_files_using_web_server.html
 keywords: firmware, web server, hosting 
 summary: Stellt Informationen zum Hosten der Firmware-Dateien über einen Webserver bereit. 
 ---
-= Hosten Sie Firmware-Dateien mithilfe des Webservers
+= Hosten Sie AFF und FAS -Firmware-Dateien auf einem Webserver
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
