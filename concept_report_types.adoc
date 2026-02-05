@@ -61,6 +61,9 @@ Die folgenden Berichtstypen sind in Digital Advisor verfügbar:
 | Empfohlene Konfiguration | Bietet Informationen zu den verschiedenen empfohlenen Konfigurationslücken für Remote-Management-Konfigurationen, Ersatzteile und Laufwerke, HA-Paar, SVM-Zustand, Akkustatus und Recovery-Guru-Empfehlungen. | Ja. | Ja. | Nein 
 
 
+| Sicherheit | Bietet einen umfassenden, exportierbaren Überblick über Sicherheitsrisiken und Compliance-Lücken von ONTAP-Speichern in Clustern, SVMs und Volumes. | Ja. | Nein | Nein 
+
+
 | Support-Verträge / Hardware EOS | Er bietet Informationen zu den Vertragsdetails und der Liste der Controller, Shelfs und Festplatten, für die das EOS (End-of-Support) erreicht wurde. | Ja. | Ja. | Nein 
 
 
