@@ -432,7 +432,6 @@
   <block id="cf2b00ffa5bd73f45aa8d81c2b6127eb" category="list-text">Klicken Sie auf *Bericht erstellen*, um einen neuen Bericht zu erstellen.</block>
   <block id="bb8c427c31e76f816f767bd2cad87cfc" category="list-text">Wählen Sie den Berichtstyp aus, und geben Sie die angeforderten Werte für den Bericht an.</block>
   <block id="43c47648912b14ae2e4dae66c4c94e6f" category="list-text">Wählen Sie das Format des Berichts aus.</block>
-  <block id="b38cbc17f5d9a4695d51db9473e7dffd" category="admonition">Der Bericht wird 3 Tage lang im Digital Advisor gespeichert.</block>
   <block id="fbdbbae9b17b34243807f99738e169e7" category="admonition">Die vorhandenen geplanten Berichte werden bei der Erstellung der neuen Berichte ersetzt.</block>
   <block id="35e66ec67a2e099ca561a914e3070a54" category="summary">Stellt Informationen zur Verwaltung von Vorlagen bereit.</block>
   <block id="111b7a31750f76bdbff754725d0a891f" category="paragraph">Sie können eine Vorlage klonen, eine Vorlage freigeben, die Details einer vorhandenen Vorlage bearbeiten und eine Vorlage löschen.</block>
@@ -1623,4 +1622,5 @@ Die Verfügbarkeit der Funktionen unter *STORAGE HEALTH* hängt vom Systemtyp un
   <block id="362a5eae56271693fedd19383a4aad7b" category="paragraph">Upgrade Advisor unterstützt jetzt die Erstellung von Upgrade-Plänen für ONTAP-Versionen, die das Ende des eingeschränkten Supports erreicht haben, mit einer 9‑monatigen Übergangsfrist. Diese Funktion hilft Kunden, rechtzeitig zu handeln und Upgrade-Unterbrechungen zu vermeiden, indem sie während der Übergangsfrist klare Anweisungen gibt.</block>
   <block id="b16c048e2cbb1f91610daa0a614ff050" category="cell">Bietet einen umfassenden, exportierbaren Überblick über Sicherheitsrisiken und Compliance-Lücken von ONTAP-Speichern in Clustern, SVMs und Volumes.</block>
   <block id="3cdc57c34ce94785332eb57eb2d8d56d" category="section-title">04. Februar 2026</block>
+  <block id="3741bac3a7c9d89c366100cd1cba5405" category="admonition">Der Bericht wird in Digital Advisor für 3 Monate gespeichert.</block>
 </blocks>

@@ -43,7 +43,7 @@ Sie können einen Bericht sofort erstellen oder den Bericht auf wöchentlicher o
 
 
 
-NOTE: Der Bericht wird 3 Tage lang im Digital Advisor gespeichert.
+NOTE: Der Bericht wird in Digital Advisor für 3 Monate gespeichert.
  a| 
 . Klicken Sie auf die Registerkarte *Bericht planen*.
 . Wählen Sie den Berichtstyp aus, und geben Sie die angeforderten Werte für den Bericht an.
