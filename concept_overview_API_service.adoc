@@ -38,3 +38,5 @@ In beiden Ansichten kann der Benutzer mithilfe des Navigationsfensters links dur
 == Verwenden der APIs
 
 Sobald Sie autorisiert sind und Token generieren können, können Sie die Token nutzen, um programmatische Abfragen zu erstellen und Daten abzurufen. Sie können auch eine API aus dem API-Katalog testen, um aus erster Hand zu sehen, wie die Abfrage funktioniert und welche Daten zurückgegeben werden. Auf diese Weise können Sie sicherstellen, dass Sie verstehen, wie eine API funktioniert, bevor Sie das Code-Framework in Ihrem System erstellen.
+
+Informationen zum Zugriff auf und zur Nutzung von Digital Advisor APIs finden Sie unter link:https://docs.netapp.com/us-en/digital-advisor-automation/["NetApp Digital Advisor API-Dokumentation"].

@@ -170,14 +170,8 @@ sidebar:
           - title: Überprüfen Sie die Installation der AFF und FAS -Firmware auf dem
               Speichersystem.
             url: "/task_validate_firmware_installation.html"
-    - title: Integration von Daten mithilfe von APIs
-      entries:
-      - title: Erfahren Sie mehr über die Digital Advisor API-Dienste.
-        url: "/concept_overview_API_service.html"
-      - title: Generieren Sie Tokens zur Nutzung der Digital Advisor API-Dienste.
-        url: "/task_generate_tokens_API_services.html"
-      - title: Verwenden Sie den Digital Advisor API-Katalog, um die APIs auszuführen.
-        url: "/task_view_API_catalog.html"
+    - title: Erfahren Sie mehr über die Digital Advisor API-Dienste.
+      url: "/concept_overview_API_service.html"
     - title: Erstellen benutzerdefinierter Berichte
       entries:
       - title: Erfahren Sie mehr über die Berichte von Digital Advisor.
