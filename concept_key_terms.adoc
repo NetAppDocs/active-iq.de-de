@@ -67,10 +67,10 @@ Beim Einsatz von Digital Advisor ist es wichtig, dass Sie einige der grundlegend
 ** *Bericht generieren:* generiert den Bericht der ausgewählten Watchlist und sendet den Bericht an maximal 5 Empfänger.
 
 
-* *Planungs-Widget:* zeigt Informationen über den Kapazitätszulauf, Software und Hardware an, die erneuert werden müssen.
+* *Planungs-Widget:* Zeigt Informationen über die Speichererweiterung, die Software und die Hardware an, die erneuert werden müssen.
 +
-** *Kapazitätszuwächse:* bezeichnet Systeme, die 90 % Kapazität und NETZSTANDORTE überschritten haben oder deren Kapazität knapp 70 % betragen. Sie können eine Anfrage zur Erhöhung der Kapazität Ihres Storage-Systems stellen.
-** *Renewals:* liefert Informationen über die Software und Hardware, die in den nächsten 6 Monaten abgelaufen ist oder bald ablaufen.
+** *Speichererweiterung:* Hier werden Systeme identifiziert, deren Kapazität 90 % überschritten hat oder sich ihr nähert, sowie GRID-Standorte, deren Kapazität 70 % überschritten hat oder sich ihr nähert. Sie können eine Anfrage zur Erhöhung der Kapazität Ihres Speichersystems stellen.
+** *Support Renewals:* Bietet Informationen über die Software und Hardware, deren Support abgelaufen ist oder in den nächsten 6 Monaten abläuft.
 
 
 * *Widget „Upgrades“:* bietet die Anzahl an Upgrades für ONTAP und E-Series Systeme:

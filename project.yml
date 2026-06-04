@@ -111,7 +111,7 @@ sidebar:
         url: "/task_identify_capacity_system.html"
       - title: Speicherkapazitätsschwellen verwalten
         url: "/task_avoid_a_volume_filling_up_to_prevent_an_outage.html"
-      - title: Prüfen Sie, ob eine Technologieerneuerung für das Speichersystem empfohlen
+      - title: Prüfen Sie, ob eine Systemaktualisierung für das Speichersystem empfohlen
           wird.
         url: "/evaluate-tech-refresh.html"
       - title: Software und Hardware des Speichersystems erneuern

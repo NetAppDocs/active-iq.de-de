@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: evaluate-tech-refresh.html 
-keywords: tech refresh, tech support contract, hardware 
-summary: Informationen zur Evaluierung der Technologieaktualisierung bei Ihrem Vertrag für technischen Support oder Ihrer Hardware 
+keywords: tech refresh, tech support contract, hardware, system refresh 
+summary: Stellt Informationen zur Bewertung der Systemaktualisierung Ihres Tech Support Vertrags oder Ihrer Hardware bereit 
 ---
-= Prüfen Sie in Digital Advisor , ob eine Technologieerneuerung für Ihr Speichersystem empfohlen wird.
+= Prüfen Sie, ob eine Systemaktualisierung für Ihr Speichersystem im Digital Advisor empfohlen wird
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,8 +16,8 @@ summary: Informationen zur Evaluierung der Technologieaktualisierung bei Ihrem V
 
 
 [role="lead"]
-Wenn Sie herausfinden möchten, ob eine Technologieaktualisierung für Ihren Vertrag für den technischen Support oder für Ihre Hardware empfohlen wird, können Sie die Option zur Technologieaktualisierung nutzen.
+Wenn Sie herausfinden möchten, ob eine Systemaktualisierung für Ihren Tech Support-Vertrag oder Ihre Hardware empfohlen wird, können Sie die Option „Systemaktualisierung“ verwenden.
 
-Sie können auf diese Funktion entweder über die Lebenszyklusplanung (*Speicher* > *Lebenszyklusplanung*) oder über Digital Advisor (*Dashboard > Planungs-Widget > Tech Refresh*) zugreifen.
+Sie können auf diese Funktion entweder über die Lebenszyklusplanung (*Speicher* > *Lebenszyklusplanung*) oder über Digital Advisor (*Dashboard > Planungs-Widget > Systemaktualisierung*) zugreifen.
 
-Weitere Informationen zu dieser Funktion finden Sie unterlink:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["Bewertung einer Technologieaktualisierung"] in der Konsolendokumentation.
+Weitere Informationen zu dieser Funktion finden Sie link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["Eine Systemaktualisierung evaluieren"] in der Dokumentation der Konsole.

@@ -37,10 +37,10 @@ Lesen Sie die folgenden Informationen, um sich über die Widgets zu informieren,
 | Wellness | Unterstützung auf allen Plattformen | Unterstützung auf allen Plattformen | Unterstützung auf allen Plattformen 
 
 
-| Verlängerungen | Unterstützung auf allen Plattformen | Unterstützung auf allen Plattformen | Unterstützung auf allen Plattformen 
+| Supportverlängerungen | Unterstützung auf allen Plattformen | Unterstützung auf allen Plattformen | Unterstützung auf allen Plattformen 
 
 
-| Kapazitätszuwächse | Nur auf Clustered Data ONTAP unterstützt | Nur auf Clustered Data ONTAP unterstützt | Nur auf Clustered Data ONTAP unterstützt 
+| Speichererweiterung | Nur auf Clustered Data ONTAP unterstützt | Nur auf Clustered Data ONTAP unterstützt | Nur auf Clustered Data ONTAP unterstützt 
 
 
 | Inventar | Unterstützung auf allen Plattformen | Nur auf Clustered Data ONTAP unterstützt | Nur auf Clustered Data ONTAP unterstützt 

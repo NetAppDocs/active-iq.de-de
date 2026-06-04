@@ -19,7 +19,7 @@ summary: Enthält Informationen zur Erneuerung der Software und Hardware Ihres S
 Sie können proaktiv die Software und Hardware Ihres Speichersystems identifizieren, deren Gültigkeit abgelaufen ist oder in den nächsten 6 Monaten abläuft, und eine Anfrage zur Erneuerung der Hardware und Software senden.
 
 .Schritte
-. Klicken Sie im Widget *Planung* auf *Renewals*.
+. Klicken Sie im Widget *Planung* auf *Support Renewals*.
 . Wählen Sie die Speichersysteme aus, die Sie verlängern möchten, und klicken Sie auf *Verlängern*.
 . Geben Sie optional zusätzliche Anmerkungen ein.
 . Klicken Sie Auf *Senden*.

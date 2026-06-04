@@ -20,6 +20,21 @@ Die folgenden Funktionen und Verbesserungen wurden in Digital Advisor eingeführ
 
 
 
+== 3. Juni 2026
+
+
+
+=== Aktualisierungen des Namens des Digital Advisor-Widgets
+
+Die folgenden Digital Advisor-Funktionen haben Namensänderungen:
+
+* Die Funktion „Tech-Aktualisierung“ heißt jetzt „Systemaktualisierung“. Erfahren Sie, wie das geht link:https://docs.netapp.com/us-en/active-iq/evaluate-tech-refresh.html["eine Systemaktualisierung bewerten"].
+* Die Funktion „Kapazitätserweiterungen“ heißt jetzt „Speichererweiterung“. Erfahren Sie mehr link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Digital Advisor Widgets"].
+* Die Funktion „Verlängerungen“ heißt jetzt „Support-Verlängerungen“. Erfahren Sie mehr über link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Digital Advisor Widgets"].
+
+
+
+
 == 18. Mai 2026
 
 
@@ -939,7 +954,7 @@ Diese Version bietet folgende Funktionen:
 * *Wellness-Widget:* Sehen Sie alle Risiken und Aktionen an, einschließlich der mit StorageGRID verbundenen, wenn sie auf der Grundlage der bestehenden ARS-Regeln für die verfügbaren Systeme anwendbar sind.
 * *Planungs-Widget:*
 +
-** *Kapazitätszugabe:* für alle NETZSTANDORTE, die die Schwelle von 70% der bestehenden Kapazität überschreiten, werden Sie benachrichtigt. Sie haben die Möglichkeit, Kapazität für die StorageGRIDs am Standort für die nächsten 1, 3 und 6 Monate hinzuzufügen, wenn der Kapazitätsschwellenwert wahrscheinlich 70 % überschreitet.
+** *Kapazitätserweiterungen:* Sie werden benachrichtigt, sobald eine Auslastung von 70 % der bestehenden Kapazität eines GRID-Standorts überschritten wird. Sie haben die Möglichkeit, die Kapazität der StorageGRIDs am Standort für die nächsten 1, 3 und 6 Monate zu erhöhen, falls die Auslastung voraussichtlich 70 % überschreiten wird.
 ** *Erneuerungen:* für alle StorageGRID-Systeme, für die der Lizenzvertrag abgelaufen ist oder sich in den nächsten 6 Monaten dem Ablauf nähert, werden Sie benachrichtigt. Sie können ein oder mehrere Systeme auswählen, um eine Anfrage an das NetApp Support-Team zu dessen Verlängerung zu stellen.
 
 

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept_overview_wellness.html 
-keywords: overview, wellness, risk types, risk definition, mitigate risks, performance, configuration, renewal, risk, remediation 
+keywords: overview, wellness, risk types, risk definition, mitigate risks, performance, configuration, support renewal, risk, remediation 
 summary: Stellt Informationen zum Wellness-Bereich und zu den Risikoarten bereit, um Ihr Storage-System zu verbessern. 
 ---
 = Erfahren Sie mehr über das Wellness-Widget im Digital Advisor.
@@ -16,7 +16,7 @@ summary: Stellt Informationen zum Wellness-Bereich und zu den Risikoarten bereit
 
 
 [role="lead"]
-Wellness-Widget bietet detaillierte Informationen zu Ihrem Speichersystem. Es bietet Informationen über die verschiedenen Attribute Ihres Storage-Systems, z. B. Performance und Effizienz, Kapazität, Konfigurationseinstellungen, Sicherheitsprobleme, Verlängerungen, Und anderen.
+Das Wellness-Widget liefert detaillierte Informationen über Ihr Speichersystem. Es informiert über verschiedene Attribute Ihres Speichersystems, wie Leistung und Effizienz, Kapazität, Konfigurationseinstellungen, Sicherheitslücken, Supportverlängerungen und andere.
 
 image:wellness_workflow.png["Wellness-Workflow"]
 
