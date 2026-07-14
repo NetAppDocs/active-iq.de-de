@@ -20,6 +20,7 @@ Sie sollten die AFF- und FAS-Firmware mit Ansible aktualisieren, um die erkannte
 
 
 
+[[before-you-begin]]
 == Bevor Sie beginnen
 
 Vor dem Aktualisieren der AFF- und FAS-Firmware mit Ansible sollten Sie:

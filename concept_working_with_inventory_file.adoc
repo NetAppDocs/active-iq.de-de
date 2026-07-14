@@ -22,6 +22,7 @@ Für das Update der Service Processor-Firmware sind Node-Hostnamen und SP/BMC IP
 
 
 
+[[inventory-file-format]]
 == Inventurdateiformat
 
 Im Folgenden finden Sie ein Beispiel für eine Bestandsdateiformat mit Updates der Festplatten- und Shelf-Firmware:
@@ -51,6 +52,7 @@ Im Beispiel gelten Updates der Shelf- und Festplatten-Firmware sowohl für Clust
 
 
 
+[[delete-a-cluster-from-the-inventory-file]]
 == Löschen eines Clusters aus der Bestandsdatei
 
 Wenn Sie keine Firmware-Updates für ein bestimmtes Cluster anwenden möchten, können Sie das Cluster aus der Bestandsdatei entfernen.

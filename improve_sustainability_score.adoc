@@ -23,6 +23,7 @@ NOTE: Um die besten Ergebnisse mit dem Dashboard zu erzielen, müssen Sie AutoSu
 
 
 
+[[sustainability-score-computation]]
 == Berechnung der Nachhaltigkeitsbewertung
 
 Der Nachhaltigkeitswert wird auf der Grundlage von Regeln für Storage-Systeme berechnet, wobei jede Regel bestimmte Risiken berücksichtigt und empfohlene Maßnahmen zur Risikominimierung bietet. Jede Regel erhält eine Punktzahl, die ihre Bedeutung widerspiegelt. Wenn es beispielsweise drei Regeln für Speichersysteme gibt: Die Aufrechterhaltung der Umgebungstemperatur, die Gewährleistung einer optimalen Kapazitätsauslastung und die Verwendung eines Titannetzteils mit Werten von 30, 40 und 30 Punkten. Wenn Sie diese Punktzahlen addieren, ergeben sich insgesamt 100 Punkte, die als Nenner fungieren.
@@ -34,6 +35,7 @@ NOTE: Die Nachhaltigkeitsbewertung wird zunächst auf Cluster-Ebene berechnet un
 
 
 
+[[improve-overall-sustainability-score]]
 == Verbesserung der Gesamtbewertung für die Nachhaltigkeit
 
 Führen Sie die folgenden Schritte aus, um den Gesamtergebnis für Nachhaltigkeit zu verbessern, und der Schwerpunkt liegt auf den Bemühungen des Unternehmens um Nachhaltigkeit:
@@ -95,6 +97,7 @@ image:actions_for_later.png["Ein Screenshot, der empfohlene Aktionen mit der Opt
 ====
 
 
+[[improve-sustainability-score-at-cluster-level]]
 == Nachhaltigkeitsbewertung auf Cluster-Ebene verbessern
 
 Führen Sie die folgenden Schritte aus, um die Nachhaltigkeitsbewertung auf Cluster-Ebene zu verbessern, die sich auf die Verbesserung der Nachhaltigkeit für einen bestimmten Cluster konzentriert:

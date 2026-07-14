@@ -31,36 +31,42 @@ Es gibt folgende Einschränkungen:
 
 
 
+[[editing-a-watchlist-may-take-60-minutes-to-reflect-in-digital-advisor]]
 == Das Bearbeiten einer Watchlist kann 60 Minuten dauern, um sie in Digital Advisor wiederzugeben
 
 Durch das Bearbeiten einer Watchlist werden die Informationen in Digital Advisor nicht sofort aktualisiert. Es kann bis zu 60 Minuten dauern, bis die Änderungen in Digital Advisor reflektiert werden.
 
 
 
+[[a-blank-report-is-displayed-while-scheduling-reports]]
 == Während der Berichtsplanung wird ein leerer Bericht angezeigt
 
 Geplante Berichte sind nur in Verbindung mit einem SupportEdge Advisor oder einem SupportEdge Expert Supportvertrag verfügbar. Wenn die Systeme nicht unter SupportEdge Advisor oder einem SupportEdge Expert-Supportvertrag stehen, erhalten Sie bei der Planung von Berichten möglicherweise einen leeren Bericht.
 
 
 
+[[acknowledged-and-unacknowledged-risks-may-take-60-minutes-to-reflect-in-digital-advisor]]
 == Anerkannte und nicht anerkannte Risiken können 60 Minuten dauern, um im Digital Advisor reflektiert zu werden
 
 Der Status der Risiken, die anerkannt und nicht anerkannt werden, spiegelt sich im Digital Advisor nicht sofort wider. Es kann bis zu 60 Minuten dauern, bis die Änderungen im Digital Advisor und im Wellness-Bericht reflektiert werden.
 
 
 
+[[autosupport-widget-not-available-for-cluster-and-serial-numbers]]
 == Das AutoSupport Widget ist für Cluster- und Seriennummern nicht verfügbar
 
 Das Widget „AutoSupport“ enthält keine Warnmeldungen für die Suche nach Clustern und Seriennummern.
 
 
 
+[[autosupport-widget-not-able-to-drill-down-to-serial-level-autosupport-details]]
 == AutoSupport Widget kann keine AutoSupport-Details auf Serienebene abrufen
 
 Klicken Sie auf der Seite AutoSupport-Berichte auf einen der Status, Systeme, die kürzlich den Sendevorgang beendet haben, oder Systeme, bei denen AutoSupport ausgeschaltet ist, und navigieren Sie nicht zum Bildschirm Integritätsprüfung.
 
 
 
+[[filtering-and-sorting-are-not-available-in-the-inventory-widget]]
 == Filter und Sortierung sind im Widget „Inventar“ nicht verfügbar
 
 Daten können im Widget „Inventar“ nicht gefiltert und sortiert werden. Es werden keine Daten angezeigt, wenn Sie im Dropdown-Menü „Filtern nach“ die Option „ONTAP AFF“, „ONTAP ASA“, „ONTAP Edge“ oder „ONTAP Select“ auswählen.

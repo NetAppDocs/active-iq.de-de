@@ -20,6 +20,7 @@ Melden Sie sich nach der Ausführung des Playbook als Cluster-Administrator beim
 
 
 
+[[validate-disk-firmware-installation]]
 == Validieren der Installation der Festplatten-Firmware
 
 .Schritte
@@ -52,6 +53,7 @@ Weitere Informationen zu dem Befehl finden Sie unter {Link-with-Unterstriche}[Sy
 
 
 
+[[validate-shelf-firmware-installation]]
 == Installation der Shelf-Firmware validieren
 
 .Schritte
@@ -103,6 +105,7 @@ Weitere Informationen zum Befehl finden Sie unter {Link-with-Unterstriche}[Stora
 
 
 
+[[validating-spbmc-firmware-installation]]
 == Validieren der SP/BMC-Firmware-Installation
 
 Das Ansible Playbook für Updates der Service-Prozessor/BMC-Firmware wird mit der Option aktiviert, um zu überprüfen, ob die Installation der neuesten SP/BMC-Firmware auf dem Controller installiert ist. Nach Abschluss der Überprüfung (die Updates können maximal zwei Stunden in Anspruch nehmen) wendet das Ansible Playbook interne Firmware-Updates für Switches an, indem eine Verbindung zur SP/BMC-Konsole hergestellt wird.

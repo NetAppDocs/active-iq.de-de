@@ -4,6 +4,7 @@
 
 
 
+[[sustainability-dashboard]]
 === Dashboard zur Nachhaltigkeit
 
 Umweltindikatoren, die Einblicke in die Umweltverträglichkeit Ihrer Speichersysteme bieten, liefern jetzt präzisere Werte für den prognostizierten Stromverbrauch, den direkten Kohlenstoffverbrauch und die Wärmeabgabe basierend auf einem fortschrittlichen Vorhersagemodell. Weitere Informationen finden Sie unterlink:https://docs.netapp.com/us-en/active-iq/sustainability-dashboard-overview.html["Übersicht über das Dashboard „Nachhaltigkeit“"] .

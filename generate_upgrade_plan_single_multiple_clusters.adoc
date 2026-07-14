@@ -20,6 +20,7 @@ Sie können Upgrade Advisor verwenden, um eine Liste der Cluster anzuzeigen, die
 
 
 
+[[before-you-begin]]
 == Bevor Sie beginnen
 
 Bevor Sie einen Upgrade-Plan erstellen, sollten Sie Folgendes tun:

@@ -20,6 +20,7 @@ Die folgenden Fragen beantworten Ihre häufigen Fragen zu Digital Advisor.
 
 
 
+[[technical-case]]
 == Technische Fallstudie
 
 *Wann erstelle ich einen technischen Case?*
@@ -45,6 +46,7 @@ Technische Cases sollen bei technischen Problemen im Zusammenhang mit Hardwareun
 
 
 
+[[non-technical-case]]
 == Nicht-technische Support-Cases
 
 *Was ist ein nicht-technischer Fall?*
@@ -78,6 +80,7 @@ Um Feedback zu geben oder Fragen zu stellen, senden Sie eine E-Mail an mailto:ng
 
 
 
+[[storage-efficiency]]
 == Storage-Effizienz
 
 *Wie erhalte ich Zugriff auf Storage Efficiency in Digital Advisor?*
@@ -221,6 +224,7 @@ Wenn aufgrund eines Fehlers in ONTAP Datensicherungs-Volumes im Node vorhanden s
 
 
 
+[[inventory]]
 == Inventar
 
 *Warum kann ich bestimmte Systeme in Digital Advisor nicht finden?*
@@ -236,6 +240,7 @@ Wenn Sie Systeme aus anderen Gründen nicht anzeigen können, Abfragen haben ode
 
 
 
+[[capacity]]
 == Kapazität
 
 *Wie werden Kapazitäten in Digital Advisor berechnet?* die Kapazitäten in Digital Advisor werden für Cluster und Knoten berechnet – ausgenommen Root und inklusive Snapshot Kopien
@@ -344,6 +349,7 @@ Bei StorageGRID werden die Kapazitäten in Basis 10 angezeigt und die Kapazität
 
 
 
+[[miscellaneous]]
 == Verschiedenes
 
 *Warum sind die Funktionen unter SPEICHERZUSTAND im linken Navigationsbereich deaktiviert?*

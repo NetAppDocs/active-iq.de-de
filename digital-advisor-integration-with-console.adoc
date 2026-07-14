@@ -22,6 +22,7 @@ Mithilfe der Konsole können IT-Experten und Cloud-Architekten ihre hybride Mult
 
 
 
+[[netapp-console]]
 == NetApp Konsole
 
 Auf Digital Advisor kann über die NetApp Konsole zugegriffen werden.

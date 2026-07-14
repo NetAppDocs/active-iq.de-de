@@ -23,6 +23,7 @@ Sie können auch den Bericht der ausgewählten Watchlist generieren und den Beri
 video::ttbpbT5uTBI[youtube,width=848,height=480]
 
 
+[[view-system-details]]
 == Zeigen Sie Systemdetails an
 
 .Schritte
@@ -37,6 +38,7 @@ Die Ansible-Bestandsdateien können mit benutzerdefinierten Ansible-Playbook-Dat
 
 
 
+[[view-support-entitled-switch-details]]
 == Details zum Support-berechtigten Switch anzeigen
 
 .Schritte

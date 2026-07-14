@@ -20,6 +20,7 @@ Erfahrene Benutzer können das ansible-Automatisierungspaket für AFF und FAS Fi
 
 
 
+[[firmware-update-with-ansible-using-netapp-docker-image]]
 == Firmware-Update mit Ansible mithilfe von NetApp Docker Image
 
 .Schritte
@@ -75,6 +76,7 @@ NOTE: Wenn die URLs für die Festplatten-Firmware, Shelf-Firmware und die Servic
 
 
 
+[[firmware-update-if-ansible-is-already-used]]
 == Firmware-Update, wenn Ansible bereits verwendet wird
 
 .Schritte

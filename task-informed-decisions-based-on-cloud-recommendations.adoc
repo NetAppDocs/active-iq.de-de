@@ -23,6 +23,7 @@ NOTE: Digital Advisor navigiert Sie zur NetApp Konsole, um die Empfehlungen umzu
 
 
 
+[[migration]]
 == Migration
 
 Informationen zu den verschiedenen Workload-Typen, die innerhalb Ihres Storage-Systems verfügbar sind, und Ermittlung der Cloud-fähigen Workloads Das Verschieben von Workloads in die Cloud führt zu Kosteneinsparungen und ermöglicht eine Disaster Recovery in der Cloud.
@@ -44,6 +45,7 @@ Für die Migration zu Cloud Volumes ONTAP (CVO) werden folgende Volumes empfohle
 
 
 
+[[tiering]]
 == Tiering
 
 Enthält Informationen zu Daten des inaktiven lokalen Tiers (Aggregate), inaktiven Volume-Daten, Tiering-Daten und nicht überwachten Daten. Durch das Monitoring und Tiering selten genutzter oder inaktiver Daten auf kostengünstige Objektspeicher-Tiers können Sie den Storage-Platzbedarf und die damit verbundenen Kosten reduzieren.
@@ -69,6 +71,7 @@ Weitere Informationen zu FabricPool finden Sie unter link:https://www.netapp.com
 
 
 
+[[backup-archive]]
 == Backup Und Archivierung
 
 Stellt Informationen zu den Systemen bereit, die in der Cloud gesichert werden sollten. Mit NetApp Cloud Backup können Ihre Systeme gesichert und bei Bedarf wiederhergestellt werden.
@@ -87,6 +90,7 @@ Für die Datensicherung in der Cloud empfehlen wir die Volumes, die die folgende
 
 
 
+[[replication]]
 == Replizierung
 
 Enthält Informationen zu den Daten, die in die Cloud repliziert werden sollen, um sie bei Ausfällen zu unterstützen.
