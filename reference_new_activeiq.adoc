@@ -20,6 +20,20 @@ Die folgenden Funktionen und Verbesserungen wurden in Digital Advisor eingeführ
 
 
 
+[[15-july-2026]]
+== 15. Juli 2026
+
+
+
+[[deprecation-notice-for-wellness-review]]
+=== Hinweis zur Einstellung von Wellness Review
+
+Die Funktion „Wellness Review“ ist veraltet und steht im Digital Advisor seit Juli 2026 nicht mehr zur Verfügung.
+
+Bei Fragen oder zum Teilen von Feedback mailto:ng-activeiq-feedback@netapp.com[wenden Sie sich an das Active IQ Team].
+
+
+
 [[29-june-2026]]
 == 29. Juni 2026
 

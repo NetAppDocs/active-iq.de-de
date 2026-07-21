@@ -15,8 +15,12 @@ summary:
 :imagesdir: ./media/
 
 
-[role="lead"]
-Sie können den Wellness-Review-E-Mail-Service abonnieren, um monatlich eine E-Mail zu erhalten, die den Wellness-Status, Speichersysteme, deren Erneuerungsdatum näher rückt, und Speichersysteme, die ein Upgrade benötigen, für die NetApp Produkte in Ihrer installierten Basis zusammenfasst. Sie erhalten eine E-Mail mit einer monatlichen Zusammenfassung Ihres Speichersystems, in der Sie alle relevanten Informationen einsehen und gegebenenfalls Maßnahmen ergreifen können. Sie haben außerdem die Möglichkeit, Ihre Abonnements anzuzeigen, zu bearbeiten, zu teilen und zu löschen. Wenn Sie die E-Mail nicht mehr erhalten möchten, können Sie sich jederzeit vom E-Mail-Empfang abmelden.
+
+NOTE: Die Funktion „Wellness Review“ ist veraltet und steht im Digital Advisor seit Juli 2026 nicht mehr zur Verfügung.
+
+Sie können den E-Mail-Service für den Wellness-Bericht abonnieren, um monatlich eine E-Mail zu erhalten, die den Wellness-Status zusammenfasst, Speichersysteme aufführt, deren Erneuerungsdatum bevorsteht, sowie Speichersysteme, die ein Upgrade für die NetApp Produkte in Ihrer installierten Umgebung benötigen. Sie erhalten eine Wellness-Bericht-E-Mail, sodass Sie eine monatliche Zusammenfassung einsehen und Maßnahmen für Ihre Speichersysteme ergreifen können.
+
+Sie haben außerdem die Möglichkeit, Ihre Abonnements einzusehen, zu bearbeiten, zu teilen und zu löschen. Sollten Sie die E-Mails nicht mehr erhalten wollen, können Sie sich jederzeit vom E-Mail-Empfang abmelden.
 
 Wenn das Abonnement aktiviert ist, sollten Sie beim Hinzufügen eines Abonnements ein Startdatum auswählen. Die monatliche E-Mail-Zusammenfassung bietet einen Überblick über ausstehende Maßnahmen in den Bereichen Wellness, Erneuerung, Upgrade und Health Check. Sie können die E-Mail-Adresse bestätigen und die E-Mail an die angegebene E-Mail-Adresse senden. Sie haben auch die Möglichkeit, Abonnements zu löschen.
 
