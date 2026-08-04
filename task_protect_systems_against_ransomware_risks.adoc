@@ -18,7 +18,7 @@ summary:
 [role="lead"]
 Wenn Sie sich beim Digital Advisor anmelden, können Sie die im Widget *Sicherheit & Ransomware Defense* hervorgehobenen *Aktionen* anzeigen, die die Risikozählungen anzeigen.
 
-Sie können die Risiken von Snapshot-Erstellung, -Aufbewahrung und -ONTAP einsehen und dann Maßnahmen ergreifen, um sie zu beheben.
+Es besteht die Möglichkeit, die Risiken bei der Snapshot-Erstellung, -Aufbewahrung und der ONTAP FPolicy anzuzeigen und anschließend Maßnahmen zu deren Behebung zu ergreifen.
 
 .Schritte
 . Melden Sie sich bei Digital Advisor an.

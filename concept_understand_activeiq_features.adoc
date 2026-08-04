@@ -29,7 +29,7 @@ Im Folgenden sind einige Funktionen von Digital Advisor aufgeführt:
 * Risiken mit Active IQ Unified Manager verringern
 * Aktualisieren Sie Ihr Storage-System.
 * Sehen Sie sich den Nachhaltigkeitswert und den prognostizierten Verbrauch von Strom, direktem Kohlenstoff und Wärme an.  Bewerten Sie anhand des Nachhaltigkeits-Scores die Gesamteffizienz Ihrer Speichersysteme und orientieren Sie sich an den von NetApp empfohlenen Maßnahmen zur Verbesserung des Scores. link:learn-about-sustainability.html["Weitere Informationen ."^] .
-* Anzeige des Datenreduzierungsverhältnisses, des genutzten logischen Speicherplatzes, des genutzten physischen Speicherplatzes und der insgesamt gespeicherten Daten für Storage-Systeme mit ONTAP 9.1 und höher
+* Datenreduktionsrate, belegter logischer Speicherplatz, belegter physischer Speicherplatz und insgesamt eingesparte Daten.
 * Analysieren Sie die Performance Ihrer Speichergeräte anhand des grafischen Formats der Performance-Daten.
 * Informieren Sie sich über Hardware und Software, die abgelaufen sind oder innerhalb der nächsten 6 Monate kurz vor dem Ablaufdatum stehen.
 * Aktualisieren Sie Ihre ONTAP-Firmware mit Ansible.

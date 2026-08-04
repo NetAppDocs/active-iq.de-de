@@ -43,7 +43,7 @@ Die folgenden Berichtstypen sind in Digital Advisor verfügbar:
 | Lieferlogistik | Bietet Informationen über die Logistik der Lieferung von Produkten und Dienstleistungen. | Ja. | Ja. | Nein 
 
 
-| Zusammenfassung Der Integritätsbewertung | Bietet Informationen zu verschiedenen Active IQ-KPIs in einem PowerPoint-Format (PPT), wobei unterschiedliche KPIs auf verschiedenen Folien beschrieben werden. | Ja. | Ja. | Nein 
+| Zusammenfassung Der Integritätsbewertung | Bietet Informationen zu verschiedenen Digital Advisor KPIs im PowerPoint (PPT)-Format, wobei unterschiedliche KPIs auf verschiedenen Folien beschrieben werden. | Ja. | Ja. | Nein 
 
 
 | Inventar | Enthält Informationen über die Installationsbasis für eine ausgewählte Watchlist, einen Kunden, einen Standort und eine ausgewählte Gruppe. Dieser Bericht kann entweder direkt von der Seite Bestandsdetails heruntergeladen oder von der Seite Berichte generiert werden. | Ja. | Ja. | Ja. 

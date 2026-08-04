@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_update_AFF_FAS_firmware.html 
-keywords: update, AFF, FAS firmware, firmware 
+keywords: update, aff, fas firmware, firmware 
 summary: Enthält Informationen zum Aktualisieren der AFF- und FAS-Firmware. 
 ---
 = Laden Sie das AFF und FAS -Firmware-Ansible-Paket von Digital Advisor herunter.
@@ -27,7 +27,6 @@ Vor dem Aktualisieren der AFF- und FAS-Firmware mit Ansible sollten Sie:
 
 * link:https://netapp.io/2018/10/08/getting-started-with-netapp-and-ansible-install-ansible/["Installation und Einrichtung von Ansible auf Ihrem Storage-System"^]
 * link:https://netapp.io/2019/09/17/coming-together-nicely/["Installation von Ansible 2.9 mit Sammlungen auf Ihrem Storage-System"^]
-* Führen Sie ein Upgrade Ihres Storage-Systems auf ONTAP 9.1 oder höher durch
 * Konfigurieren Sie Ihr Konto mit einer Administratorrolle
 
 

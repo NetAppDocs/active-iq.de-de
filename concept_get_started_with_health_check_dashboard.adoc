@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept_get_started_with_health_check_dashboard.html 
-keywords: activeiq, health check, health, HCA, health check dashboard, autosupport, autosupport adoption, recommended configuration, best practices, support, support and entitlements, support contract, contracts, active contracts, expired contracts, nearing-expiration, key recommendations, recommendations,  digital advisor, features, recommended software 
+keywords: activeiq, health check, health, hca, health check dashboard, autosupport, autosupport adoption, recommended configuration, best practices, support, support and entitlements, support contract, contracts, active contracts, expired contracts, nearing-expiration, key recommendations, recommendations, digital advisor, features, recommended software 
 summary: Enthält Informationen zum Dashboard, zu Zustandscores, zu Funktionen und zu den Widgets. 
 ---
 = Legen Sie los mit dem Digital Advisor Health Check-Dashboard
@@ -18,7 +18,7 @@ summary: Enthält Informationen zum Dashboard, zu Zustandscores, zu Funktionen u
 [role="lead"]
 Dieses Dashboard bietet eine Übersicht über die installierte Basis über die folgenden Widgets:
 
-* *AutoSupport Adoption*: Zeigt die Anzahl und den Prozentsatz der Systeme an, für die AutoSupport aktiviert ist. Sie können auch Systeme mit der Kennzeichnung ‘Decliniert’, solche mit *HTTPS* und *AutoSupport on Demand* sowie *Signalverlust* für Systeme ansehen, die in den letzten 7 Tagen nicht mehr AutoSupport-Daten senden. Klicken Sie auf das Widget *AutoSupport Adoption*, um Ihre Bewertung und Informationen zu den Systemen in Ihrer Installationsbasis anzuzeigen.
+* *AutoSupport Adoption*: Zeigt die Anzahl und den Prozentsatz der Systeme mit aktiviertem AutoSupport an. Es lassen sich auch Systeme mit dem Status „Declined“, solche mit aktiviertem *HTTPS* und *AutoSupport on Demand* sowie *Loss of Signal* für Systeme anzeigen, die in den letzten 7 Tagen keine AutoSupport-Daten mehr gesendet haben. Zur Anzeige des Health-Check-Scores und von Informationen zu den Systemen in Ihrer installierten Basis steht das Widget *AutoSupport Adoption* zur Verfügung.
 * * Empfohlene Konfiguration*: Zeigt Systeme an, die konform und nicht kompatibel sind, wie im Widget * Recommended Configuration* beschrieben. Es hilft Ihnen, Maßnahmen zu ergreifen, um sicherzustellen, dass Ihre Systeme an Ihrer gesamten installierten Basis gut konfiguriert sind. Sie können den auf dem Dashboard bereitgestellten Wert anzeigen und anhand der Empfehlungen, die nach Priorität angegeben wurden, Maßnahmen ergreifen.
 * *Empfohlene Software*: Zeigt eine konsolidierte Liste aller Software- und Firmware-Upgrades und Währungsempfehlungen an. Sie können sich die Systeme mit aktivierter AutoSupport anzeigen lassen, die entweder die Mindestversion oder die neueste Software oder die neueste Firmware aufweisen sollten.
 * *Support & Ansprüche*: Zeigt Supportverträge an, die abgelaufen sind und deren Ablauf innerhalb von 6 bis 12 Monaten erreicht wird. Er zeigt End-of-Support-Plattformen, Festplatten, Shelfs, Einhaltung von Berechtigungen, ausstehende Ablaufs, Und das Ende des Supports für Plattform und Hardware ist nicht zutreffend. Sie können die im Dashboard angegebenen Systemcheck-Ergebnisse anzeigen und anhand der wichtigen Empfehlungen Maßnahmen ergreifen, die nach Priorität umgesetzt werden. Um detaillierte Informationen zu Supportverträgen anzuzeigen, klicken Sie auf das Widget *Support & Ansprüche*. Sie können Ihre Support-Verträge auch über dieses Widget verlängern.

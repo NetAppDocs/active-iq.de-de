@@ -20,4 +20,4 @@ Wenn Sie herausfinden möchten, ob eine Systemaktualisierung für Ihren Tech Sup
 
 Sie können auf diese Funktion entweder über die Lebenszyklusplanung (*Speicher* > *Lebenszyklusplanung*) oder über Digital Advisor (*Dashboard > Planungs-Widget > Systemaktualisierung*) zugreifen.
 
-Weitere Informationen zu dieser Funktion finden Sie link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["Eine Systemaktualisierung evaluieren"] in der Dokumentation der Konsole.
+Weitere Informationen zu dieser Funktion finden Sie link:https://docs.netapp.com/us-en/console-lifecycle-planning/use/tech-refresh.html["Eine Systemaktualisierung evaluieren"] in der Dokumentation der Konsole.

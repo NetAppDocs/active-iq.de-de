@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: generate_upgrade_plan_single_multiple_clusters.html 
-keywords: Upgrade Advisor, upgrade plan, ONTAP, upgrade recommendation, clusters 
+keywords: upgrade advisor, upgrade plan, ontap, upgrade recommendation, clusters 
 summary: Schritte zur Erstellung eines Upgrade-Plans für ein erfolgreiches ONTAP Upgrade oder Zurücksetzen von Clustern und Clustern 
 ---
 = Erstellen Sie in Digital Advisor einen ONTAP Upgradeplan für einzelne und mehrere Cluster.

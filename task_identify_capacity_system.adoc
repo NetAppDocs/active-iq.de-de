@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_identify_capacity_system.html 
-keywords: capacity, space, increase, ONTAP systems, StorageGRID, storage expansion 
+keywords: capacity, space, increase, ontap systems, storagegrid, storage expansion 
 summary: Stellt Informationen zur Erhöhung der Kapazität des Systems bereit. 
 ---
 = Identifizieren Sie Speichersysteme, die sich in Digital Advisor ihrer Kapazitätsgrenze nähern.

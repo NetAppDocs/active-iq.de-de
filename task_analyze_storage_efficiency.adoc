@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: task_analyze_storage_efficiency.html 
-keywords: renew, hardware, software 
-summary: Enthält Informationen zur Erneuerung der Software und Hardware Ihres Speichersystems. 
+keywords: capacity, storage efficiency, data reduction, savings 
+summary: Kapazitätsdetails und Einsparungen bei der Speichereffizienz für Ihr Speichersystem anzeigen. 
 ---
 = Kapazitäts- und Speichereffizienzeinsparungen können Sie im Digital Advisor einsehen.
 :hardbreaks:
@@ -21,9 +21,9 @@ Sie können sich die Kapazitätsdetails und die Einsparungen durch Storage-Effiz
 
 NOTE: Diese Funktion wird auf Systemen der E-Series nicht unterstützt.
 
-Das Kapazitäts-Dashboard zeigt Kapazitätsdetails und die Kapazitätsprognose für das System an. Kapazitätsprognose verwendet historische Kapazitätsinformationen zur Ermittlung der Auslastung jedes Systems. Auf der Grundlage der historischen Daten (falls verfügbar für ein Jahr) der genutzten und zugewiesenen Kapazität, berücksichtigt der Algorithmus die aktuelle Auslastung jedes Systems und erstellt eine Prognose für die Nutzung des Systems in den nächsten 1 bis 6 Monaten.
+Das Kapazitäts-Dashboard zeigt die Kapazitätsdetails und die Kapazitätsprognose Ihres Systems an. Die Kapazitätsprognose nutzt historische Kapazitätsinformationen, um die Auslastung jedes Systems zu ermitteln. Basierend auf den historischen Daten (Daten eines Jahres, sofern verfügbar) der genutzten und zugewiesenen Kapazität berücksichtigt der Algorithmus die aktuelle Auslastung jedes Systems und erstellt eine Prognose für die Systemauslastung in den nächsten 1 bis 6 Monaten.
 
-Im Storage-Effizienz-Dashboard werden das Datenreduzierungsverhältnis, der genutzte logische Speicherplatz, der genutzte physische Speicherplatz und die insgesamt für Storage-Systeme mit ONTAP 9.1 und höher gespeicherten Daten angezeigt. Das Datenreduzierungsverhältnis und die Einsparungen sind mit und ohne Snapshot Kopien für AFF Systeme, Systeme ohne All Flash FAS Systeme oder beides möglich. Die Gesamtdateneinsparungen für den Storage des Kunden sind pro Effizienzfunktionen wie Volume-Deduplizierung, Volume-Komprimierung, Data-Compaction, FlexClone Volumes und Snapshot Kopien ersichtlich. Sie können sich die 5 wichtigsten Storage-Systeme mit dem besten Effizienzverhältnis anzeigen lassen. Zudem können Sie sich die SAN- und NAS-Effizienz ohne Snapshot Kopien auf Node-Ebene für ONTAP Systeme wie AFF A-Serie, AFF C190, All-SAN-Array und FAS500 mit ONTAP 9.10 und höher anzeigen lassen.
+Das Dashboard zur Speichereffizienz zeigt das Datenreduktionsverhältnis, den belegten logischen Speicherplatz, den belegten physischen Speicherplatz und die insgesamt eingesparten Daten an. Das Datenreduktionsverhältnis und die Einsparungen sind mit und ohne Snapshot-Kopien für AFF Systeme, Nicht-AFF Systeme oder beide sichtbar. Die gesamten Dateneinsparungen im gesamten Kundenspeicher sind pro Effizienzfunktion wie Volume-Deduplizierung, Volume-Komprimierung, Kompaktierung, FlexClone Volumes und Snapshot-Kopien ersichtlich. Die fünf Speichersysteme mit dem besten Effizienzverhältnis können angezeigt werden. Die SAN- und NAS-Effizienz ohne Snapshot-Kopien ist auf Knotenebene für ONTAP Systeme einschließlich AFF A-Serie, AFF C190, All SAN Array und FAS500 ersichtlich.
 
 video::8Ge3_0qlyxA[youtube,width=848,height=480]
 .Schritte

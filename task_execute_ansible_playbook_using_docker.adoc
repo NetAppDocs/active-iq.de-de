@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_execute_ansible_playbook_using_docker.html 
-keywords: Ansible Playbook, Ansible, Playbook, docker 
+keywords: ansible playbook, ansible, playbook, docker 
 summary: Enthält Informationen zum Ausführen des Ansible-Playbooks über das Docker-Image. 
 ---
 = Führen Sie das Ansible-Playbook mithilfe des NetApp Docker-Images aus.

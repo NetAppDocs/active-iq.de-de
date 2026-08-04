@@ -18,17 +18,6 @@ summary: Enthält Informationen zu den Einschränkungen in der Version.
 [role="lead"]
 Bekannte Einschränkungen identifizieren Plattformen, Geräte oder Funktionen, die von dieser Version des Produkts nicht unterstützt werden oder nicht korrekt mit dem Produkt zusammenarbeiten. Lesen Sie diese Einschränkungen sorgfältig durch.
 
-Es gibt folgende Einschränkungen:
-
-* Für Data ONTAP Storage-Systeme mit 7-Mode (Data ONTAP Storage-Systeme mit 7-Mode nähern sich dem Ende ihrer Support-Lebensdauer)
-+
-** Performance-Diagramme
-** Storage-Effizienz
-
-
-* Upgrade Advisor unterstützt keine Upgrade-Pläne für Clustered ONTAP vor 9.0.
-
-
 
 
 [[editing-a-watchlist-may-take-60-minutes-to-reflect-in-digital-advisor]]
