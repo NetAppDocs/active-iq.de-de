@@ -457,7 +457,6 @@
   <block id="f4211b7ee285529c0082b53f3b17de86" category="list-text">Wenn das Storage-Effizienz-Verhältnis Ihres Storage-Systems über dem durchschnittlichen Storage-Effizienzverhältnis liegt, klicken Sie auf *Teilen Sie Ihre Erfolgsgeschichte*, um uns die folgenden Best Practices zu erläutern.</block>
   <block id="7e4e265e9120fa2dfd6ce41588f5706a" category="list-text">Wenn das Storage-Effizienz-Verhältnis Ihres Storage-Systems unter dem durchschnittlichen Storage-Effizienz-Verhältnis liegt, klicken Sie auf *Kontakt* um uns die Konfigurationen Ihres Storage-Systems mitzuteilen.</block>
   <block id="ec51503b0f35cbc8702985e4aa3ca3c5" category="paragraph">Weitere Informationen über Kapazität und Storage-Effizienz finden Sie unter <block ref="de007cfc8081d514ce95fa7f06caeee8" category="inline-link-macro-rx"></block>.</block>
-  <block id="9ca3a412ada6ce6666248783cc1577f6" category="summary">Enthält Informationen zu den neuen Funktionen in der Version.</block>
   <block id="ddd5bde8e3e027f9a9efab7fcfa90542" category="doc">Was ist neu in Digital Advisor</block>
   <block id="67b15699a3be9f040c8687b7005f0de8" category="paragraph">Die folgenden Funktionen und Verbesserungen wurden in Digital Advisor eingeführt:</block>
   <block id="ae90f5ddd6bedf0784aa3f4496ea1cad" category="section-title">01. November 2022</block>
@@ -979,7 +978,6 @@ Möglicherweise können Sie aus einem der folgenden Gründe nicht nach bestimmte
   <block id="85da219929dec7990a12ce28aff47903" category="paragraph">Weitere Informationen zum Befehl *ansible-Playbook* finden Sie im <block ref="8c04b73445737bcfc4025ef8f1a9a540" category="inline-link-macro-rx"></block> Informationen zum Ausführen des Ansible Playbook im Check-Modus (Dry Run) finden Sie unter <block ref="81862bc1dc3b588f731b84b986e9994e" category="inline-link-macro-rx"></block>.</block>
   <block id="78c1cfc20c22b33386b17ebe2a0a7d64" category="list-text"><block ref="78c1cfc20c22b33386b17ebe2a0a7d64" category="inline-link-macro-rx"></block></block>
   <block id="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="list-text"><block ref="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="inline-link-macro-rx"></block></block>
-  <block id="2eb6f862ee3ec494c6f43826c23b83da" category="list-text"><block ref="2eb6f862ee3ec494c6f43826c23b83da" category="inline-link-macro-rx"></block></block>
   <block id="8934fed115a0b826a4b438906a11bfa9" category="doc">Übersicht über das Dashboard „Nachhaltigkeit“</block>
   <block id="e3667627bec4bfd6e60dea46e855352c" category="inline-image-macro">Ein Screenshot, der den Prozentsatz der CO2-Minderung an Standorten und die Vorgehensweise zum Bearbeiten dieses Prozentsatzes zeigt.</block>
   <block id="369583cace99a57a955a633843c9e566" category="paragraph"><block ref="369583cace99a57a955a633843c9e566" category="inline-image-macro-rx" type="image"></block></block>
@@ -1617,4 +1615,9 @@ Die Verfügbarkeit der Funktionen unter *STORAGE HEALTH* hängt vom Systemtyp un
   <block id="7c1309f4b0731ed18fb594c6d632c067" category="paragraph">Das Dashboard zur Speichereffizienz zeigt das Datenreduktionsverhältnis, den belegten logischen Speicherplatz, den belegten physischen Speicherplatz und die insgesamt eingesparten Daten an. Das Datenreduktionsverhältnis und die Einsparungen sind mit und ohne Snapshot-Kopien für AFF Systeme, Nicht-AFF Systeme oder beide sichtbar. Die gesamten Dateneinsparungen im gesamten Kundenspeicher sind pro Effizienzfunktion wie Volume-Deduplizierung, Volume-Komprimierung, Kompaktierung, FlexClone Volumes und Snapshot-Kopien ersichtlich. Die fünf Speichersysteme mit dem besten Effizienzverhältnis können angezeigt werden. Die SAN- und NAS-Effizienz ohne Snapshot-Kopien ist auf Knotenebene für ONTAP Systeme einschließlich AFF A-Serie, AFF C190, All SAN Array und FAS500 ersichtlich.</block>
   <block id="6bb86861540256654ad78af590cbca2e" category="paragraph">Es besteht die Möglichkeit, die Risiken bei der Snapshot-Erstellung, -Aufbewahrung und der ONTAP FPolicy anzuzeigen und anschließend Maßnahmen zu deren Behebung zu ergreifen.</block>
   <block id="85384a7ec038b3ed06c50841a285d5fc" category="summary">Aktualisierungsempfehlungen für Speicher-Firmware, SP/BMC-Firmware, Systemdateien und Sicherheitsdateien einsehen.</block>
+  <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Hinweis zur Einstellung von Config Drift</block>
+  <block id="8f757d9b6264af1a2e6069cf7b5b18f9" category="paragraph">Die Funktion „Konfigurationsabweichung“ wird im Digital Advisor im September 2026 eingestellt.</block>
+  <block id="1cf5700bf190dbae716a593be587283a" category="list-text"><block ref="1cf5700bf190dbae716a593be587283a" category="inline-link-macro-rx"></block></block>
+  <block id="d71ef8f8c3bc3420442db2005d522d56" category="summary">Informationen zu neuen Funktionen und Verbesserungen im Digital Advisor.</block>
+  <block id="b79452fa5a06b7ff4261516434074a36" category="section-title">12. August 2026</block>
 </blocks>

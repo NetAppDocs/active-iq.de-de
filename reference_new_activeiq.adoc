@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: reference_new_activeiq.html 
 keywords: 'what"s new, features, new' 
-summary: Enthält Informationen zu den neuen Funktionen in der Version. 
+summary: Informationen zu neuen Funktionen und Verbesserungen im Digital Advisor. 
 ---
 = Was ist neu in Digital Advisor
 :hardbreaks:
@@ -17,6 +17,20 @@ summary: Enthält Informationen zu den neuen Funktionen in der Version.
 
 [role="lead"]
 Die folgenden Funktionen und Verbesserungen wurden in Digital Advisor eingeführt:
+
+
+
+[[12-august-2026]]
+== 12. August 2026
+
+
+
+[[deprecation-notice-for-config-drift]]
+=== Hinweis zur Einstellung von Config Drift
+
+Die Funktion „Konfigurationsabweichung“ wird im Digital Advisor im September 2026 eingestellt.
+
+Bei Fragen oder zum Teilen von Feedback mailto:ng-activeiq-feedback@netapp.com[wenden Sie sich an das Active IQ Team].
 
 
 
