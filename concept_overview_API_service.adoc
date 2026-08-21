@@ -32,7 +32,7 @@ Die Automatisierung mit APIs bietet eine hervorragende Möglichkeit, die Effizie
 
 Mit dem Umschalten oben auf der Seite kann der Benutzer zwischen den beiden Modi wechseln, um den Katalog anzuzeigen. Die Codeansicht konzentriert sich auf die erforderlichen Eingabeparameter, den Inhalt und das Format der Rückgabedaten sowie Codebeispiele, um den Benutzer mit der Platzierung von Code zu beginnen. Die Experimentieransicht bietet dem Benutzer die Möglichkeit, die API im Browser mit einem generierten Token, das von der Hauptseite der API Services erhalten wurde, „auszuprobieren“.
 
-In beiden Ansichten kann der Benutzer mithilfe des Navigationsfensters links durch die verfügbaren Elemente navigieren. Die Artikel sind alphabetisch sortiert. Innerhalb eines bestimmten Dienstes können Sie die Überschrift erweitern, um die einzelnen API-Endpunkte anzuzeigen. Wenn Sie auf die Service-Überschrift oder einen API-Endpunkt klicken, gelangen Sie zu diesem Abschnitt des Katalogs im mittleren Fensterbereich.
+Beide Ansichten ermöglichen es dem Benutzer, die verfügbaren Elemente mithilfe des Navigationsbereichs auf der linken Seite zu durchsuchen. Die Elemente sind alphabetisch nach Dienst geordnet. Innerhalb eines bestimmten Dienstes lässt sich die Überschrift erweitern, um die einzelnen API Endpunkte anzuzeigen. Die Auswahl der Dienstüberschrift oder eines API Endpunkts führt zum entsprechenden Abschnitt des Katalogs im mittleren Bereich.
 
 
 

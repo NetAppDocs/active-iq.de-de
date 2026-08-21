@@ -29,8 +29,8 @@ Vorteile dieser Integration:
 NOTE: Diese Funktion ist nur für Upgrade-Verträge mit SupportEdge Advisor, SupportEdge Expert und Digital Advisor verfügbar.
 
 .Schritte
-. Klicken Sie im Widget *Inventar* auf *Virtuelle Maschinen*, um die in Data Infrastructure Insights verfügbaren Daten anzuzeigen.
-. Klicken Sie auf die Registerkarte *Virtual Machine Overview*.
-. Klicken Sie auf die Schaltfläche *Anzahl der ESX Hosts*, um Informationen über den Host anzuzeigen.
-. Klicken Sie auf den *ESX-Namen*, um zu Data Infrastructure Insights zu navigieren und weitere Informationen anzuzeigen.
+. Im Widget *Inventar* die Option *Virtuelle Maschinen* auswählen, um die in Data Infrastructure Insights verfügbaren Daten anzuzeigen.
+. Die Registerkarte *Virtual Machine Overview* auswählen.
+. Die *Anzahl der ESX-Hosts* zeigt Informationen über den Host an.
+. Der *ESX Name* kann ausgewählt werden, um zu Data Infrastructure Insights zu navigieren und weitere Informationen anzuzeigen.
 

@@ -58,9 +58,7 @@ image:recommended_actions.png["Ein Screenshot, in dem die Liste der Aktionen in 
 ** Wenn Sie die Aktionen später ansprechen möchten, wählen Sie *später*.
 +
 *** Wenn Sie *later* auswählen, wird die ausgewählte empfohlene Aktion auf die Registerkarte *actions for later* verschoben. Die ausgewählte Aktion wird um 30 Tage verschoben. Nach 30 Tagen wird diese Aktion zur Registerkarte *Empfohlene Aktionen* verschoben.
-*** Sie können die verschobenen Aktionen auch jederzeit überprüfen und auf *consider* klicken, um sie auf die Registerkarte *Empfohlene Aktionen* zu verschieben.
- +
-image:actions_for_later.png["Ein Screenshot, der empfohlene Aktionen mit der Option „Erwägung“ zeigt."]
+*** Sie können die verschobenen Aktionen jederzeit einsehen und *In Betracht ziehen* auswählen, um sie auf die Registerkarte *Empfohlene Aktionen* zu verschieben. + image:actions_for_later.png["Ein Screenshot, der empfohlene Aktionen mit der Option „Erwägung“ zeigt."]
 
 
 
@@ -84,9 +82,7 @@ image:recommended_actions.png["Ein Screenshot, in dem die Liste der Aktionen in 
 ** Wenn Sie die Aktionen später ansprechen möchten, wählen Sie *später*.
 +
 *** Wenn Sie *later* auswählen, wird die ausgewählte empfohlene Aktion auf die Registerkarte *actions for later* verschoben. Die ausgewählte Aktion wird um 30 Tage verschoben. Nach 30 Tagen wird diese Aktion zur Registerkarte *Empfohlene Aktionen* verschoben.
-*** Sie können die verschobenen Aktionen auch jederzeit überprüfen und auf *consider* klicken, um sie auf die Registerkarte *Empfohlene Aktionen* zu verschieben.
- +
-image:actions_for_later.png["Ein Screenshot, der empfohlene Aktionen mit der Option „Erwägung“ zeigt."]
+*** Sie können die verschobenen Aktionen jederzeit einsehen und *In Betracht ziehen* auswählen, um sie auf die Registerkarte *Empfohlene Aktionen* zu verschieben. + image:actions_for_later.png["Ein Screenshot, der empfohlene Aktionen mit der Option „Erwägung“ zeigt."]
 
 
 
@@ -108,7 +104,7 @@ Führen Sie die folgenden Schritte aus, um die Nachhaltigkeitsbewertung auf Clus
 --
 . Gehen Sie in der linken Navigationsleiste der Konsole in der Kategorie *Gesundheit* zu *Nachhaltigkeit*.
 . Gehen Sie zur Tabelle *Systeme*.
-. Klicken Sie auf die Anzahl der Aktionen in der Spalte *Empfohlene Aktionen* für den Zielcluster.
+. Die Anzahl der Aktionen aus der Spalte *Empfohlene Aktionen* für den Zielcluster auswählen.
 +
 image:recommended_actions_cluster.png["Ein Screenshot, der die Anzahl der Aktionen zeigt."]
 
@@ -118,7 +114,7 @@ image:recommended_actions_cluster.png["Ein Screenshot, der die Anzahl der Aktion
 image:recommended_actions_list.png["Ein Screenshot, der die Details der empfohlenen Aktionen mit der Option Fix und später enthält."]
 
 ** Wenn Sie *later* auswählen, wird die ausgewählte empfohlene Aktion auf die Registerkarte *actions for later* verschoben. Die ausgewählte Aktion wird um 30 Tage verschoben. Nach 30 Tagen wird diese Aktion zur Registerkarte *Empfohlene Aktionen* verschoben.
-** Sie können die verschobenen Aktionen auch jederzeit überprüfen und auf *consider* klicken, um sie auf die Registerkarte *Empfohlene Aktionen* zu verschieben.
+** Sie können die verschobenen Aktionen jederzeit überprüfen und *In Betracht ziehen* auswählen, um sie auf die Registerkarte *Empfohlene Aktionen* zu verschieben.
 
 
 
@@ -132,7 +128,7 @@ TIP: Sie können die Umgebungsparameter in der Tabelle *Systeme* hinzufügen ode
 . Gehen Sie zu *Nachhaltigkeit*, verfügbar in der linken Navigation des Digital Advisor Dashboards.
 . Gehen Sie zur Registerkarte *Empfohlene Aktionen*.
 . Gehen Sie zur Tabelle *Systeme*.
-. Klicken Sie auf die Anzahl der Aktionen in der Spalte *Empfohlene Aktionen* für den Zielcluster.
+. Die Anzahl der Aktionen aus der Spalte *Empfohlene Aktionen* für den Zielcluster auswählen.
 +
 image:recommended_actions_cluster.png["Ein Screenshot, der die Anzahl der Aktionen zeigt."]
 
@@ -142,7 +138,7 @@ image:recommended_actions_cluster.png["Ein Screenshot, der die Anzahl der Aktion
 image:recommended_actions_list.png["Ein Screenshot, der die Details der empfohlenen Aktionen mit der Option Fix und später enthält."]
 
 ** Wenn Sie *later* auswählen, wird die ausgewählte empfohlene Aktion auf die Registerkarte *actions for later* verschoben. Die ausgewählte Aktion wird um 30 Tage verschoben. Nach 30 Tagen wird diese Aktion zur Registerkarte *Empfohlene Aktionen* verschoben.
-** Sie können die verschobenen Aktionen auch jederzeit überprüfen und auf *consider* klicken, um sie auf die Registerkarte *Empfohlene Aktionen* zu verschieben.
+** Sie können die verschobenen Aktionen jederzeit überprüfen und *In Betracht ziehen* auswählen, um sie auf die Registerkarte *Empfohlene Aktionen* zu verschieben.
 
 
 

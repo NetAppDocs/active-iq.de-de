@@ -20,6 +20,23 @@ Die folgenden Funktionen und Verbesserungen wurden in Digital Advisor eingeführ
 
 
 
+[[20-august-2026]]
+== 20. August 2026
+
+
+
+[[introducing-value-insights]]
+=== Value Insights – eine Einführung
+
+Die Funktion „Value Insights“ fasst Informationen zu Systemzustand, Einsparungen, Stabilität und Sicherheit von ONTAP Systemen zusammen. Diese Informationen ermöglichen eine Verbesserung von Systemzustand und Leistung durch eine kontinuierliche, datengestützte Betrachtung Ihrer ONTAP Umgebung.
+
+
+NOTE: Value Insights ist nur für ONTAP Systeme verfügbar.
+
+Weitere Informationen zu link:https://docs.netapp.com/us-en/active-iq/concept_value_insights.html["Value Insights"].
+
+
+
 [[12-august-2026]]
 == 12. August 2026
 
@@ -342,7 +359,7 @@ Die ältere Version von Upgrade Advisor ist jetzt veraltet. Mit der erweiterten 
 [[wellness]]
 === Wellness
 
-* Der Wellness-Workflow umfasst jetzt das Nachhaltigkeits-Widget, das die Anzahl der empfohlenen Aktionen auf Kunden-, Beobachtungslisten-, Site- und Gruppenebene bereitstellt.  Sie können auf die Anzahl der Aktionen klicken, um eine detaillierte Ansicht dieser empfohlenen Aktionen im Nachhaltigkeits-Dashboard anzuzeigen. Weitere Informationen finden Sie unterlink:https://docs.netapp.com/us-en/active-iq/learn-about-sustainability.html["Analysieren Sie die Nachhaltigkeit Ihrer Storage-Systeme"] .
+* Der Wellness-Workflow enthält jetzt das Nachhaltigkeits-Widget, das die Anzahl der empfohlenen Maßnahmen auf Kunden-, Beobachtungslisten-, Standort- und Gruppenebene anzeigt. Die Anzahl der Maßnahmen kann ausgewählt werden, um eine detaillierte Ansicht dieser empfohlenen Maßnahmen im Nachhaltigkeits-Dashboard anzuzeigen. Weitere Informationen sind unter link:https://docs.netapp.com/us-en/active-iq/learn-about-sustainability.html["Analysieren Sie die Nachhaltigkeit Ihrer Storage-Systeme"] zu finden.
 * Die Sicherheitsanfälligkeiten und Ransomware Defense Widgets im Wellness-Workflow werden in einem einzigen Widget kombiniert, das jetzt als Sicherheit & Ransomware Defense bezeichnet wird.
 
 
@@ -987,7 +1004,7 @@ Bei Clustern mit gemischten Hardware-Modellen ist die auf das Cluster angewendet
 [[recommended-configuration-storage-virtual-machine-svm-health-volume-level-summary]]
 === Empfohlene Konfiguration/Storage Virtual Machine (SVM) – Systemzustand: Zusammenfassung auf Volume-Ebene
 
-Beim Anklicken des blauen Feldes „Volume Summary“ in der SVM-Tabelle wird ein Pop-up-Fenster mit detaillierten Informationen zu den Volumes angezeigt, die auf der jeweiligen Seriennummer oder dem jeweiligen physischen Knoten gehostet oder diesem zugeordnet sind.
+Bei Auswahl des blauen Feldes „Volume Summary“ in der SVM-Tabelle erscheint ein Pop-out, das detaillierte Informationen zu den Volumes anzeigt, die auf der jeweiligen Seriennummer oder dem jeweiligen physischen Knoten gehostet oder diesem zugeordnet sind.
 
 
 
@@ -1187,9 +1204,9 @@ Diese Version bietet folgende Funktionen:
 
 * *GRID Dashboard:* das GRID Dashboard bietet Wellness-, Planungs- und Konfigurationsdetails für das ausgewählte RASTER.
 * *Konfigurations-Widget:* enthält grundlegende Details der ausgewählten StorageGRID im Widget, wie Z.B. GRID-Name, Hostname, Seriennummer, Modell, Betriebssystemversion, Kundenname, Versandort und Kontaktdetails.
-* *RASTER Viewer:* aus dem Widget *Configuration* können Sie die GRID-Konfiguration detailliert anzeigen, indem Sie auf den Link *GRID Viewer* klicken. Über das Widget *Konfiguration* können Sie die Websitedetails und Kapazitätsdetails für die ausgewählte StorageGRID herunterladen, indem Sie auf die Schaltfläche *Download* im Bildschirm *Raster-Viewer* klicken.
+* *GRID Viewer:* Im Widget *Konfiguration* kann die GRID-Konfiguration im Detail angezeigt werden, indem der Link *GRID Viewer* ausgewählt wird. Im Widget *Konfiguration* können die Standortdetails und Kapazitätsdetails für das ausgewählte StorageGRID durch Auswahl der Schaltfläche *Download* im *Grid Viewer*-Bildschirm heruntergeladen werden.
 * *Standortdetails:* auf dieser Registerkarte finden Sie die Grid Summary und Storage Nodes, die für jeden Standort verfügbar sind.
-* *GRID Summary:* enthält grundlegende Informationen, wie Lizenztyp, Lizenzkapazität, Anzahl der installierten Nodes, Support Term (Datum der Beendigung des Lizenzvertrags), Primary Admin Node und Primary Site of the Primary Admin Node. Auf dieser Registerkarte finden Sie auch den Standortnamen und die Anzahl der Speicherknoten, die unter der entsprechenden Website markiert sind. In diesem Release können Sie die Liste der Node-Namen anzeigen, wenn Sie auf den Hyperlink klicken, der zur Anzeige von Speicher-Nodes für den entsprechenden Standort verfügbar ist.
+* *GRID summary:* Enthält grundlegende Informationen wie License Type, License Capacity, Anzahl der installierten Knoten, Support Term (Datum des Lizenzvertragsendes), Primary Admin Node und Primary Site des Primary Admin Node. Diese Registerkarte bietet außerdem den Site-Namen und die Anzahl der dem entsprechenden Site zugeordneten Speicherknoten. In dieser Version ist die Liste der Knotennamen sichtbar, wenn der Hyperlink zum Anzeigen der Speicherknoten für den entsprechenden Site ausgewählt wird.
 * *Registerkarte „Kapazitätsdetails“:* enthält die für DAS RASTER konfigurierten Angaben zur Rasterebene und Standortkapazität. Details zur Kapazität, z. B. installierte Storage-Kapazität, verfügbare Storage-Kapazität, insgesamt genutzte Storage-Kapazität und die für Daten und Metadaten genutzte Kapazität Diese Details können sowohl auf der Grid- als auch auf der Site-Ebene angezeigt werden.
 
 

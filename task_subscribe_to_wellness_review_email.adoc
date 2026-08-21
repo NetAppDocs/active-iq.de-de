@@ -28,10 +28,10 @@ Wenn das Abonnement aktiviert ist, sollten Sie beim Hinzufügen eines Abonnement
 NOTE: Diese Funktion ist nur über die Serviceangebote von NetApp SupportEdge Advisor und SupportEdge Expert verfügbar.
 
 .Schritte
-. Klicken Sie im linken Fensterbereich auf *Wellness-Übersicht*.
-. Klicken Sie Auf *Abonnement Hinzufügen*.
+. Im linken Bereich *Wellness Review* auswählen.
+. *Abonnement hinzufügen* auswählen.
 . Geben Sie die erforderlichen Informationen in den Feldern *Name des Abonnements*, *Kategorie wählen*, *Kunden suchen* und *E-Mail* im Dialogfeld *Neues Abonnement hinzufügen* an.
-. Klicken Sie Auf *Abonnieren*.
+. *Abonnieren* auswählen.
 +
 Nach erfolgreichem Abonnement erhalten Sie eine *Abonnement wurde hinzugefügt* Nachricht.
 

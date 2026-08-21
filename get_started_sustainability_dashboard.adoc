@@ -40,7 +40,7 @@ Zur Anmeldung bei Digital Advisor können Sie Ihre Anmeldedaten für die NetApp 
 
 .Schritte
 . Öffnen Sie einen Webbrowser, und wechseln Sie zum link:https://activeiq.netapp.com/?source=onlinedocs["Digital Advisor"^] anmeldeseite.
-. Geben Sie Ihren Benutzernamen und Ihr Kennwort ein und klicken Sie auf *Anmelden*.
+. Geben Sie Ihren Benutzernamen und Ihr Passwort ein und wählen Sie *Anmelden*.
 . Wählen Sie in der linken Navigation *Nachhaltigkeit* aus.
 +
 image:sustainability_dashboard.png["Ein UI-Screenshot, der den Überblick über das Sustainability Dashboard gibt."]

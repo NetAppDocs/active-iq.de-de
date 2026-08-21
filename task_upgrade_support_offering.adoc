@@ -24,18 +24,22 @@ Sie können Ihr aktuelles Support-Angebot erweitern, um Ihre installierte Basis 
 NOTE: Sie können AIQ Upgrade nur dann abonnieren, wenn Sie derzeit die Support-Angebote von SupportEdge Premium oder SupportEdge Secure verwenden.
 
 .Schritte
-. Klicken Sie neben dem Widget *Inventory* auf *Alle Systeme anzeigen*.
+. Neben dem Widget *Inventar* befindet sich die Option *Alle Systeme anzeigen*.
 . Wählen Sie im Inventory Dashboard den Node (Host) aus, den Sie aktualisieren möchten. Sie werden zum System- oder Node-Dashboard umgeleitet.
-. Klicken Sie im Widget * Configuration* auf *Upgrade*.
+. Im Widget *Konfiguration* die Option *Upgrade* auswählen.
 +
 image:Configuration widget_Support offering upgrade.PNG["Konfigurations-Widget"]
 
-. Klicken Sie optional auf *Support-Angebote vergleichen*, um das Vergleichstabelle anzuzeigen und das Supportangebot auszuwählen, das Ihren Anforderungen entspricht. Alternativ können Sie im linken Navigationsmenü auf *Support-Angebote* klicken, um das Vergleichstabelle anzuzeigen.
+. Optional kann *Supportangebote vergleichen* ausgewählt werden, um die Vergleichstabelle anzuzeigen und das Supportangebot auszuwählen, das den Anforderungen entspricht.
+. Alternativ lässt sich im linken Navigationsmenü *Supportangebote* auswählen, um die Vergleichstabelle anzuzeigen.
 . Wählen Sie den gewünschten Upgrade-Typ aus.
 +
 .. Fügen Sie Ihrem SupportEdge Premium oder SupportEdge Secure Support ein AIQ Upgrade hinzu
 .. Andere Upgrade-Anfragen
++
+... Fügen Sie gegebenenfalls Kommentare hinzu und wählen Sie *Senden*. Eine Anfrage zum Kauf des Support-Angebots-Upgrades wird an das NetApp Renewals-Team gesendet.
 
 
-. Fügen Sie Kommentare hinzu, die Sie haben, und klicken Sie auf *Senden*. Eine Anfrage zum Kauf des Support-Angebots wird an das NetApp Renewals Team gesendet.
+
+
 

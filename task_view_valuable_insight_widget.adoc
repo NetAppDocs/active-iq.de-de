@@ -20,8 +20,8 @@ Das Widget *wertvoller Insights* gibt Informationen zur Anzahl von Support-Cases
 
 video::QPJY2TWnRxQ[youtube,width=848,height=480]
 .Schritte
-. Klicken Sie im Widget *Inventory* auf *Systems*, um die Systeminformationen aller Plattformen anzuzeigen, oder klicken Sie auf den Plattformtyp und klicken Sie dann auf *Systems*, um die für diese Plattform spezifischen Systeme anzuzeigen.
-. Klicken Sie auf den Node oder Cluster, um detaillierte Informationen über das System anzuzeigen.
+. Im Widget *Inventar* *Systeme* auswählen, um die Systeminformationen aller Plattformen anzuzeigen, oder den Plattformtyp auswählen und dann *Systeme*, um Systeme anzuzeigen, die spezifisch für diese Plattform sind.
+. Den Knoten oder Cluster auswählen, um detaillierte Informationen über das System anzuzeigen.
 +
 Das Widget * Valuable Insights* ist auf dem Dashboard verfügbar.
 

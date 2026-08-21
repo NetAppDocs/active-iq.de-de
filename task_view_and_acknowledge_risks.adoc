@@ -19,19 +19,19 @@ summary: Bietet Informationen zur Anzeige und Analyse des Wohlbefindens Ihres Sp
 Sie können die Wellness-Attribute Ihres Storage-Systems analysieren, indem Sie sich die damit verbundenen Maßnahmen und Risiken anzeigen lassen. Sie sollten Korrekturmaßnahmen anzeigen und das Risiko manuell minimieren.
 
 .Schritte
-. Klicken Sie auf das Widget Wellness-Attribut im Dashboard oder klicken Sie auf *Alle Aktionen anzeigen*, um die Liste aller Aktionen und Risiken anzuzeigen.
+. Das Wellness-Attribut-Widget im Dashboard oder *Alle Aktionen anzeigen* ermöglicht die Anzeige der Liste aller Aktionen und Risiken.
 . Sehen Sie sich die mit dem Wellness-Attribut verbundenen *Aktionen* und *Risiken* an.
-. Klicken Sie auf *Aktionen* um die mit den Aktionen verbundenen Risiken anzuzeigen, klicken Sie auf *Risiken*, um alle Risiken anzuzeigen, oder klicken Sie auf *Betroffene Systeme*, um die Systeme anzuzeigen, die Aufmerksamkeit erfordern.
-. Klicken Sie auf das Risiko, um die Risikoübersicht anzuzeigen.
-. Klicken Sie auf *Ack*, um das Risiko zu bestätigen.
+. *Aktionen* zeigt die mit den Aktionen verbundenen Risiken an, *Risiken* zeigt alle Risiken an, und *Betroffene Systeme* zeigt die Systeme an, die Aufmerksamkeit erfordern.
+. Das Risiko kann ausgewählt werden, um die Risikoübersicht anzuzeigen.
+. *Bestätigen* auswählen, um das Risiko zu bestätigen.
 +
 Die detaillierten Informationen zur Risikoübersicht werden zusammen mit Korrekturmaßnahmen bereitgestellt, die manuell durchgeführt werden sollten, um das Risiko zu minimieren.
 
-. Wenn Sie das Risiko zu diesem Zeitpunkt nicht mindern möchten oder nicht in der Lage sind, geben Sie die Werte für die Felder ein und klicken Sie auf *Bestätigen*.
+. Wenn das Risiko derzeit nicht gemindert werden soll oder kann, sind die Werte für die Felder anzugeben und *Bestätigen* auszuwählen.
 +
 Das Risiko wird zu anerkannten Risiken hinzugefügt.
 
 
 
 
-NOTE: Wenn Sie kein Risiko mehr anerkennen möchten, können Sie das Risiko ignorieren, indem Sie auf *UN-Ack* klicken und die gleichen Schritte befolgen.
+NOTE: Wenn Sie nicht mehr möchten, dass ein Risiko bestätigt wird, kann das Risiko ignoriert werden, indem Sie *Bestätigung aufheben* auswählen und die gleichen Schritte ausführen.

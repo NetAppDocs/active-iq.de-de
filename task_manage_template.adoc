@@ -27,13 +27,13 @@ Durch die gemeinsame Nutzung einer Vorlage sparen Sie Zeit und Aufwand bei der E
 
 
 .Schritte
-. Klicken Sie im linken Fensterbereich auf *Drift konfigurieren*.
-. Klicken Sie Auf image:clone_icon.png["Klon"] Um eine Kopie der Vorlage zu erstellen.
-. Klicken Sie Auf image:share_icon.png["Share"] Und geben Sie die Benutzernamen ein, mit denen Sie die Vorlage teilen möchten.
+. Im linken Bereich *Konfigurationsdrift* auswählen.
+. Wählen Sie image:clone_icon.png["Klon"], um eine Kopie der Vorlage zu erstellen.
+. Wählen Sie image:share_icon.png["Share"] aus und geben Sie die Benutzernamen ein, mit denen Sie die Vorlage teilen möchten.
 +
 
 NOTE: Wenn Sie die E-Mail-Adresse des Benutzers anstelle des Benutzernamens eingeben, wird die Vorlage nicht freigegeben.
 
-. Klicken Sie Auf image:edit_icon.png["Bearbeiten"] Um die Details der Vorlage zu aktualisieren.
-. Klicken Sie Auf image:delete_icon.png["Löschen"] Zum Löschen der Vorlage.
+. Wählen Sie image:edit_icon.png["Bearbeiten"], um die Details der Vorlage zu aktualisieren.
+. Diese image:delete_icon.png["Löschen"]Option zum Löschen der Vorlage auswählen.
 

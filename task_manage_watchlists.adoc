@@ -19,11 +19,11 @@ summary: Stellt Informationen zur Verwaltung von Watchlisten bereit.
 Sie können das Dashboard für verschiedene Watchlisten anzeigen, die Details einer vorhandenen Watchlist bearbeiten und eine Watchlist löschen.
 
 .Schritte
-. Klicken Sie im linken Fensterbereich auf *Watchlisten*.
+. Im linken Bereich *Watchlists* auswählen.
 +
 Der Bildschirm *Watchlist verwalten* wird angezeigt.
 
-. Klicken Sie auf den Namen der Watchlist, um die Dashboard-Details der Watchlist anzuzeigen.
-. Klicken Sie auf *Bearbeiten*, um die Details der Watchlist zu aktualisieren.
-. Klicken Sie auf *Löschen*, um die Watchlist zu löschen.
+. Der Name der Watchlist auswählen, um die Dashboard-Details der Watchlist anzuzeigen.
+. *Bearbeiten* auswählen, um die Details der Watchlist zu aktualisieren.
+. *Löschen* auswählen, um die Watchlist zu löschen.
 

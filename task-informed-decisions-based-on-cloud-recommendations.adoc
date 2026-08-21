@@ -38,9 +38,9 @@ Für die Migration zu Cloud Volumes ONTAP (CVO) werden folgende Volumes empfohle
 
 
 .Schritte
-. Klicken Sie im linken Fensterbereich auf *Cloud Recommendations*.
-. Klicken Sie auf einen beliebigen Link im Fenster *Migration*.
-. Klicken Sie auf *In die Cloud migrieren*, um die *Konsole* zu starten.
+. Im linken Bereich ist *Cloud Recommendations* auszuwählen.
+. Einen beliebigen Link im Bereich *Migration* auswählen.
+. *In die Cloud migrieren* auswählen, um die *Konsole* zu starten.
 
 
 
@@ -62,9 +62,9 @@ Für das Tiering werden die Volumes empfohlen, die folgende Kriterien erfüllen:
 
 
 .Schritte
-. Klicken Sie im linken Fensterbereich auf *Cloud Recommendations*.
-. Klicken Sie auf einen Link im Fenster *Tiering*.
-. Klicken Sie auf *Tierdaten*, um die *Konsole* zu starten.
+. Im linken Bereich ist *Cloud Recommendations* auszuwählen.
+. Einen beliebigen Link im Bereich *Tiering* im Navigationsbereich auswählen.
+. *Tier Data* auswählen, um die *Console* zu öffnen.
 
 
 Weitere Informationen zu FabricPool finden Sie unter link:https://www.netapp.com/pdf.html?item=/media/17239-tr4598pdf.pdf["FabricPool Best Practices in sich vereint"^].
@@ -83,9 +83,9 @@ Für die Datensicherung in der Cloud empfehlen wir die Volumes, die die folgende
 
 
 .Schritte
-. Klicken Sie im linken Fensterbereich auf *Cloud Recommendations*.
-. Klicken Sie auf einen beliebigen Link im Fensterbereich *Backup & Archiv*.
-. Klicken Sie auf *Backup in der Cloud*, um die *Konsole* zu starten.
+. Im linken Bereich ist *Cloud Recommendations* auszuwählen.
+. Einer der Links im Bereich *Sicherung & Archivierung* kann ausgewählt werden.
+. *Backup to Cloud* auswählen, um die *Console* zu öffnen.
 
 
 
@@ -103,7 +103,7 @@ Für die Replizierung in die Cloud werden die Volumes empfohlen, die folgende Kr
 
 
 .Schritte
-. Klicken Sie im linken Fensterbereich auf *Cloud Recommendations*.
-. Klicken Sie auf einen Link im Fenster * Disaster Recovery*.
-. Klicken Sie auf *In Cloud replizieren*, um die *Konsole* zu starten.
+. Im linken Bereich ist *Cloud Recommendations* auszuwählen.
+. Einen beliebigen Link im Bereich *Notfallwiederherstellung* auswählen.
+. *In die Cloud replizieren* auswählen, um die *Konsole* zu öffnen.
 

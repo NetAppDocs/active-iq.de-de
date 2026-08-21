@@ -51,7 +51,7 @@ Das Widget „AutoSupport“ enthält keine Warnmeldungen für die Suche nach Cl
 [[autosupport-widget-not-able-to-drill-down-to-serial-level-autosupport-details]]
 == AutoSupport Widget kann keine AutoSupport-Details auf Serienebene abrufen
 
-Klicken Sie auf der Seite AutoSupport-Berichte auf einen der Status, Systeme, die kürzlich den Sendevorgang beendet haben, oder Systeme, bei denen AutoSupport ausgeschaltet ist, und navigieren Sie nicht zum Bildschirm Integritätsprüfung.
+Auf der AutoSupport Berichtsseite führt die Auswahl eines der Status, von Systemen, die kürzlich die Übertragung eingestellt haben, oder von Systemen, bei denen AutoSupport deaktiviert ist, nicht zum Bildschirm für die Systemzustandsprüfung.
 
 
 

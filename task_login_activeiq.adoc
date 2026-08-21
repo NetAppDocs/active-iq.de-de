@@ -27,5 +27,5 @@ link:https://kb.netapp.com/Support/General_Support/How_to_register_for_a_NetApp_
 +
 Digital Advisor zeigt Systeme mit einem gültigen Supportvertrag an. Wenn Verträge verfallen, wird eine Kulanzzeit von 90 Tagen angegeben, in der die Systeme weiterhin sichtbar sind. Anschließend sind Systeme innerhalb von Digital Advisor nicht durchsuchbar oder sichtbar.
 
-. Geben Sie Ihren Benutzernamen und Ihr Kennwort ein und klicken Sie auf *Anmelden*.
+. Geben Sie Ihren Benutzernamen und Ihr Passwort ein und wählen Sie *Anmelden*.
 

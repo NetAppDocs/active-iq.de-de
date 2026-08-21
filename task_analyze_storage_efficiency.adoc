@@ -27,7 +27,7 @@ Das Dashboard zur Speichereffizienz zeigt das Datenreduktionsverhältnis, den be
 
 video::8Ge3_0qlyxA[youtube,width=848,height=480]
 .Schritte
-. Klicken Sie im linken Fensterbereich auf *Kapazität und Effizienz*.
+. Im linken Bereich ist *Kapazität und Effizienz* auszuwählen.
 +
 Standardmäßig ist die Registerkarte *Capacity* ausgewählt.
 
@@ -37,13 +37,13 @@ Standardmäßig ist die Registerkarte *Capacity* ausgewählt.
 +
 Bei ONTAP-Systemen sind Informationen über ROHKAPAZITÄT in ClusterViewer verfügbar.
 
-.. Klicken Sie auf *Kapazität hinzufügen*, um eine Benachrichtigung an NetApp oder Ihren Partner zu senden, um Kapazität hinzuzufügen.
 
 
+. *Kapazität hinzufügen* auswählen, um eine Benachrichtigung an NetApp oder Ihren Partner zu senden, damit Kapazität hinzugefügt wird.
 . Anzeige der Storage-Effizienz und der Einsparungen Ihres Storage-Systems
 +
-.. Wenn das Storage-Effizienz-Verhältnis Ihres Storage-Systems über dem durchschnittlichen Storage-Effizienzverhältnis liegt, klicken Sie auf *Teilen Sie Ihre Erfolgsgeschichte*, um uns die folgenden Best Practices zu erläutern.
-.. Wenn das Storage-Effizienz-Verhältnis Ihres Storage-Systems unter dem durchschnittlichen Storage-Effizienz-Verhältnis liegt, klicken Sie auf *Kontakt* um uns die Konfigurationen Ihres Storage-Systems mitzuteilen.
+.. Wenn das Speichereffizienzverhältnis Ihres Speichersystems höher als das durchschnittliche Speichereffizienzverhältnis ist, kann mit *Share Your Success Story* mitgeteilt werden, welche Best Practices angewendet wurden.
+.. Wenn das Speichereffizienzverhältnis Ihres Speichersystems unter dem durchschnittlichen Speichereffizienzverhältnis liegt, wählen Sie *Contact Us*, um die Konfigurationen Ihres Speichersystems mitzuteilen.
 
 
 

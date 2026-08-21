@@ -1,0 +1,125 @@
+---
+sidebar: sidebar 
+permalink: task_view_value_insights_dashboard.html 
+keywords: value insights, health, savings, stability, security, ontap systems 
+summary: Im Value Insights Dashboard sind Informationen zu Gesundheit, Einsparungen, Stabilität und Sicherheit Ihres ONTAP Systems verfügbar. 
+---
+= Das Value Insights Dashboard anzeigen
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Im Value Insights Dashboard sind Informationen zu Gesundheit, Einsparungen, Stabilität und Sicherheit Ihres ONTAP Systems verfügbar.
+
+.Schritte
+. *Kundenerfolg > Wertanalyse* auswählen.
+. Im Bereich *Gesamtstatus und wie NetApp helfen kann* kann der Gesamtstatus Ihres ONTAP-Systems als Prozentsatz angezeigt werden. Dieser Wert basiert auf den KPIs.
++
+** *Weitere Empfehlungen* zeigt alle KPIs an:
++
+[cols="2*"]
+|===
+| KPI | Beschreibung 
+
+
+| Vorschläge für nachhaltigen Betrieb | Bietet Empfehlungen für einen nachhaltigen Systembetrieb. 
+
+
+| Sicherheitsrisiken durch Hardening in Ihren Clustern beheben | Bewertet die mit jedem System verbundenen Sicherheitsrisiken. 
+
+
+| Firmware- und Systemdatei-Updates planen | Prüft, ob Systeme mit der neuesten Firmware ausgestattet sind, und schlägt Aktualisierungen vor. Dies beinhaltet eine detaillierte Ansicht zur Planung von Firmware-Updates. 
+
+
+| Technologieaktualisierung Optionen (Ende des Lebenszyklus) prüfen | Bewertet den Bedarf an Technologieaktualisierungen. 
+
+
+| Aktivierung von AutoSupport (ASUP) auf Ihren Clustern | Überwacht den Status von AutoSupport (ASUP) auf Clustern. 
+
+
+| Ein Upgrade auf die neueste empfohlene ONTAP Version planen | Bewertet die Softwareversion von Systemen und empfiehlt Aktualisierungen. 
+
+
+| Speichererweiterungsoptionen bewerten | Bewertet die aktuelle Speichereffizienz und den Erweiterungsbedarf. Erstellt Prognosen für den zukünftigen Kapazitätsbedarf. 
+
+
+| Vertragsverlängerungen | Bewertet den Status von Supportverträgen und gibt Empfehlungen für Verlängerungen. 
+
+
+| Proaktive Überwachung zur Vermeidung ungeplanter Cluster-Ausfallzeiten | Gibt die Anzahl der ungeplanten Ausfallzeiten in allen Clustern an. 
+|===
+** *Wie wird dies berechnet?* für spezifische KPI-Berechnungen auswählen. Nach unten scrollen, um Systemdetails einschließlich voller Punktzahl, Teilpunktzahl und Nullpunktzahl zu sehen.
+
+
+. *NetApp realisierte Einsparungen und Stabilität* auswählen, um Details zu Ihrer Kapitalrendite (ROI) anzuzeigen.
++
+[cols="2*"]
+|===
+| Funktion | Beschreibung 
+
+
+| image:edit_icon.png["Bild der Schaltfläche Bearbeiten"] | Zum Bearbeiten der Kosten oder Ausgaben pro TiB auswählen. 
+
+
+| Speichereffizienzwert | Zum Öffnen des ROI Dashboards auswählen. 
+
+
+| Speicherverfügbarkeitswert | Der Wert kann angezeigt werden, und für weitere Details lässt sich der Wert der Systemnummer auswählen. 
+
+
+| ASUP ID | Gegebenenfalls kann das Problem oder Ereignis angezeigt werden, das die Ausfallzeit oder den Ausfall verursacht. 
+
+
+| Risiken erkannt und verhindert | Die zugehörigen Daten der letzten 3 Monate werden angezeigt. 
+
+
+| Wellnessverlauf anzeigen | Für eine zusammenfassende Ansicht auswählen. 
+
+
+| Risikowert | Jeder Risikowert ermöglicht den Zugriff auf die zugehörigen Daten der letzten 3 Monate. 
+|===
+. Der Bereich *Sicherheit und Zukunftsplanung* enthält Informationen zum Thema Sicherheit.
++
+[cols="2*"]
+|===
+| Funktion | Beschreibung 
+
+
+| Sicherheitsbedrohungen neutralisiert | Sicherheitsdetails anzeigen. 
+
+
+| Sicherheitsprobleme behoben | Zum Öffnen der Seite „Wellnessverlauf“ auswählen. 
+
+
+| Automatische Firmware-Updates | Firmware-Typen und Upgrade-Details können geöffnet werden. 
+
+
+| Autonomes KI/ML-Modell zum Schutz vor Ransomware | Details zum Modell öffnen. 
+
+
+| Prognostizierte Einsparungen durch Effizienzsteigerungen  a| 
+** Das image:edit_icon.png["Bild der Schaltfläche Bearbeiten"] Symbol neben „Prognostizierte Einsparungen bei der Speichereffizienz“ ermöglicht die Bearbeitung der Kosten pro PiB.
+** Den Prozentsatz für die Speicherkapazitätsreserve auswählen, um die Seite Kapazität und Effizienz zu öffnen.
+** *Lebenszyklusplanung* auswählen.
+** Die Werkzeugwerte ermöglichen das Öffnen der jeweiligen ONTAP Detailseiten: System Refresh, Storage Expansion und Support Renewals.
++
+
+NOTE: Diese Funktion ist ausschließlich für ONTAP Systeme verfügbar und steht nicht für Plattformen wie Cloud Volumes ONTAP, ONTAP Select, StorageGRID oder E-Series zur Verfügung.
+
+
+
+|===
+. *Wie Sie den Infrastrukturwert maximieren* bietet Informationen zu aktiven Funktionen und verfügbaren Optimierungsmöglichkeiten.
++
+** *Aktive Funktionen* auswählen, um Systemdetails anzuzeigen.
+** *Verfügbare Optimierungsmöglichkeiten* anzeigen, um Vorschläge zu sehen.
+
+
+

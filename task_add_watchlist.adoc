@@ -22,11 +22,11 @@ Sie können eine Watchlist erstellen, um schnell und einfach auf eine Reihe von 
 NOTE: Sie können maximal 15.000 Speichersysteme unter einer Kategorie und 500 Speichersysteme unter einer Seriennummer hinzufügen.
 
 .Schritte
-. Klicken Sie im linken Fensterbereich auf *Watchlisten*
+. Im linken Bereich *Watchlists* auswählen.
 +
 Der Bildschirm *Watchlist verwalten* wird angezeigt.
 
-. Klicken Sie Auf *Watchlist Erstellen*.
+. *Watchlist erstellen* auswählen.
 . Geben Sie einen Namen für die Watchlist ein.
 . Wählen Sie eine der folgenden Optionen aus, um Speichersysteme zur Beobachtungsliste hinzuzufügen:
 +
@@ -38,7 +38,7 @@ NOTE: Mit der Option *Keystone Subscriptions* können Sie alle mit Keystone Abon
 ** *Seriennummer*: Mit dieser Option können Sie anhand der angegebenen Seriennummern den Bestand in Ihre Beobachtungsliste aufnehmen. Sie können entweder die Seriennummer direkt eingeben oder Seriennummern aus Kategorien wie Kunde, Standort oder Gruppe auswählen.
 
 
-. Klicken Sie Auf *Watchlist Erstellen*.
+. *Watchlist erstellen* auswählen.
 +
 Das Dashboard der Watchlist wird angezeigt.
 

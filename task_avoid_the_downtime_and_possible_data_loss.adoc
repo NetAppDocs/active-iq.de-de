@@ -20,14 +20,14 @@ Wenn Sie sich beim Digital Advisor anmelden und das rote Abzeichen im Widget *Ve
 
 .Schritte
 . Melden Sie sich beim Digital Advisor an.
-. Klicken Sie im Widget *Verfügbarkeit & Schutz* auf *Aktionen*.image:Availability and protection_image 1 downtime and data loss.png["Verfügbarkeit  Schutz-Widget"]
+. Im Widget *Verfügbarkeit & Schutz* die Option *Aktionen* auswählen.image:Availability and protection_image 1 downtime and data loss.png["Verfügbarkeits- und Schutz-Widget"]
 +
 Befolgen Sie die empfohlene Aktion zum Aktualisieren der Festplatten-Firmware, um die Sicherheitsrisiken zu minimieren.
 
-. Klicken Sie auf den Link *Risk Name*, um die Risikoübersicht anzuzeigen.image:Risk summary_image 2 downtime and data loss.png["Risikozusammenfassung"]
-. Klicken Sie auf die Registerkarte * Unique risks* und dann auf den Link in der Spalte *Corrective Action*.image:Corrective action_image 3 downtime and data loss.png["Korrekturmaßnahme"]
+. Der Link *Risikoname* öffnet die Risikozusammenfassung.image:Risk summary_image 2 downtime and data loss.png["Risikozusammenfassung"]
+. Die Registerkarte *Besondere Risiken* auswählen und dann den Link in der Spalte *Korrekturmaßnahmen* auswählen. image:Corrective action_image 3 downtime and data loss.png["Korrekturmaßnahme"]
 +
 Digital Advisor generiert benutzerdefinierte Ansible-Skripts oder Playbooks zur Aktualisierung der erforderlichen Festplatten-Firmware, einschließlich der Festplatten-Firmware-Dateien.
 
-. Klicken Sie auf das Symbol *Ansible „A“*, um die Skripte zu generieren und herunterzuladen.image:Update AFF and FAS Firmware_image 4 downtime and data loss.png["AFF und FAS Firmware"]
+. Das *Ansible “A”*-Symbol auswählen, um die Skripte zu generieren und herunterzuladen. image:Update AFF and FAS Firmware_image 4 downtime and data loss.png["AFF und FAS Firmware"]
 

@@ -20,8 +20,8 @@ Sie können Ihr Storage-System analysieren, indem Sie sich die Aktionen und Risi
 
 video::XusFvXM7h-E[youtube,width=848,height=480]
 .Schritte
-. Klicken Sie auf *Alle Aktionen anzeigen* auf dem Dashboard.
-. Klicken Sie auf *Aktionen* um die mit den Aktionen verbundenen Risiken anzuzeigen, klicken Sie auf *Risiken*, um alle Risiken anzuzeigen, oder klicken Sie auf *Betroffene Systeme*, um die Systeme anzuzeigen, die Aufmerksamkeit erfordern.
+. Im Dashboard die Option *Alle Aktionen anzeigen* auswählen.
+. *Aktionen* zeigt die mit den Aktionen verbundenen Risiken an, *Risiken* zeigt alle Risiken an, und *Betroffene Systeme* zeigt die Systeme an, die Aufmerksamkeit erfordern.
 +
 Wenn das Risiko mithilfe von Active IQ Unified Manager gemindert werden kann, wird der image:spanner.png["Schlüssel"] Symbol wird hervorgehoben und wenn das Risiko mithilfe des Ansible Playbook minimiert werden kann, das image:update_ansible.png["Ansible Aktualisieren"] Symbol ist markiert.
 
@@ -33,14 +33,14 @@ Wenn das Risiko mithilfe von Active IQ Unified Manager gemindert werden kann, wi
 
 
  a| 
-. Klicken Sie auf das image:spanner.png["Schlüssel"] Symbol.
-. Klicken Sie auf *Beheben Sie es*, um Active IQ Unified Manager zu starten.
-. Klicken Sie auf *Installieren*, um Active IQ Unified Manager 9.7 oder höher zu installieren, um die Option *Beheben Sie es* zu verwenden.
-. Klicken Sie auf *Upgrade*, um ein Upgrade auf Active IQ Unified Manager 9.7 oder höher durchzuführen, um die Option *Fix IT* zu verwenden.
+. Das image:spanner.png["Schlüssel"] Symbol auswählen.
+. *Fix It* auswählen, um Active IQ Unified Manager zu starten.
+. *Installieren* auswählen, um Active IQ Unified Manager 9.7 oder höher zu installieren und die Option *Fix It* zu verwenden.
+. *Upgrade* auswählen, um auf Active IQ Unified Manager 9.7 oder höher zu aktualisieren und die Option *Fix It* zu verwenden.
 
  a| 
-. Klicken Sie auf das image:update_ansible.png["Ansible Aktualisieren"] Symbol.
-. Klicken Sie auf *Download*, um das Ansible-Automatisierungspaket der AFF und FAS-Firmware herunterzuladen.
+. Das image:update_ansible.png["Ansible Aktualisieren"] Symbol auswählen.
+. *Download* auswählen, um das AFF und FAS Firmware Ansible Automation-Paket herunterzuladen.
 
 
 |===

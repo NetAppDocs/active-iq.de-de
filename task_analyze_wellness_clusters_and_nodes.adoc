@@ -25,6 +25,6 @@ Sie können Visualisierungen oder grafische Darstellungen der physischen Konfigu
 video::FVbb2bbIY9E[youtube,width=848,height=480]
 .Schritte
 . Wählen Sie im Widget *Inventory* den gewünschten Cluster oder Node (Host) aus.
-. Klicken Sie auf Cluster- oder Node-Ebene neben dem Widget *Configuration* auf *ClusterViewer*.
-. Klicken Sie auf die Registerkarte *Visualisierung*, um eine grafische Darstellung des Clusters anzuzeigen.
+. Auf Cluster- oder Knotenebene *ClusterViewer* neben dem Widget *Konfiguration* auswählen.
+. Die Registerkarte *Visualisierung* zeigt eine grafische Darstellung des Clusters.
 

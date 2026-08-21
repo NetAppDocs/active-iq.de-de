@@ -31,10 +31,10 @@ Vor dem Aktualisieren der AFF- und FAS-Firmware mit Ansible sollten Sie:
 
 
 .Schritte
-. Klicken Sie auf ein beliebiges Wellness-Widget auf dem Dashboard oder klicken Sie auf *Alle Aktionen anzeigen*, um eine Liste aller Aktionen und Risiken anzuzeigen.
-. Klicken Sie auf *Firmware Upgrade*, um alle Risiken der Firmware-Aktualisierung anzuzeigen.
-. Klicken Sie auf *Update AFF und FAS Firmware*, um alle verfügbaren Aktualisierungspakete anzuzeigen, oder klicken Sie auf image:update_ansible.png["Ansible Aktualisieren"] Neben jedem Risiko, das Paket zu aktualisieren, das für dieses Risiko spezifisch ist.
-. Klicken Sie auf *Download*, um die ZIP-Dateien herunterzuladen und Ihr Speichersystem zu aktualisieren.
+. Ein beliebiges Wellness-Widget im Dashboard kann ausgewählt werden oder *Alle Aktionen anzeigen*, um eine Liste aller Aktionen und Risiken anzuzeigen.
+. *Firmware Upgrade* auswählen, um alle Risiken eines Firmware Upgrades anzuzeigen.
+. *AFF und FAS Firmware aktualisieren* anzeigen, um alle verfügbaren Update-Pakete zu sehen, oder image:update_ansible.png["Ansible Aktualisieren"] neben jedem Risiko auswählen, um das jeweils zugehörige Paket zu aktualisieren.
+. *Herunterladen* auswählen, um die ZIP-Dateien herunterzuladen und das Speichersystem zu aktualisieren.
 +
 Die ZIP-Datei enthält Folgendes:
 

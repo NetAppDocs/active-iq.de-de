@@ -21,8 +21,8 @@ Kunden können jetzt Zeit und Aufwand sparen, da Control Tower ihre Systeme auto
 Kunden erhalten zeitnah Benachrichtigungen und Warnungen über den Status der Firmware-Updates. Es stehen Optionen zur Aktivierung von AutoSupport und Auto-Update-Einstellungen zur Verfügung.
 
 .Schritte
-. Klicken Sie auf der Dashboard-Seite im Widget *Upgrade Advisor* auf *andere Empfehlungen*.
-. Klicken Sie auf *Empfehlungen anzeigen*, um die Liste der Empfehlungen anzuzeigen.
-. Klicken Sie in der Spalte *Update Status* auf *See Progress*, um die Cluster anzuzeigen, die für ein Update geeignet sind.
-. Klicken Sie bei Problemen auf die entsprechenden Links, um die Schritte zur Behebung der Probleme anzuzeigen.
+. Auf der Dashboard-Seite im Widget *Upgrade Advisor* ist *Weitere Empfehlungen* auszuwählen.
+. *Empfehlungen anzeigen* auswählen, um die Liste der Empfehlungen anzuzeigen.
+. In der Spalte *Update Status* die Option *Fortschritt anzeigen* auswählen, um die Cluster anzuzeigen, die für ein Update in Frage kommen.
+. Bei Problemen können die jeweiligen Links ausgewählt werden, um die Schritte zur Behebung der Probleme anzuzeigen.
 

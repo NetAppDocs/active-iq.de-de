@@ -19,7 +19,7 @@ summary: Erfahren Sie, wie Sie Support-Verträge für Ihre Systeme verlängern k
 Sie können die Punktzahl und Zusammenfassung aller aktiven Support-Verträge im Dashboard anzeigen. Sie können Maßnahmen auf Basis der wichtigsten Empfehlungen ergreifen, die in der Reihenfolge ihrer Priorität bereitgestellt werden.
 
 .Schritte
-. Klicken Sie im Dashboard für die Integritätsprüfung auf das Widget *Support & Berechtigungen*.
-. Wenn einer Ihrer Supportverträge abgelaufen ist oder sich dem Ablauf nähert, klicken Sie auf das Widget *Active Support Contracts*.
-. Aktivieren Sie die Kontrollkästchen, und klicken Sie auf *verlängern*, um den Erneuerungsprozess für die ausgewählten Systeme zu initiieren.
+. Im Health Check Dashboard das Widget *Support & Berechtigungen* auswählen.
+. Falls einer Ihrer Systemsupportverträge abgelaufen ist oder demnächst abläuft, dann das Widget *Aktive Supportverträge* auswählen.
+. Die Kontrollkästchen auswählen und *Erneuern* wählen, um den Erneuerungsprozess für die ausgewählten Systeme zu initiieren.
 

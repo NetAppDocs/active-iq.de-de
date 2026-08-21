@@ -21,11 +21,11 @@ Sie können die in den letzten drei Monaten aufgetretenen Risiken für Speichers
 Diese Risiken werden unter vier Arten von Risiken klassifiziert – *ungelöst*, *neu*, *gelöst* und *anerkannt*. Sie werden durch verschiedene Farben dargestellt. Die Zusammenfassung dieser Risiken wird durch einen *Risikoverlauf*-Diagramm dargestellt.
 
 .Schritte
-. Klicken Sie im Dashboard im Fenster *Wellness* auf *Alle Aktionen anzeigen*.
-. Klicken Sie Auf *Wellness-Geschichte*.
-. Klicken Sie im Diagramm * Risikoverlauf* auf die Kategorie, für die Sie den Risikoverlauf anzeigen möchten.
+. Im Dashboard im Bereich *Wellness* die Option *Alle Aktionen anzeigen* auswählen.
+. *Wellness-Historie* auswählen.
+. Im Diagramm *Risikoverlauf* die Kategorie auswählen, für die der Risikoverlauf angezeigt werden soll.
 +
-Wenn Sie den Mauszeiger über die farbigen Balken bewegen, werden Informationen zur Anzahl der Risiken in jeder Kategorie angezeigt. Wenn Sie auf die jeweilige Risikokategorie klicken, werden die Informationen in der Tabelle *Risikoinformationen* angezeigt.
+Wenn Sie mit dem Mauszeiger über die farbigen Balken fahren, werden Informationen zur Anzahl der Risiken in jeder Kategorie angezeigt. Nach Auswahl der jeweiligen Risikokategorie werden die Informationen in der Tabelle *Risk Information* angezeigt.
 
 +
 Sie können die Risikoübersicht auch in einem Excel-Arbeitsblatt herunterladen.

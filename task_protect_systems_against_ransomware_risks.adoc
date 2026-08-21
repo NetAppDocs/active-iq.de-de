@@ -22,10 +22,10 @@ Es besteht die Möglichkeit, die Risiken bei der Snapshot-Erstellung, -Aufbewahr
 
 .Schritte
 . Melden Sie sich bei Digital Advisor an.
-. Klicken Sie im Widget *Sicherheit & Ransomware Defense* auf *Aktionen*.
+. Im Widget *Security & Ransomware Defense* die Option *Actions* auswählen.
 . Deaktivieren Sie das Kontrollkästchen *Sicherheitsschwachstellen*.
 . Überprüfen Sie die Auswirkungen auf die angezeigten Risiken und befolgen Sie die empfohlenen Maßnahmen.
-. Klicken Sie auf die Registerkarte eindeutige Risiken und klicken Sie auf den Link in der Spalte *Korrekturmaßnahmen*.
-. Klicken Sie auf die Registerkarte *Betroffene Systeme*, um Systeme mit Risiken anzuzeigen.
-. Befolgen Sie Maßnahmen zur Problembehebung, die zum Schutz der Systeme empfohlen werden.
+. Die Registerkarte *Besondere Risiken* auswählen und den Link in der Spalte *Korrekturmaßnahmen* auswählen.
+. Die Registerkarte *Betroffene Systeme* zeigt Systeme mit Risiken an.
+. Wählen Sie die empfohlenen Abhilfemaßnahmen zum Schutz der Systeme aus.
 

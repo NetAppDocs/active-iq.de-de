@@ -37,7 +37,7 @@ image:sustainability_score.png["Ein Screenshot, der die Nachhaltigkeitsbewertung
 
 *Umweltindikatoren*: Zeigt Projektionen für Ihre Leistung, Ihren direkten Kohlenstoffverbrauch und Ihre Wärmeabstrahlung an, um den Umweltzustand Ihrer Speichersysteme zu bewerten. Diese Projektionen basieren auf den tatsächlichen Stromwerten, falls nicht verfügbar, typischen Leistungswerten. Sie können diese Projektionen monatlich, vierteljährlich oder jährlich anzeigen, indem Sie in der Dropdown-Liste oben rechts in diesem Abschnitt die gewünschte Option auswählen.
 
-*Prozentsatz der CO2-Minderung*: Zeigt den Prozentsatz der CO2-Minderung an jedem Standort/Ort an, und die dargestellten Basiswerte basieren auf Ihrem Standort. Sie können den Prozentsatz der CO2-Minderung für bestimmte Standorte anpassen, indem Sie auf die klicken image:edit_icon_1.png["Ein Screenshot mit einem editierbaren Symbol."] Neben den Prozentwerten befindet sich das Symbol, und die Kohlenstoffwerte werden automatisch entsprechend angepasst.
+*Kohlenstoffminderungsprozentsätze*: Zeigt den Prozentsatz der Kohlenstoffminderung an jedem Standort/jeder Stadt an, wobei die angezeigten Basiswerte auf Ihrem Standort basieren. Die Kohlenstoffminderungsprozentsätze für bestimmte Standorte lassen sich anpassen, indem das image:edit_icon_1.png["Ein Screenshot mit einem editierbaren Symbol."] Symbol neben den Prozentwerten ausgewählt wird. Die Kohlenstoffwerte passen sich dann automatisch entsprechend an.
 
 image:carbon_mitigation_percentage.png["Ein Screenshot, der den Prozentsatz der CO2-Minderung an Standorten und die Vorgehensweise zum Bearbeiten dieses Prozentsatzes zeigt."]
 

@@ -16,10 +16,10 @@ summary: Bietet Informationen zur Vermeidung von Volume-Füllungen, um einen Aus
 
 
 [role="lead"]
-Wenn Sie sich bei Digital Advisor anmelden und das rote Abzeichen im Widget *Configuration* bemerken. Wenn Sie auf das Widget klicken, wird angezeigt, dass das Volume zu 98 % voll ist und dies zu einem Ausfall führen kann. Um dieses Problem zu beheben, würde ein Volume gefüllt werden, sodass das System schreibgeschützt ist und somit Applikationen zum Absturz und Fehlschlagen der Daten zugreifen können.
+Wenn Sie sich bei Digital Advisor anmelden und das rote Symbol im Widget *Configuration* bemerken. Nach Auswahl des Widgets wird angezeigt, dass das Volume zu 98 % belegt ist, was zu einem Ausfall führen könnte. Die Behebung dieses Problems würde verhindern, dass das Volume voll wird, wodurch es schreibgeschützt wird und Anwendungen, die darauf zugreifen, abstürzen und fehlschlagen.
 
 .Schritte
 . Melden Sie sich bei Digital Advisor an.
-. Klicken Sie im Widget * Configuration* auf *Actions*.image:Configuration_image 1 prevent an outage.png["Konfigurations-Widget"]
-. Klicken Sie auf die Registerkarte * Unique risks*. Wenn Sie auf den Link *Korrekturmaßnahmen* klicken, können Sie entweder die Warnschwellenwerte ändern oder dem Volumen mehr Speicherplatz zuweisen.image:Risk summary_image 2 prevent an outage.png["Risikozusammenfassung"]
+. Im Widget *Konfiguration* die Option *Aktionen* auswählen. image:Configuration_image 1 prevent an outage.png["Konfigurations-Widget"]
+. Die Registerkarte *Besondere Risiken* auswählen. Nach Auswahl des Links *Korrekturmaßnahmen* besteht die Möglichkeit, entweder die Warnschwellenwerte zu ändern oder dem Volume mehr Speicherplatz zuzuweisen. image:Risk summary_image 2 prevent an outage.png["Risikozusammenfassung"]
 

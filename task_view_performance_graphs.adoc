@@ -20,15 +20,15 @@ Performance-Diagramme ermöglichen die Analyse der Performance Ihrer Speicherger
 
 Sie haben die Möglichkeit, Voreinstellungen festzulegen, beispielsweise können Sie entweder ein Diagramm für drei Knoten oder zwei Diagramme für drei Knoten anzeigen.
 
-Beim ersten Anzeigen der Grafik ist eine 1-wöchige Registerkarte vorausgewählt. Sie enthält die Daten für eine Woche in einem grafischen Format, um das Verständnis großer Datenmengen und dessen Beziehung zwischen verschiedenen Datenreihen zu vereinfachen. Wenn Sie beispielsweise den Datumsbereich zurücksetzen möchten, können Sie auf die Registerkarte 1 Monat klicken und im Kalender Daten auswählen.
+Beim ersten Anzeigen des Diagramms ist die Registerkarte „1 Woche“ vorausgewählt, und sie stellt die Daten einer Woche in einem grafischen Format dar, um große Datenmengen und deren Beziehungen zwischen verschiedenen Datenreihen leichter verständlich zu machen. Wenn der Datumsbereich zurückgesetzt werden soll, kann beispielsweise die Registerkarte „1 Monat“ ausgewählt und die Daten im Kalender gewählt werden.
 
 Sie haben auch die Möglichkeit, das Performance-Diagramm zu vergrößern; die einzelnen Datenpunkte werden angezeigt.
 
 video::fWrHYX17xT8[youtube,width=848,height=480]
 .Schritte
-. Klicken Sie im Dashboard auf *Leistung*.
+. Im Dashboard die Option *Leistung* auswählen.
 +
-Bei ONTAP-Systemen können Sie auf die Registerkarte *Knoten* klicken, um die Leistung eines einzelnen Knotens eines ONTAP-Clusters anzuzeigen. Klicken Sie auf die Registerkarte *Lokale Ebene*, um die Performance der lokalen Ebene anzuzeigen, oder klicken Sie auf die Registerkarte *Lautstärke*, um die Leistung des Volumes anzuzeigen. Standardmäßig wird die Cluster-Performance angezeigt.
+Bei ONTAP-Systemen kann die Registerkarte *Knoten* ausgewählt werden, um die Leistung eines einzelnen Knotens eines ONTAP Clusters anzuzeigen, die Registerkarte *Lokale Ebene*, um die Leistung der lokalen Ebene anzuzeigen, oder die Registerkarte *Volume*, um die Leistung des Volumes anzuzeigen. Standardmäßig wird die Clusterleistung angezeigt.
 
 +
 Für E-Series Systeme können Sie die Diagramme nur auf Controller-Ebene anzeigen.

@@ -27,10 +27,10 @@ video::ttbpbT5uTBI[youtube,width=848,height=480]
 == Zeigen Sie Systemdetails an
 
 .Schritte
-. Klicken Sie im Widget *Inventory* auf *Systems*, um die Systeminformationen aller Plattformen anzuzeigen, oder klicken Sie auf den Plattformtyp und klicken Sie dann auf *Systems*, um die für diese Plattform spezifischen Systeme anzuzeigen.
-. Klicken Sie auf den Node oder Cluster, um detaillierte Informationen über das System anzuzeigen.
-. Laden Sie den Bericht *Inventory* herunter, um die Systemdetails im XLS-Format anzuzeigen.
-. Laden Sie den Bericht *Ansible Inventory* herunter, um die Systemdetails im Format .yml und .ini auf Region- oder Standortebene anzuzeigen.
+. Im Widget *Inventar* *Systeme* auswählen, um die Systeminformationen aller Plattformen anzuzeigen, oder den Plattformtyp auswählen und dann *Systeme*, um Systeme anzuzeigen, die spezifisch für diese Plattform sind.
+. Den Knoten oder Cluster auswählen, um detaillierte Informationen über das System anzuzeigen.
+. *Herunterladen* auswählen, um den *Inventory*-Bericht herunterzuladen und die Systemdetails im .xls-Format anzuzeigen.
+. *Herunterladen* auswählen, um den *Ansible Inventory* Bericht herunterzuladen und die Systemdetails im .yml- und .ini-Format auf Regions- oder Standortebene anzuzeigen.
 +
 Die Ansible-Bestandsdateien können mit benutzerdefinierten Ansible-Playbook-Dateien verwendet werden, um eine Änderung der Infrastrukturkonfiguration vorzunehmen.
 
@@ -42,5 +42,5 @@ Die Ansible-Bestandsdateien können mit benutzerdefinierten Ansible-Playbook-Dat
 == Details zum Support-berechtigten Switch anzeigen
 
 .Schritte
-. Klicken Sie im Widget *Inventar* auf *Supportberechtigte Switches*, um Informationen zu allen supportberechtigten Switches anzuzeigen.
+. Im Widget *Inventar* kann *Supportberechtigte Switches* ausgewählt werden, um Informationen zu allen supportberechtigten Switches anzuzeigen.
 

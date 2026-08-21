@@ -29,19 +29,19 @@ Technische Cases sollen bei technischen Problemen im Zusammenhang mit Hardwareun
 
 *Wie erstelle ich einen technischen Case?*
 
-. Klicken Sie Auf link:https://mysupport.netapp.com/site/global/dashboard["Hier"^] Um die NetApp Support-Website zu öffnen.
-. Klicken Sie im oberen Menü auf *Meine Fälle*.
-. Klicken Sie auf *Fall erstellen*.
-. Wählen Sie eine Kategorie aus, geben Sie die erforderlichen Details ein, und klicken Sie auf *Neue Suche*, um ein System aus Ihrem Bestand zu suchen.
+. link:https://mysupport.netapp.com/site/global/dashboard["Hier"^] öffnet die NetApp Support-Website.
+. Im oberen Menü die Option *Meine Fälle* auswählen.
+. *Fall erstellen* auswählen.
+. Eine Kategorie auswählen, die erforderlichen Details angeben und *Neue Suche* auswählen, um in Ihrem Bestand nach einem System zu suchen.
 . Wählen Sie aus der angezeigten Liste das System aus, um den Fall zu erstellen.
 . Wählen Sie die Priorität für den neuen Fall aus.
 . Wählen Sie die entsprechende Kategorie aus der Dropdown-Liste *Problemkategorie* aus.
-. Geben Sie die Problembeschreibung in das Feld Problembeschreibung ein und klicken Sie auf *Fortfahren*.
+. Die Problembeschreibung wird in das Feld „Problembeschreibung“ eingegeben und *Weiter* wird ausgewählt.
 . Geben Sie weitere Details über das Problem an.
-. Klicken Sie auf *Select Files*, um Dateien oder Bilder hochzuladen, die bei der Diagnose des Problems helfen können.
-. Klicken Sie Auf *Weiter*.
+. *Dateien auswählen* auswählen, um Dateien oder Bilder hochzuladen, die bei der Diagnose des Problems helfen können.
+. Wählen Sie *Fortfahren*.
 . Geben Sie Ihre Kontaktdaten an.
-. Klicken Sie Auf *Fall Erstellen*.
+. *Fall erstellen* auswählen.
 
 
 
@@ -66,10 +66,10 @@ Es sollte ein nicht-technischer Case für die folgenden Fälle erstellt werden:
 
 *Wie erstelle ich einen nicht-technischen Fall?*
 
-. Klicken Sie Auf link:https://mysupport.netapp.com/site/help["Hier"^] Das „Non-Technical Feedback Tool“ auf der NetApp Support Website zu öffnen.
+. Wählen Sie link:https://mysupport.netapp.com/site/help["Hier"^], um das „Tool für nicht-technisches Feedback“ auf der NetApp Support-Website zu öffnen.
 . Wählen Sie die entsprechende Kategorie aus der Dropdown-Liste *Feedbackkategorie* aus.
 . Geben Sie die erforderlichen Angaben ein und geben Sie zusätzliche Informationen in das Feld „Kommentare“ ein.
-. Klicken Sie Auf *Absenden*.
+. Wählen Sie *Absenden*.
 
 
 Es wird ein Case erstellt und Ihnen wird eine Case-Nummer zur Verfügung gestellt.
@@ -87,7 +87,7 @@ Um Feedback zu geben oder Fragen zu stellen, senden Sie eine E-Mail an mailto:ng
 
 . Öffnen Sie die Homepage von link:https://activeiq.netapp.com/?source=onlinedocs["Digital Advisor"^].
 . Über das Suchfeld oben rechts nach Kunden, Standorten, Gruppen, Clustern oder Nodes suchen, um das entsprechende Dashboard zu erreichen.
-. Klicken Sie in der linken Navigationsleiste auf *Storage Efficiency*.
+. *Speichereffizienz* im linken Navigationsbereich auswählen.
 
 
 
@@ -236,7 +236,7 @@ Möglicherweise können Sie aus einem der folgenden Gründe nicht nach bestimmte
 * Systeme werden in SAP inaktiv, archiviert oder stillgelegt.
 
 
-Wenn Sie Systeme aus anderen Gründen nicht anzeigen können, Abfragen haben oder Zugriff anfordern möchten, link:https://mysupport.netapp.com/site/help["Erstellen eines nicht-technischen Case"^]. Weitere Informationen zu einem nicht-technischen Support-Case erhalten Sie auf <<Nicht-technische Support-Cases,Hier.>>
+Falls Sie aus anderen Gründen keine Systeme anzeigen können, Fragen haben oder Zugriff beantragen möchten, link:https://mysupport.netapp.com/site/help["Erstellen eines nicht-technischen Case"^]. Weitere Informationen zu nicht-technischen Fällen sind verfügbar unter <<Nicht-technische Support-Cases,Hier.>>
 
 
 

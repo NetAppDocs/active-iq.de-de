@@ -59,7 +59,7 @@ Beim Einsatz von Digital Advisor ist es wichtig, dass Sie einige der grundlegend
 ** *Wellness-Geschichte:* zeigt Informationen über Systemrisiken, die in den letzten drei Monaten auftreten, an, damit Sie lernen können, wie sie Überstunden ergehen.
 ** *Risiken erkennen (Ack):* ermöglicht es Ihnen, die betroffenen Risiken und Systeme anzuerkennen. Sie können diese Risiken erkennen und sich mit den Maßnahmen vertraut machen, die Sie zur Minderung dieser Risiken durchführen können.
 ** *Unquittieren von Risiken (unkacked):* ermöglicht es Ihnen, die Risiken und Systeme, die anerkannt wurden, nicht zu erkennen.
-** *Behebung:* Behebt die Risiken für das System mithilfe von Active IQ Unified Manager. Mit dieser Schaltfläche wird der Unified Manager gestartet, um die Schritte zur Risikominderung durchzuführen.
+** *Beheben:* Behebt die Risiken für das System mithilfe von Active IQ Unified Manager. Diese Schaltfläche öffnet den Unified Manager, um die Schritte zur Risikominderung durchzuführen.
 
 
 * *Inventory Widget:* zeigt ein Rollup von Gesamtsystemen an, die Sie besitzen. Dies umfasst sowohl Digital Advisor-fähige als auch nicht-aktivierte Produkte.
