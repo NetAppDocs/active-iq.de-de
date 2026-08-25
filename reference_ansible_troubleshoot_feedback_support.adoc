@@ -4,7 +4,7 @@ permalink: reference_ansible_troubleshoot_feedback_support.html
 keywords: troubleshoot, feedback, support 
 summary: Bietet weitere Informationen zu Ansible. 
 ---
-= Weitere Informationen
+= Ressourcen zur Fehlerbehebung und Support für Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
