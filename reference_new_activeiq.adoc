@@ -20,6 +20,20 @@ Die folgenden Funktionen und Verbesserungen wurden in Digital Advisor eingeführ
 
 
 
+[[14-september-2026]]
+== 14. September 2026
+
+
+
+[[deprecation-notice-for-virtual-machine]]
+=== Hinweis zur Einstellung der virtuellen Maschine
+
+Die Funktion „Virtuelle Maschine“ ist im Digital Advisor ab Oktober 2026 veraltet.
+
+Bei Fragen oder zum Teilen von Feedback mailto:ng-activeiq-feedback@netapp.com[wenden Sie sich an das Active IQ Team].
+
+
+
 [[20-august-2026]]
 == 20. August 2026
 
