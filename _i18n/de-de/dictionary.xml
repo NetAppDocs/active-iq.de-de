@@ -1691,6 +1691,6 @@ Die Verfügbarkeit der Funktionen unter *STORAGE HEALTH* hängt vom Systemtyp un
   <block id="9331d73e3c99004c7679e085ea303447" category="sidebar">Virtuelle Maschinendaten in Data Infrastructure Insights anzeigen</block>
   <block id="608a46677d36b132542feed4a0445c56" category="sidebar">AFF und FAS Firmware mit einem Ansible Paket für erfahrene Benutzer aktualisieren</block>
   <block id="6b0c5ff3fb3e79b447864ea93e74e781" category="doc">Hinweis zur Einstellung der virtuellen Maschine</block>
-  <block id="10433629017cbf8327181fb1ebfec31e" category="paragraph">Die Funktion „Virtuelle Maschine“ ist im Digital Advisor ab Oktober 2026 veraltet.</block>
   <block id="84de9715d135be833103283dc9df0296" category="section-title">14. September 2026</block>
+  <block id="947172fbf1812b374d2eb98557cca1c0" category="paragraph">Die Funktion „Virtuelle Maschine“ wird im Digital Advisor im Oktober 2026 eingestellt.</block>
 </blocks>
